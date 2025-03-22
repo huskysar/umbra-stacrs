@@ -1,0 +1,201 @@
+{
+  "type": "Collection",
+  "id": "Panama Canal, Panama",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Panama Canal, Panama",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-15-46-07_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-15-49-28_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-13-15-49-09_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-31-03-29-59_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-03-25-09_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-15-48-14_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-15-51-34_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-03-41-26_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-13-03-36-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-17-15-50-33_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-31-15-34-08_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-12-03-35-18_UMBRA-09.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -79.61299625212686,
+          8.942237101079181,
+          -79.54977227955919,
+          9.005097861688702
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-31T03:30:00Z",
+          "2025-03-07T15:48:29Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-09",
+      "Umbra-10",
+      "Umbra-08"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.0",
+      "4.9.2",
+      "4.8.0",
+      "4.6.2"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-11-01T01:23:31.817Z",
+      "maximum": "2025-03-08T08:55:59.667Z"
+    },
+    "updated": {
+      "minimum": "2024-11-01T01:23:31.817Z",
+      "maximum": "2025-03-08T08:55:59.667Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 27.02853673580163,
+      "maximum": 44.169740734396285
+    },
+    "view:azimuth": {
+      "minimum": 86.13426788923343,
+      "maximum": 124.4733695248755
+    },
+    "sar:center_frequency": {
+      "minimum": 9.73454489142762,
+      "maximum": 9722088628.00605
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.12499999986728565,
+      "maximum": 0.25000000082813084
+    },
+    "sar:resolution_range": {
+      "minimum": 0.24999999976167983,
+      "maximum": 0.4999999983765909
+    }
+  }
+}

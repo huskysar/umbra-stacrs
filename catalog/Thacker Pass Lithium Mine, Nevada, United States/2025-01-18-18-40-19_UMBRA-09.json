@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-18-18-40-19_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.02914029408612,
+          41.73379174195526
+        ],
+        [
+          -118.08865270353688,
+          41.72758561406061
+        ],
+        [
+          -118.0803533011344,
+          41.68300757500341
+        ],
+        [
+          -118.02088119569228,
+          41.689209465166826
+        ],
+        [
+          -118.02914029408612,
+          41.73379174195526
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.08865270353688,
+    41.68300757500341,
+    -118.02088119569228,
+    41.73379174195526
+  ],
+  "properties": {
+    "datetime": "2025-01-18T18:40:21.700000Z",
+    "start_datetime": "2025-01-18T18:40:20Z",
+    "end_datetime": "2025-01-18T18:40:23.400Z",
+    "created": "2025-01-21T06:25:29.308Z",
+    "updated": "2025-01-21T06:25:29.308Z",
+    "view:incidence_angle": 39.193563666128526,
+    "view:azimuth": 82.07730531349247,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.55364661305138,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000008179368,
+    "sar:resolution_range": 0.4999999992165358,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.4022014011386445,
+    "umbra:best_resolution_range_meters": 0.4081819844468807,
+    "umbra:collect_id": "0a32d5aa-f632-41e1-ab8b-28e27f3f272a",
+    "umbra:grazing_angle_degrees": 50.806436333871474,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 719652.3626642019,
+    "umbra:squint_angle_degrees_off_broadside": 18.013180018648313,
+    "umbra:squint_angle_engineering_degrees": 71.98681998135169,
+    "umbra:squint_angle_exploitation_degrees": -18.013180018648313,
+    "umbra:task_id": "3890df16-a54b-4966-94a8-3f8b20888a28",
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "3db71aa3-3dbc-4ccd-8c58-bb1cd3a7e39a",
+    "__index_level_0__": 5
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/3890df16-a54b-4966-94a8-3f8b20888a28/2025-01-18-18-40-19_UMBRA-09/2025-01-18-18-40-19_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/3890df16-a54b-4966-94a8-3f8b20888a28/2025-01-18-18-40-19_UMBRA-09/2025-01-18-18-40-19_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

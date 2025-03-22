@@ -1,0 +1,202 @@
+{
+  "type": "Collection",
+  "id": "Diavik Diamond Mine, Canada",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Diavik Diamond Mine, Canada",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-17-50-48_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-18-15-08_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-02-56-49_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-02-57-40_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-03-53-36_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-18-38-10_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-09-05-22-30_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-03-53-44_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-18-34-09_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-04-11-23_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-18-46-04_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-04-57-34_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -110.36011989149952,
+          64.45717110829746,
+          -110.21303594969756,
+          64.52059734607543
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-09T05:22:31Z",
+          "2025-03-19T02:57:44.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-09",
+      "Umbra-10",
+      "Umbra-08"
+    ],
+    "processing:version": [
+      "4.9.2",
+      "4.7.0",
+      "4.9.4",
+      "4.6.2",
+      "4.8.0",
+      "4.9.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2025-01-09T11:01:01.475Z",
+      "maximum": "2025-03-19T11:16:26.583Z"
+    },
+    "updated": {
+      "minimum": "2025-01-09T11:01:01.475Z",
+      "maximum": "2025-03-19T11:16:26.583Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 18.645133992140742,
+      "maximum": 44.74464855716338
+    },
+    "view:azimuth": {
+      "minimum": 71.02474160343172,
+      "maximum": 314.9059220359774
+    },
+    "sar:center_frequency": {
+      "minimum": 9.548161190991175,
+      "maximum": 9.744449128709643
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.5000000003261076,
+      "maximum": 0.5000000025317443
+    },
+    "sar:resolution_range": {
+      "minimum": 0.4999999974831979,
+      "maximum": 0.4999999996990476
+    }
+  }
+}

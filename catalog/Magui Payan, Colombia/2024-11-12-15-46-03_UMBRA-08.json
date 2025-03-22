@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-12-15-46-03_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.23137845116864,
+          1.76631846994537
+        ],
+        [
+          -78.18925850504495,
+          1.7505460674234086
+        ],
+        [
+          -78.1735834376744,
+          1.7929293890530371
+        ],
+        [
+          -78.2157042122314,
+          1.8087021443901228
+        ],
+        [
+          -78.23137845116864,
+          1.76631846994537
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.23137845116864,
+    1.7505460674234086,
+    -78.1735834376744,
+    1.8087021443901228
+  ],
+  "properties": {
+    "datetime": "2024-11-12T15:46:04.600000Z",
+    "start_datetime": "2024-11-12T15:46:04Z",
+    "end_datetime": "2024-11-12T15:46:05.200Z",
+    "created": "2024-11-13T04:15:04.195Z",
+    "updated": "2024-11-13T04:15:04.195Z",
+    "view:incidence_angle": 29.907057665573916,
+    "view:azimuth": 290.4122271764099,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "0.0.0.dev8266722766"
+    },
+    "sar:center_frequency": 9573172487.127476,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.000000001595576,
+    "sar:resolution_range": 0.999999998439154,
+    "umbra:collect_id": "4553154c-6f12-4a65-85d3-eb3f56ab2cb3",
+    "umbra:grazing_angle_degrees": 60.09294233442608,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 564410.3180518687,
+    "umbra:squint_angle_degrees_off_broadside": 9.210474229315269,
+    "umbra:squint_angle_engineering_degrees": -99.21047422931528,
+    "umbra:squint_angle_exploitation_degrees": -9.210474229315269,
+    "umbra:task_id": "8572a39d-c4cb-4af3-82f2-84ec812ac571",
+    "subfolder": "Magui Payan, Colombia",
+    "umbra:stac_id": "7be16150-ba0a-42fc-9425-46f1753ba6d5",
+    "__index_level_0__": 50
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/8572a39d-c4cb-4af3-82f2-84ec812ac571/2024-11-12-15-46-03_UMBRA-08/2024-11-12-15-46-03_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/8572a39d-c4cb-4af3-82f2-84ec812ac571/2024-11-12-15-46-03_UMBRA-08/2024-11-12-15-46-03_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Magui Payan, Colombia"
+}

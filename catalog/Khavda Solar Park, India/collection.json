@@ -1,0 +1,197 @@
+{
+  "type": "Collection",
+  "id": "Khavda Solar Park, India",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Khavda Solar Park, India",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-05-59-57_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-04-37-11_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-06-09-49_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-12-06-09-56_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-06-08-31_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-17-23-35_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-06-00-41_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-21-17-29-36_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-06-09-26_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-06-05-35_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-05-57-25_UMBRA-10.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          69.32884986501286,
+          24.08722589990634,
+          69.39840887024768,
+          24.151068665195808
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-21T17:29:37Z",
+          "2025-03-19T06:00:02.400000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10",
+      "Umbra-05",
+      "Umbra-09",
+      "Umbra-08"
+    ],
+    "processing:version": [
+      "4.9.4",
+      "4.7.0",
+      "4.9.1",
+      "4.8.0",
+      "4.9.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-12-23T23:16:32.389Z",
+      "maximum": "2025-03-20T15:57:45.225Z"
+    },
+    "updated": {
+      "minimum": "2024-12-23T23:16:32.389Z",
+      "maximum": "2025-03-20T15:57:45.225Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 23.110837158378075,
+      "maximum": 44.51629270511053
+    },
+    "view:azimuth": {
+      "minimum": 56.06072431636798,
+      "maximum": 134.33892441897046
+    },
+    "sar:center_frequency": {
+      "minimum": 9.67683109762441,
+      "maximum": 9.744262045096454
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.3499999970651697,
+      "maximum": 0.35000000201662196
+    },
+    "sar:resolution_range": {
+      "minimum": 0.3499999980148576,
+      "maximum": 0.35000000289679034
+    }
+  }
+}

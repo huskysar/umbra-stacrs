@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-08-06-32-17_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.51457051108356,
+          34.009679231927606
+        ],
+        [
+          -118.42758592556964,
+          34.063377923106586
+        ],
+        [
+          -118.4792094760495,
+          34.12131812415933
+        ],
+        [
+          -118.56622067284928,
+          34.067583390244835
+        ],
+        [
+          -118.51457051108356,
+          34.009679231927606
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.56622067284928,
+    34.009679231927606,
+    -118.42758592556964,
+    34.12131812415933
+  ],
+  "properties": {
+    "datetime": "2025-01-08T06:32:24.100000Z",
+    "start_datetime": "2025-01-08T06:32:18Z",
+    "end_datetime": "2025-01-08T06:32:30.200Z",
+    "created": "2025-01-09T20:33:45.842Z",
+    "updated": "2025-01-09T20:33:45.842Z",
+    "view:incidence_angle": 45.621589464649254,
+    "view:azimuth": 233.4274893292003,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.57465105374524,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 3.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.16666700020780795,
+    "sar:resolution_range": 0.5000009994203225,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.12958274741254858,
+    "umbra:best_resolution_range_meters": 0.4235162750555877,
+    "umbra:collect_id": "0aeddcd7-be10-48c2-a85f-7d634efaeafd",
+    "umbra:grazing_angle_degrees": 44.378410535350746,
+    "umbra:organization_id": "org_Q4fEVOqmvYrY03Xc",
+    "umbra:slant_range_meters": 783612.85443171,
+    "umbra:squint_angle_degrees_off_broadside": 26.52475887305286,
+    "umbra:squint_angle_engineering_degrees": 63.47524112694714,
+    "umbra:squint_angle_exploitation_degrees": -26.52475887305286,
+    "umbra:task_id": "ccac383f-eea0-44b5-8916-605645afe3d7",
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "b9d727c6-ea14-44bd-9534-679856b539b9",
+    "__index_level_0__": 591
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Los_Angeles_CA_Wildfires/ccac383f-eea0-44b5-8916-605645afe3d7/2025-01-08-06-32-17_UMBRA-10/2025-01-08-06-32-17_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Los_Angeles_CA_Wildfires/ccac383f-eea0-44b5-8916-605645afe3d7/2025-01-08-06-32-17_UMBRA-10/2025-01-08-06-32-17_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

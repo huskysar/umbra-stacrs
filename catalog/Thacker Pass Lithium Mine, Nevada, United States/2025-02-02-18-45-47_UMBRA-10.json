@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-02-18-45-47_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.02810846425515,
+          41.733188384480826
+        ],
+        [
+          -118.08784800377028,
+          41.72835900993401
+        ],
+        [
+          -118.0813849459378,
+          41.6836105441082
+        ],
+        [
+          -118.02168633840552,
+          41.68843660844427
+        ],
+        [
+          -118.02810846425515,
+          41.733188384480826
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.08784800377028,
+    41.6836105441082,
+    -118.02168633840552,
+    41.733188384480826
+  ],
+  "properties": {
+    "datetime": "2025-02-02T18:45:49.400000Z",
+    "start_datetime": "2025-02-02T18:45:48Z",
+    "end_datetime": "2025-02-02T18:45:50.800Z",
+    "created": "2025-02-03T14:44:46.488Z",
+    "updated": "2025-02-03T14:44:46.488Z",
+    "view:incidence_angle": 30.78856927340923,
+    "view:azimuth": 83.84264930751553,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.743233009402484,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000011618347,
+    "sar:resolution_range": 0.4999999988635403,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.3892950637957501,
+    "umbra:best_resolution_range_meters": 0.40878594774241234,
+    "umbra:collect_id": "d64d63ad-468c-4b17-953c-29fefb738bbd",
+    "umbra:grazing_angle_degrees": 59.21143072659077,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 657305.80944629,
+    "umbra:squint_angle_degrees_off_broadside": 17.180214480865686,
+    "umbra:squint_angle_engineering_degrees": 72.81978551913431,
+    "umbra:squint_angle_exploitation_degrees": -17.180214480865686,
+    "umbra:task_id": "656cfa17-72f2-439a-8a1d-f0dbeb55834e",
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "23d6771a-29d4-485e-9b97-c88996c52af6",
+    "__index_level_0__": 9
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/656cfa17-72f2-439a-8a1d-f0dbeb55834e/2025-02-02-18-45-47_UMBRA-10/2025-02-02-18-45-47_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/656cfa17-72f2-439a-8a1d-f0dbeb55834e/2025-02-02-18-45-47_UMBRA-10/2025-02-02-18-45-47_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

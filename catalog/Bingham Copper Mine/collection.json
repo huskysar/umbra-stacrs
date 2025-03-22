@@ -1,0 +1,239 @@
+{
+  "type": "Collection",
+  "id": "Bingham Copper Mine",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Bingham Copper Mine",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-05-31-29_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-10-17-59-57_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-11-17-58-37_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-05-27-07_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-18-53-26_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-16-48-49_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-31-05-13-24_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-26-05-17-00_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-30-05-32-47_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-18-49-11_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-18-30-40_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-18-07-21_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-05-08-28_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-18-52-33_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-27-18-18-24_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-01-17-16-12_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-18-54-16_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-05-29-27_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-24-05-13-36_UMBRA-07.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.18777058259744,
+          40.49056895177236,
+          -112.10438419321255,
+          40.55420207796775
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-24T05:13:37Z",
+          "2025-03-19T05:29:30.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10",
+      "Umbra-07",
+      "Umbra-05",
+      "Umbra-08",
+      "Umbra-09",
+      "Umbra-06"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.2",
+      "4.9.0",
+      "4.8.0",
+      "4.9.4"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-10-24T05:45:03.750Z",
+      "maximum": "2025-03-19T14:13:24.016Z"
+    },
+    "updated": {
+      "minimum": "2024-10-24T05:45:03.750Z",
+      "maximum": "2025-03-19T14:13:24.016Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 19.924465384684257,
+      "maximum": 42.522853136688994
+    },
+    "view:azimuth": {
+      "minimum": 24.186053924267675,
+      "maximum": 339.426035258366
+    },
+    "sar:center_frequency": {
+      "minimum": 9.548052882959938,
+      "maximum": 9779887254.952871
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.499999991078921,
+      "maximum": 0.5000000032061551
+    },
+    "sar:resolution_range": {
+      "minimum": 0.41666666403838915,
+      "maximum": 0.5000000017634639
+    }
+  }
+}

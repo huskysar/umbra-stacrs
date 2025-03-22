@@ -1,0 +1,172 @@
+{
+  "type": "Collection",
+  "id": "Port of Singapore, Singapore",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Singapore, Singapore",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-21-15-20-52_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-29-03-39-59_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-04-15-30-51_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-15-29-05_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-28-03-20-10_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-15-25-40_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-24-15-38-57_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          103.80631758836456,
+          1.2320570120110792,
+          103.86985780296604,
+          1.296009680194943
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-28T03:20:11Z",
+          "2025-02-21T15:21:02.600000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-07"
+    ],
+    "processing:version": [
+      "4.8.0",
+      "4.7.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-12-01T14:06:59.471Z",
+      "maximum": "2025-02-22T05:01:20.797Z"
+    },
+    "updated": {
+      "minimum": "2024-12-01T14:06:59.471Z",
+      "maximum": "2025-02-22T05:01:20.797Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 30.699427491148583,
+      "maximum": 44.70339387847971
+    },
+    "view:azimuth": {
+      "minimum": 111.88168702698448,
+      "maximum": 293.656087290603
+    },
+    "sar:center_frequency": {
+      "minimum": 9.756736018942648,
+      "maximum": 9738185363.740393
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.1749999988748069,
+      "maximum": 0.17500000031565008
+    },
+    "sar:resolution_range": {
+      "minimum": 0.3499999993843497,
+      "maximum": 0.3500000021799131
+    }
+  }
+}

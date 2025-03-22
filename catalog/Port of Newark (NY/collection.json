@@ -1,0 +1,190 @@
+{
+  "type": "Collection",
+  "id": "Port of Newark (NY",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Newark (NY",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-15-39-56_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-15-41-31_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-28-02-42-52_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-15-39-49_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-14-49-50_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-01-31-39_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-01-30-55_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-14-17-32_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-21-15-43-05_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-03-16-31_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.17919200522142,
+          40.64627337632648,
+          -74.09596941281526,
+          40.70963281041175
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-28T02:42:53Z",
+          "2025-03-04T01:31:04.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10",
+      "Umbra-08",
+      "Umbra-09",
+      "Umbra-05"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.8.0",
+      "4.9.1"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-12-01T14:13:27.746Z",
+      "maximum": "2025-03-07T05:43:41.086Z"
+    },
+    "updated": {
+      "minimum": "2024-12-01T14:13:27.746Z",
+      "maximum": "2025-03-07T05:43:41.086Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 30.752427853379103,
+      "maximum": 44.844119536798765
+    },
+    "view:azimuth": {
+      "minimum": 84.6506932497519,
+      "maximum": 297.48754195104704
+    },
+    "sar:center_frequency": {
+      "minimum": 9.757397253250696,
+      "maximum": 9774505328.906555
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.1749999998246333,
+      "maximum": 0.17500000023978077
+    },
+    "sar:resolution_range": {
+      "minimum": 0.291666666939482,
+      "maximum": 0.3499999999933416
+    }
+  }
+}

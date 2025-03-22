@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-23-13-11-05_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          129.11547912414292,
+          35.12142320400661
+        ],
+        [
+          129.0622705454277,
+          35.132400640764516
+        ],
+        [
+          129.04892939827732,
+          35.08868246163286
+        ],
+        [
+          129.1021113649505,
+          35.077710805120425
+        ],
+        [
+          129.11547912414292,
+          35.12142320400661
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    129.04892939827732,
+    35.077710805120425,
+    129.11547912414292,
+    35.132400640764516
+  ],
+  "properties": {
+    "datetime": "2025-02-23T13:11:11Z",
+    "start_datetime": "2025-02-23T13:11:06Z",
+    "end_datetime": "2025-02-23T13:11:16Z",
+    "created": "2025-02-23T23:39:34.621Z",
+    "updated": "2025-02-23T23:39:34.621Z",
+    "view:incidence_angle": 43.649797696571405,
+    "view:azimuth": 104.09263269267234,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.8.0"
+    },
+    "processing:version": "4.8.0",
+    "sar:center_frequency": 9.765910843717048,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1749999937037206,
+    "sar:resolution_range": 0.3500000117476586,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.13189717587820304,
+    "umbra:best_resolution_range_meters": 0.3031317040991153,
+    "umbra:collect_id": "7c187f26-643d-48f8-966a-ac143899f836",
+    "umbra:grazing_angle_degrees": 46.350202303428595,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 666920.8271975215,
+    "umbra:squint_angle_degrees_off_broadside": 28.46258105088782,
+    "umbra:squint_angle_engineering_degrees": -61.53741894911218,
+    "umbra:squint_angle_exploitation_degrees": 28.46258105088782,
+    "umbra:task_id": "3620a5de-4be8-4064-ad83-4c5a4731f77f",
+    "subfolder": "Port of Busan, South Korea",
+    "umbra:stac_id": "d41a9849-70f2-41d1-a276-3673f3909943",
+    "__index_level_0__": 650
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/3620a5de-4be8-4064-ad83-4c5a4731f77f/2025-02-23-13-11-05_UMBRA-08/2025-02-23-13-11-05_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/3620a5de-4be8-4064-ad83-4c5a4731f77f/2025-02-23-13-11-05_UMBRA-08/2025-02-23-13-11-05_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Busan, South Korea"
+}

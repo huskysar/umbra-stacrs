@@ -1,0 +1,185 @@
+{
+  "type": "Collection",
+  "id": "Port of Long Beach, California, United States",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Long Beach, California, United States",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-08-04-29-50_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-09-18-05-21_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-06-01-25_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-04-55-59_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-22-05-40-27_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-25-18-40-13_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-18-43-26_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-05-58-36_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-17-10-07_UMBRA-05.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -118.27225832078256,
+          33.71522683454826,
+          -118.19928862083054,
+          33.77618469433394
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-09T18:05:22Z",
+          "2025-03-08T04:29:59.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-07",
+      "Umbra-08",
+      "Umbra-10"
+    ],
+    "processing:version": [
+      "4.9.2",
+      "4.6.2",
+      "4.7.0",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2025-01-11T02:47:29.055Z",
+      "maximum": "2025-03-10T02:48:54.503Z"
+    },
+    "updated": {
+      "minimum": "2025-01-11T02:47:29.055Z",
+      "maximum": "2025-03-10T02:48:54.503Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 25.00745087161367,
+      "maximum": 43.991496206895455
+    },
+    "view:azimuth": {
+      "minimum": 84.44041766485671,
+      "maximum": 247.10999700021807
+    },
+    "sar:center_frequency": {
+      "minimum": 9.75263530272012,
+      "maximum": 9.764565645079385
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.17500000013126168,
+      "maximum": 0.17502807937958467
+    },
+    "sar:resolution_range": {
+      "minimum": 0.34994627506321246,
+      "maximum": 0.3499999997524425
+    }
+  }
+}

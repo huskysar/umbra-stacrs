@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-28-04-25-24_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.04007495954868,
+          41.738268040920495
+        ],
+        [
+          -118.09462019965927,
+          41.719391563838606
+        ],
+        [
+          -118.06942383751382,
+          41.678534505379915
+        ],
+        [
+          -118.01490576487892,
+          41.697399167448424
+        ],
+        [
+          -118.04007495954868,
+          41.738268040920495
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.09462019965927,
+    41.678534505379915,
+    -118.01490576487892,
+    41.738268040920495
+  ],
+  "properties": {
+    "datetime": "2025-01-28T04:25:26.299000Z",
+    "start_datetime": "2025-01-28T04:25:25Z",
+    "end_datetime": "2025-01-28T04:25:27.599Z",
+    "created": "2025-01-31T23:21:17.116Z",
+    "updated": "2025-01-31T23:21:17.116Z",
+    "view:incidence_angle": 32.76691462681632,
+    "view:azimuth": 65.21245018865969,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.551842757426035,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.4999999991886209,
+    "sar:resolution_range": 0.5000000007864616,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.40614988273692937,
+    "umbra:best_resolution_range_meters": 0.41684075066418047,
+    "umbra:collect_id": "2ffa1a36-86fc-4cf2-8bbe-c5c59d47959d",
+    "umbra:grazing_angle_degrees": 57.23308537318368,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 579179.1009382787,
+    "umbra:squint_angle_degrees_off_broadside": 10.126758447827257,
+    "umbra:squint_angle_engineering_degrees": -100.12675844782726,
+    "umbra:squint_angle_exploitation_degrees": -10.126758447827257,
+    "umbra:task_id": "72f63d5b-c30b-4547-8b21-a9c8f3490763",
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "91b420f2-32da-470c-b44e-19fffdab3d9f",
+    "__index_level_0__": 12
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/72f63d5b-c30b-4547-8b21-a9c8f3490763/2025-01-28-04-25-24_UMBRA-05/2025-01-28-04-25-24_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/72f63d5b-c30b-4547-8b21-a9c8f3490763/2025-01-28-04-25-24_UMBRA-05/2025-01-28-04-25-24_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

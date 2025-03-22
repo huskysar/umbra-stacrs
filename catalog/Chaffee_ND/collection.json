@@ -1,0 +1,182 @@
+{
+  "type": "Collection",
+  "id": "Chaffee_ND",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Chaffee_ND",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-13-16-02-31_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-11-17-46-21_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-08-04-26-56_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-15-56-04_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-15-56-20_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-07-17-45-14_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-17-11-59_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-07-04-43-33_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-18-16-28-28_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-04-09-47_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-12-04-32-34_UMBRA-07.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -97.46223080871464,
+          46.69435834579944,
+          -97.21897782369716,
+          46.84764919714421
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-07T04:43:34Z",
+          "2024-10-18T16:28:30.599000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-06",
+      "Umbra-07",
+      "Umbra-08"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-09T15:24:49.070Z",
+      "maximum": "2024-10-18T21:36:29.600Z"
+    },
+    "updated": {
+      "minimum": "2024-10-09T15:24:49.070Z",
+      "maximum": "2024-10-18T21:36:29.600Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 20.61694680589345,
+      "maximum": 48.090514333233806
+    },
+    "view:azimuth": {
+      "minimum": 86.03504930731951,
+      "maximum": 305.74944842450844
+    },
+    "sar:center_frequency": {
+      "minimum": 9559522096.392998,
+      "maximum": 9581757424.20021
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.999999991613295,
+      "maximum": 1.0000000102269633
+    },
+    "sar:resolution_range": {
+      "minimum": 0.9999999898387149,
+      "maximum": 1.000000008103517
+    }
+  }
+}

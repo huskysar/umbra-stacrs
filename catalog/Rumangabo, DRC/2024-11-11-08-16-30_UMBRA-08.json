@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-11-08-16-30_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.377645457659053,
+          -1.3148567862807692
+        ],
+        [
+          29.33373688119839,
+          -1.3243937917301212
+        ],
+        [
+          29.34321239780057,
+          -1.3685863936812015
+        ],
+        [
+          29.387121725487308,
+          -1.359049220552326
+        ],
+        [
+          29.377645457659053,
+          -1.3148567862807692
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.33373688119839,
+    -1.3685863936812015,
+    29.387121725487308,
+    -1.3148567862807692
+  ],
+  "properties": {
+    "datetime": "2024-11-11T08:16:32.400000Z",
+    "start_datetime": "2024-11-11T08:16:31Z",
+    "end_datetime": "2024-11-11T08:16:33.800Z",
+    "created": "2024-11-12T14:08:35.604Z",
+    "updated": "2024-11-12T14:08:35.604Z",
+    "view:incidence_angle": 28.42954490036237,
+    "view:azimuth": 77.8218901080833,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.1.4"
+    },
+    "sar:center_frequency": 9737749582.44572,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000019778102,
+    "sar:resolution_range": 0.4999999980611259,
+    "umbra:collect_id": "c5691a05-cc26-4fd8-953d-c0935127052f",
+    "umbra:grazing_angle_degrees": 61.570455099637634,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 556696.2341018115,
+    "umbra:squint_angle_degrees_off_broadside": 23.340398081067065,
+    "umbra:squint_angle_engineering_degrees": 113.34039808106706,
+    "umbra:squint_angle_exploitation_degrees": 23.340398081067065,
+    "umbra:task_id": "f41a55cc-0bec-4e5f-a9fd-54dec53ea43d",
+    "subfolder": "Rumangabo, DRC",
+    "umbra:stac_id": "49692f83-1bbb-41e2-98f1-1e338f3c8bc1",
+    "__index_level_0__": 640
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/f41a55cc-0bec-4e5f-a9fd-54dec53ea43d/2024-11-11-08-16-30_UMBRA-08/2024-11-11-08-16-30_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/f41a55cc-0bec-4e5f-a9fd-54dec53ea43d/2024-11-11-08-16-30_UMBRA-08/2024-11-11-08-16-30_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Rumangabo, DRC"
+}

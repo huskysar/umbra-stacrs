@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-02-17-09-03_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.54885591766872,
+          37.79401470288497
+        ],
+        [
+          -117.6051051571354,
+          37.78799711682968
+        ],
+        [
+          -117.59751025457564,
+          37.743360413888574
+        ],
+        [
+          -117.54129420322418,
+          37.74937442945968
+        ],
+        [
+          -117.54885591766872,
+          37.79401470288497
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -117.6051051571354,
+    37.743360413888574,
+    -117.54129420322418,
+    37.79401470288497
+  ],
+  "properties": {
+    "datetime": "2025-02-02T17:09:05.500000Z",
+    "start_datetime": "2025-02-02T17:09:04Z",
+    "end_datetime": "2025-02-02T17:09:07Z",
+    "created": "2025-02-03T10:41:10.432Z",
+    "updated": "2025-02-03T10:41:10.432Z",
+    "view:incidence_angle": 41.57350344126094,
+    "view:azimuth": 82.32465841373795,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.55615329160606,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000007757013,
+    "sar:resolution_range": 0.4999999992595036,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.4030215957497956,
+    "umbra:best_resolution_range_meters": 0.408702869477028,
+    "umbra:collect_id": "739feff3-83c0-4163-a21a-edd555b5fc3d",
+    "umbra:grazing_angle_degrees": 48.42649655873906,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 647529.4352318317,
+    "umbra:squint_angle_degrees_off_broadside": 17.41532105508179,
+    "umbra:squint_angle_engineering_degrees": 72.58467894491821,
+    "umbra:squint_angle_exploitation_degrees": -17.41532105508179,
+    "umbra:task_id": "54a91dab-d1be-40dc-b221-85cccf0b331f",
+    "subfolder": "Silver Peak Mine, Nevada, United States",
+    "umbra:stac_id": "07e016d4-8b82-4291-8c63-afcf479575bc",
+    "__index_level_0__": 470
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/54a91dab-d1be-40dc-b221-85cccf0b331f/2025-02-02-17-09-03_UMBRA-05/2025-02-02-17-09-03_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/54a91dab-d1be-40dc-b221-85cccf0b331f/2025-02-02-17-09-03_UMBRA-05/2025-02-02-17-09-03_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Silver Peak Mine, Nevada, United States"
+}

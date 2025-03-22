@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-10-07-17-45-30_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -97.39262954846085,
+          46.76145653198688
+        ],
+        [
+          -97.20214521833915,
+          46.71359683381217
+        ],
+        [
+          -97.15929214391636,
+          46.79382084859739
+        ],
+        [
+          -97.35002179546836,
+          46.841751035607565
+        ],
+        [
+          -97.39262954846085,
+          46.76145653198688
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -97.39262954846085,
+    46.71359683381217,
+    -97.15929214391636,
+    46.841751035607565
+  ],
+  "properties": {
+    "datetime": "2024-10-07T17:45:31.800000Z",
+    "start_datetime": "2024-10-07T17:45:31Z",
+    "end_datetime": "2024-10-07T17:45:32.599Z",
+    "created": "2024-10-09T15:27:31.133Z",
+    "updated": "2024-10-09T15:27:31.133Z",
+    "view:incidence_angle": 41.40419871538662,
+    "view:azimuth": 290.0905399964565,
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "3.50.1"
+    },
+    "sar:center_frequency": 9580076080.050972,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000002455094,
+    "sar:resolution_range": 0.9999999997681912,
+    "umbra:collect_id": "a78b6807-3283-4c2c-bcd8-c289fded2e58",
+    "umbra:grazing_angle_degrees": 48.59580128461338,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 669390.8240720783,
+    "umbra:squint_angle_degrees_off_broadside": 2.9356105126565524,
+    "umbra:squint_angle_engineering_degrees": -92.93561051265657,
+    "umbra:squint_angle_exploitation_degrees": -2.9356105126565524,
+    "umbra:task_id": "07cbb53a-46fd-46fd-abd8-afb7ddcdfa5e",
+    "subfolder": "Mapleton_ND",
+    "umbra:stac_id": "f6fdc296-21a1-4a06-9534-9bd56b8eb0b4",
+    "__index_level_0__": 385
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/07cbb53a-46fd-46fd-abd8-afb7ddcdfa5e/2024-10-07-17-45-30_UMBRA-08/2024-10-07-17-45-30_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/07cbb53a-46fd-46fd-abd8-afb7ddcdfa5e/2024-10-07-17-45-30_UMBRA-08/2024-10-07-17-45-30_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Mapleton_ND"
+}

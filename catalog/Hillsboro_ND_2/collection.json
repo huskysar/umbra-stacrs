@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "Hillsboro_ND_2",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Hillsboro_ND_2",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-08-17-28-18_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-05-28-44_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-13-05-35-05_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-17-05-21-11_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-17-11-00_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -97.3178259996106,
+          47.351428518423674,
+          -97.09562122714608,
+          47.49075647756216
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-08T17:28:19Z",
+          "2024-10-17T05:21:13.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-08",
+      "Umbra-06"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-09T23:11:56.487Z",
+      "maximum": "2024-10-17T20:45:45.751Z"
+    },
+    "updated": {
+      "minimum": "2024-10-09T23:11:56.487Z",
+      "maximum": "2024-10-17T20:45:45.751Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 13.035539189857204,
+      "maximum": 47.654767692267264
+    },
+    "view:azimuth": {
+      "minimum": 67.55090475603537,
+      "maximum": 329.3290126309681
+    },
+    "sar:center_frequency": {
+      "minimum": 9560644646.377005,
+      "maximum": 9731072601.105097
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 1.0000000010133536,
+      "maximum": 1.000000017273327
+    },
+    "sar:resolution_range": {
+      "minimum": 0.999999982831132,
+      "maximum": 0.9999999990598324
+    }
+  }
+}

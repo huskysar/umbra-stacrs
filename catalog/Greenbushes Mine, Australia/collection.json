@@ -1,0 +1,184 @@
+{
+  "type": "Collection",
+  "id": "Greenbushes Mine, Australia",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Greenbushes Mine, Australia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-09-02-49-58_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-02-30-52_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-20-02-35-05_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-02-54-46_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-14-02-55-30_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-02-27-24_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-14-56-27_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-14-55-57_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-02-35-08_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          116.032197724277,
+          -33.89747933884348,
+          116.1055706241923,
+          -33.83627220413888
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-09T02:49:59Z",
+          "2025-03-20T02:35:08.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-09",
+      "Umbra-08",
+      "Umbra-10"
+    ],
+    "processing:version": [
+      "4.6.2",
+      "4.7.0",
+      "4.9.4",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2025-01-09T07:42:23.931Z",
+      "maximum": "2025-03-20T14:56:43.602Z"
+    },
+    "updated": {
+      "minimum": "2025-01-09T07:42:23.931Z",
+      "maximum": "2025-03-20T14:56:43.602Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 18.110586116078665,
+      "maximum": 44.70488254331214
+    },
+    "view:azimuth": {
+      "minimum": 94.88333446722324,
+      "maximum": 298.760661527356
+    },
+    "sar:center_frequency": {
+      "minimum": 9.551557497571602,
+      "maximum": 9.738799655379474
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.5000000004751807,
+      "maximum": 0.5000000026940684
+    },
+    "sar:resolution_range": {
+      "minimum": 0.4999999973208324,
+      "maximum": 0.4999999995546736
+    }
+  }
+}

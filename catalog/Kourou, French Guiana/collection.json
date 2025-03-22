@@ -1,0 +1,240 @@
+{
+  "type": "Collection",
+  "id": "Kourou, French Guiana",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Kourou, French Guiana",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-02-19-08_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-08-12-57-51_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-01-52-53_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-10-01-27-32_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-03-01-57-55_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-18-01-44-20_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-14-01-57_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-13-13-48-22_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-01-59-37_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-01-40-37_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-00-29-16_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-30-14-01-31_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-25-14-04-22_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-00-27-54_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-14-04-24_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-00-48-17_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-02-17-24_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-00-29-23_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-13-01-24-12_UMBRA-07.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -52.79813173372325,
+          5.198745994104999,
+          -52.73450177341561,
+          5.262534486210047
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-25T14:04:23Z",
+          "2025-03-19T14:04:29.600000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-09",
+      "Umbra-05",
+      "Umbra-10",
+      "Umbra-07",
+      "Umbra-06",
+      "Umbra-08"
+    ],
+    "processing:version": [
+      "4.8.0",
+      "4.9.2",
+      "4.6.2",
+      "4.7.0",
+      "4.9.4",
+      "4.8.1"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-10-25T15:50:30.832Z",
+      "maximum": "2025-03-20T00:12:13.544Z"
+    },
+    "updated": {
+      "minimum": "2024-10-25T15:50:30.832Z",
+      "maximum": "2025-03-20T00:12:13.544Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 22.276401821943992,
+      "maximum": 43.48622777000436
+    },
+    "view:azimuth": {
+      "minimum": 74.37906142402666,
+      "maximum": 321.7332668537841
+    },
+    "sar:center_frequency": {
+      "minimum": 9.694095884372922,
+      "maximum": 9714103521.812494
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.3500000003726222,
+      "maximum": 0.3500000025616646
+    },
+    "sar:resolution_range": {
+      "minimum": 0.34999999747009336,
+      "maximum": 0.3499999996321691
+    }
+  }
+}

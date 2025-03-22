@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-04-02-43-56_UMBRA-07",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.81414656119382,
+          3.6823164493034217
+        ],
+        [
+          -66.77348964712318,
+          3.7017180231621856
+        ],
+        [
+          -66.7928021194593,
+          3.742563064297185
+        ],
+        [
+          -66.83346048008498,
+          3.723160616933273
+        ],
+        [
+          -66.81414656119382,
+          3.6823164493034217
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.83346048008498,
+    3.6823164493034217,
+    -66.77348964712318,
+    3.742563064297185
+  ],
+  "properties": {
+    "datetime": "2025-02-04T02:43:59.900000Z",
+    "start_datetime": "2025-02-04T02:43:57Z",
+    "end_datetime": "2025-02-04T02:44:02.799Z",
+    "created": "2025-02-04T05:19:53.089Z",
+    "updated": "2025-02-04T05:19:53.089Z",
+    "view:incidence_angle": 28.11902065043217,
+    "view:azimuth": 244.591340002004,
+    "constellation": "umbra",
+    "platform": "Umbra-07",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.767411987850284,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.2500000005457047,
+    "sar:resolution_range": 0.4999999989310977,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.19211367231027365,
+    "umbra:best_resolution_range_meters": 0.4428295573759562,
+    "umbra:collect_id": "05f61336-1c23-4ed1-8af8-c473baca164c",
+    "umbra:grazing_angle_degrees": 61.88097934956783,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 632203.8162873571,
+    "umbra:squint_angle_degrees_off_broadside": 14.30450276380884,
+    "umbra:squint_angle_engineering_degrees": 75.69549723619116,
+    "umbra:squint_angle_exploitation_degrees": -14.30450276380884,
+    "umbra:task_id": "ca097061-1e7e-4753-bec0-a42dd89de447",
+    "subfolder": "Yapacana, Venezuela",
+    "umbra:stac_id": "934c21bc-6051-4fa4-92c1-6dc209898a29",
+    "__index_level_0__": 421
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/ca097061-1e7e-4753-bec0-a42dd89de447/2025-02-04-02-43-56_UMBRA-07/2025-02-04-02-43-56_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/ca097061-1e7e-4753-bec0-a42dd89de447/2025-02-04-02-43-56_UMBRA-07/2025-02-04-02-43-56_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Yapacana, Venezuela"
+}

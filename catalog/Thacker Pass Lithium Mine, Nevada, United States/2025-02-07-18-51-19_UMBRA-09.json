@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-07-18-51-19_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.0331219817486,
+          41.73579269830104
+        ],
+        [
+          -118.09132092128806,
+          41.72460151137071
+        ],
+        [
+          -118.07637290822568,
+          41.68100798640039
+        ],
+        [
+          -118.0182106879868,
+          41.69219170007791
+        ],
+        [
+          -118.0331219817486,
+          41.73579269830104
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.09132092128806,
+    41.68100798640039,
+    -118.0182106879868,
+    41.73579269830104
+  ],
+  "properties": {
+    "datetime": "2025-02-07T18:51:21.600000Z",
+    "start_datetime": "2025-02-07T18:51:20Z",
+    "end_datetime": "2025-02-07T18:51:23.200Z",
+    "created": "2025-02-08T00:01:15.716Z",
+    "updated": "2025-02-08T00:01:15.716Z",
+    "view:incidence_angle": 21.694334075817352,
+    "view:azimuth": 75.60792345222707,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.71625543662925,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000028492663,
+    "sar:resolution_range": 0.4999999971757019,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.3746233796267049,
+    "umbra:best_resolution_range_meters": 0.4032442581916813,
+    "umbra:collect_id": "3ea13778-8e59-4b1c-b035-a92ee16ad419",
+    "umbra:grazing_angle_degrees": 68.30566592418265,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 611343.2440229483,
+    "umbra:squint_angle_degrees_off_broadside": 26.432259038939833,
+    "umbra:squint_angle_engineering_degrees": 63.56774096106017,
+    "umbra:squint_angle_exploitation_degrees": -26.432259038939833,
+    "umbra:task_id": "72690417-7f8e-4d2e-9888-3e7addbb21dc",
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "19add427-c919-4f47-8691-0fb2c57bd954",
+    "__index_level_0__": 10
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/72690417-7f8e-4d2e-9888-3e7addbb21dc/2025-02-07-18-51-19_UMBRA-09/2025-02-07-18-51-19_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/72690417-7f8e-4d2e-9888-3e7addbb21dc/2025-02-07-18-51-19_UMBRA-09/2025-02-07-18-51-19_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

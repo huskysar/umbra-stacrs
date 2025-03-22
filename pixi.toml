@@ -1,0 +1,23 @@
+[project]
+authors = ["Scott Henderson <scottyhq@gmail.com>"]
+channels = ["conda-forge"]
+name = "umbra-stacrs"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+sync = 'aws --no-sign-request s3 sync s3://umbra-open-data-catalog/sar-data/ ./umbra-open-data-catalog/sar-data/ --exclude "*" --include "*v2.json"'
+copy_catalog = 'aws --no-sign-request s3 cp --recursive s3://umbra-open-data-catalog/stac/ stac/'
+list_bucket = 'aws s3 ls --no-sign-request s3://umbra-open-data-catalog/ --recursive > umbra-open-data-catalog-list.txt'
+
+[dependencies]
+python = ">=3.13.2,<3.14"
+ipython = ">=9.0.2,<10"
+geopandas = ">=1.0.1,<2"
+ipykernel = ">=6.29.5,<7"
+pystac = ">=1.12.1,<2"
+pyarrow = ">=19.0.1,<20"
+rasterio = ">=1.4.3,<2"
+
+[pypi-dependencies]
+stacrs = {version=">=0.5.9, <0.6", extras=["arrow"]}

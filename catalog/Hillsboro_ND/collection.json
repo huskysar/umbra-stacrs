@@ -1,0 +1,133 @@
+{
+  "type": "Collection",
+  "id": "Hillsboro_ND",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Hillsboro_ND",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-05-29-03_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-13-05-35-25_UMBRA-06.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -97.3251714152782,
+          47.28634846017456,
+          -97.11415899600811,
+          47.405450356255265
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-13T05:35:26Z",
+          "2024-10-15T05:29:05.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-06"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-13T08:30:25.447Z",
+      "maximum": "2024-10-15T09:27:49.634Z"
+    },
+    "updated": {
+      "minimum": "2024-10-13T08:30:25.447Z",
+      "maximum": "2024-10-15T09:27:49.634Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 38.02839630765063,
+      "maximum": 45.7951299047662
+    },
+    "view:azimuth": {
+      "minimum": 288.0409741913351,
+      "maximum": 310.74462821551344
+    },
+    "sar:center_frequency": {
+      "minimum": 9577383362.090622,
+      "maximum": 9581728918.68023
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 1.000000000072958,
+      "maximum": 1.0000000025287676
+    },
+    "sar:resolution_range": {
+      "minimum": 0.9999999975719536,
+      "maximum": 0.9999999999314586
+    }
+  }
+}

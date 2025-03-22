@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-10-29-04-18-12_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -93.7006014907226,
+          41.65429699584877
+        ],
+        [
+          -93.6736965275247,
+          41.69454397206972
+        ],
+        [
+          -93.72740682387057,
+          41.71470942815749
+        ],
+        [
+          -93.75428671323004,
+          41.6744500290407
+        ],
+        [
+          -93.7006014907226,
+          41.65429699584877
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -93.75428671323004,
+    41.65429699584877,
+    -93.6736965275247,
+    41.71470942815749
+  ],
+  "properties": {
+    "datetime": "2024-10-29T04:18:15.200000Z",
+    "start_datetime": "2024-10-29T04:18:13Z",
+    "end_datetime": "2024-10-29T04:18:17.399Z",
+    "created": "2024-10-30T03:19:48.472Z",
+    "updated": "2024-10-30T03:19:48.472Z",
+    "view:incidence_angle": 28.644828571443853,
+    "view:azimuth": 206.60221705272383,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.1.0"
+    },
+    "sar:center_frequency": 9770981488.768084,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000027691346,
+    "sar:resolution_range": 0.41666666439692435,
+    "umbra:collect_id": "fefe7738-9ee1-48e5-94b6-2ca3bfdea654",
+    "umbra:grazing_angle_degrees": 61.35517142855615,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 570483.2473572912,
+    "umbra:squint_angle_degrees_off_broadside": 51.60050276777304,
+    "umbra:squint_angle_engineering_degrees": 141.60050276777304,
+    "umbra:squint_angle_exploitation_degrees": 51.60050276777304,
+    "umbra:task_id": "efe54d1a-dd21-437b-9270-0c1511cea82e",
+    "subfolder": "Johnston, Iowa Farm",
+    "umbra:stac_id": "76e08a09-c15d-49da-bb32-fde52b462e39",
+    "__index_level_0__": 497
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08/2024-10-29-04-18-12_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08/2024-10-29-04-18-12_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Johnston, Iowa Farm"
+}

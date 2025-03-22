@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-27-08-20-40_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.93849495581824,
+          25.476709927700497
+        ],
+        [
+          36.98604246072543,
+          25.48993428659816
+        ],
+        [
+          36.97147535879179,
+          25.53309311602745
+        ],
+        [
+          36.92391245472869,
+          25.519864107951577
+        ],
+        [
+          36.93849495581824,
+          25.476709927700497
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    36.92391245472869,
+    25.476709927700497,
+    36.98604246072543,
+    25.53309311602745
+  ],
+  "properties": {
+    "datetime": "2024-11-27T08:20:43.100000Z",
+    "start_datetime": "2024-11-27T08:20:41Z",
+    "end_datetime": "2024-11-27T08:20:45.199Z",
+    "created": "2024-11-30T08:56:16.975Z",
+    "updated": "2024-11-30T08:56:16.976Z",
+    "view:incidence_angle": 33.618999302436215,
+    "view:azimuth": 252.96065167956328,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.2.0"
+    },
+    "sar:center_frequency": 9744199609.03464,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3499999979525952,
+    "sar:resolution_range": 0.3500000019800396,
+    "umbra:collect_id": "d9063dd3-2588-4dbe-8e3f-9e29e22a465a",
+    "umbra:grazing_angle_degrees": 56.381000697563785,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 578738.2536524171,
+    "umbra:squint_angle_degrees_off_broadside": 29.544495587145057,
+    "umbra:squint_angle_engineering_degrees": -60.45550441285494,
+    "umbra:squint_angle_exploitation_degrees": 29.544495587145057,
+    "umbra:task_id": "afea9eaa-117f-456d-91aa-da1e56a16d4f",
+    "subfolder": "The Red Sea Project - Shura Island, Saudi Arabia",
+    "umbra:stac_id": "dbe88fd3-9e60-4ee9-99c7-f1d25f71ca39",
+    "__index_level_0__": 545
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/afea9eaa-117f-456d-91aa-da1e56a16d4f/2024-11-27-08-20-40_UMBRA-08/2024-11-27-08-20-40_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/afea9eaa-117f-456d-91aa-da1e56a16d4f/2024-11-27-08-20-40_UMBRA-08/2024-11-27-08-20-40_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "The Red Sea Project - Shura Island, Saudi Arabia"
+}

@@ -1,0 +1,137 @@
+{
+  "type": "Collection",
+  "id": "Houston_TX",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Houston_TX",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-30-16-10-33_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-29-17-25-00_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -95.39760461678648,
+          29.72926417078499,
+          -95.33253843064226,
+          29.786037149430538
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-29T17:25:01Z",
+          "2024-10-30T16:10:57.599000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-06",
+      "Umbra-08"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-31T15:57:22.819Z",
+      "maximum": "2024-10-31T15:59:48.918Z"
+    },
+    "updated": {
+      "minimum": "2024-10-31T15:57:22.820Z",
+      "maximum": "2024-10-31T15:59:48.918Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 36.57511224393903,
+      "maximum": 56.29105793141426
+    },
+    "view:azimuth": {
+      "minimum": 81.86940661341082,
+      "maximum": 252.13250160005575
+    },
+    "sar:center_frequency": {
+      "minimum": 9699547506.420042,
+      "maximum": 9713319301.61937
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 5.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.04999999994976629,
+      "maximum": 0.07999999984246317
+    },
+    "sar:resolution_range": {
+      "minimum": 0.1600000002666489,
+      "maximum": 0.2500000002435783
+    }
+  }
+}

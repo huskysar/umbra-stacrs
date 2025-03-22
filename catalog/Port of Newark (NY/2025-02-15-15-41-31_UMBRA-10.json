@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-15-15-41-31_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.10753124748227,
+          40.700101381048384
+        ],
+        [
+          -74.16668997447853,
+          40.700819671764634
+        ],
+        [
+          -74.16761324673737,
+          40.65579557302823
+        ],
+        [
+          -74.10849429666226,
+          40.655077759779985
+        ],
+        [
+          -74.10753124748227,
+          40.700101381048384
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.16761324673737,
+    40.655077759779985,
+    -74.10753124748227,
+    40.700819671764634
+  ],
+  "properties": {
+    "datetime": "2025-02-15T15:41:36.900000Z",
+    "start_datetime": "2025-02-15T15:41:32Z",
+    "end_datetime": "2025-02-15T15:41:41.800Z",
+    "created": "2025-02-15T19:33:37.691Z",
+    "updated": "2025-02-15T19:33:37.691Z",
+    "view:incidence_angle": 43.00347867065293,
+    "view:azimuth": 90.91369092764764,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.76226583641474,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000011082856,
+    "sar:resolution_range": 0.3499999997903382,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13526641163326436,
+    "umbra:best_resolution_range_meters": 0.30243556075019695,
+    "umbra:collect_id": "f94c5389-c4e4-497a-8f3e-84e961eb71f3",
+    "umbra:grazing_angle_degrees": 46.99652132934707,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 755881.1694776283,
+    "umbra:squint_angle_degrees_off_broadside": 8.66455004653045,
+    "umbra:squint_angle_engineering_degrees": 81.33544995346955,
+    "umbra:squint_angle_exploitation_degrees": -8.66455004653045,
+    "umbra:task_id": "b411bf0d-a4c0-4e87-ab1c-516f703baf09",
+    "subfolder": "Port of Newark (NY",
+    "umbra:stac_id": "effca16d-048a-4cac-9fa2-d59503da03f7",
+    "__index_level_0__": 560
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10/2025-02-15-15-41-31_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10/2025-02-15-15-41-31_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Newark (NY"
+}

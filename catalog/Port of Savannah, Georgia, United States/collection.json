@@ -1,0 +1,188 @@
+{
+  "type": "Collection",
+  "id": "Port of Savannah, Georgia, United States",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Savannah, Georgia, United States",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-03-59-18_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-06-02-12-06_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-03-02-07-12_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-04-00-30_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-03-17-57_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-12-03-08-28_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-03-46-51_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-21-15-56-18_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-21-04-01-54_UMBRA-10.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -81.17819317020243,
+          32.09779097261908,
+          -81.10788535494179,
+          32.15761998000677
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-21T15:56:19Z",
+          "2025-03-19T03:47:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-09",
+      "Umbra-05",
+      "Umbra-10",
+      "Umbra-08",
+      "Umbra-07"
+    ],
+    "processing:version": [
+      "4.9.1",
+      "4.9.2",
+      "4.7.0",
+      "4.6.2",
+      "4.9.4",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-12-26T14:02:05.293Z",
+      "maximum": "2025-03-19T16:58:39.423Z"
+    },
+    "updated": {
+      "minimum": "2024-12-26T14:02:05.293Z",
+      "maximum": "2025-03-19T16:58:39.423Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 22.288297554152336,
+      "maximum": 38.52767511623446
+    },
+    "view:azimuth": {
+      "minimum": 87.59466230836757,
+      "maximum": 250.0312179986819
+    },
+    "sar:center_frequency": {
+      "minimum": 9.75057691409352,
+      "maximum": 9.76065057890936
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.1750000001750161,
+      "maximum": 0.1750000003544812
+    },
+    "sar:resolution_range": {
+      "minimum": 0.3499999993017922,
+      "maximum": 0.34999999966264483
+    }
+  }
+}

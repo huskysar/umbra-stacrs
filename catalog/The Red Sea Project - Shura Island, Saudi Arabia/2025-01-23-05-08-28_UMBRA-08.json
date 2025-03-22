@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-23-05-08-28_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.12650544995408,
+          40.55049422934227
+        ],
+        [
+          -112.1829288701666,
+          40.53731062055678
+        ],
+        [
+          -112.16564186409012,
+          40.49426990197267
+        ],
+        [
+          -112.10925114310808,
+          40.50744517876995
+        ],
+        [
+          -112.12650544995408,
+          40.55049422934227
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.1829288701666,
+    40.49426990197267,
+    -112.10925114310808,
+    40.55049422934227
+  ],
+  "properties": {
+    "datetime": "2025-01-23T05:08:30.300000Z",
+    "start_datetime": "2025-01-23T05:08:29Z",
+    "end_datetime": "2025-01-23T05:08:31.600Z",
+    "created": "2025-01-25T01:49:42.461Z",
+    "updated": "2025-01-25T01:49:42.461Z",
+    "view:incidence_angle": 42.522853136688994,
+    "view:azimuth": 72.97651111488278,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.559612156760902,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.4999999999478401,
+    "sar:resolution_range": 0.5000000000491667,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.4087302088984285,
+    "umbra:best_resolution_range_meters": 0.4136213132632267,
+    "umbra:collect_id": "710d0cb2-87d3-44d6-8274-284399d8b9b6",
+    "umbra:grazing_angle_degrees": 47.477146863311006,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 658781.9280616725,
+    "umbra:squint_angle_degrees_off_broadside": 1.452268295423778,
+    "umbra:squint_angle_engineering_degrees": -91.45226829542378,
+    "umbra:squint_angle_exploitation_degrees": -1.452268295423778,
+    "umbra:task_id": "54f13435-71d3-4ed4-ad71-6319c6304563",
+    "subfolder": "Bingham Copper Mine",
+    "umbra:stac_id": "04d2a4aa-6d7b-47fa-bdca-bc987f5892e8",
+    "__index_level_0__": 85
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/54f13435-71d3-4ed4-ad71-6319c6304563/2025-01-23-05-08-28_UMBRA-08/2025-01-23-05-08-28_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "The Red Sea Project - Shura Island, Saudi Arabia"
+}

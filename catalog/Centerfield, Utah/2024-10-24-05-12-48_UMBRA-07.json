@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-10-24-05-12-48_UMBRA-07",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.78085400039798,
+          39.08910701517488
+        ],
+        [
+          -111.83170258092574,
+          39.11051064825027
+        ],
+        [
+          -111.85914595397234,
+          39.070880277032614
+        ],
+        [
+          -111.80831751776384,
+          39.04948846714999
+        ],
+        [
+          -111.78085400039798,
+          39.08910701517488
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.85914595397234,
+    39.04948846714999,
+    -111.78085400039798,
+    39.11051064825027
+  ],
+  "properties": {
+    "datetime": "2024-10-24T05:12:50Z",
+    "start_datetime": "2024-10-24T05:12:49Z",
+    "end_datetime": "2024-10-24T05:12:51Z",
+    "created": "2024-10-24T07:21:32.255Z",
+    "updated": "2024-10-24T07:21:32.255Z",
+    "view:incidence_angle": 29.335096932518077,
+    "view:azimuth": 118.36962202826518,
+    "platform": "Umbra-07",
+    "processing:software": {
+      "Umbra SAR Processor": "3.51.1"
+    },
+    "sar:center_frequency": 9570864436.464478,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000054239466,
+    "sar:resolution_range": 0.999999994739269,
+    "umbra:collect_id": "fabc3412-a581-4371-9d9a-b6fa30ee2d91",
+    "umbra:grazing_angle_degrees": 60.66490306748192,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 634038.4509219448,
+    "umbra:squint_angle_degrees_off_broadside": 42.21024016528702,
+    "umbra:squint_angle_engineering_degrees": -132.21024016528702,
+    "umbra:squint_angle_exploitation_degrees": -42.21024016528702,
+    "umbra:task_id": "522fe777-5ea1-4746-b714-6beb47e4c022",
+    "subfolder": "Centerfield, Utah",
+    "umbra:stac_id": "1092a6b8-625f-456c-8695-a5900d96d399",
+    "__index_level_0__": 106
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/522fe777-5ea1-4746-b714-6beb47e4c022/2024-10-24-05-12-48_UMBRA-07/2024-10-24-05-12-48_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/522fe777-5ea1-4746-b714-6beb47e4c022/2024-10-24-05-12-48_UMBRA-07/2024-10-24-05-12-48_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Centerfield, Utah"
+}

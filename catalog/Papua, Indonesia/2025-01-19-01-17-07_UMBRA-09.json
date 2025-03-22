@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-19-01-17-07_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          137.13953071529656,
+          -4.037920046603616
+        ],
+        [
+          137.09540940736696,
+          -4.029015251406326
+        ],
+        [
+          137.08654029908757,
+          -4.073321947518348
+        ],
+        [
+          137.13066391302704,
+          -4.0822272179682315
+        ],
+        [
+          137.13953071529656,
+          -4.037920046603616
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    137.08654029908757,
+    -4.0822272179682315,
+    137.13953071529656,
+    -4.029015251406326
+  ],
+  "properties": {
+    "datetime": "2025-01-19T01:17:09.500000Z",
+    "start_datetime": "2025-01-19T01:17:08Z",
+    "end_datetime": "2025-01-19T01:17:11Z",
+    "created": "2025-01-21T01:27:48.572Z",
+    "updated": "2025-01-21T01:27:48.572Z",
+    "view:incidence_angle": 33.45891944959464,
+    "view:azimuth": 101.36419191810418,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.549899366220032,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000000281442,
+    "sar:resolution_range": 0.49999999997275696,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.40249016038103985,
+    "umbra:best_resolution_range_meters": 0.41299551313363336,
+    "umbra:collect_id": "dee071cd-2abc-427b-9560-673a2f517241",
+    "umbra:grazing_angle_degrees": 56.54108055040536,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 670524.6520724996,
+    "umbra:squint_angle_degrees_off_broadside": 0.3227499395889595,
+    "umbra:squint_angle_engineering_degrees": 89.67725006041104,
+    "umbra:squint_angle_exploitation_degrees": -0.3227499395889595,
+    "umbra:task_id": "129ec784-91cf-4513-b7e1-3742f2fee08d",
+    "subfolder": "Papua, Indonesia",
+    "umbra:stac_id": "59fe51b9-e448-424c-a689-ee963d1a2a62",
+    "__index_level_0__": 299
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/129ec784-91cf-4513-b7e1-3742f2fee08d/2025-01-19-01-17-07_UMBRA-09/2025-01-19-01-17-07_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/129ec784-91cf-4513-b7e1-3742f2fee08d/2025-01-19-01-17-07_UMBRA-09/2025-01-19-01-17-07_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Papua, Indonesia"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-28-03-30-55_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.76274917493778,
+          -33.370214134425495
+        ],
+        [
+          -70.81598394795057,
+          -33.36411465954191
+        ],
+        [
+          -70.82327019241616,
+          -33.408781447655784
+        ],
+        [
+          -70.77000869370583,
+          -33.41488399892514
+        ],
+        [
+          -70.76274917493778,
+          -33.370214134425495
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.82327019241616,
+    -33.41488399892514,
+    -70.76274917493778,
+    -33.36411465954191
+  ],
+  "properties": {
+    "datetime": "2025-01-28T03:30:56.800000Z",
+    "start_datetime": "2025-01-28T03:30:56Z",
+    "end_datetime": "2025-01-28T03:30:57.600Z",
+    "created": "2025-01-28T05:30:39.039Z",
+    "updated": "2025-01-28T05:30:39.039Z",
+    "view:incidence_angle": 30.757847959667004,
+    "view:azimuth": 97.77760143647788,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.573318451204331,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.000000002662738,
+    "sar:resolution_range": 0.9999999973979244,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.8278175474037455,
+    "umbra:best_resolution_range_meters": 0.8281069954053064,
+    "umbra:collect_id": "6e20963a-ad1a-4fe6-99d7-2a785c3e158e",
+    "umbra:grazing_angle_degrees": 59.24215204033299,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 662999.7091264146,
+    "umbra:squint_angle_degrees_off_broadside": 18.6488539474785,
+    "umbra:squint_angle_engineering_degrees": -71.3511460525215,
+    "umbra:squint_angle_exploitation_degrees": 18.6488539474785,
+    "umbra:task_id": "97059f47-d778-40fb-9c45-6500294ca5df",
+    "subfolder": "David Fuentes Airbase, Chile",
+    "umbra:stac_id": "737d9b8c-9467-4b1b-a377-8c220af0fdac",
+    "__index_level_0__": 124
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/97059f47-d778-40fb-9c45-6500294ca5df/2025-01-28-03-30-55_UMBRA-10/2025-01-28-03-30-55_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/97059f47-d778-40fb-9c45-6500294ca5df/2025-01-28-03-30-55_UMBRA-10/2025-01-28-03-30-55_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "David Fuentes Airbase, Chile"
+}

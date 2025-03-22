@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://umbra-space.github.io/umbra-stac-extension/json-schema/schema.json"
+  ],
+  "id": "2024-12-21-15-56-18_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.11766955233857,
+          32.151174688751766
+        ],
+        [
+          -81.17062786904408,
+          32.14928169240077
+        ],
+        [
+          -81.16839087472538,
+          32.104227896370574
+        ],
+        [
+          -81.1154585309309,
+          32.10611997616072
+        ],
+        [
+          -81.11766955233857,
+          32.151174688751766
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -81.17062786904408,
+    32.104227896370574,
+    -81.1154585309309,
+    32.151174688751766
+  ],
+  "properties": {
+    "datetime": "2024-12-21T15:56:22.900000Z",
+    "start_datetime": "2024-12-21T15:56:19Z",
+    "end_datetime": "2024-12-21T15:56:26.800Z",
+    "created": "2024-12-26T14:02:05.293Z",
+    "updated": "2024-12-26T14:02:05.293Z",
+    "view:incidence_angle": 30.88711665864622,
+    "view:azimuth": 87.59466230836757,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.5.0"
+    },
+    "sar:center_frequency": 9.758294823648914,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000031855206,
+    "sar:resolution_range": 0.3499999993758164,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.1301877977603796,
+    "umbra:best_resolution_range_meters": 0.30887204899686127,
+    "umbra:collect_id": "df19e69b-bf22-4ed8-8917-f60231dd6b1e",
+    "umbra:grazing_angle_degrees": 59.11288334135378,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 566887.9715194588,
+    "umbra:squint_angle_degrees_off_broadside": 13.071972069839262,
+    "umbra:squint_angle_engineering_degrees": 76.92802793016074,
+    "umbra:squint_angle_exploitation_degrees": -13.071972069839262,
+    "umbra:task_id": "7019cb54-9e03-45ea-84b9-266eccbc7aeb",
+    "subfolder": "Port of Savannah, Georgia, United States",
+    "umbra:stac_id": "56b8304c-55ba-424e-9f9f-b68787a62eb3",
+    "__index_level_0__": 284
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08/2024-12-21-15-56-18_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08/2024-12-21-15-56-18_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Savannah, Georgia, United States"
+}

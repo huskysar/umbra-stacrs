@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-05-06-09-26_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          69.3950065628676,
+          24.13292493378556
+        ],
+        [
+          69.34861071432091,
+          24.147941511476287
+        ],
+        [
+          69.33225899091661,
+          24.10536212406488
+        ],
+        [
+          69.37864140019556,
+          24.09035043011969
+        ],
+        [
+          69.3950065628676,
+          24.13292493378556
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    69.33225899091661,
+    24.09035043011969,
+    69.3950065628676,
+    24.147941511476287
+  ],
+  "properties": {
+    "datetime": "2025-03-05T06:09:29Z",
+    "start_datetime": "2025-03-05T06:09:27Z",
+    "end_datetime": "2025-03-05T06:09:31Z",
+    "created": "2025-03-05T14:35:41.614Z",
+    "updated": "2025-03-05T14:35:41.614Z",
+    "view:incidence_angle": 23.110837158378075,
+    "view:azimuth": 109.42445083522864,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.0"
+    },
+    "processing:version": "4.9.0",
+    "sar:center_frequency": 9.710113603042362,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.34999999924551295,
+    "sar:resolution_range": 0.3500000007457594,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.2650745309775707,
+    "umbra:best_resolution_range_meters": 0.2940722525133263,
+    "umbra:collect_id": "235645c0-fbe0-45de-a47c-79cb5880d648",
+    "umbra:grazing_angle_degrees": 66.88916284162192,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 610133.9039385375,
+    "umbra:squint_angle_degrees_off_broadside": 8.066940223153324,
+    "umbra:squint_angle_engineering_degrees": 98.06694022315332,
+    "umbra:squint_angle_exploitation_degrees": 8.066940223153324,
+    "umbra:task_id": "4497fbb0-6b07-4d46-89b0-4c02b1b59768",
+    "subfolder": "Khavda Solar Park, India",
+    "umbra:stac_id": "3d22c300-9c4b-4b93-a4b9-d308ae79f0eb",
+    "__index_level_0__": 403
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/4497fbb0-6b07-4d46-89b0-4c02b1b59768/2025-03-05-06-09-26_UMBRA-10/2025-03-05-06-09-26_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/4497fbb0-6b07-4d46-89b0-4c02b1b59768/2025-03-05-06-09-26_UMBRA-10/2025-03-05-06-09-26_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Khavda Solar Park, India"
+}

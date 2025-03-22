@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-10-16-22-15_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.83319667340395,
+          42.76303208460554
+        ],
+        [
+          -78.77868908473074,
+          42.742728400335686
+        ],
+        [
+          -78.75110745074228,
+          42.78288817379532
+        ],
+        [
+          -78.80564126274493,
+          42.80320483959245
+        ],
+        [
+          -78.83319667340395,
+          42.76303208460554
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.83319667340395,
+    42.742728400335686,
+    -78.75110745074228,
+    42.80320483959245
+  ],
+  "properties": {
+    "datetime": "2025-01-10T16:22:21.700000Z",
+    "start_datetime": "2025-01-10T16:22:16Z",
+    "end_datetime": "2025-01-10T16:22:27.399Z",
+    "created": "2025-01-11T01:29:41.840Z",
+    "updated": "2025-01-11T01:29:41.840Z",
+    "view:incidence_angle": 33.5112477592485,
+    "view:azimuth": 296.82355665139846,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.744817492065009,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999829599562,
+    "sar:resolution_range": 0.25000000329590844,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.09028268834405231,
+    "umbra:best_resolution_range_meters": 0.21843537576362956,
+    "umbra:collect_id": "44b57daf-4bbd-4199-8231-e7897e41116a",
+    "umbra:grazing_angle_degrees": 56.4887522407515,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 590842.6774843329,
+    "umbra:squint_angle_degrees_off_broadside": 11.81275432515082,
+    "umbra:squint_angle_engineering_degrees": -78.18724567484918,
+    "umbra:squint_angle_exploitation_degrees": 11.81275432515082,
+    "umbra:task_id": "34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74",
+    "subfolder": "New Highmark Stadium, New York, United States",
+    "umbra:stac_id": "9a4f4b9b-2aee-4013-8342-6a7224308643",
+    "__index_level_0__": 481
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/34f2b6a2-a3d5-4ac3-b9fa-b60acae23f74/2025-01-10-16-22-15_UMBRA-08/2025-01-10-16-22-15_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "New Highmark Stadium, New York, United States"
+}

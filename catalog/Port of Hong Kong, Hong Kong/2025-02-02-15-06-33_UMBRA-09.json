@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-02-15-06-33_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          114.09978592864653,
+          22.311259921177975
+        ],
+        [
+          114.1480256922982,
+          22.316206915418043
+        ],
+        [
+          114.14271486929604,
+          22.36109240039956
+        ],
+        [
+          114.09445985300408,
+          22.356143850150968
+        ],
+        [
+          114.09978592864653,
+          22.311259921177975
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    114.09445985300408,
+    22.311259921177975,
+    114.1480256922982,
+    22.36109240039956
+  ],
+  "properties": {
+    "datetime": "2025-02-02T15:06:38.300000Z",
+    "start_datetime": "2025-02-02T15:06:34Z",
+    "end_datetime": "2025-02-02T15:06:42.600Z",
+    "created": "2025-02-03T16:07:29.269Z",
+    "updated": "2025-02-03T16:07:29.269Z",
+    "view:incidence_angle": 37.37681632807875,
+    "view:azimuth": 263.7095162502016,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.754438327805682,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17499999991982032,
+    "sar:resolution_range": 0.35000000015424815,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.13745792589163353,
+    "umbra:best_resolution_range_meters": 0.3007699533165788,
+    "umbra:collect_id": "981e51ec-65b4-4d7d-9340-b4fbbfc3e445",
+    "umbra:grazing_angle_degrees": 52.62318367192125,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 696077.8030567082,
+    "umbra:squint_angle_degrees_off_broadside": 4.288733733133597,
+    "umbra:squint_angle_engineering_degrees": 94.2887337331336,
+    "umbra:squint_angle_exploitation_degrees": 4.288733733133597,
+    "umbra:task_id": "51e9b19d-d64b-465a-bc51-5c70eb4c0ae2",
+    "subfolder": "Port of Hong Kong, Hong Kong",
+    "umbra:stac_id": "f0223cfd-a212-47ae-9dc4-877cf8e2e052",
+    "__index_level_0__": 373
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/51e9b19d-d64b-465a-bc51-5c70eb4c0ae2/2025-02-02-15-06-33_UMBRA-09/2025-02-02-15-06-33_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/51e9b19d-d64b-465a-bc51-5c70eb4c0ae2/2025-02-02-15-06-33_UMBRA-09/2025-02-02-15-06-33_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Hong Kong, Hong Kong"
+}

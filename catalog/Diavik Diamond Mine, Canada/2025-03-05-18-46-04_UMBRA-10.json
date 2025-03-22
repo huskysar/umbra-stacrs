@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-05-18-46-04_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -110.23566766059528,
+          64.51177410171134
+        ],
+        [
+          -110.33973316776869,
+          64.5108120487982
+        ],
+        [
+          -110.3374188981066,
+          64.46597396866817
+        ],
+        [
+          -110.23352361786664,
+          64.46693445306279
+        ],
+        [
+          -110.23566766059528,
+          64.51177410171134
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -110.33973316776869,
+    64.46597396866817,
+    -110.23352361786664,
+    64.51177410171134
+  ],
+  "properties": {
+    "datetime": "2025-03-05T18:46:06.500000Z",
+    "start_datetime": "2025-03-05T18:46:05Z",
+    "end_datetime": "2025-03-05T18:46:08Z",
+    "created": "2025-03-05T23:59:23.781Z",
+    "updated": "2025-03-05T23:59:23.781Z",
+    "view:incidence_angle": 27.186027411165725,
+    "view:azimuth": 88.77186824623104,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.0"
+    },
+    "processing:version": "4.9.0",
+    "sar:center_frequency": 9.738059260788184,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000014011824,
+    "sar:resolution_range": 0.49999999861907624,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.3867002875351732,
+    "umbra:best_resolution_range_meters": 0.4107367741193847,
+    "umbra:collect_id": "f95c350d-d2bf-4463-9a6e-387b9dc88048",
+    "umbra:grazing_angle_degrees": 62.813972588834275,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 637845.1386945973,
+    "umbra:squint_angle_degrees_off_broadside": 16.14261551046627,
+    "umbra:squint_angle_engineering_degrees": 73.85738448953373,
+    "umbra:squint_angle_exploitation_degrees": -16.14261551046627,
+    "umbra:task_id": "89706c8b-b840-47dc-b191-90d0f459bd29",
+    "subfolder": "Diavik Diamond Mine, Canada",
+    "umbra:stac_id": "a6861a80-598e-48a8-aca3-7f6c03435fa2",
+    "__index_level_0__": 579
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/89706c8b-b840-47dc-b191-90d0f459bd29/2025-03-05-18-46-04_UMBRA-10/2025-03-05-18-46-04_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/89706c8b-b840-47dc-b191-90d0f459bd29/2025-03-05-18-46-04_UMBRA-10/2025-03-05-18-46-04_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Diavik Diamond Mine, Canada"
+}

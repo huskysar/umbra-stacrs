@@ -1,0 +1,200 @@
+{
+  "type": "Collection",
+  "id": "Port of Hong Kong, Hong Kong",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Hong Kong, Hong Kong",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-30-03-13-45_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-15-01-14_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-15-10-36_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-15-09-25_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-02-58-58_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-15-11-21_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-15-06-33_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-02-57-40_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-10-14-33-51_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-15-07-59_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-15-07-51_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-15-06-13_UMBRA-09.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          114.0870463762224,
+          22.304362631551136,
+          114.15544385015662,
+          22.367993035915823
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-10T14:33:52Z",
+          "2025-03-07T15:08:11.600000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-09",
+      "Umbra-10"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.0",
+      "4.8.0",
+      "4.6.2",
+      "4.9.2"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2025-01-14T19:14:30.793Z",
+      "maximum": "2025-03-08T03:37:12.169Z"
+    },
+    "updated": {
+      "minimum": "2025-01-14T19:14:30.793Z",
+      "maximum": "2025-03-08T03:37:12.169Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 27.961874762824515,
+      "maximum": 44.87624109116048
+    },
+    "view:azimuth": {
+      "minimum": 80.28298076235426,
+      "maximum": 296.15369502487005
+    },
+    "sar:center_frequency": {
+      "minimum": 9.754438327805682,
+      "maximum": 9.767359774820235
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.17499999991982032,
+      "maximum": 0.17500000032880922
+    },
+    "sar:resolution_range": {
+      "minimum": 0.3499999993545869,
+      "maximum": 0.35000000015424815
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "type": "Collection",
+  "id": "Jeddah Tower, Saudi Arabia",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Jeddah Tower, Saudi Arabia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-22-07-43-39_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-17-18-38-40_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-19-40-07_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-11-19-05-43_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-20-08-26-38_UMBRA-09.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          39.04925190317866,
+          21.702500950595805,
+          39.11676220961388,
+          21.76557682301184
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-20T08:26:39Z",
+          "2025-02-17T18:38:51.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-05",
+      "Umbra-10",
+      "Umbra-07",
+      "Umbra-09"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "processing:version": [
+      "4.8.0",
+      "4.7.0",
+      "4.6.2"
+    ],
+    "created": {
+      "minimum": "2024-12-23T16:22:12.816Z",
+      "maximum": "2025-02-19T11:40:49.914Z"
+    },
+    "updated": {
+      "minimum": "2024-12-23T16:22:12.816Z",
+      "maximum": "2025-02-19T11:40:49.914Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 32.159034710790316,
+      "maximum": 44.1068803310472
+    },
+    "view:azimuth": {
+      "minimum": 87.46419878896754,
+      "maximum": 275.9091845278386
+    },
+    "sar:center_frequency": {
+      "minimum": 9.691204189405775,
+      "maximum": 9.7493463318853
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.12499999934935171,
+      "maximum": 0.1250000000924577
+    },
+    "sar:resolution_range": {
+      "minimum": 0.24999999982498156,
+      "maximum": 0.250000001258255
+    }
+  }
+}

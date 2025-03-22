@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://umbra-space.github.io/umbra-stac-extension/json-schema/schema.json"
+  ],
+  "id": "2025-01-04-05-29-44_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -115.1154232527492,
+          36.09930807644076
+        ],
+        [
+          -115.16953948784214,
+          36.109401280539394
+        ],
+        [
+          -115.18195604498204,
+          36.065482425602056
+        ],
+        [
+          -115.1278683086449,
+          36.05539475888788
+        ],
+        [
+          -115.1154232527492,
+          36.09930807644076
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -115.18195604498204,
+    36.05539475888788,
+    -115.1154232527492,
+    36.109401280539394
+  ],
+  "properties": {
+    "datetime": "2025-01-04T05:29:59.600000Z",
+    "start_datetime": "2025-01-04T05:29:45Z",
+    "end_datetime": "2025-01-04T05:30:14.200Z",
+    "created": "2025-01-05T15:15:40.552Z",
+    "updated": "2025-01-05T15:15:40.552Z",
+    "view:incidence_angle": 36.33841139163041,
+    "view:azimuth": 102.94004443199644,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.5.0"
+    },
+    "sar:center_frequency": 9.76132955063859,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 5.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.06999999973421978,
+    "sar:resolution_range": 0.3500000012742423,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.04352609575019607,
+    "umbra:best_resolution_range_meters": 0.25339799156480214,
+    "umbra:collect_id": "7f40db7e-8e11-487e-8fbb-3985338f542b",
+    "umbra:grazing_angle_degrees": 53.66158860836959,
+    "umbra:organization_id": "org_Q4fEVOqmvYrY03Xc",
+    "umbra:slant_range_meters": 605663.8069362021,
+    "umbra:squint_angle_degrees_off_broadside": 26.885028374382117,
+    "umbra:squint_angle_engineering_degrees": -63.11497162561788,
+    "umbra:squint_angle_exploitation_degrees": 26.885028374382117,
+    "umbra:task_id": "fcfee6c1-06b1-46a0-91a9-fe41560521e3",
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "b82e96a8-4020-4b93-bc39-121d5a0bfdb1",
+    "__index_level_0__": 612
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

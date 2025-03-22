@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-17-18-38-40_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.05648579939229,
+          21.713903408090225
+        ],
+        [
+          39.10455384638136,
+          21.709255059338183
+        ],
+        [
+          39.10953713646072,
+          21.75417193118363
+        ],
+        [
+          39.06145431205867,
+          21.75882169923579
+        ],
+        [
+          39.05648579939229,
+          21.713903408090225
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    39.05648579939229,
+    21.709255059338183,
+    39.10953713646072,
+    21.75882169923579
+  ],
+  "properties": {
+    "datetime": "2025-02-17T18:38:46.400000Z",
+    "start_datetime": "2025-02-17T18:38:41Z",
+    "end_datetime": "2025-02-17T18:38:51.800Z",
+    "created": "2025-02-19T11:40:49.914Z",
+    "updated": "2025-02-19T11:40:49.914Z",
+    "view:incidence_angle": 37.7389571633304,
+    "view:azimuth": 275.9091845278386,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.8.0"
+    },
+    "processing:version": "4.8.0",
+    "sar:center_frequency": 9.727867717102097,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999971924863,
+    "sar:resolution_range": 0.25000000054146604,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09833899700289966,
+    "umbra:best_resolution_range_meters": 0.20941988516164975,
+    "umbra:collect_id": "828c89f0-1ee5-40fe-a87a-020b666fd64c",
+    "umbra:grazing_angle_degrees": 52.2610428366696,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 607262.2807601995,
+    "umbra:squint_angle_degrees_off_broadside": 16.236105522016146,
+    "umbra:squint_angle_engineering_degrees": 106.23610552201616,
+    "umbra:squint_angle_exploitation_degrees": 16.236105522016146,
+    "umbra:task_id": "f6fb4e29-07c0-451a-bf35-2f8cdabe0460",
+    "subfolder": "Jeddah Tower, Saudi Arabia",
+    "umbra:stac_id": "ac07a542-f9cd-40d6-b770-52bc39203b18",
+    "__index_level_0__": 237
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/f6fb4e29-07c0-451a-bf35-2f8cdabe0460/2025-02-17-18-38-40_UMBRA-05/2025-02-17-18-38-40_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/f6fb4e29-07c0-451a-bf35-2f8cdabe0460/2025-02-17-18-38-40_UMBRA-05/2025-02-17-18-38-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Jeddah Tower, Saudi Arabia"
+}

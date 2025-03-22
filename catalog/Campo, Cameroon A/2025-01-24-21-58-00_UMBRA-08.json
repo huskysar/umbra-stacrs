@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-24-21-58-00_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.91735995640569,
+          2.5702378522048828
+        ],
+        [
+          9.962266772109384,
+          2.572465163754099
+        ],
+        [
+          9.960052827414346,
+          2.61762851568676
+        ],
+        [
+          9.915144422624852,
+          2.6154011267236754
+        ],
+        [
+          9.91735995640569,
+          2.5702378522048828
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.915144422624852,
+    2.5702378522048828,
+    9.962266772109384,
+    2.61762851568676
+  ],
+  "properties": {
+    "datetime": "2025-01-24T21:58:06.700000Z",
+    "start_datetime": "2025-01-24T21:58:01Z",
+    "end_datetime": "2025-01-24T21:58:12.400Z",
+    "created": "2025-01-27T02:47:51.630Z",
+    "updated": "2025-01-27T02:47:51.630Z",
+    "view:incidence_angle": 40.57786949425584,
+    "view:azimuth": 267.1765922302427,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.73615246747439,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999988970718,
+    "sar:resolution_range": 0.2500000002104626,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09699003613838196,
+    "umbra:best_resolution_range_meters": 0.21118499619559103,
+    "umbra:collect_id": "368b23d6-819d-4b54-bd76-13227da771d6",
+    "umbra:grazing_angle_degrees": 49.42213050574416,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 640087.2474468091,
+    "umbra:squint_angle_degrees_off_broadside": 8.178252685877908,
+    "umbra:squint_angle_engineering_degrees": 98.17825268587792,
+    "umbra:squint_angle_exploitation_degrees": 8.178252685877908,
+    "umbra:task_id": "0d11206c-dc59-4122-8eb6-2f1a15adcf2b",
+    "subfolder": "Campo, Cameroon A",
+    "umbra:stac_id": "6fdf2684-c85a-4ac0-85b0-75ac0647ff99",
+    "__index_level_0__": 408
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/0d11206c-dc59-4122-8eb6-2f1a15adcf2b/2025-01-24-21-58-00_UMBRA-08/2025-01-24-21-58-00_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/0d11206c-dc59-4122-8eb6-2f1a15adcf2b/2025-01-24-21-58-00_UMBRA-08/2025-01-24-21-58-00_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Campo, Cameroon A"
+}

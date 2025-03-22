@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-18-21-11-19_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.463476366914588,
+          -26.12156637964861
+        ],
+        [
+          29.50633167611205,
+          -26.098350818935376
+        ],
+        [
+          29.480621398172495,
+          -26.059661145186983
+        ],
+        [
+          29.437775111166676,
+          -26.082869195662283
+        ],
+        [
+          29.463476366914588,
+          -26.12156637964861
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.437775111166676,
+    -26.12156637964861,
+    29.50633167611205,
+    -26.059661145186983
+  ],
+  "properties": {
+    "datetime": "2025-03-18T21:11:21.600000Z",
+    "start_datetime": "2025-03-18T21:11:20Z",
+    "end_datetime": "2025-03-18T21:11:23.199Z",
+    "created": "2025-03-19T01:15:30.682Z",
+    "updated": "2025-03-19T01:15:30.682Z",
+    "view:incidence_angle": 31.25370824758028,
+    "view:azimuth": 239.04087421816013,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.4"
+    },
+    "processing:version": "4.9.4",
+    "sar:center_frequency": 9.743692651738586,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000010623097,
+    "sar:resolution_range": 0.49999999896991726,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.3891554381365743,
+    "umbra:best_resolution_range_meters": 0.40833810609563553,
+    "umbra:collect_id": "df1e0832-7dd2-4789-802f-c3c630ad705d",
+    "umbra:grazing_angle_degrees": 58.74629175241972,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 657312.4441104169,
+    "umbra:squint_angle_degrees_off_broadside": 17.915324729285317,
+    "umbra:squint_angle_engineering_degrees": 72.08467527071468,
+    "umbra:squint_angle_exploitation_degrees": -17.915324729285317,
+    "umbra:task_id": "ed451905-5106-48bc-b55a-e9a6a5880c3e",
+    "subfolder": "Komati Power Station, S Africa",
+    "umbra:stac_id": "31894fb1-ac2f-4c7e-be1b-bc8639073b0e",
+    "__index_level_0__": 157
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/ed451905-5106-48bc-b55a-e9a6a5880c3e/2025-03-18-21-11-19_UMBRA-09/2025-03-18-21-11-19_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/ed451905-5106-48bc-b55a-e9a6a5880c3e/2025-03-18-21-11-19_UMBRA-09/2025-03-18-21-11-19_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Komati Power Station, S Africa"
+}

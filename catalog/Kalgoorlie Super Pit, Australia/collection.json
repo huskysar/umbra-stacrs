@@ -1,0 +1,197 @@
+{
+  "type": "Collection",
+  "id": "Kalgoorlie Super Pit, Australia",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Kalgoorlie Super Pit, Australia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-04-00-56-33_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-02-18-18_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-00-41-43_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-00-57-07_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-02-17-07_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-00-59-09_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-09-02-17-55_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-29-02-13-46_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-21-01-50-28_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-01-57-58_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-09-14-33-37_UMBRA-09.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          121.49438448202558,
+          -30.81085924505136,
+          121.5669739022688,
+          -30.748184340490965
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-09T14:33:38Z",
+          "2025-03-09T02:17:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-08",
+      "Umbra-07",
+      "Umbra-09"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.8.0",
+      "4.9.0",
+      "4.9.2",
+      "4.6.2"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2025-01-10T02:05:57.180Z",
+      "maximum": "2025-03-09T11:36:23.781Z"
+    },
+    "updated": {
+      "minimum": "2025-01-10T02:05:57.180Z",
+      "maximum": "2025-03-09T11:36:23.781Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 20.218445830195535,
+      "maximum": 44.70872100048064
+    },
+    "view:azimuth": {
+      "minimum": 86.24849522738418,
+      "maximum": 304.3146782186682
+    },
+    "sar:center_frequency": {
+      "minimum": 9.548878770478352,
+      "maximum": 9.743165100666213
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.5000000007136051,
+      "maximum": 0.5000000023466785
+    },
+    "sar:resolution_range": {
+      "minimum": 0.49999999767052133,
+      "maximum": 0.4999999993229308
+    }
+  }
+}

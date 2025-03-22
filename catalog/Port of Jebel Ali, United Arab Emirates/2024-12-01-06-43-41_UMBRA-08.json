@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-12-01-06-43-41_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          55.07260268502815,
+          25.03035522441469
+        ],
+        [
+          55.02501300535126,
+          25.017803752458928
+        ],
+        [
+          55.03879132374154,
+          24.97444409018196
+        ],
+        [
+          55.08636570097,
+          24.98699123047587
+        ],
+        [
+          55.07260268502815,
+          25.03035522441469
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    55.02501300535126,
+    24.97444409018196,
+    55.08636570097,
+    25.03035522441469
+  ],
+  "properties": {
+    "datetime": "2024-12-01T06:43:46.500000Z",
+    "start_datetime": "2024-12-01T06:43:42Z",
+    "end_datetime": "2024-12-01T06:43:51Z",
+    "created": "2024-12-02T15:58:42.638Z",
+    "updated": "2024-12-02T15:58:42.638Z",
+    "view:incidence_angle": 39.89255314246095,
+    "view:azimuth": 73.85907882246941,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.2.0"
+    },
+    "sar:center_frequency": 9766778893.17659,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000002365842,
+    "sar:resolution_range": 0.3499999995469003,
+    "umbra:collect_id": "33937ebf-bd34-4e89-9c51-ad3175e0c240",
+    "umbra:grazing_angle_degrees": 50.10744685753905,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 620310.4924437711,
+    "umbra:squint_angle_degrees_off_broadside": 26.3710587615232,
+    "umbra:squint_angle_engineering_degrees": 116.3710587615232,
+    "umbra:squint_angle_exploitation_degrees": 26.3710587615232,
+    "umbra:task_id": "3217c2d9-ee79-42ff-94ee-7e231f224194",
+    "subfolder": "Port of Jebel Ali, United Arab Emirates",
+    "umbra:stac_id": "62702fb4-207f-4051-9cad-d053153d0948",
+    "__index_level_0__": 352
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/3217c2d9-ee79-42ff-94ee-7e231f224194/2024-12-01-06-43-41_UMBRA-08/2024-12-01-06-43-41_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/3217c2d9-ee79-42ff-94ee-7e231f224194/2024-12-01-06-43-41_UMBRA-08/2024-12-01-06-43-41_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Jebel Ali, United Arab Emirates"
+}

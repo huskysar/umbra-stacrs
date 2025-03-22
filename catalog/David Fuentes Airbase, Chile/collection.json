@@ -1,0 +1,217 @@
+{
+  "type": "Collection",
+  "id": "David Fuentes Airbase, Chile",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for David Fuentes Airbase, Chile",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-14-56-10_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-14-48-56_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-15-04-07_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-17-03-31-06_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-03-33-24_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-03-35-36_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-27-03-10-08_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-03-13-59_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-15-07-20_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-03-30-55_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-15-03-50_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-06-14-30-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-26-03-12-14_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-03-35-32_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-20-03-21-38_UMBRA-10.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -70.83099640152902,
+          -33.42137001462125,
+          -70.75500148284807,
+          -33.35762005099123
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-26T03:12:15Z",
+          "2025-03-19T03:33:26.400000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-07",
+      "Umbra-09",
+      "Umbra-10"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.4",
+      "4.8.0",
+      "4.9.1",
+      "4.6.2"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-10-26T17:06:18.196Z",
+      "maximum": "2025-03-19T10:55:00.954Z"
+    },
+    "updated": {
+      "minimum": "2024-10-26T17:06:18.196Z",
+      "maximum": "2025-03-19T10:55:00.954Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 16.94750610266746,
+      "maximum": 44.95023885000693
+    },
+    "view:azimuth": {
+      "minimum": 86.92899550967266,
+      "maximum": 308.8830925384467
+    },
+    "sar:center_frequency": {
+      "minimum": 9.560292534543636,
+      "maximum": 9767779723.599504
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.25000000045079496,
+      "maximum": 1.000000010148695
+    },
+    "sar:resolution_range": {
+      "minimum": 0.49999999768752507,
+      "maximum": 0.9999999995841312
+    }
+  }
+}

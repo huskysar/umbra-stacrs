@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-14-10-33-26_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.3839557741119854,
+          51.28522432054032
+        ],
+        [
+          4.31262257771376,
+          51.28087433931501
+        ],
+        [
+          4.319586532137519,
+          51.23614140082914
+        ],
+        [
+          4.390851177117191,
+          51.24048719526038
+        ],
+        [
+          4.3839557741119854,
+          51.28522432054032
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.31262257771376,
+    51.23614140082914,
+    4.390851177117191,
+    51.28522432054032
+  ],
+  "properties": {
+    "datetime": "2025-01-14T10:33:32.200000Z",
+    "start_datetime": "2025-01-14T10:33:27Z",
+    "end_datetime": "2025-01-14T10:33:37.400Z",
+    "created": "2025-01-14T17:46:10.279Z",
+    "updated": "2025-01-14T17:46:10.279Z",
+    "view:incidence_angle": 43.83380454191405,
+    "view:azimuth": 84.44874624198134,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.764325536965517,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000020570594,
+    "sar:resolution_range": 0.3499999996120357,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13370789529767566,
+    "umbra:best_resolution_range_meters": 0.3031922105466824,
+    "umbra:collect_id": "e0b7d40d-a0e4-4fd1-9121-d438e0dfbf7c",
+    "umbra:grazing_angle_degrees": 46.16619545808595,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 770023.7270874375,
+    "umbra:squint_angle_degrees_off_broadside": 15.01506866502831,
+    "umbra:squint_angle_engineering_degrees": 74.98493133497169,
+    "umbra:squint_angle_exploitation_degrees": -15.01506866502831,
+    "umbra:task_id": "22594b5a-2d80-4090-ab6e-d5fbfd1d6c83",
+    "subfolder": "Port of Antwerp, Belgium",
+    "umbra:stac_id": "b6e47ef6-0192-4186-9d14-33efad4f3704",
+    "__index_level_0__": 24
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/22594b5a-2d80-4090-ab6e-d5fbfd1d6c83/2025-01-14-10-33-26_UMBRA-09/2025-01-14-10-33-26_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/22594b5a-2d80-4090-ab6e-d5fbfd1d6c83/2025-01-14-10-33-26_UMBRA-09/2025-01-14-10-33-26_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Antwerp, Belgium"
+}

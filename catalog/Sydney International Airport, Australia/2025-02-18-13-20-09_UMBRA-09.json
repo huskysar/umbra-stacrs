@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-18-13-20-09_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          150.70525597558245,
+          -33.91663180413792
+        ],
+        [
+          150.75424471867933,
+          -33.897564266798035
+        ],
+        [
+          150.73137813851525,
+          -33.856719878919705
+        ],
+        [
+          150.68240765624589,
+          -33.87577845689747
+        ],
+        [
+          150.70525597558245,
+          -33.91663180413792
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    150.68240765624589,
+    -33.91663180413792,
+    150.75424471867933,
+    -33.856719878919705
+  ],
+  "properties": {
+    "datetime": "2025-02-18T13:20:17.200000Z",
+    "start_datetime": "2025-02-18T13:20:10Z",
+    "end_datetime": "2025-02-18T13:20:24.400Z",
+    "created": "2025-02-18T15:29:45.580Z",
+    "updated": "2025-02-18T15:29:45.580Z",
+    "view:incidence_angle": 44.09993911457633,
+    "view:azimuth": 244.98281725310585,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.8.0"
+    },
+    "processing:version": "4.8.0",
+    "sar:center_frequency": 9.748364184727505,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1250000000474198,
+    "sar:resolution_range": 0.24999999991188493,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09295750201898452,
+    "umbra:best_resolution_range_meters": 0.21404890289471715,
+    "umbra:collect_id": "5d41704b-f187-4cb5-aa27-59024a0504a9",
+    "umbra:grazing_angle_degrees": 45.90006088542367,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 773663.8118624118,
+    "umbra:squint_angle_degrees_off_broadside": 9.816559943386494,
+    "umbra:squint_angle_engineering_degrees": 80.1834400566135,
+    "umbra:squint_angle_exploitation_degrees": -9.816559943386494,
+    "umbra:task_id": "ac105316-8d9d-4536-911d-b6739c400520",
+    "subfolder": "Sydney International Airport, Australia",
+    "umbra:stac_id": "5ede36be-729c-49f0-8154-57cb0318092c",
+    "__index_level_0__": 66
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09/2025-02-18-13-20-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09/2025-02-18-13-20-09_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Sydney International Airport, Australia"
+}

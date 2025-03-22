@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-07-03-59-18_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.15620791704812,
+          32.097855875038306
+        ],
+        [
+          -81.10796170111973,
+          32.11648810875552
+        ],
+        [
+          -81.12985354413573,
+          32.157555030196974
+        ],
+        [
+          -81.17811692115819,
+          32.1389145704553
+        ],
+        [
+          -81.15620791704812,
+          32.097855875038306
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -81.17811692115819,
+    32.097855875038306,
+    -81.10796170111973,
+    32.157555030196974
+  ],
+  "properties": {
+    "datetime": "2025-03-07T03:59:23.400000Z",
+    "start_datetime": "2025-03-07T03:59:19Z",
+    "end_datetime": "2025-03-07T03:59:27.800Z",
+    "created": "2025-03-07T19:37:01.725Z",
+    "updated": "2025-03-07T19:37:01.725Z",
+    "view:incidence_angle": 30.68203979014035,
+    "view:azimuth": 245.58908895576369,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.1"
+    },
+    "processing:version": "4.9.1",
+    "sar:center_frequency": 9.757016930898144,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000003058084,
+    "sar:resolution_range": 0.3499999994020956,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.1306690317767474,
+    "umbra:best_resolution_range_meters": 0.3080476905195308,
+    "umbra:collect_id": "3d8f4b94-18fa-407d-8def-e6bba5856ff4",
+    "umbra:grazing_angle_degrees": 59.31796020985965,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 651031.6133846041,
+    "umbra:squint_angle_degrees_off_broadside": 13.442070408974075,
+    "umbra:squint_angle_engineering_degrees": 76.55792959102592,
+    "umbra:squint_angle_exploitation_degrees": -13.442070408974075,
+    "umbra:task_id": "2c51396e-bfd9-4734-b144-e77a90520625",
+    "subfolder": "Port of Savannah, Georgia, United States",
+    "umbra:stac_id": "22bc3d4c-9fc6-40ba-9767-65257aa17ff6",
+    "__index_level_0__": 277
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/2c51396e-bfd9-4734-b144-e77a90520625/2025-03-07-03-59-18_UMBRA-09/2025-03-07-03-59-18_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/2c51396e-bfd9-4734-b144-e77a90520625/2025-03-07-03-59-18_UMBRA-09/2025-03-07-03-59-18_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Savannah, Georgia, United States"
+}

@@ -1,0 +1,196 @@
+{
+  "type": "Collection",
+  "id": "Suvarnabhumi International Airport, Thailand",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Suvarnabhumi International Airport, Thailand",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-15-31-45_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-03-14-37-43_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-18-15-37-59_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-10-15-49-51_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-04-18-12_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-30-15-37-37_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-20-15-51-31_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-15-29-21_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-15-03-34-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-13-04-17-52_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-21-15-24-25_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          100.71808921083608,
+          13.659463715667684,
+          100.78194137845024,
+          13.721896377158483
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-15T03:34:30Z",
+          "2025-03-20T15:51:44.200000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-07",
+      "Umbra-05",
+      "Umbra-08",
+      "Umbra-10",
+      "Umbra-09"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.6.2",
+      "4.9.5",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-11-15T16:29:01.302Z",
+      "maximum": "2025-03-20T23:30:48.150Z"
+    },
+    "updated": {
+      "minimum": "2024-11-15T16:29:01.302Z",
+      "maximum": "2025-03-20T23:30:48.150Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 30.72045504337016,
+      "maximum": 44.35685838467034
+    },
+    "view:azimuth": {
+      "minimum": 85.7820023990732,
+      "maximum": 294.12773060163926
+    },
+    "sar:center_frequency": {
+      "minimum": 9.71992981331044,
+      "maximum": 9747380551.289116
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.1249999998451065,
+      "maximum": 0.1250000001631941
+    },
+    "sar:resolution_range": {
+      "minimum": 0.249999999681805,
+      "maximum": 0.2500000003023729
+    }
+  }
+}

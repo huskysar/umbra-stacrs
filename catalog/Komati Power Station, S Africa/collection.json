@@ -1,0 +1,153 @@
+{
+  "type": "Collection",
+  "id": "Komati Power Station, S Africa",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Komati Power Station, S Africa",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-13-06-52-42_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-18-21-11-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-05-20-33-24_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.43717741685371,
+          -26.12210261324065,
+          29.50691637264601,
+          -26.05912970365518
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-05T20:33:25Z",
+          "2025-03-18T21:11:23.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-09",
+      "Umbra-08"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.4"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-11-06T03:05:23.699Z",
+      "maximum": "2025-03-19T01:15:30.682Z"
+    },
+    "updated": {
+      "minimum": "2024-11-06T03:05:23.699Z",
+      "maximum": "2025-03-19T01:15:30.682Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 24.438403966454203,
+      "maximum": 31.25370824758028
+    },
+    "view:azimuth": {
+      "minimum": 84.9323894157708,
+      "maximum": 239.04087421816013
+    },
+    "sar:center_frequency": {
+      "minimum": 9.734242118854796,
+      "maximum": 9703922770.91149
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.5000000010325968,
+      "maximum": 0.5000000017251351
+    },
+    "sar:resolution_range": {
+      "minimum": 0.4999999983046952,
+      "maximum": 0.49999999897962705
+    }
+  }
+}

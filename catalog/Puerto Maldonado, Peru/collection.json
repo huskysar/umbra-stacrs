@@ -1,0 +1,208 @@
+{
+  "type": "Collection",
+  "id": "Puerto Maldonado, Peru",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Puerto Maldonado, Peru",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-03-40-42_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-01-14-45-21_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-02-54-55_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-08-15-12-05_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-07-03-11-22_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-24-15-04-40_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-13-53-44_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-14-48-16_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-21-15-02-15_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-20-15-04-11_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-12-14-59-01_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-13-53-26_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-13-14-57-22_UMBRA-07.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -69.38305717185067,
+          -12.489685128395868,
+          -69.31812594818022,
+          -12.42587529524062
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-07T03:11:23Z",
+          "2025-03-20T15:04:15.600000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10",
+      "Umbra-08",
+      "Umbra-05",
+      "Umbra-09",
+      "Umbra-07"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.2",
+      "4.8.0",
+      "4.9.1",
+      "4.9.5"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-11-09T01:05:05.796Z",
+      "maximum": "2025-03-20T22:35:35.926Z"
+    },
+    "updated": {
+      "minimum": "2024-11-09T01:05:05.796Z",
+      "maximum": "2025-03-20T22:35:35.926Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 21.51367440316405,
+      "maximum": 44.615587611351806
+    },
+    "view:azimuth": {
+      "minimum": 65.16081285572047,
+      "maximum": 318.3854186016646
+    },
+    "sar:center_frequency": {
+      "minimum": 9.69629837847696,
+      "maximum": 9716209736.134071
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.35000000035172374,
+      "maximum": 0.3500000012183347
+    },
+    "sar:resolution_range": {
+      "minimum": 0.349999998813948,
+      "maximum": 0.34999999966892836
+    }
+  }
+}

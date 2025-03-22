@@ -1,0 +1,219 @@
+{
+  "type": "Collection",
+  "id": "Port of Jebel Ali, United Arab Emirates",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Port of Jebel Ali, United Arab Emirates",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-01-06-43-41_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-29-06-43-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-10-07-24-31_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-06-48-20_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-09-06-56-57_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-12-06-30-20_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-18-18-18-44_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-03-18-38-14_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-23-06-55-31_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-08-18-23-36_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-17-09-47_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-07-09-17_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-17-26-23_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-11-06-54-02_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-01-18-29-28_UMBRA-07.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          55.02073381231933,
+          24.970544237878883,
+          55.09065309946134,
+          25.03426216862403
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-01T06:43:42Z",
+          "2025-03-18T18:18:56.400000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-09",
+      "Umbra-07",
+      "Umbra-05"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.6.2",
+      "4.9.4",
+      "4.9.2",
+      "4.9.1",
+      "4.8.0",
+      "4.8.1"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-12-02T15:58:42.638Z",
+      "maximum": "2025-03-19T09:29:18.996Z"
+    },
+    "updated": {
+      "minimum": "2024-12-02T15:58:42.638Z",
+      "maximum": "2025-03-19T09:29:18.996Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 22.599454451728025,
+      "maximum": 44.070921842931206
+    },
+    "view:azimuth": {
+      "minimum": 73.85907882246941,
+      "maximum": 283.9685481314464
+    },
+    "sar:center_frequency": {
+      "minimum": 9.729955572990688,
+      "maximum": 9766778893.17659
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.17499999732513033,
+      "maximum": 0.17500000152715472
+    },
+    "sar:resolution_range": {
+      "minimum": 0.34999999710700785,
+      "maximum": 0.3500000050144542
+    }
+  }
+}

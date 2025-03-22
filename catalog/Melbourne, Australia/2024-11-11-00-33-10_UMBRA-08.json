@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-11-00-33-10_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.87372612446632,
+          -37.85271545123166
+        ],
+        [
+          144.92147495992782,
+          -37.877138038755696
+        ],
+        [
+          144.9522584988006,
+          -37.8392735985905
+        ],
+        [
+          144.9045239183055,
+          -37.81486333617932
+        ],
+        [
+          144.87372612446632,
+          -37.85271545123166
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.87372612446632,
+    -37.877138038755696,
+    144.9522584988006,
+    -37.81486333617932
+  ],
+  "properties": {
+    "datetime": "2024-11-11T00:33:14.100000Z",
+    "start_datetime": "2024-11-11T00:33:11Z",
+    "end_datetime": "2024-11-11T00:33:17.200Z",
+    "created": "2024-11-12T14:16:02.831Z",
+    "updated": "2024-11-12T14:16:02.831Z",
+    "view:incidence_angle": 34.18840684863316,
+    "view:azimuth": 302.81970229088205,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.1.4"
+    },
+    "sar:center_frequency": 9685515695.641563,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.2500000006282669,
+    "sar:resolution_range": 0.24999999938872264,
+    "umbra:collect_id": "7afed08c-e5d5-462c-8bca-d558cecf02fb",
+    "umbra:grazing_angle_degrees": 55.81159315136684,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 601158.2022086406,
+    "umbra:squint_angle_degrees_off_broadside": 22.142903416426392,
+    "umbra:squint_angle_engineering_degrees": -112.1429034164264,
+    "umbra:squint_angle_exploitation_degrees": -22.142903416426392,
+    "umbra:task_id": "db2bb750-b5ea-441e-a171-58ff0f8ace62",
+    "subfolder": "Melbourne, Australia",
+    "umbra:stac_id": "0b5a0d74-a810-4538-a535-0a29f2179328",
+    "__index_level_0__": 167
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08/2024-11-11-00-33-10_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08/2024-11-11-00-33-10_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Melbourne, Australia"
+}

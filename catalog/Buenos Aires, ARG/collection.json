@@ -1,0 +1,202 @@
+{
+  "type": "Collection",
+  "id": "Buenos Aires, ARG",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Buenos Aires, ARG",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-24-02-25-18_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-07-02-28-13_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-29-02-23-44_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-24-14-27-00_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-13-02-45-39_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-13-01-24_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-11-17-14-03-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-13-42-41_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-31-14-10-46_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-02-48-55_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-09-02-48-11_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-14-21-41_UMBRA-09.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -58.42071834323622,
+          -34.63542347422493,
+          -58.34389642329237,
+          -34.571902630668475
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-24T02:25:19Z",
+          "2025-03-19T13:01:29Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-08",
+      "Umbra-09",
+      "Umbra-07",
+      "Umbra-05"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "constellation": [
+      "umbra"
+    ],
+    "processing:version": [
+      "4.8.0",
+      "4.9.4",
+      "4.9.0",
+      "4.7.0",
+      "4.9.2"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2024-10-25T12:40:57.338Z",
+      "maximum": "2025-03-19T17:53:40.945Z"
+    },
+    "updated": {
+      "minimum": "2024-10-25T12:40:57.338Z",
+      "maximum": "2025-03-19T17:53:40.945Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 21.43507266268604,
+      "maximum": 41.54510318929763
+    },
+    "view:azimuth": {
+      "minimum": 76.49320199693402,
+      "maximum": 297.47860800114984
+    },
+    "sar:center_frequency": {
+      "minimum": 9.69264391869461,
+      "maximum": 9723341929.382784
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.3499999964219603,
+      "maximum": 0.350000001494974
+    },
+    "sar:resolution_range": {
+      "minimum": 0.34999999853056146,
+      "maximum": 0.3500000035490164
+    }
+  }
+}

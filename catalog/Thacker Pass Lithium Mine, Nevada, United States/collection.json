@@ -1,0 +1,212 @@
+{
+  "type": "Collection",
+  "id": "Thacker Pass Lithium Mine, Nevada, United States",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Thacker Pass Lithium Mine, Nevada, United States",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-04-55-50_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-05-30-04_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-23-17-42-20_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-18-52-36_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-18-40-33_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-18-18-40-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-19-18-41-13_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-18-51-36_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-13-18-35-30_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-18-45-47_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-18-51-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-18-53-17_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-04-25-24_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-04-58-15_UMBRA-05.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -118.09530756395522,
+          41.67801001035815,
+          -118.0141860434575,
+          41.73879793597476
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-13T18:35:31Z",
+          "2025-03-07T05:30:08Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-08",
+      "Umbra-10",
+      "Umbra-09"
+    ],
+    "processing:version": [
+      "4.8.0",
+      "4.9.1",
+      "4.7.0",
+      "4.9.0",
+      "4.6.2"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2025-01-14T07:55:10.810Z",
+      "maximum": "2025-03-07T10:59:30.502Z"
+    },
+    "updated": {
+      "minimum": "2025-01-14T07:55:10.810Z",
+      "maximum": "2025-03-07T10:59:30.502Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 16.799695487890574,
+      "maximum": 44.7957357423865
+    },
+    "view:azimuth": {
+      "minimum": 65.21245018865969,
+      "maximum": 297.74276663009573
+    },
+    "sar:center_frequency": {
+      "minimum": 9.551842757426035,
+      "maximum": 9.743233009402484
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.4999999991886209,
+      "maximum": 0.5000000028701463
+    },
+    "sar:resolution_range": {
+      "minimum": 0.4999999971520453,
+      "maximum": 0.5000000007864616
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "type": "Collection",
+  "id": "Mapleton_ND",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Mapleton_ND",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-04-10-04_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-12-04-52-05_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-05-29-59_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-15-55-49_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-08-04-27-13_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-07-04-43-49_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-07-17-45-30_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-13-16-02-49_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-18-16-28-44_UMBRA-06.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -97.3968599169262,
+          46.709884554719515,
+          -97.15518551658944,
+          46.84547044530016
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-07T04:43:50Z",
+          "2024-10-18T16:28:46.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-08",
+      "Umbra-06"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-09T15:21:18.738Z",
+      "maximum": "2024-10-18T20:07:33.923Z"
+    },
+    "updated": {
+      "minimum": "2024-10-09T15:21:18.738Z",
+      "maximum": "2024-10-18T20:07:33.923Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 15.9301380331719,
+      "maximum": 47.98986641270546
+    },
+    "view:azimuth": {
+      "minimum": 92.83225135922696,
+      "maximum": 290.0905399964565
+    },
+    "sar:center_frequency": {
+      "minimum": 9553581442.22559,
+      "maximum": 9583063893.590967
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.9999999954374408,
+      "maximum": 1.0000000042785189
+    },
+    "sar:resolution_range": {
+      "minimum": 0.9999999957832408,
+      "maximum": 1.0000000042693598
+    }
+  }
+}

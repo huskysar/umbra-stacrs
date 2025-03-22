@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-16-03-24-57_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.84107813165616,
+          46.87368490036881
+        ],
+        [
+          -96.78403493217998,
+          46.89590357289423
+        ],
+        [
+          -96.81645118061464,
+          46.93501675883157
+        ],
+        [
+          -96.87352246678824,
+          46.91278207618028
+        ],
+        [
+          -96.84107813165616,
+          46.87368490036881
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.87352246678824,
+    46.87368490036881,
+    -96.78403493217998,
+    46.93501675883157
+  ],
+  "properties": {
+    "datetime": "2025-02-16T03:24:58.699000Z",
+    "start_datetime": "2025-02-16T03:24:58Z",
+    "end_datetime": "2025-02-16T03:24:59.399Z",
+    "created": "2025-02-16T10:30:55.090Z",
+    "updated": "2025-02-16T10:30:55.090Z",
+    "view:incidence_angle": 34.929798171312086,
+    "view:azimuth": 240.38688490617815,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.576870453294768,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.000000002533898,
+    "sar:resolution_range": 0.9999999975349242,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.8347384163920187,
+    "umbra:best_resolution_range_meters": 0.8322822672230605,
+    "umbra:collect_id": "e4783c24-46a4-4cab-9c72-d4ff4a6d3474",
+    "umbra:grazing_angle_degrees": 55.070201828687914,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 594094.7761054625,
+    "umbra:squint_angle_degrees_off_broadside": 18.788969334152853,
+    "umbra:squint_angle_engineering_degrees": 71.21103066584715,
+    "umbra:squint_angle_exploitation_degrees": -18.788969334152853,
+    "umbra:task_id": "0fc83e45-4017-4a0d-9009-757c2c053418",
+    "subfolder": "North Dakota State University Plot",
+    "umbra:stac_id": "763e9cf3-5ae9-495f-a219-94b3c181a234",
+    "__index_level_0__": 434
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/0fc83e45-4017-4a0d-9009-757c2c053418/2025-02-16-03-24-57_UMBRA-05/2025-02-16-03-24-57_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/0fc83e45-4017-4a0d-9009-757c2c053418/2025-02-16-03-24-57_UMBRA-05/2025-02-16-03-24-57_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "North Dakota State University Plot"
+}

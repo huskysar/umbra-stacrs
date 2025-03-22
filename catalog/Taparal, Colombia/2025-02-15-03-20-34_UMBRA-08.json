@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-15-03-20-34_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.04020572329446,
+          3.779532052417629
+        ],
+        [
+          -77.08508789709285,
+          3.783010888844251
+        ],
+        [
+          -77.08854976089098,
+          3.737925792330248
+        ],
+        [
+          -77.04366987804794,
+          3.7344471309430567
+        ],
+        [
+          -77.04020572329446,
+          3.779532052417629
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -77.08854976089098,
+    3.7344471309430567,
+    -77.04020572329446,
+    3.783010888844251
+  ],
+  "properties": {
+    "datetime": "2025-02-15T03:20:37.700000Z",
+    "start_datetime": "2025-02-15T03:20:35Z",
+    "end_datetime": "2025-02-15T03:20:40.400Z",
+    "created": "2025-02-15T05:24:02.376Z",
+    "updated": "2025-02-15T05:24:02.376Z",
+    "view:incidence_angle": 34.63464334540701,
+    "view:azimuth": 94.41218670909822,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.571408498443471,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.25000000044175413,
+    "sar:resolution_range": 0.499999999144408,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.19850202359965555,
+    "umbra:best_resolution_range_meters": 0.439846675650238,
+    "umbra:collect_id": "ca2c4bab-aad8-47ea-bd59-2b436beea28b",
+    "umbra:grazing_angle_degrees": 55.36535665459299,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 594772.8163692127,
+    "umbra:squint_angle_degrees_off_broadside": 15.681710828158243,
+    "umbra:squint_angle_engineering_degrees": -74.31828917184176,
+    "umbra:squint_angle_exploitation_degrees": 15.681710828158243,
+    "umbra:task_id": "d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977",
+    "subfolder": "Taparal, Colombia",
+    "umbra:stac_id": "3518f952-f9cd-4912-82e1-4ed3be9dd05e",
+    "__index_level_0__": 450
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08/2025-02-15-03-20-34_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08/2025-02-15-03-20-34_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Taparal, Colombia"
+}

@@ -1,0 +1,189 @@
+{
+  "type": "Collection",
+  "id": "Tesla Semi Factory, Nevada, United States",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Tesla Semi Factory, Nevada, United States",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-09-06-16-22_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-28-18-41-46_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-06-15-53_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-06-17-32_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-12-05-59-27_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-12-22-05-38-26_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-06-17-46_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-02-18-46-38_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-26-05-40-20_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-21-19-06-10_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -119.48438961972327,
+          39.516436830390454,
+          -119.40565965927264,
+          39.57738900690437
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-22T05:38:27Z",
+          "2025-03-09T06:16:34.799000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-10",
+      "Umbra-07"
+    ],
+    "processing:version": [
+      "4.9.2",
+      "4.7.0",
+      "4.9.1",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2024-12-26T15:13:53.076Z",
+      "maximum": "2025-03-11T00:22:55.658Z"
+    },
+    "updated": {
+      "minimum": "2024-12-26T15:13:53.076Z",
+      "maximum": "2025-03-11T00:22:55.658Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 35.632985439099045,
+      "maximum": 42.84552166105186
+    },
+    "view:azimuth": {
+      "minimum": 74.86499756646447,
+      "maximum": 298.17939702919796
+    },
+    "sar:center_frequency": {
+      "minimum": 9.73077106029836,
+      "maximum": 9.749182129777257
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.12499999991650589,
+      "maximum": 0.12500000011864168
+    },
+    "sar:resolution_range": {
+      "minimum": 0.24999999977188347,
+      "maximum": 0.2500000001616304
+    }
+  }
+}

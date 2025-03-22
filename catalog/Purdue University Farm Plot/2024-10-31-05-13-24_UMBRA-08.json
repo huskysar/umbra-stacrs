@@ -1,0 +1,111 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-10-31-05-13-24_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.11870576126525,
+          40.54640454005482
+        ],
+        [
+          -112.1775734446062,
+          40.54326362924222
+        ],
+        [
+          -112.17343933702472,
+          40.49835697174082
+        ],
+        [
+          -112.11461073395095,
+          40.501495811633326
+        ],
+        [
+          -112.11870576126525,
+          40.54640454005482
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.1775734446062,
+    40.49835697174082,
+    -112.11461073395095,
+    40.54640454005482
+  ],
+  "properties": {
+    "datetime": "2024-10-31T05:13:26.200000Z",
+    "start_datetime": "2024-10-31T05:13:25Z",
+    "end_datetime": "2024-10-31T05:13:27.400Z",
+    "created": "2024-11-01T01:16:29.693Z",
+    "updated": "2024-11-01T01:16:29.693Z",
+    "view:incidence_angle": 29.64070015138482,
+    "view:azimuth": 86.00047970477186,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.1.1"
+    },
+    "sar:center_frequency": 9743810216.4175,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000008893132,
+    "sar:resolution_range": 0.4999999991328292,
+    "umbra:collect_id": "1102f742-9f6a-4e04-b3a1-d0ae15df0a1a",
+    "umbra:grazing_angle_degrees": 60.35929984861518,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 572842.7967469479,
+    "umbra:squint_angle_degrees_off_broadside": 10.274322737021636,
+    "umbra:squint_angle_engineering_degrees": -100.27432273702163,
+    "umbra:squint_angle_exploitation_degrees": -10.274322737021636,
+    "umbra:task_id": "835f195b-dacb-4ec7-bc82-c05e80a143f6",
+    "subfolder": "Bingham Copper Mine",
+    "umbra:stac_id": "72d5424e-6a93-473c-a352-7ad34909c7e2",
+    "__index_level_0__": 79
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/835f195b-dacb-4ec7-bc82-c05e80a143f6/2024-10-31-05-13-24_UMBRA-08/2024-10-31-05-13-24_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Purdue University Farm Plot"
+}

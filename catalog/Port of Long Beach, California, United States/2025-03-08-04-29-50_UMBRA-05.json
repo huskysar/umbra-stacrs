@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-08-04-29-50_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.20866797300975,
+          33.76814721138882
+        ],
+        [
+          -118.26264750480964,
+          33.768336811511155
+        ],
+        [
+          -118.26286028973774,
+          33.72325482182195
+        ],
+        [
+          -118.20890899313994,
+          33.723065319489265
+        ],
+        [
+          -118.20866797300975,
+          33.76814721138882
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.26286028973774,
+    33.723065319489265,
+    -118.20866797300975,
+    33.768336811511155
+  ],
+  "properties": {
+    "datetime": "2025-03-08T04:29:55.400000Z",
+    "start_datetime": "2025-03-08T04:29:51Z",
+    "end_datetime": "2025-03-08T04:29:59.800Z",
+    "created": "2025-03-10T02:48:54.503Z",
+    "updated": "2025-03-10T02:48:54.503Z",
+    "view:incidence_angle": 42.47673561972712,
+    "view:azimuth": 90.24090466275754,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.2"
+    },
+    "processing:version": "4.9.2",
+    "sar:center_frequency": 9.763540542465607,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000013126168,
+    "sar:resolution_range": 0.3499999997524425,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.13392000774775115,
+    "umbra:best_resolution_range_meters": 0.3034578487892699,
+    "umbra:collect_id": "2af8806d-7f30-4152-a259-a9b056d9a606",
+    "umbra:grazing_angle_degrees": 47.52326438027288,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 644745.0500232157,
+    "umbra:squint_angle_degrees_off_broadside": 14.391494334483395,
+    "umbra:squint_angle_engineering_degrees": -75.6085056655166,
+    "umbra:squint_angle_exploitation_degrees": 14.391494334483395,
+    "umbra:task_id": "0fad1b55-c3bc-46e7-ade5-18361a2cebbb",
+    "subfolder": "Port of Long Beach, California, United States",
+    "umbra:stac_id": "e77ffc06-1e33-4ef2-ae45-4f4f6a1f7072",
+    "__index_level_0__": 227
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/0fad1b55-c3bc-46e7-ade5-18361a2cebbb/2025-03-08-04-29-50_UMBRA-05/2025-03-08-04-29-50_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/0fad1b55-c3bc-46e7-ade5-18361a2cebbb/2025-03-08-04-29-50_UMBRA-05/2025-03-08-04-29-50_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Long Beach, California, United States"
+}

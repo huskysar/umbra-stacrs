@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-21-19-06-10_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.48438961972327,
+          39.53769370372787
+        ],
+        [
+          -119.43313461254752,
+          39.516436830390454
+        ],
+        [
+          -119.40565965927264,
+          39.55612016579117
+        ],
+        [
+          -119.45693548985643,
+          39.57738900690437
+        ],
+        [
+          -119.48438961972327,
+          39.53769370372787
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -119.48438961972327,
+    39.516436830390454,
+    -119.40565965927264,
+    39.57738900690437
+  ],
+  "properties": {
+    "datetime": "2025-02-21T19:06:17.300000Z",
+    "start_datetime": "2025-02-21T19:06:11Z",
+    "end_datetime": "2025-02-21T19:06:23.599Z",
+    "created": "2025-02-22T10:27:27.100Z",
+    "updated": "2025-02-22T10:27:27.100Z",
+    "view:incidence_angle": 41.80976789568338,
+    "view:azimuth": 298.17939702919796,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.8.0"
+    },
+    "processing:version": "4.8.0",
+    "sar:center_frequency": 9.749033169970238,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1250000000563475,
+    "sar:resolution_range": 0.24999999989361835,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.09154150612731132,
+    "umbra:best_resolution_range_meters": 0.21518162431435328,
+    "umbra:collect_id": "1b5a74d5-26ee-4519-a741-f59485678eb0",
+    "umbra:grazing_angle_degrees": 48.19023210431662,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 650659.580699011,
+    "umbra:squint_angle_degrees_off_broadside": 13.005716817610931,
+    "umbra:squint_angle_engineering_degrees": -76.99428318238907,
+    "umbra:squint_angle_exploitation_degrees": 13.005716817610931,
+    "umbra:task_id": "03122a9f-9b55-4e96-aebc-59d0906553fc",
+    "subfolder": "Tesla Semi Factory, Nevada, United States",
+    "umbra:stac_id": "d0f7a19e-61ca-4048-aa87-e589d19f2a60",
+    "__index_level_0__": 265
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/03122a9f-9b55-4e96-aebc-59d0906553fc/2025-02-21-19-06-10_UMBRA-08/2025-02-21-19-06-10_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/03122a9f-9b55-4e96-aebc-59d0906553fc/2025-02-21-19-06-10_UMBRA-08/2025-02-21-19-06-10_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Tesla Semi Factory, Nevada, United States"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-09-02-17-55_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.49544751297366,
+          -30.789093891321105
+        ],
+        [
+          121.54177666271292,
+          -30.809939733807155
+        ],
+        [
+          121.5659081979806,
+          -30.769940163929355
+        ],
+        [
+          121.51959300881046,
+          -30.749102815461352
+        ],
+        [
+          121.49544751297366,
+          -30.789093891321105
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    121.49544751297366,
+    -30.809939733807155,
+    121.5659081979806,
+    -30.749102815461352
+  ],
+  "properties": {
+    "datetime": "2025-03-09T02:17:57.500000Z",
+    "start_datetime": "2025-03-09T02:17:56Z",
+    "end_datetime": "2025-03-09T02:17:59Z",
+    "created": "2025-03-09T11:36:23.781Z",
+    "updated": "2025-03-09T11:36:23.781Z",
+    "view:incidence_angle": 41.90222880856275,
+    "view:azimuth": 297.5240565297656,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.2"
+    },
+    "processing:version": "4.9.2",
+    "sar:center_frequency": 9.557645966035562,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000007913173,
+    "sar:resolution_range": 0.4999999992462657,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.40593214341237094,
+    "umbra:best_resolution_range_meters": 0.41074959221845647,
+    "umbra:collect_id": "02b8ac91-08ee-42f4-b4c0-9c72c8367550",
+    "umbra:grazing_angle_degrees": 48.09777119143725,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 648634.3973934943,
+    "umbra:squint_angle_degrees_off_broadside": 17.465210400457977,
+    "umbra:squint_angle_engineering_degrees": -72.53478959954202,
+    "umbra:squint_angle_exploitation_degrees": 17.465210400457977,
+    "umbra:task_id": "c08169e2-0c53-4bca-b08d-fbb61d86c3f1",
+    "subfolder": "Kalgoorlie Super Pit, Australia",
+    "umbra:stac_id": "95d90d8a-f471-40c3-a0da-2b17b6f35d2b",
+    "__index_level_0__": 324
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/c08169e2-0c53-4bca-b08d-fbb61d86c3f1/2025-03-09-02-17-55_UMBRA-08/2025-03-09-02-17-55_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/c08169e2-0c53-4bca-b08d-fbb61d86c3f1/2025-03-09-02-17-55_UMBRA-08/2025-03-09-02-17-55_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Kalgoorlie Super Pit, Australia"
+}

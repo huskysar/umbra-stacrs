@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-20-05-39-14_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -115.1444460599404,
+          36.12266167433656
+        ],
+        [
+          -115.19991084262116,
+          36.12037491452548
+        ],
+        [
+          -115.1970781167658,
+          36.07537565225146
+        ],
+        [
+          -115.14164486906344,
+          36.07766112574179
+        ],
+        [
+          -115.1444460599404,
+          36.12266167433656
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -115.19991084262116,
+    36.07537565225146,
+    -115.14164486906344,
+    36.12266167433656
+  ],
+  "properties": {
+    "datetime": "2025-02-20T05:39:21.900000Z",
+    "start_datetime": "2025-02-20T05:39:15Z",
+    "end_datetime": "2025-02-20T05:39:28.800Z",
+    "created": "2025-02-20T18:10:46.955Z",
+    "updated": "2025-02-20T18:10:46.955Z",
+    "view:incidence_angle": 41.23628653704042,
+    "view:azimuth": 87.09172090971737,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.8.0"
+    },
+    "processing:version": "4.8.0",
+    "sar:center_frequency": 9.748278890854271,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000007297798,
+    "sar:resolution_range": 0.24999999986270713,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09180350191548478,
+    "umbra:best_resolution_range_meters": 0.2151920121116709,
+    "umbra:collect_id": "4aaaac85-aba3-4b3d-971a-f74a2e526da8",
+    "umbra:grazing_angle_degrees": 48.76371346295958,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 734524.0392144622,
+    "umbra:squint_angle_degrees_off_broadside": 12.376073735818268,
+    "umbra:squint_angle_engineering_degrees": -77.62392626418173,
+    "umbra:squint_angle_exploitation_degrees": 12.376073735818268,
+    "umbra:task_id": "40ffb9e8-454c-4733-bc62-8187ac438f2d",
+    "subfolder": "New Las Vegas Stadium, Nevada, United States",
+    "umbra:stac_id": "8abe5bf3-44b5-4f42-bba3-56d8cd352ee7",
+    "__index_level_0__": 137
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/40ffb9e8-454c-4733-bc62-8187ac438f2d/2025-02-20-05-39-14_UMBRA-10/2025-02-20-05-39-14_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/40ffb9e8-454c-4733-bc62-8187ac438f2d/2025-02-20-05-39-14_UMBRA-10/2025-02-20-05-39-14_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "New Las Vegas Stadium, Nevada, United States"
+}

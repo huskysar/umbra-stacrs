@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-28-02-42-52_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.09596941281526,
+          40.68114379944415
+        ],
+        [
+          -74.1417853147117,
+          40.70963281041175
+        ],
+        [
+          -74.17919200522142,
+          40.67474771627367
+        ],
+        [
+          -74.13338405725291,
+          40.64627337632648
+        ],
+        [
+          -74.09596941281526,
+          40.68114379944415
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.17919200522142,
+    40.64627337632648,
+    -74.09596941281526,
+    40.70963281041175
+  ],
+  "properties": {
+    "datetime": "2024-11-28T02:43:01.200000Z",
+    "start_datetime": "2024-11-28T02:42:53Z",
+    "end_datetime": "2024-11-28T02:43:09.400Z",
+    "created": "2024-12-01T14:13:27.746Z",
+    "updated": "2024-12-01T14:13:27.746Z",
+    "view:incidence_angle": 40.1358558441617,
+    "view:azimuth": 129.23556643240315,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.2.0"
+    },
+    "sar:center_frequency": 9774505328.906555,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1749999998246333,
+    "sar:resolution_range": 0.291666666939482,
+    "umbra:collect_id": "18d4cdf3-0d2f-4701-9d86-c71ae90be777",
+    "umbra:grazing_angle_degrees": 49.8641441558383,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 630712.6489994604,
+    "umbra:squint_angle_degrees_off_broadside": 53.567541404516135,
+    "umbra:squint_angle_engineering_degrees": -143.5675414045161,
+    "umbra:squint_angle_exploitation_degrees": -53.567541404516135,
+    "umbra:task_id": "17237cc4-8aed-4ed8-a6d4-ddc949452bef",
+    "subfolder": "Port of Newark (NY",
+    "umbra:stac_id": "32fecd94-e8ef-4513-9f48-204dbc238cfb",
+    "__index_level_0__": 561
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/17237cc4-8aed-4ed8-a6d4-ddc949452bef/2024-11-28-02-42-52_UMBRA-08/2024-11-28-02-42-52_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/17237cc4-8aed-4ed8-a6d4-ddc949452bef/2024-11-28-02-42-52_UMBRA-08/2024-11-28-02-42-52_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Newark (NY"
+}

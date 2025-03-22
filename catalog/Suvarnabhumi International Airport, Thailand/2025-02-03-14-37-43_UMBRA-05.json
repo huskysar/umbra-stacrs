@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-03-14-37-43_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.73797889229476,
+          13.66096930244945
+        ],
+        [
+          100.7804008870093,
+          13.678906915682084
+        ],
+        [
+          100.76205688014308,
+          13.720390316061652
+        ],
+        [
+          100.71962884089024,
+          13.702449618973972
+        ],
+        [
+          100.73797889229476,
+          13.66096930244945
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.71962884089024,
+    13.66096930244945,
+    100.7804008870093,
+    13.720390316061652
+  ],
+  "properties": {
+    "datetime": "2025-02-03T14:37:50.199000Z",
+    "start_datetime": "2025-02-03T14:37:44Z",
+    "end_datetime": "2025-02-03T14:37:56.399Z",
+    "created": "2025-02-04T11:24:43.049Z",
+    "updated": "2025-02-04T11:24:43.049Z",
+    "view:incidence_angle": 42.49933292131894,
+    "view:azimuth": 246.61355300009816,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.748019196464028,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000007604573,
+    "sar:resolution_range": 0.24999999985559768,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09224405575736108,
+    "umbra:best_resolution_range_meters": 0.2144065666930693,
+    "umbra:collect_id": "d1701525-016b-4fca-a94c-d1766cf285a5",
+    "umbra:grazing_angle_degrees": 47.50066707868106,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 645871.9567553062,
+    "umbra:squint_angle_degrees_off_broadside": 12.890330590290716,
+    "umbra:squint_angle_engineering_degrees": 77.10966940970928,
+    "umbra:squint_angle_exploitation_degrees": -12.890330590290716,
+    "umbra:task_id": "0f2b9b01-def7-4788-a032-653b712a14a5",
+    "subfolder": "Suvarnabhumi International Airport, Thailand",
+    "umbra:stac_id": "0b61feb1-f28f-4fb8-987b-e7fa9237406e",
+    "__index_level_0__": 27
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/0f2b9b01-def7-4788-a032-653b712a14a5/2025-02-03-14-37-43_UMBRA-05/2025-02-03-14-37-43_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/0f2b9b01-def7-4788-a032-653b712a14a5/2025-02-03-14-37-43_UMBRA-05/2025-02-03-14-37-43_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Suvarnabhumi International Airport, Thailand"
+}

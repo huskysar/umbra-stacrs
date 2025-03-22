@@ -1,0 +1,166 @@
+{
+  "type": "Collection",
+  "id": "Wheatland_ND",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Wheatland_ND",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-18-16-29-07_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-05-29-35_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-17-05-21-46_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-07-04-44-12_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-04-10-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-15-15-56-44_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-13-16-03-10_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-09-17-11-34_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -97.4664716084895,
+          46.85646942373735,
+          -97.23268142681628,
+          46.97410564325129
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-07T04:44:13Z",
+          "2024-10-18T16:29:09.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Umbra-06",
+      "Umbra-08"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV",
+      "HH"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "created": {
+      "minimum": "2024-10-09T15:22:27.083Z",
+      "maximum": "2024-10-18T20:07:33.910Z"
+    },
+    "updated": {
+      "minimum": "2024-10-09T15:22:27.083Z",
+      "maximum": "2024-10-18T20:07:33.910Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 21.8765254740664,
+      "maximum": 44.47041903179237
+    },
+    "view:azimuth": {
+      "minimum": 46.114908428682696,
+      "maximum": 273.49487477222937
+    },
+    "sar:center_frequency": {
+      "minimum": 9570248137.239431,
+      "maximum": 9581749591.56937
+    },
+    "sar:looks_azimuth": {
+      "minimum": 1.0,
+      "maximum": 1.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.9999999850522938,
+      "maximum": 1.0000000000253388
+    },
+    "sar:resolution_range": {
+      "minimum": 0.9999999999754944,
+      "maximum": 1.0000000147641328
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "type": "Collection",
+  "id": "Campo, Cameroon A",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Campo, Cameroon A",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-24-21-57-37_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-16-10-02-48_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-24-21-58-00_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-30-21-29-23_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-22-08-47-03_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-30-21-28-58_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-09-10-01-14_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-05-10-00-33_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.911299643764456,
+          2.566370081820383,
+          9.99915463433226,
+          2.6570116084097104
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-22T08:47:04Z",
+          "2025-03-09T10:01:27.200000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-08",
+      "Umbra-05"
+    ],
+    "processing:version": [
+      "4.7.0",
+      "4.9.2",
+      "4.9.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "right",
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending",
+      "descending"
+    ],
+    "created": {
+      "minimum": "2025-01-25T16:39:25.034Z",
+      "maximum": "2025-03-11T01:42:34.588Z"
+    },
+    "updated": {
+      "minimum": "2025-01-25T16:39:25.034Z",
+      "maximum": "2025-03-11T01:42:34.588Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 37.51390287278691,
+      "maximum": 44.53796199755139
+    },
+    "view:azimuth": {
+      "minimum": 67.59181475495207,
+      "maximum": 293.8262438403166
+    },
+    "sar:center_frequency": {
+      "minimum": 9.736025976436686,
+      "maximum": 9.749770143614375
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.12499999988970718,
+      "maximum": 0.12500000009971915
+    },
+    "sar:resolution_range": {
+      "minimum": 0.2499999998082336,
+      "maximum": 0.2500000002104626
+    }
+  }
+}

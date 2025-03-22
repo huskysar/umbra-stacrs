@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-23-01-59-37_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.74256519243185,
+          5.251977095798356
+        ],
+        [
+          -52.78760539845798,
+          5.254451338318256
+        ],
+        [
+          -52.79007179601388,
+          5.209300445696619
+        ],
+        [
+          -52.74503480786746,
+          5.206826376924855
+        ],
+        [
+          -52.74256519243185,
+          5.251977095798356
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -52.79007179601388,
+    5.206826376924855,
+    -52.74256519243185,
+    5.254451338318256
+  ],
+  "properties": {
+    "datetime": "2025-01-23T01:59:40.100000Z",
+    "start_datetime": "2025-01-23T01:59:38Z",
+    "end_datetime": "2025-01-23T01:59:42.200Z",
+    "created": "2025-01-23T14:23:01.147Z",
+    "updated": "2025-01-23T14:23:01.147Z",
+    "view:incidence_angle": 25.467752869491108,
+    "view:azimuth": 93.13653402921764,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.703388795687651,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000008872995,
+    "sar:resolution_range": 0.3499999991280225,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.2598449743129033,
+    "umbra:best_resolution_range_meters": 0.2856890449783756,
+    "umbra:collect_id": "716ade51-769b-47f7-998c-acab080e0476",
+    "umbra:grazing_angle_degrees": 64.53224713050889,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 624218.0238260356,
+    "umbra:squint_angle_degrees_off_broadside": 14.75914446796655,
+    "umbra:squint_angle_engineering_degrees": -75.24085553203345,
+    "umbra:squint_angle_exploitation_degrees": 14.75914446796655,
+    "umbra:task_id": "2d50e165-04bd-45f7-adb3-a425655a82fe",
+    "subfolder": "Kourou, French Guiana",
+    "umbra:stac_id": "18bdc988-4259-4da8-a3d2-74a7e741af64",
+    "__index_level_0__": 508
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/2d50e165-04bd-45f7-adb3-a425655a82fe/2025-01-23-01-59-37_UMBRA-10/2025-01-23-01-59-37_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/2d50e165-04bd-45f7-adb3-a425655a82fe/2025-01-23-01-59-37_UMBRA-10/2025-01-23-01-59-37_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Kourou, French Guiana"
+}

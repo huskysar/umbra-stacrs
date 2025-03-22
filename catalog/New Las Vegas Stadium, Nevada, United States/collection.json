@@ -1,0 +1,178 @@
+{
+  "type": "Collection",
+  "id": "New Las Vegas Stadium, Nevada, United States",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for New Las Vegas Stadium, Nevada, United States",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-04-05-37-47_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-07-05-28-24_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-11-05-36-22_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-07-05-36-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-01-31-05-31-00_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-03-06-04-01_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-20-05-39-14_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-02-15-05-37-56_UMBRA-10.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -115.20400053268162,
+          36.072056853796106,
+          -115.13755336528708,
+          36.125982365916975
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-31T05:31:01Z",
+          "2025-03-07T05:28:36.800000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10",
+      "Umbra-08",
+      "Umbra-09"
+    ],
+    "processing:version": [
+      "4.9.0",
+      "4.9.2",
+      "4.7.0",
+      "4.8.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending"
+    ],
+    "created": {
+      "minimum": "2025-02-01T01:59:05.393Z",
+      "maximum": "2025-03-08T01:28:04.204Z"
+    },
+    "updated": {
+      "minimum": "2025-02-01T01:59:05.393Z",
+      "maximum": "2025-03-08T01:28:04.204Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 32.78965459974418,
+      "maximum": 44.65648877701217
+    },
+    "view:azimuth": {
+      "minimum": 77.1919465877613,
+      "maximum": 257.91348506133676
+    },
+    "sar:center_frequency": {
+      "minimum": 9.74423590372653,
+      "maximum": 9.749086627868708
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.12500000001973788,
+      "maximum": 0.1250000000897203
+    },
+    "sar:resolution_range": {
+      "minimum": 0.24999999982606544,
+      "maximum": 0.24999999996333724
+    }
+  }
+}

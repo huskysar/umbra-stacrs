@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-01-13-23-26-05_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          169.42181053855955,
+          -19.52807688836132
+        ],
+        [
+          169.4631604067065,
+          -19.550520866498427
+        ],
+        [
+          169.48682510185884,
+          -19.511314705402494
+        ],
+        [
+          169.44548193640762,
+          -19.488876041126048
+        ],
+        [
+          169.42181053855955,
+          -19.52807688836132
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    169.42181053855955,
+    -19.550520866498427,
+    169.48682510185884,
+    -19.488876041126048
+  ],
+  "properties": {
+    "datetime": "2025-01-13T23:26:06.900000Z",
+    "start_datetime": "2025-01-13T23:26:06Z",
+    "end_datetime": "2025-01-13T23:26:07.800Z",
+    "created": "2025-01-16T10:39:45.686Z",
+    "updated": "2025-01-16T10:39:45.686Z",
+    "view:incidence_angle": 39.14530230910443,
+    "view:azimuth": 299.78818233400216,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.6.2"
+    },
+    "processing:version": "4.6.2",
+    "sar:center_frequency": 9.57866448179907,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.000000001636544,
+    "sar:resolution_range": 0.99999999843846,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.8372613240317902,
+    "umbra:best_resolution_range_meters": 0.8299367625251283,
+    "umbra:collect_id": "238b6ca0-4a74-417f-b803-a6ec763ec4b8",
+    "umbra:grazing_angle_degrees": 50.85469769089557,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 725856.2123841753,
+    "umbra:squint_angle_degrees_off_broadside": 19.05304079545934,
+    "umbra:squint_angle_engineering_degrees": -70.94695920454066,
+    "umbra:squint_angle_exploitation_degrees": 19.05304079545934,
+    "umbra:task_id": "b88fdd56-f89c-4ec9-b591-2811cdd1ad63",
+    "subfolder": "Tanna Island, Vanuatu",
+    "umbra:stac_id": "c0714627-89f9-40e4-8316-f07d1107e53f",
+    "__index_level_0__": 209
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/b88fdd56-f89c-4ec9-b591-2811cdd1ad63/2025-01-13-23-26-05_UMBRA-10/2025-01-13-23-26-05_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/b88fdd56-f89c-4ec9-b591-2811cdd1ad63/2025-01-13-23-26-05_UMBRA-10/2025-01-13-23-26-05_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Tanna Island, Vanuatu"
+}

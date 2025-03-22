@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-02-11-38-41_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.93601881441242,
+          -37.81990180421256
+        ],
+        [
+          144.88009081509998,
+          -37.827732738928155
+        ],
+        [
+          144.88995280800083,
+          -37.87209777602737
+        ],
+        [
+          144.9459132768241,
+          -37.86426220782221
+        ],
+        [
+          144.93601881441242,
+          -37.81990180421256
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.88009081509998,
+    -37.87209777602737,
+    144.9459132768241,
+    -37.81990180421256
+  ],
+  "properties": {
+    "datetime": "2025-02-02T11:38:44.900000Z",
+    "start_datetime": "2025-02-02T11:38:42Z",
+    "end_datetime": "2025-02-02T11:38:47.800Z",
+    "created": "2025-02-03T13:33:46.204Z",
+    "updated": "2025-02-03T13:33:46.204Z",
+    "view:incidence_angle": 41.26283082295902,
+    "view:azimuth": 79.98633958647895,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.715061651788137,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.24999999998400693,
+    "sar:resolution_range": 0.25000000001529793,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.1909660425242794,
+    "umbra:best_resolution_range_meters": 0.2053338710049334,
+    "umbra:collect_id": "ad2050fa-b3e8-4dc9-baac-0ec08018d693",
+    "umbra:grazing_angle_degrees": 48.73716917704098,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 649292.4263715545,
+    "umbra:squint_angle_degrees_off_broadside": 0.2603062971589907,
+    "umbra:squint_angle_engineering_degrees": -90.260306297159,
+    "umbra:squint_angle_exploitation_degrees": -0.2603062971589907,
+    "umbra:task_id": "dd6abb61-bcb7-4e04-88ea-2bca738050bd",
+    "subfolder": "Melbourne, Australia",
+    "umbra:stac_id": "cb9c4b52-58dc-44ec-83b2-236520397f03",
+    "__index_level_0__": 176
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/dd6abb61-bcb7-4e04-88ea-2bca738050bd/2025-02-02-11-38-41_UMBRA-05/2025-02-02-11-38-41_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/dd6abb61-bcb7-4e04-88ea-2bca738050bd/2025-02-02-11-38-41_UMBRA-05/2025-02-02-11-38-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Melbourne, Australia"
+}

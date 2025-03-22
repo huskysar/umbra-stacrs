@@ -1,0 +1,120 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json"
+  ],
+  "id": "2024-11-03-04-54-56_UMBRA-06",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.42420304340934,
+          30.567711306867626
+        ],
+        [
+          -96.4685860890784,
+          30.54406738713837
+        ],
+        [
+          -96.44127121801812,
+          30.505658248755473
+        ],
+        [
+          -96.39689902275046,
+          30.52929300514032
+        ],
+        [
+          -96.42420304340934,
+          30.567711306867626
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.4685860890784,
+    30.505658248755473,
+    -96.39689902275046,
+    30.567711306867626
+  ],
+  "properties": {
+    "datetime": "2024-11-03T04:54:58.799000Z",
+    "start_datetime": "2024-11-03T04:54:57Z",
+    "end_datetime": "2024-11-03T04:55:00.599Z",
+    "created": "2024-11-03T13:58:34.778Z",
+    "updated": "2024-11-03T13:58:34.778Z",
+    "view:incidence_angle": 27.961585154115618,
+    "view:azimuth": 58.39236312490303,
+    "constellation": "umbra",
+    "platform": "Umbra-06",
+    "processing:software": {
+      "Umbra SAR Processor": "4.1.3"
+    },
+    "sar:center_frequency": 9685465560.788591,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000005833015,
+    "sar:resolution_range": 0.3499999994239835,
+    "umbra:collect_id": "0eaaa5bd-507a-4d58-ac51-10170b629a15",
+    "umbra:grazing_angle_degrees": 62.03841484588438,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 400402.9035837448,
+    "umbra:squint_angle_degrees_off_broadside": 42.68533757741727,
+    "umbra:squint_angle_engineering_degrees": 132.68533757741727,
+    "umbra:squint_angle_exploitation_degrees": 42.68533757741727,
+    "umbra:task_id": "ffdf0a2c-efcf-4cf8-ac3f-80dfc947dd14",
+    "subfolder": "Texas A&M Farm Plot",
+    "umbra:stac_id": "267bb0a2-f44f-4534-9d01-71bebef9507c",
+    "__index_level_0__": 242
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/ffdf0a2c-efcf-4cf8-ac3f-80dfc947dd14/2024-11-03-04-54-56_UMBRA-06/2024-11-03-04-54-56_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/ffdf0a2c-efcf-4cf8-ac3f-80dfc947dd14/2024-11-03-04-54-56_UMBRA-06/2024-11-03-04-54-56_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Texas A&M Farm Plot"
+}
