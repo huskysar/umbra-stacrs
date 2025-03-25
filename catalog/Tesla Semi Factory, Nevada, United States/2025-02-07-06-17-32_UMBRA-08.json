@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/de661cf9-16c4-40bd-bfa2-1dad28ac2d36/2025-02-07-06-17-32_UMBRA-08/2025-02-07-06-17-32_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/de661cf9-16c4-40bd-bfa2-1dad28ac2d36/2025-02-07-06-17-32_UMBRA-08/2025-02-07-06-17-32_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/de661cf9-16c4-40bd-bfa2-1dad28ac2d36/2025-02-07-06-17-32_UMBRA-08/2025-02-07-06-17-32_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

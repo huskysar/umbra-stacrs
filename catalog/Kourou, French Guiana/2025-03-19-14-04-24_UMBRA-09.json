@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/0fd46bc2-39c4-4018-a0e6-6b37d2b167a1/2025-03-19-14-04-24_UMBRA-09/2025-03-19-14-04-24_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/0fd46bc2-39c4-4018-a0e6-6b37d2b167a1/2025-03-19-14-04-24_UMBRA-09/2025-03-19-14-04-24_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/0fd46bc2-39c4-4018-a0e6-6b37d2b167a1/2025-03-19-14-04-24_UMBRA-09/2025-03-19-14-04-24_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

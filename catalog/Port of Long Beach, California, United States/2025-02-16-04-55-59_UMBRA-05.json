@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/89f2e5a8-b81f-4411-a263-112adcca02ff/2025-02-16-04-55-59_UMBRA-05/2025-02-16-04-55-59_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/89f2e5a8-b81f-4411-a263-112adcca02ff/2025-02-16-04-55-59_UMBRA-05/2025-02-16-04-55-59_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/89f2e5a8-b81f-4411-a263-112adcca02ff/2025-02-16-04-55-59_UMBRA-05/2025-02-16-04-55-59_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

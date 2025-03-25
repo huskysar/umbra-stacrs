@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/996573fc-2011-4a5a-96fe-9eaa95764acb/2025-02-07-10-48-24_UMBRA-09/2025-02-07-10-48-24_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/996573fc-2011-4a5a-96fe-9eaa95764acb/2025-02-07-10-48-24_UMBRA-09/2025-02-07-10-48-24_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/996573fc-2011-4a5a-96fe-9eaa95764acb/2025-02-07-10-48-24_UMBRA-09/2025-02-07-10-48-24_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

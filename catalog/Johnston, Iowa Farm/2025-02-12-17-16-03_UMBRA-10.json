@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/7bbf9114-52c8-4353-8556-c7e8c1fb3aa0/2025-02-12-17-16-03_UMBRA-10/2025-02-12-17-16-03_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/7bbf9114-52c8-4353-8556-c7e8c1fb3aa0/2025-02-12-17-16-03_UMBRA-10/2025-02-12-17-16-03_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/7bbf9114-52c8-4353-8556-c7e8c1fb3aa0/2025-02-12-17-16-03_UMBRA-10/2025-02-12-17-16-03_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

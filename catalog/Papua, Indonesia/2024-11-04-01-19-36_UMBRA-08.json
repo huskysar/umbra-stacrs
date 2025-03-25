@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2f66a77d-b6fc-4e0b-b5d5-f1dd59a27527/2024-11-04-01-19-36_UMBRA-08/2024-11-04-01-19-36_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2f66a77d-b6fc-4e0b-b5d5-f1dd59a27527/2024-11-04-01-19-36_UMBRA-08/2024-11-04-01-19-36_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2f66a77d-b6fc-4e0b-b5d5-f1dd59a27527/2024-11-04-01-19-36_UMBRA-08/2024-11-04-01-19-36_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

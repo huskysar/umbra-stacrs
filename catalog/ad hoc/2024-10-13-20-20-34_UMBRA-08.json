@@ -95,15 +95,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +103,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Istanbul_Turkey/49be6534-232d-4e42-b0e5-76fbb31285f8/2024-10-13-20-20-34_UMBRA-08/2024-10-13-20-20-34_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

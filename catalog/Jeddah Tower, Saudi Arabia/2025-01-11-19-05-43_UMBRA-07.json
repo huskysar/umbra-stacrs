@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/97ae9a51-30c8-4f1a-adf4-3104f23be9ef/2025-01-11-19-05-43_UMBRA-07/2025-01-11-19-05-43_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/97ae9a51-30c8-4f1a-adf4-3104f23be9ef/2025-01-11-19-05-43_UMBRA-07/2025-01-11-19-05-43_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/97ae9a51-30c8-4f1a-adf4-3104f23be9ef/2025-01-11-19-05-43_UMBRA-07/2025-01-11-19-05-43_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

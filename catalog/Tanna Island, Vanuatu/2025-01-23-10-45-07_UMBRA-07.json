@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/f6e32088-5be7-49d0-9c1e-a57421c8fcbe/2025-01-23-10-45-07_UMBRA-07/2025-01-23-10-45-07_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/f6e32088-5be7-49d0-9c1e-a57421c8fcbe/2025-01-23-10-45-07_UMBRA-07/2025-01-23-10-45-07_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/f6e32088-5be7-49d0-9c1e-a57421c8fcbe/2025-01-23-10-45-07_UMBRA-07/2025-01-23-10-45-07_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

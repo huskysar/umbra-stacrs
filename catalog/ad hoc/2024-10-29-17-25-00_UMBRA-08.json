@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Houston_TX/fec81d5f-7ead-412a-bfe2-5f41efe5359d/2024-10-29-17-25-00_UMBRA-08/2024-10-29-17-25-00_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Houston_TX/fec81d5f-7ead-412a-bfe2-5f41efe5359d/2024-10-29-17-25-00_UMBRA-08/2024-10-29-17-25-00_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Houston_TX/fec81d5f-7ead-412a-bfe2-5f41efe5359d/2024-10-29-17-25-00_UMBRA-08/2024-10-29-17-25-00_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

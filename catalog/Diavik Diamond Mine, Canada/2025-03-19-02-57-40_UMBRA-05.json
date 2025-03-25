@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/82608376-ca7a-44d2-87fb-9b7da16b9038/2025-03-19-02-57-40_UMBRA-05/2025-03-19-02-57-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/82608376-ca7a-44d2-87fb-9b7da16b9038/2025-03-19-02-57-40_UMBRA-05/2025-03-19-02-57-40_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/82608376-ca7a-44d2-87fb-9b7da16b9038/2025-03-19-02-57-40_UMBRA-05/2025-03-19-02-57-40_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

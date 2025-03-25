@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/a61dccb0-e981-4af3-8d72-cd5a5c64126f/2025-01-10-15-49-51_UMBRA-08/2025-01-10-15-49-51_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/a61dccb0-e981-4af3-8d72-cd5a5c64126f/2025-01-10-15-49-51_UMBRA-08/2025-01-10-15-49-51_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/a61dccb0-e981-4af3-8d72-cd5a5c64126f/2025-01-10-15-49-51_UMBRA-08/2025-01-10-15-49-51_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

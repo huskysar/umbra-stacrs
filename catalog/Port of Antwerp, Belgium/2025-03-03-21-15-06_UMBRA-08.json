@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/ddbf7ea7-8ebf-47aa-a4c1-2c59ec7cc5a0/2025-03-03-21-15-06_UMBRA-08/2025-03-03-21-15-06_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/ddbf7ea7-8ebf-47aa-a4c1-2c59ec7cc5a0/2025-03-03-21-15-06_UMBRA-08/2025-03-03-21-15-06_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/ddbf7ea7-8ebf-47aa-a4c1-2c59ec7cc5a0/2025-03-03-21-15-06_UMBRA-08/2025-03-03-21-15-06_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

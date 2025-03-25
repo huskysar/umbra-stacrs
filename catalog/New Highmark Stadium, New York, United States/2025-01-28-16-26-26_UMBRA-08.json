@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/ab6a9024-c713-451f-9fdd-eb9ceab2da63/2025-01-28-16-26-26_UMBRA-08/2025-01-28-16-26-26_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/ab6a9024-c713-451f-9fdd-eb9ceab2da63/2025-01-28-16-26-26_UMBRA-08/2025-01-28-16-26-26_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/ab6a9024-c713-451f-9fdd-eb9ceab2da63/2025-01-28-16-26-26_UMBRA-08/2025-01-28-16-26-26_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

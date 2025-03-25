@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/afea9eaa-117f-456d-91aa-da1e56a16d4f/2024-11-27-08-20-40_UMBRA-08/2024-11-27-08-20-40_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/afea9eaa-117f-456d-91aa-da1e56a16d4f/2024-11-27-08-20-40_UMBRA-08/2024-11-27-08-20-40_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/afea9eaa-117f-456d-91aa-da1e56a16d4f/2024-11-27-08-20-40_UMBRA-08/2024-11-27-08-20-40_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -95,15 +95,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +103,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/ComputerHistoryMuseum_Mountain_View_California/230287bd-5790-4a08-8596-1a9b4de7e87a/2024-09-13-18-35-17_UMBRA-07/2024-09-13-18-35-17_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

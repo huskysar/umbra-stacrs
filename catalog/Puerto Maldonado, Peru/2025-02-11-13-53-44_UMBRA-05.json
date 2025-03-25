@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/b0d9e0ea-2049-4e8c-8bed-8db95d493b96/2025-02-11-13-53-44_UMBRA-05/2025-02-11-13-53-44_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/b0d9e0ea-2049-4e8c-8bed-8db95d493b96/2025-02-11-13-53-44_UMBRA-05/2025-02-11-13-53-44_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/b0d9e0ea-2049-4e8c-8bed-8db95d493b96/2025-02-11-13-53-44_UMBRA-05/2025-02-11-13-53-44_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/ed451905-5106-48bc-b55a-e9a6a5880c3e/2025-03-18-21-11-19_UMBRA-09/2025-03-18-21-11-19_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/ed451905-5106-48bc-b55a-e9a6a5880c3e/2025-03-18-21-11-19_UMBRA-09/2025-03-18-21-11-19_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/ed451905-5106-48bc-b55a-e9a6a5880c3e/2025-03-18-21-11-19_UMBRA-09/2025-03-18-21-11-19_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },
