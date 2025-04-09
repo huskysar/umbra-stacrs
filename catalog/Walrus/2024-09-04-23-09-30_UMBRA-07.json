@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://umbra-space.github.io/umbra-stac-extension/json-schema/schema.json"
+  ],
+  "id": "2024-09-04-23-09-30_UMBRA-07",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -163.14141546359093,
+          69.77009431414086
+        ],
+        [
+          -163.06480595913388,
+          69.73397041973388
+        ],
+        [
+          -162.96042148517262,
+          69.76045158785361
+        ],
+        [
+          -163.03694842049094,
+          69.79662069648116
+        ],
+        [
+          -163.14141546359093,
+          69.77009431414086
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -163.14141546359093,
+    69.73397041973388,
+    -162.96042148517262,
+    69.79662069648116
+  ],
+  "properties": {
+    "datetime": "2024-09-04T23:09:48.244000Z",
+    "start_datetime": "2024-09-04T23:09:31Z",
+    "end_datetime": "2024-09-04T23:10:05.488Z",
+    "title": "2776454-5-20240904000000.000",
+    "created": "2024-09-05T10:20:53.806Z",
+    "updated": "2024-12-19T19:38:45.710Z",
+    "view:incidence_angle": 31.836018614313424,
+    "view:azimuth": 323.74993859487495,
+    "constellation": "umbra",
+    "platform": "Umbra-07",
+    "processing:software": {
+      "Umbra SAR Processor": "3.48.11"
+    },
+    "sar:center_frequency": 9.599986454006284,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 8.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5,
+    "sar:resolution_range": 0.5,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.03846697632673578,
+    "umbra:best_resolution_range_meters": 0.31182944599861984,
+    "umbra:collect_id": "48468a57-f4b6-43d4-b96e-7686eee6467e",
+    "umbra:grazing_angle_degrees": 58.163981385686576,
+    "umbra:organization_id": "org_aJbZrCUpkitO6sN7",
+    "umbra:slant_range_meters": 626707.5581856332,
+    "umbra:squint_angle_degrees_off_broadside": 46.33624267578125,
+    "umbra:squint_angle_engineering_degrees": -43.66375732421875,
+    "umbra:squint_angle_exploitation_degrees": 46.33624267578125,
+    "umbra:task_id": "888e2a84-104e-4202-9c2f-9893fa9313b9",
+    "umbra:squint_angle_degrees": 133.66375732421875,
+    "umbra:target_azimuth_angle_degrees": 346.7040710449219,
+    "subfolder": "Walrus",
+    "umbra:stac_id": "e9b14ce2-a6ba-40cb-bc16-db140877d54c",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Walrus/888e2a84-104e-4202-9c2f-9893fa9313b9/2024-09-04-23-09-30_UMBRA-07/2024-09-04-23-09-30_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Walrus/888e2a84-104e-4202-9c2f-9893fa9313b9/2024-09-04-23-09-30_UMBRA-07/2024-09-04-23-09-30_UMBRA-07_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Walrus"
+}

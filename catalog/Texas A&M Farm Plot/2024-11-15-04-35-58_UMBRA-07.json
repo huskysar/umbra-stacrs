@@ -76,7 +76,7 @@
     "umbra:task_id": "ed26640e-e921-48ea-ad56-0e7416b02b34",
     "subfolder": "Texas A&M Farm Plot",
     "umbra:stac_id": "ade8ae1c-c355-458f-b770-f1b5649c862b",
-    "__index_level_0__": 252
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/ed26640e-e921-48ea-ad56-0e7416b02b34/2024-11-15-04-35-58_UMBRA-07/2024-11-15-04-35-58_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/ed26640e-e921-48ea-ad56-0e7416b02b34/2024-11-15-04-35-58_UMBRA-07/2024-11-15-04-35-58_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/ed26640e-e921-48ea-ad56-0e7416b02b34/2024-11-15-04-35-58_UMBRA-07/2024-11-15-04-35-58_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

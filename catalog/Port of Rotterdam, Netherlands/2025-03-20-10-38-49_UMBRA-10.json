@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-20-10-38-49_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.32241045685359,
+          51.907730826163125
+        ],
+        [
+          4.249760497210556,
+          51.90701997667985
+        ],
+        [
+          4.25094482447531,
+          51.86208491767261
+        ],
+        [
+          4.323522397926226,
+          51.86279506416416
+        ],
+        [
+          4.32241045685359,
+          51.907730826163125
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.249760497210556,
+    51.86208491767261,
+    4.323522397926226,
+    51.907730826163125
+  ],
+  "properties": {
+    "datetime": "2025-03-20T10:38:54.800000Z",
+    "start_datetime": "2025-03-20T10:38:50Z",
+    "end_datetime": "2025-03-20T10:38:59.600Z",
+    "created": "2025-03-22T17:53:06.632Z",
+    "updated": "2025-03-22T17:53:06.632Z",
+    "view:incidence_angle": 41.1416029914574,
+    "view:azimuth": 89.09414254234422,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.9.5"
+    },
+    "processing:version": "4.9.5",
+    "sar:center_frequency": 9.762028340297686,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000016040093,
+    "sar:resolution_range": 0.34999999969404877,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13429854738902244,
+    "umbra:best_resolution_range_meters": 0.3034156462779912,
+    "umbra:collect_id": "8ba33cc2-1945-4822-9b36-d76425915ea1",
+    "umbra:grazing_angle_degrees": 48.8583970085426,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 731596.0529800946,
+    "umbra:squint_angle_degrees_off_broadside": 10.889790619794836,
+    "umbra:squint_angle_engineering_degrees": 79.11020938020516,
+    "umbra:squint_angle_exploitation_degrees": -10.889790619794836,
+    "umbra:task_id": "8b7472d7-4b7d-48a1-b3f4-d4bec289406d",
+    "subfolder": "Port of Rotterdam, Netherlands",
+    "umbra:stac_id": "84e664cd-8d21-4bcc-8bc0-d46cb49ebaea",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/8b7472d7-4b7d-48a1-b3f4-d4bec289406d/2025-03-20-10-38-49_UMBRA-10/2025-03-20-10-38-49_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/8b7472d7-4b7d-48a1-b3f4-d4bec289406d/2025-03-20-10-38-49_UMBRA-10/2025-03-20-10-38-49_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Rotterdam, Netherlands"
+}

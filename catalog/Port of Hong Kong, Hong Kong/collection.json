@@ -31,6 +31,16 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-29-03-11-44_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-26-14-54-10_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-04-15-09-25_UMBRA-09.json",
       "type": "application/geo+json"
     },
@@ -90,7 +100,7 @@
       "interval": [
         [
           "2025-01-10T14:33:52Z",
-          "2025-03-07T15:08:11.600000Z"
+          "2025-03-29T03:11:51.999000Z"
         ]
       ]
     }
@@ -135,6 +145,7 @@
     ],
     "processing:version": [
       "4.7.0",
+      "4.10.0",
       "4.9.0",
       "4.8.0",
       "4.6.2",
@@ -160,13 +171,16 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2025-01-14T19:14:30.793Z",
-      "maximum": "2025-03-08T03:37:12.169Z"
+      "maximum": "2025-03-30T18:56:45.468Z"
     },
     "updated": {
       "minimum": "2025-01-14T19:14:30.793Z",
-      "maximum": "2025-03-08T03:37:12.169Z"
+      "maximum": "2025-03-30T18:56:45.468Z"
     },
     "view:incidence_angle": {
       "minimum": 27.961874762824515,
@@ -177,7 +191,7 @@
       "maximum": 296.15369502487005
     },
     "sar:center_frequency": {
-      "minimum": 9.754438327805682,
+      "minimum": 9.738338150765117,
       "maximum": 9.767359774820235
     },
     "sar:looks_azimuth": {
@@ -189,12 +203,12 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.17499999991982032,
+      "minimum": 0.1749999994155006,
       "maximum": 0.17500000032880922
     },
     "sar:resolution_range": {
       "minimum": 0.3499999993545869,
-      "maximum": 0.35000000015424815
+      "maximum": 0.3500000011434764
     }
   }
 }

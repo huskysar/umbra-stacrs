@@ -80,7 +80,7 @@
     "umbra:task_id": "87c0a1a2-1668-4b33-a30d-af073103e679",
     "subfolder": "Intel Ohio One",
     "umbra:stac_id": "4de4dcf8-b909-4fb3-a772-4d06105bc2b2",
-    "__index_level_0__": 337
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

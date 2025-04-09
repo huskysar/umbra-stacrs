@@ -21,12 +21,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-29-02-55-21_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-18-03-38-29_UMBRA-10.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./2024-11-02-04-23-40_UMBRA-06.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-24-03-47-04_UMBRA-10.json",
       "type": "application/geo+json"
     },
     {
@@ -52,6 +62,11 @@
     {
       "rel": "item",
       "href": "./2025-02-05-17-14-30_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-22-04-07-47_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -85,7 +100,7 @@
       "interval": [
         [
           "2024-10-31T03:38:17Z",
-          "2025-03-07T17:15:40.200000Z"
+          "2025-03-29T02:55:45.800000Z"
         ]
       ]
     }
@@ -125,15 +140,17 @@
     ],
     "platform": [
       "Umbra-10",
+      "Umbra-05",
       "Umbra-06",
       "Umbra-09",
       "Umbra-08",
-      "Umbra-05",
       "Umbra-07"
     ],
     "processing:version": [
       "4.9.2",
+      "4.10.0",
       "4.6.2",
+      "4.9.5",
       "4.7.0",
       "4.8.0"
     ],
@@ -158,13 +175,16 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2024-11-01T01:23:14.185Z",
-      "maximum": "2025-03-08T01:50:05.493Z"
+      "maximum": "2025-03-29T22:24:08.778Z"
     },
     "updated": {
       "minimum": "2024-11-01T01:23:14.185Z",
-      "maximum": "2025-03-08T01:50:05.493Z"
+      "maximum": "2025-03-29T22:24:08.778Z"
     },
     "view:incidence_angle": {
       "minimum": 26.191202017999608,
@@ -191,7 +211,7 @@
       "maximum": 0.2500000004360759
     },
     "sar:resolution_range": {
-      "minimum": 0.2499999999899478,
+      "minimum": 0.2499999999378429,
       "maximum": 0.9999999984652124
     }
   }

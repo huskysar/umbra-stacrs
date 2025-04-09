@@ -80,7 +80,7 @@
     "umbra:task_id": "b3ecb80e-df3c-455c-b955-c59e1ce0230b",
     "subfolder": "Port of Rotterdam, Netherlands",
     "umbra:stac_id": "27a11f88-9d30-42c8-82dd-ca1d552a3b00",
-    "__index_level_0__": 183
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/b3ecb80e-df3c-455c-b955-c59e1ce0230b/2025-02-11-10-48-39_UMBRA-10/2025-02-11-10-48-39_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/b3ecb80e-df3c-455c-b955-c59e1ce0230b/2025-02-11-10-48-39_UMBRA-10/2025-02-11-10-48-39_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/b3ecb80e-df3c-455c-b955-c59e1ce0230b/2025-02-11-10-48-39_UMBRA-10/2025-02-11-10-48-39_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

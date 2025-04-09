@@ -76,7 +76,7 @@
     "umbra:task_id": "7ce8d09a-e0fd-438f-8f6b-da1738d0970c",
     "subfolder": "David Fuentes Airbase, Chile",
     "umbra:stac_id": "2148a19f-d47b-497d-af7c-5da8f57e9f24",
-    "__index_level_0__": 121
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/7ce8d09a-e0fd-438f-8f6b-da1738d0970c/2024-10-27-03-10-08_UMBRA-07/2024-10-27-03-10-08_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/7ce8d09a-e0fd-438f-8f6b-da1738d0970c/2024-10-27-03-10-08_UMBRA-07/2024-10-27-03-10-08_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/7ce8d09a-e0fd-438f-8f6b-da1738d0970c/2024-10-27-03-10-08_UMBRA-07/2024-10-27-03-10-08_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -81,7 +81,7 @@
     "umbra:target_azimuth_angle_degrees": 107.95120239257812,
     "subfolder": "ad hoc",
     "umbra:stac_id": "7e94589e-f27e-4758-ba08-492b57715339",
-    "__index_level_0__": 585
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Allegiant_Stadium_LV/18853961-b671-4e4f-9c4d-6a852dd41422/2024-02-08-04-33-06_UMBRA-05/2024-02-08-04-33-06_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

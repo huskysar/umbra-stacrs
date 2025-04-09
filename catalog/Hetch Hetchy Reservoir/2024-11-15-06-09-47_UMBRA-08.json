@@ -76,7 +76,7 @@
     "umbra:task_id": "1b5ca778-9506-41b5-8a0f-176e4b6fd0ec",
     "subfolder": "Hetch Hetchy Reservoir",
     "umbra:stac_id": "623d69a4-8253-4e97-9776-727d36ba5c21",
-    "__index_level_0__": 148
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/1b5ca778-9506-41b5-8a0f-176e4b6fd0ec/2024-11-15-06-09-47_UMBRA-08/2024-11-15-06-09-47_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/1b5ca778-9506-41b5-8a0f-176e4b6fd0ec/2024-11-15-06-09-47_UMBRA-08/2024-11-15-06-09-47_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/1b5ca778-9506-41b5-8a0f-176e4b6fd0ec/2024-11-15-06-09-47_UMBRA-08/2024-11-15-06-09-47_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

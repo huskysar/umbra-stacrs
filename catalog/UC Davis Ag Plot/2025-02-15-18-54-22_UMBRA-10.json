@@ -80,7 +80,7 @@
     "umbra:task_id": "3a1919d8-6be5-473d-afd4-7dd2ddb3698d",
     "subfolder": "UC Davis Ag Plot",
     "umbra:stac_id": "087d6ec9-0b10-4cf0-9885-ca5e56dcd892",
-    "__index_level_0__": 276
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC+Davis+Ag+Plot/3a1919d8-6be5-473d-afd4-7dd2ddb3698d/2025-02-15-18-54-22_UMBRA-10/2025-02-15-18-54-22_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC+Davis+Ag+Plot/3a1919d8-6be5-473d-afd4-7dd2ddb3698d/2025-02-15-18-54-22_UMBRA-10/2025-02-15-18-54-22_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC+Davis+Ag+Plot/3a1919d8-6be5-473d-afd4-7dd2ddb3698d/2025-02-15-18-54-22_UMBRA-10/2025-02-15-18-54-22_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

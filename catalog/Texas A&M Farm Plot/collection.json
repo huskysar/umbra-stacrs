@@ -21,6 +21,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-29-17-17-40_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2024-11-03-04-54-56_UMBRA-06.json",
       "type": "application/geo+json"
     },
@@ -71,7 +76,17 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-02-05-05-29_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2024-11-15-04-35-58_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-24-04-48-20_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -105,7 +120,7 @@
       "interval": [
         [
           "2024-11-03T04:54:57Z",
-          "2025-03-19T17:09:39.400000Z"
+          "2025-04-02T05:05:34.799000Z"
         ]
       ]
     }
@@ -167,24 +182,29 @@
     "sar:product_type": [
       "GEC"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "processing:version": [
+      "4.10.0",
       "4.7.0",
       "4.9.2",
       "4.9.1",
       "4.9.5",
+      "4.12.0",
       "4.8.0"
     ],
     "sat:orbit_state": [
-      "ascending",
-      "descending"
+      "descending",
+      "ascending"
     ],
     "created": {
       "minimum": "2024-11-03T13:58:34.778Z",
-      "maximum": "2025-03-20T22:21:15.595Z"
+      "maximum": "2025-04-05T17:11:54.744Z"
     },
     "updated": {
       "minimum": "2024-11-03T13:58:34.778Z",
-      "maximum": "2025-03-20T22:21:15.595Z"
+      "maximum": "2025-04-05T17:11:54.744Z"
     },
     "view:incidence_angle": {
       "minimum": 22.350142150919396,
@@ -195,7 +215,7 @@
       "maximum": 323.4760908391169
     },
     "sar:center_frequency": {
-      "minimum": 9.69849848528542,
+      "minimum": 9.695478527940642,
       "maximum": 9707139717.974705
     },
     "sar:looks_azimuth": {

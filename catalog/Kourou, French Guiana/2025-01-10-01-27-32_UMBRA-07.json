@@ -80,7 +80,7 @@
     "umbra:task_id": "8d889a07-5e2e-4efc-8b69-3e55b9f369fe",
     "subfolder": "Kourou, French Guiana",
     "umbra:stac_id": "44ea1e4c-b9d6-4621-89e9-f6eb4156e67e",
-    "__index_level_0__": 503
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/8d889a07-5e2e-4efc-8b69-3e55b9f369fe/2025-01-10-01-27-32_UMBRA-07/2025-01-10-01-27-32_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/8d889a07-5e2e-4efc-8b69-3e55b9f369fe/2025-01-10-01-27-32_UMBRA-07/2025-01-10-01-27-32_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/8d889a07-5e2e-4efc-8b69-3e55b9f369fe/2025-01-10-01-27-32_UMBRA-07/2025-01-10-01-27-32_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

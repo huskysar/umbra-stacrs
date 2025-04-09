@@ -80,7 +80,7 @@
     "umbra:task_id": "08fd19fb-1ebb-4e12-b878-b076dff51443",
     "subfolder": "Diavik Diamond Mine, Canada",
     "umbra:stac_id": "d3e4b4cd-465c-412b-9f11-526cc79329c8",
-    "__index_level_0__": 573
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/08fd19fb-1ebb-4e12-b878-b076dff51443/2025-02-15-03-53-36_UMBRA-05/2025-02-15-03-53-36_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/08fd19fb-1ebb-4e12-b878-b076dff51443/2025-02-15-03-53-36_UMBRA-05/2025-02-15-03-53-36_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/08fd19fb-1ebb-4e12-b878-b076dff51443/2025-02-15-03-53-36_UMBRA-05/2025-02-15-03-53-36_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

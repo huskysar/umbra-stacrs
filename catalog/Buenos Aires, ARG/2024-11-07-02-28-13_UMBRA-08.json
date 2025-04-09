@@ -76,7 +76,7 @@
     "umbra:task_id": "a99f205e-04bf-4191-8232-60ca1eaa3c8c",
     "subfolder": "Buenos Aires, ARG",
     "umbra:stac_id": "f6ed239c-a35b-43f7-a6b6-79d1074b174a",
-    "__index_level_0__": 520
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/a99f205e-04bf-4191-8232-60ca1eaa3c8c/2024-11-07-02-28-13_UMBRA-08/2024-11-07-02-28-13_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/a99f205e-04bf-4191-8232-60ca1eaa3c8c/2024-11-07-02-28-13_UMBRA-08/2024-11-07-02-28-13_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/a99f205e-04bf-4191-8232-60ca1eaa3c8c/2024-11-07-02-28-13_UMBRA-08/2024-11-07-02-28-13_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

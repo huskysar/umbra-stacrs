@@ -80,7 +80,7 @@
     "umbra:task_id": "d572e8c3-277c-4554-b9f1-c6629e406700",
     "subfolder": "New Highmark Stadium, New York, United States",
     "umbra:stac_id": "9566d255-5178-4647-8696-5047d8166e73",
-    "__index_level_0__": 479
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

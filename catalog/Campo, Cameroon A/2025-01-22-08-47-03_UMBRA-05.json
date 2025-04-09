@@ -80,7 +80,7 @@
     "umbra:task_id": "08b0cb61-8996-4740-8a96-4bd87d6f04e3",
     "subfolder": "Campo, Cameroon A",
     "umbra:stac_id": "1472327b-b799-46d7-9eae-ce3c8df5c8b3",
-    "__index_level_0__": 410
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/08b0cb61-8996-4740-8a96-4bd87d6f04e3/2025-01-22-08-47-03_UMBRA-05/2025-01-22-08-47-03_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/08b0cb61-8996-4740-8a96-4bd87d6f04e3/2025-01-22-08-47-03_UMBRA-05/2025-01-22-08-47-03_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/08b0cb61-8996-4740-8a96-4bd87d6f04e3/2025-01-22-08-47-03_UMBRA-05/2025-01-22-08-47-03_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

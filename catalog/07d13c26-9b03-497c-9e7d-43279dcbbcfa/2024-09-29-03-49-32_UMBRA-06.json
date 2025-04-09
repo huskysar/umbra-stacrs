@@ -75,7 +75,7 @@
     "umbra:task_id": "07d13c26-9b03-497c-9e7d-43279dcbbcfa",
     "subfolder": "07d13c26-9b03-497c-9e7d-43279dcbbcfa",
     "umbra:stac_id": "4ffb27be-c665-4333-819b-5b73c617c350",
-    "__index_level_0__": 179
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -95,6 +95,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/07d13c26-9b03-497c-9e7d-43279dcbbcfa/2024-09-29-03-49-32_UMBRA-06/2024-09-29-03-49-32_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/07d13c26-9b03-497c-9e7d-43279dcbbcfa/2024-09-29-03-49-32_UMBRA-06/2024-09-29-03-49-32_UMBRA-06_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +112,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/07d13c26-9b03-497c-9e7d-43279dcbbcfa/2024-09-29-03-49-32_UMBRA-06/2024-09-29-03-49-32_UMBRA-06_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

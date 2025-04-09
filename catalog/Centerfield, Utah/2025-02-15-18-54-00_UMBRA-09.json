@@ -80,7 +80,7 @@
     "umbra:task_id": "7794e8a0-8863-405e-967c-33862c081e86",
     "subfolder": "Centerfield, Utah",
     "umbra:stac_id": "638ca662-f4a9-417d-8377-7fadf37deb78",
-    "__index_level_0__": 94
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/7794e8a0-8863-405e-967c-33862c081e86/2025-02-15-18-54-00_UMBRA-09/2025-02-15-18-54-00_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/7794e8a0-8863-405e-967c-33862c081e86/2025-02-15-18-54-00_UMBRA-09/2025-02-15-18-54-00_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/7794e8a0-8863-405e-967c-33862c081e86/2025-02-15-18-54-00_UMBRA-09/2025-02-15-18-54-00_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

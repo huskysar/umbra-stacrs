@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-28-04-58-41_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.08495213643182,
+          41.68602963651113
+        ],
+        [
+          -118.02490853530604,
+          41.68576453424049
+        ],
+        [
+          -118.02453368773288,
+          41.730773440262375
+        ],
+        [
+          -118.08461918192644,
+          41.73103872542048
+        ],
+        [
+          -118.08495213643182,
+          41.68602963651113
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.08495213643182,
+    41.68576453424049,
+    -118.02453368773288,
+    41.73103872542048
+  ],
+  "properties": {
+    "datetime": "2025-03-28T04:58:43.299000Z",
+    "start_datetime": "2025-03-28T04:58:42Z",
+    "end_datetime": "2025-03-28T04:58:44.599Z",
+    "created": "2025-03-28T21:09:57.904Z",
+    "updated": "2025-03-28T21:09:57.905Z",
+    "view:incidence_angle": 40.933343689350615,
+    "view:azimuth": 270.3375824053206,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.10.0"
+    },
+    "processing:version": "4.10.0",
+    "sar:center_frequency": 9.559913388016431,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.499999999404702,
+    "sar:resolution_range": 0.5000000005709565,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.4102202470235032,
+    "umbra:best_resolution_range_meters": 0.41620145602420866,
+    "umbra:collect_id": "dbc95647-f7a3-4462-a43e-9045b0ee8abe",
+    "umbra:grazing_angle_degrees": 49.066656310649385,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 616358.3220280153,
+    "umbra:squint_angle_degrees_off_broadside": 10.179669549227697,
+    "umbra:squint_angle_engineering_degrees": 100.1796695492277,
+    "umbra:squint_angle_exploitation_degrees": 10.179669549227697,
+    "umbra:task_id": "b0ab2e77-aec8-4732-bb79-0e93de8b2867",
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "73e46809-377c-4daa-ac21-43ac293a6fb2",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05/2025-03-28-04-58-41_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05/2025-03-28-04-58-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

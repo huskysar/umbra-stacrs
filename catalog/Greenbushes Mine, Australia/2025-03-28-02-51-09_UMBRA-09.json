@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-28-02-51-09_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          116.03234596549696,
+          -33.876199357564914
+        ],
+        [
+          116.08007461879,
+          -33.897355465454744
+        ],
+        [
+          116.10542204206968,
+          -33.85754236641865
+        ],
+        [
+          116.0577092848498,
+          -33.83639593876953
+        ],
+        [
+          116.03234596549696,
+          -33.876199357564914
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    116.03234596549696,
+    -33.897355465454744,
+    116.10542204206968,
+    -33.83639593876953
+  ],
+  "properties": {
+    "datetime": "2025-03-28T02:51:11.400000Z",
+    "start_datetime": "2025-03-28T02:51:10Z",
+    "end_datetime": "2025-03-28T02:51:12.800Z",
+    "created": "2025-03-28T14:03:17.830Z",
+    "updated": "2025-03-28T14:03:17.830Z",
+    "view:incidence_angle": 32.81330370838386,
+    "view:azimuth": 297.9829876299228,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.10.0"
+    },
+    "processing:version": "4.10.0",
+    "sar:center_frequency": 9.548314625249388,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000011406517,
+    "sar:resolution_range": 0.4999999988898553,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.400898867749049,
+    "umbra:best_resolution_range_meters": 0.4115229356105464,
+    "umbra:collect_id": "6440717a-4d60-4b71-824c-638ec3bc7861",
+    "umbra:grazing_angle_degrees": 57.18669629161614,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 667605.2137401622,
+    "umbra:squint_angle_degrees_off_broadside": 17.12393208133635,
+    "umbra:squint_angle_engineering_degrees": -72.87606791866365,
+    "umbra:squint_angle_exploitation_degrees": 17.12393208133635,
+    "umbra:task_id": "b69c6787-a846-4b2f-8440-edd4eba3541b",
+    "subfolder": "Greenbushes Mine, Australia",
+    "umbra:stac_id": "9d95138d-9739-463b-8bf2-953b295a094a",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Greenbushes Mine, Australia"
+}

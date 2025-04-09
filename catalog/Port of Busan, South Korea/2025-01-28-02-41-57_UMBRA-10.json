@@ -80,7 +80,7 @@
     "umbra:task_id": "36a18c73-33de-47b3-bdf7-eb404b02af14",
     "subfolder": "Port of Busan, South Korea",
     "umbra:stac_id": "2ee2c50e-dbf3-4394-82ed-1042b2180575",
-    "__index_level_0__": 646
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/36a18c73-33de-47b3-bdf7-eb404b02af14/2025-01-28-02-41-57_UMBRA-10/2025-01-28-02-41-57_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/36a18c73-33de-47b3-bdf7-eb404b02af14/2025-01-28-02-41-57_UMBRA-10/2025-01-28-02-41-57_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/36a18c73-33de-47b3-bdf7-eb404b02af14/2025-01-28-02-41-57_UMBRA-10/2025-01-28-02-41-57_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

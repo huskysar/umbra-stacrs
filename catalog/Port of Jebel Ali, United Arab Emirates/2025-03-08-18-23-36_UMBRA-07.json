@@ -80,7 +80,7 @@
     "umbra:task_id": "cb87ab82-e235-41bf-86f6-d7201df1077d",
     "subfolder": "Port of Jebel Ali, United Arab Emirates",
     "umbra:stac_id": "e457ddc7-b4b9-427d-b17c-1905f257ad06",
-    "__index_level_0__": 361
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/cb87ab82-e235-41bf-86f6-d7201df1077d/2025-03-08-18-23-36_UMBRA-07/2025-03-08-18-23-36_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/cb87ab82-e235-41bf-86f6-d7201df1077d/2025-03-08-18-23-36_UMBRA-07/2025-03-08-18-23-36_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/cb87ab82-e235-41bf-86f6-d7201df1077d/2025-03-08-18-23-36_UMBRA-07/2025-03-08-18-23-36_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

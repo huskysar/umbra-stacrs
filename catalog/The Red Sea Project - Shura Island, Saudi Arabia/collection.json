@@ -16,12 +16,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-23-19-43-04_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-07-19-35-38_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./2024-12-01-08-18-27_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-21-07-09-15_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -65,7 +75,7 @@
       "interval": [
         [
           "2024-11-27T08:20:41Z",
-          "2025-03-07T19:35:42.600000Z"
+          "2025-03-23T19:43:11Z"
         ]
       ]
     }
@@ -104,10 +114,12 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-10",
       "Umbra-08",
       "Umbra-05"
     ],
     "processing:version": [
+      "4.9.5",
       "4.9.2",
       "4.7.0"
     ],
@@ -132,13 +144,16 @@
       "ascending",
       "descending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2024-11-30T08:56:16.975Z",
-      "maximum": "2025-03-08T01:48:04.960Z"
+      "maximum": "2025-03-24T07:46:23.756Z"
     },
     "updated": {
       "minimum": "2024-11-30T08:56:16.976Z",
-      "maximum": "2025-03-08T01:48:04.960Z"
+      "maximum": "2025-03-24T07:46:23.756Z"
     },
     "view:incidence_angle": {
       "minimum": 24.326420699516447,

@@ -80,7 +80,7 @@
     "umbra:task_id": "6e585e31-add2-499d-a818-79330b3c7182",
     "subfolder": "Tesla Semi Factory, Nevada, United States",
     "umbra:stac_id": "fe30a022-f920-4715-a9c5-3b71c410fa24",
-    "__index_level_0__": 261
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/6e585e31-add2-499d-a818-79330b3c7182/2024-12-22-05-38-26_UMBRA-08/2024-12-22-05-38-26_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/6e585e31-add2-499d-a818-79330b3c7182/2024-12-22-05-38-26_UMBRA-08/2024-12-22-05-38-26_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/6e585e31-add2-499d-a818-79330b3c7182/2024-12-22-05-38-26_UMBRA-08/2024-12-22-05-38-26_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

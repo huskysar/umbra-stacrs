@@ -80,7 +80,7 @@
     "umbra:task_id": "3bef30ff-c99f-47eb-945b-56d2848cbd6b",
     "subfolder": "Port of Savannah, Georgia, United States",
     "umbra:stac_id": "10a4a301-12cd-43d1-9be3-556952b312e7",
-    "__index_level_0__": 281
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-02-04-05-46-02_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.6740222817146,
+          45.34211716701615
+        ],
+        [
+          -121.73440746893206,
+          45.3566154116856
+        ],
+        [
+          -121.75493343295152,
+          45.31402918677992
+        ],
+        [
+          -121.6945882343325,
+          45.29954169227391
+        ],
+        [
+          -121.6740222817146,
+          45.34211716701615
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.75493343295152,
+    45.29954169227391,
+    -121.6740222817146,
+    45.3566154116856
+  ],
+  "properties": {
+    "datetime": "2025-02-04T05:46:06.500000Z",
+    "start_datetime": "2025-02-04T05:46:03Z",
+    "end_datetime": "2025-02-04T05:46:10Z",
+    "created": "2025-02-04T16:20:55.284Z",
+    "updated": "2025-02-04T16:20:55.284Z",
+    "view:incidence_angle": 38.43993762991736,
+    "view:azimuth": 108.7965814297133,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.7.0"
+    },
+    "processing:version": "4.7.0",
+    "sar:center_frequency": 9.57654381369813,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.2500000005339618,
+    "sar:resolution_range": 0.499999998986846,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.19314318122837223,
+    "umbra:best_resolution_range_meters": 0.4412125779991083,
+    "umbra:collect_id": "6f15cf25-b13d-4650-895b-a018b18cc38d",
+    "umbra:grazing_angle_degrees": 51.56006237008264,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 627289.6121244575,
+    "umbra:squint_angle_degrees_off_broadside": 34.56532862838041,
+    "umbra:squint_angle_engineering_degrees": -55.43467137161959,
+    "umbra:squint_angle_exploitation_degrees": 34.56532862838041,
+    "umbra:task_id": "706d803e-6541-4b80-b831-f21f30a18544",
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "4dc4a928-9ee8-4f9f-81eb-5e3a097d02a0",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Timberline_Lodge_Mt_Hood_Oregon/706d803e-6541-4b80-b831-f21f30a18544/2025-02-04-05-46-02_UMBRA-08/2025-02-04-05-46-02_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Timberline_Lodge_Mt_Hood_Oregon/706d803e-6541-4b80-b831-f21f30a18544/2025-02-04-05-46-02_UMBRA-08/2025-02-04-05-46-02_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

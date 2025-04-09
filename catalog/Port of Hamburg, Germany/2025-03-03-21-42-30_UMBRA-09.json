@@ -80,7 +80,7 @@
     "umbra:task_id": "efc871f6-2e3c-4c58-b345-98653cde92e0",
     "subfolder": "Port of Hamburg, Germany",
     "umbra:stac_id": "72cce210-d672-467f-8bb0-8442fcd09ead",
-    "__index_level_0__": 557
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/efc871f6-2e3c-4c58-b345-98653cde92e0/2025-03-03-21-42-30_UMBRA-09/2025-03-03-21-42-30_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/efc871f6-2e3c-4c58-b345-98653cde92e0/2025-03-03-21-42-30_UMBRA-09/2025-03-03-21-42-30_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/efc871f6-2e3c-4c58-b345-98653cde92e0/2025-03-03-21-42-30_UMBRA-09/2025-03-03-21-42-30_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

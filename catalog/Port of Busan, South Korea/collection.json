@@ -16,6 +16,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-28-00-43-31_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-09-13-34-57_UMBRA-09.json",
       "type": "application/geo+json"
     },
@@ -51,6 +56,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-23-13-22-37_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-05-01-59-59_UMBRA-08.json",
       "type": "application/geo+json"
     },
@@ -75,7 +85,7 @@
       "interval": [
         [
           "2025-01-23T13:28:55Z",
-          "2025-03-19T13:27:04.800000Z"
+          "2025-03-28T00:43:39.800000Z"
         ]
       ]
     }
@@ -114,16 +124,18 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-05",
       "Umbra-09",
       "Umbra-10",
-      "Umbra-05",
       "Umbra-08",
       "Umbra-07"
     ],
     "processing:version": [
+      "4.10.0",
       "4.9.2",
       "4.7.0",
       "4.8.0",
+      "4.9.5",
       "4.9.0",
       "4.9.4"
     ],
@@ -134,31 +146,34 @@
       "SPOTLIGHT"
     ],
     "sar:observation_direction": [
-      "left",
-      "right"
+      "right",
+      "left"
     ],
     "sar:polarizations": [
-      "HH",
-      "VV"
+      "VV",
+      "HH"
     ],
     "sar:product_type": [
       "GEC"
     ],
     "sat:orbit_state": [
-      "ascending",
-      "descending"
+      "descending",
+      "ascending"
+    ],
+    "proj:code": [
+      "EPSG:4326"
     ],
     "created": {
       "minimum": "2025-01-23T14:46:48.823Z",
-      "maximum": "2025-03-19T19:30:26.838Z"
+      "maximum": "2025-03-29T17:58:47.844Z"
     },
     "updated": {
       "minimum": "2025-01-23T14:46:48.823Z",
-      "maximum": "2025-03-19T19:30:26.838Z"
+      "maximum": "2025-03-29T17:58:47.844Z"
     },
     "view:incidence_angle": {
       "minimum": 23.98214297991447,
-      "maximum": 43.891336121481245
+      "maximum": 44.30085307119126
     },
     "view:azimuth": {
       "minimum": 74.1415284918343,

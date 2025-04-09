@@ -76,7 +76,7 @@
     "umbra:task_id": "7036ed7e-79c1-4b66-819b-a2497028b68b",
     "subfolder": "North Dakota State University Plot",
     "umbra:stac_id": "c3086085-5783-470f-ab45-9b06568ee038",
-    "__index_level_0__": 429
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

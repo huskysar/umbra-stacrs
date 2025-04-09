@@ -75,7 +75,7 @@
     "umbra:task_id": "45ab96ee-06c9-493c-ba83-ceee75e8c853",
     "subfolder": "ad hoc",
     "umbra:stac_id": "93342f4d-8fee-4d19-ba91-5679ca08ab00",
-    "__index_level_0__": 583
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -95,6 +95,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/CedarKey_Florida_USA/45ab96ee-06c9-493c-ba83-ceee75e8c853/2024-09-26-04-16-11_UMBRA-10/2024-09-26-04-16-11_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/CedarKey_Florida_USA/45ab96ee-06c9-493c-ba83-ceee75e8c853/2024-09-26-04-16-11_UMBRA-10/2024-09-26-04-16-11_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +112,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/CedarKey_Florida_USA/45ab96ee-06c9-493c-ba83-ceee75e8c853/2024-09-26-04-16-11_UMBRA-10/2024-09-26-04-16-11_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

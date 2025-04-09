@@ -80,7 +80,7 @@
     "umbra:task_id": "25f1dff9-4874-4c7d-bb6f-3a42cf442760",
     "subfolder": "Port of Antwerp, Belgium",
     "umbra:stac_id": "adf6667d-6cb1-497c-bae3-e1ae41e4f821",
-    "__index_level_0__": 18
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/25f1dff9-4874-4c7d-bb6f-3a42cf442760/2025-02-07-10-49-02_UMBRA-09/2025-02-07-10-49-02_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/25f1dff9-4874-4c7d-bb6f-3a42cf442760/2025-02-07-10-49-02_UMBRA-09/2025-02-07-10-49-02_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/25f1dff9-4874-4c7d-bb6f-3a42cf442760/2025-02-07-10-49-02_UMBRA-09/2025-02-07-10-49-02_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

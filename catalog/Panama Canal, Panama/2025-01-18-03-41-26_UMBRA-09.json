@@ -80,7 +80,7 @@
     "umbra:task_id": "234aee0f-59a6-4b57-94f2-e799357b5352",
     "subfolder": "Panama Canal, Panama",
     "umbra:stac_id": "de04a0f1-0296-40fc-9e3f-7377b5040301",
-    "__index_level_0__": 538
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/234aee0f-59a6-4b57-94f2-e799357b5352/2025-01-18-03-41-26_UMBRA-09/2025-01-18-03-41-26_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/234aee0f-59a6-4b57-94f2-e799357b5352/2025-01-18-03-41-26_UMBRA-09/2025-01-18-03-41-26_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/234aee0f-59a6-4b57-94f2-e799357b5352/2025-01-18-03-41-26_UMBRA-09/2025-01-18-03-41-26_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

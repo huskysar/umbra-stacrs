@@ -26,6 +26,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-28-04-58-41_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-23-17-42-20_UMBRA-05.json",
       "type": "application/geo+json"
     },
@@ -47,6 +52,16 @@
     {
       "rel": "item",
       "href": "./2025-01-19-18-41-13_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-25-04-48-56_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-04-02-05-39-10_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -89,10 +104,10 @@
     "spatial": {
       "bbox": [
         [
-          -118.09530756395522,
-          41.67801001035815,
-          -118.0141860434575,
-          41.73879793597476
+          -118.09545742033,
+          41.677909161456455,
+          -118.01406309344635,
+          41.73890151187091
         ]
       ]
     },
@@ -100,7 +115,7 @@
       "interval": [
         [
           "2025-01-13T18:35:31Z",
-          "2025-03-07T05:30:08Z"
+          "2025-04-02T05:39:13.599000Z"
         ]
       ]
     }
@@ -147,9 +162,11 @@
     "processing:version": [
       "4.8.0",
       "4.9.1",
+      "4.10.0",
       "4.7.0",
       "4.9.0",
-      "4.6.2"
+      "4.6.2",
+      "4.11.1"
     ],
     "sar:frequency_band": [
       "X"
@@ -172,13 +189,16 @@
       "ascending",
       "descending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2025-01-14T07:55:10.810Z",
-      "maximum": "2025-03-07T10:59:30.502Z"
+      "maximum": "2025-04-03T09:06:27.804Z"
     },
     "updated": {
       "minimum": "2025-01-14T07:55:10.810Z",
-      "maximum": "2025-03-07T10:59:30.502Z"
+      "maximum": "2025-04-03T09:06:27.805Z"
     },
     "view:incidence_angle": {
       "minimum": 16.799695487890574,
@@ -190,7 +210,7 @@
     },
     "sar:center_frequency": {
       "minimum": 9.551842757426035,
-      "maximum": 9.743233009402484
+      "maximum": 9.746885292100089
     },
     "sar:looks_azimuth": {
       "minimum": 1.0,

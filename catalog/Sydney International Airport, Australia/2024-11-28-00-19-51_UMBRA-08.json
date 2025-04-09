@@ -76,7 +76,7 @@
     "umbra:task_id": "b4586e74-dd1e-4a4a-9a2a-ffea7c6011d0",
     "subfolder": "Sydney International Airport, Australia",
     "umbra:stac_id": "65a0769d-d505-437c-be54-031122dac901",
-    "__index_level_0__": 69
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/b4586e74-dd1e-4a4a-9a2a-ffea7c6011d0/2024-11-28-00-19-51_UMBRA-08/2024-11-28-00-19-51_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/b4586e74-dd1e-4a4a-9a2a-ffea7c6011d0/2024-11-28-00-19-51_UMBRA-08/2024-11-28-00-19-51_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/b4586e74-dd1e-4a4a-9a2a-ffea7c6011d0/2024-11-28-00-19-51_UMBRA-08/2024-11-28-00-19-51_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

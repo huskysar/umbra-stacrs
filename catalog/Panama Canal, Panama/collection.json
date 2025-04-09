@@ -46,6 +46,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-02-15-38-19_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-20-15-51-34_UMBRA-09.json",
       "type": "application/geo+json"
     },
@@ -61,6 +66,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-20-02-15-40_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-17-15-50-33_UMBRA-10.json",
       "type": "application/geo+json"
     },
@@ -72,6 +82,11 @@
     {
       "rel": "item",
       "href": "./2025-01-12-03-35-18_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-23-03-39-47_UMBRA-10.json",
       "type": "application/geo+json"
     }
   ],
@@ -90,7 +105,7 @@
       "interval": [
         [
           "2024-10-31T03:30:00Z",
-          "2025-03-07T15:48:29Z"
+          "2025-04-02T15:38:30.800000Z"
         ]
       ]
     }
@@ -131,14 +146,17 @@
     "platform": [
       "Umbra-09",
       "Umbra-10",
-      "Umbra-08"
+      "Umbra-08",
+      "Umbra-05"
     ],
     "processing:version": [
       "4.7.0",
       "4.9.0",
       "4.9.2",
+      "4.12.0",
       "4.8.0",
-      "4.6.2"
+      "4.6.2",
+      "4.9.5"
     ],
     "sar:frequency_band": [
       "X"
@@ -161,13 +179,16 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2024-11-01T01:23:31.817Z",
-      "maximum": "2025-03-08T08:55:59.667Z"
+      "maximum": "2025-04-05T18:10:03.837Z"
     },
     "updated": {
       "minimum": "2024-11-01T01:23:31.817Z",
-      "maximum": "2025-03-08T08:55:59.667Z"
+      "maximum": "2025-04-05T18:10:03.837Z"
     },
     "view:incidence_angle": {
       "minimum": 27.02853673580163,
@@ -194,7 +215,7 @@
       "maximum": 0.25000000082813084
     },
     "sar:resolution_range": {
-      "minimum": 0.24999999976167983,
+      "minimum": 0.2499999996102441,
       "maximum": 0.4999999983765909
     }
   }

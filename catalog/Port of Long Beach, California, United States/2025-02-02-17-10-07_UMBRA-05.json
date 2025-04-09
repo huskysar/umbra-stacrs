@@ -80,7 +80,7 @@
     "umbra:task_id": "2619f454-5271-4a4a-ad15-a79d301e88f4",
     "subfolder": "Port of Long Beach, California, United States",
     "umbra:stac_id": "7ad78471-89af-4436-9c12-3255e45b1261",
-    "__index_level_0__": 235
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/2619f454-5271-4a4a-ad15-a79d301e88f4/2025-02-02-17-10-07_UMBRA-05/2025-02-02-17-10-07_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/2619f454-5271-4a4a-ad15-a79d301e88f4/2025-02-02-17-10-07_UMBRA-05/2025-02-02-17-10-07_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/2619f454-5271-4a4a-ad15-a79d301e88f4/2025-02-02-17-10-07_UMBRA-05/2025-02-02-17-10-07_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

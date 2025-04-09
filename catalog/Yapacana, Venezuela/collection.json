@@ -31,6 +31,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-02-15-19-42_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-08-15-07-51_UMBRA-08.json",
       "type": "application/geo+json"
     },
@@ -42,6 +47,11 @@
     {
       "rel": "item",
       "href": "./2024-11-12-14-54-47_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-24-03-07-02_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -62,6 +72,11 @@
     {
       "rel": "item",
       "href": "./2025-02-21-02-45-31_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-28-02-57-27_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -105,7 +120,7 @@
       "interval": [
         [
           "2024-10-28T02:53:06Z",
-          "2025-03-20T15:00:06.600000Z"
+          "2025-04-02T15:19:48.600000Z"
         ]
       ]
     }
@@ -146,7 +161,8 @@
     "platform": [
       "Umbra-08",
       "Umbra-05",
-      "Umbra-07"
+      "Umbra-07",
+      "Umbra-09"
     ],
     "sar:frequency_band": [
       "X"
@@ -165,9 +181,14 @@
     "sar:product_type": [
       "GEC"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "processing:version": [
       "4.7.0",
+      "4.12.0",
       "4.9.2",
+      "4.10.0",
       "4.9.5",
       "4.8.0",
       "4.9.1"
@@ -178,15 +199,15 @@
     ],
     "created": {
       "minimum": "2024-10-28T16:26:21.748Z",
-      "maximum": "2025-03-20T22:39:06.933Z"
+      "maximum": "2025-04-05T08:57:15.927Z"
     },
     "updated": {
       "minimum": "2024-10-28T16:26:21.748Z",
-      "maximum": "2025-03-20T22:39:06.933Z"
+      "maximum": "2025-04-05T08:57:15.927Z"
     },
     "view:incidence_angle": {
       "minimum": 16.583462082792337,
-      "maximum": 40.3057258890679
+      "maximum": 44.70791427336779
     },
     "view:azimuth": {
       "minimum": 82.22517200086301,

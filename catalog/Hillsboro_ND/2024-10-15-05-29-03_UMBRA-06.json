@@ -75,7 +75,7 @@
     "umbra:task_id": "687621d9-87e4-414e-bd53-4e25eab1c9b7",
     "subfolder": "Hillsboro_ND",
     "umbra:stac_id": "ed2323ef-a990-4f6d-bb04-668939766df5",
-    "__index_level_0__": 159
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -95,6 +95,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +112,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

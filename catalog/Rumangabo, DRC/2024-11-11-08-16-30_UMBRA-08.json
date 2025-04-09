@@ -76,7 +76,7 @@
     "umbra:task_id": "f41a55cc-0bec-4e5f-a9fd-54dec53ea43d",
     "subfolder": "Rumangabo, DRC",
     "umbra:stac_id": "49692f83-1bbb-41e2-98f1-1e338f3c8bc1",
-    "__index_level_0__": 640
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/f41a55cc-0bec-4e5f-a9fd-54dec53ea43d/2024-11-11-08-16-30_UMBRA-08/2024-11-11-08-16-30_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/f41a55cc-0bec-4e5f-a9fd-54dec53ea43d/2024-11-11-08-16-30_UMBRA-08/2024-11-11-08-16-30_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/f41a55cc-0bec-4e5f-a9fd-54dec53ea43d/2024-11-11-08-16-30_UMBRA-08/2024-11-11-08-16-30_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

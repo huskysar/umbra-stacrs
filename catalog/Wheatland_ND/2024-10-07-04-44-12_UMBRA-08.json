@@ -75,7 +75,7 @@
     "umbra:task_id": "1bf150c7-c72b-49df-8b30-45814c04a7e0",
     "subfolder": "Wheatland_ND",
     "umbra:stac_id": "d812de2d-7575-4151-9499-4d0aa2bc6d56",
-    "__index_level_0__": 657
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -95,6 +95,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Wheatland_ND/1bf150c7-c72b-49df-8b30-45814c04a7e0/2024-10-07-04-44-12_UMBRA-08/2024-10-07-04-44-12_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Wheatland_ND/1bf150c7-c72b-49df-8b30-45814c04a7e0/2024-10-07-04-44-12_UMBRA-08/2024-10-07-04-44-12_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +112,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Wheatland_ND/1bf150c7-c72b-49df-8b30-45814c04a7e0/2024-10-07-04-44-12_UMBRA-08/2024-10-07-04-44-12_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

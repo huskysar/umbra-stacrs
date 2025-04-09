@@ -80,7 +80,7 @@
     "umbra:task_id": "d36de69e-648c-495c-b5ac-4e8b42265beb",
     "subfolder": "ad hoc",
     "umbra:stac_id": "fe5de9fb-610f-4e3e-8628-1d4d9dddf19e",
-    "__index_level_0__": 610
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/d36de69e-648c-495c-b5ac-4e8b42265beb/2025-03-10-05-35-21_UMBRA-09/2025-03-10-05-35-21_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/d36de69e-648c-495c-b5ac-4e8b42265beb/2025-03-10-05-35-21_UMBRA-09/2025-03-10-05-35-21_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/d36de69e-648c-495c-b5ac-4e8b42265beb/2025-03-10-05-35-21_UMBRA-09/2025-03-10-05-35-21_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

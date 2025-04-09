@@ -80,7 +80,7 @@
     "umbra:task_id": "7e76020c-928a-476a-b9ef-e627de277c1f",
     "subfolder": "Kalgoorlie Super Pit, Australia",
     "umbra:stac_id": "33a21ae6-1019-4486-9102-b7cb598ac94f",
-    "__index_level_0__": 318
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/7e76020c-928a-476a-b9ef-e627de277c1f/2025-02-04-00-56-33_UMBRA-05/2025-02-04-00-56-33_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/7e76020c-928a-476a-b9ef-e627de277c1f/2025-02-04-00-56-33_UMBRA-05/2025-02-04-00-56-33_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/7e76020c-928a-476a-b9ef-e627de277c1f/2025-02-04-00-56-33_UMBRA-05/2025-02-04-00-56-33_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

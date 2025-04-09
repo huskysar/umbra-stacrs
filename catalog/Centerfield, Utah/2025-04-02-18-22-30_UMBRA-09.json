@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-02-18-22-30_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.7829066789045,
+          39.09334378323349
+        ],
+        [
+          -111.83713991526363,
+          39.10890783570858
+        ],
+        [
+          -111.85708885396026,
+          39.066643777036305
+        ],
+        [
+          -111.80288357761523,
+          39.051088893576335
+        ],
+        [
+          -111.7829066789045,
+          39.09334378323349
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.85708885396026,
+    39.051088893576335,
+    -111.7829066789045,
+    39.10890783570858
+  ],
+  "properties": {
+    "datetime": "2025-04-02T18:22:31.600000Z",
+    "start_datetime": "2025-04-02T18:22:31Z",
+    "end_datetime": "2025-04-02T18:22:32.199Z",
+    "created": "2025-04-04T04:01:18.917Z",
+    "updated": "2025-04-04T04:01:18.918Z",
+    "view:incidence_angle": 28.857604586196317,
+    "view:azimuth": 110.21314605395747,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.12.0"
+    },
+    "processing:version": "4.12.0",
+    "sar:center_frequency": 9.57348978874711,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.9999999982947002,
+    "sar:resolution_range": 1.0000000016740216,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.8355647066240959,
+    "umbra:best_resolution_range_meters": 0.8373541036466173,
+    "umbra:collect_id": "0f3a982f-7e19-4ace-b2d8-4af1edd7c3e4",
+    "umbra:grazing_angle_degrees": 61.14239541380368,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 633122.921701086,
+    "umbra:squint_angle_degrees_off_broadside": 9.00608208287025,
+    "umbra:squint_angle_engineering_degrees": 99.00608208287024,
+    "umbra:squint_angle_exploitation_degrees": 9.00608208287025,
+    "umbra:task_id": "7c34919a-aae8-42b7-8d6a-f224a0c9a0ee",
+    "subfolder": "Centerfield, Utah",
+    "umbra:stac_id": "63bc5f32-7e51-448c-802d-dbaef6c4fa20",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/7c34919a-aae8-42b7-8d6a-f224a0c9a0ee/2025-04-02-18-22-30_UMBRA-09/2025-04-02-18-22-30_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/7c34919a-aae8-42b7-8d6a-f224a0c9a0ee/2025-04-02-18-22-30_UMBRA-09/2025-04-02-18-22-30_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Centerfield, Utah"
+}

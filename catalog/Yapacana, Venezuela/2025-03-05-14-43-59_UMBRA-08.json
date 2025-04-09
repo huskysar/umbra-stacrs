@@ -80,7 +80,7 @@
     "umbra:task_id": "c388603c-8fed-42df-97eb-e6f56445274b",
     "subfolder": "Yapacana, Venezuela",
     "umbra:stac_id": "e9201c06-12d8-4a9e-bf27-d92c6022e473",
-    "__index_level_0__": 426
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

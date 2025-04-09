@@ -80,7 +80,7 @@
     "umbra:task_id": "81751497-6e6e-4c02-8dd2-866371c1aee6",
     "subfolder": "Magui Payan, Colombia",
     "umbra:stac_id": "d640cd22-672f-4b49-b5b1-5e4df776e65d",
-    "__index_level_0__": 52
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/81751497-6e6e-4c02-8dd2-866371c1aee6/2025-03-07-03-44-46_UMBRA-08/2025-03-07-03-44-46_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/81751497-6e6e-4c02-8dd2-866371c1aee6/2025-03-07-03-44-46_UMBRA-08/2025-03-07-03-44-46_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/81751497-6e6e-4c02-8dd2-866371c1aee6/2025-03-07-03-44-46_UMBRA-08/2025-03-07-03-44-46_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

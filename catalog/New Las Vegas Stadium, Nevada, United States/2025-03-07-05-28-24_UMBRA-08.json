@@ -80,7 +80,7 @@
     "umbra:task_id": "9a3570d4-187d-4514-b96b-1c089631a1b1",
     "subfolder": "New Las Vegas Stadium, Nevada, United States",
     "umbra:stac_id": "690c77e5-8497-46b9-9c76-809651d1ccbc",
-    "__index_level_0__": 132
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

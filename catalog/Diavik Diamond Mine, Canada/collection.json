@@ -16,6 +16,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-23-05-30-17_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-07-17-50-48_UMBRA-05.json",
       "type": "application/geo+json"
     },
@@ -37,6 +42,11 @@
     {
       "rel": "item",
       "href": "./2025-02-15-03-53-36_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-28-05-23-13_UMBRA-10.json",
       "type": "application/geo+json"
     },
     {
@@ -90,7 +100,7 @@
       "interval": [
         [
           "2025-01-09T05:22:31Z",
-          "2025-03-19T02:57:44.199000Z"
+          "2025-03-28T05:23:17Z"
         ]
       ]
     }
@@ -129,15 +139,17 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-10",
       "Umbra-05",
       "Umbra-09",
-      "Umbra-10",
       "Umbra-08"
     ],
     "processing:version": [
+      "4.9.5",
       "4.9.2",
       "4.7.0",
       "4.9.4",
+      "4.10.0",
       "4.6.2",
       "4.8.0",
       "4.9.0"
@@ -149,8 +161,8 @@
       "SPOTLIGHT"
     ],
     "sar:observation_direction": [
-      "left",
-      "right"
+      "right",
+      "left"
     ],
     "sar:polarizations": [
       "VV"
@@ -159,16 +171,19 @@
       "GEC"
     ],
     "sat:orbit_state": [
-      "descending",
-      "ascending"
+      "ascending",
+      "descending"
+    ],
+    "proj:code": [
+      "EPSG:4326"
     ],
     "created": {
       "minimum": "2025-01-09T11:01:01.475Z",
-      "maximum": "2025-03-19T11:16:26.583Z"
+      "maximum": "2025-03-29T05:49:59.590Z"
     },
     "updated": {
       "minimum": "2025-01-09T11:01:01.475Z",
-      "maximum": "2025-03-19T11:16:26.583Z"
+      "maximum": "2025-03-29T05:49:59.590Z"
     },
     "view:incidence_angle": {
       "minimum": 18.645133992140742,
@@ -180,7 +195,7 @@
     },
     "sar:center_frequency": {
       "minimum": 9.548161190991175,
-      "maximum": 9.744449128709643
+      "maximum": 9.74559385400601
     },
     "sar:looks_azimuth": {
       "minimum": 1.0,

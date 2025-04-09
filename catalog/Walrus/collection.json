@@ -1,0 +1,215 @@
+{
+  "type": "Collection",
+  "id": "Walrus",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for Walrus",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-10-22-24-15_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-08-07-21-04_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-25-07-01-58_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-02-07-25-58_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-29-05-53-34_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-06-23-53-45_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-04-23-09-30_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-11-22-06-50_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-12-21-49-50_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-07-23-22-28-05_UMBRA-04.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-16-22-14-15_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-09-15-00-07-54_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-22-22-04-37_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-07-19-21-59-01_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2024-10-05-06-58-52_UMBRA-08.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -163.1424618762202,
+          69.73360153869137,
+          -162.94824060036066,
+          69.81189910140465
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-19T21:59:02Z",
+          "2024-10-25T07:02:13.200000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-05",
+      "Umbra-10",
+      "Umbra-07",
+      "Umbra-08",
+      "Umbra-04",
+      "Umbra-09"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left",
+      "right"
+    ],
+    "sar:polarizations": [
+      "HH",
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "descending",
+      "ascending"
+    ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "created": {
+      "minimum": "2024-07-20T06:42:51.427Z",
+      "maximum": "2024-10-28T03:54:22.997Z"
+    },
+    "updated": {
+      "minimum": "2024-12-19T19:25:25.501Z",
+      "maximum": "2024-12-19T19:56:23.957Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 22.01395346911872,
+      "maximum": 53.8632505476131
+    },
+    "view:azimuth": {
+      "minimum": 50.01741645153858,
+      "maximum": 335.9185902453576
+    },
+    "sar:center_frequency": {
+      "minimum": 9.599981959559956,
+      "maximum": 9.800007890327834
+    },
+    "sar:looks_azimuth": {
+      "minimum": 4.0,
+      "maximum": 8.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.062,
+      "maximum": 0.5
+    },
+    "sar:resolution_range": {
+      "minimum": 0.49599999999999983,
+      "maximum": 0.5000000001617665
+    }
+  }
+}

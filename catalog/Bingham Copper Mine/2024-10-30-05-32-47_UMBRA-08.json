@@ -76,7 +76,7 @@
     "umbra:task_id": "7fe56ac2-68ec-4871-8631-f2f451bcd414",
     "subfolder": "Bingham Copper Mine",
     "umbra:stac_id": "e8f995d2-59cb-4e64-8b66-71e5a34700e9",
-    "__index_level_0__": 81
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/7fe56ac2-68ec-4871-8631-f2f451bcd414/2024-10-30-05-32-47_UMBRA-08/2024-10-30-05-32-47_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/7fe56ac2-68ec-4871-8631-f2f451bcd414/2024-10-30-05-32-47_UMBRA-08/2024-10-30-05-32-47_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/7fe56ac2-68ec-4871-8631-f2f451bcd414/2024-10-30-05-32-47_UMBRA-08/2024-10-30-05-32-47_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

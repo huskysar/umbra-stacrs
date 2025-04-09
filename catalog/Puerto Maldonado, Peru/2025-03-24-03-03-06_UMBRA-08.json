@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-03-24-03-03-06_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.32574591105264,
+          -12.437162159980767
+        ],
+        [
+          -69.37157243427977,
+          -12.433359063588751
+        ],
+        [
+          -69.37544661911197,
+          -12.478397674961922
+        ],
+        [
+          -69.32961224410585,
+          -12.482201414993977
+        ],
+        [
+          -69.32574591105264,
+          -12.437162159980767
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.37544661911197,
+    -12.482201414993977,
+    -69.32574591105264,
+    -12.433359063588751
+  ],
+  "properties": {
+    "datetime": "2025-03-24T03:03:08.800000Z",
+    "start_datetime": "2025-03-24T03:03:07Z",
+    "end_datetime": "2025-03-24T03:03:10.600Z",
+    "created": "2025-03-25T13:06:56.791Z",
+    "updated": "2025-03-25T13:06:56.791Z",
+    "view:incidence_angle": 23.864598076561904,
+    "view:azimuth": 94.82702313945695,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.10.0"
+    },
+    "processing:version": "4.10.0",
+    "sar:center_frequency": 9.69598242339265,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000012602035,
+    "sar:resolution_range": 0.3499999987548213,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.25754100886846676,
+    "umbra:best_resolution_range_meters": 0.2849797463129923,
+    "umbra:collect_id": "1022f035-8dac-476d-92d7-7be581609852",
+    "umbra:grazing_angle_degrees": 66.1354019234381,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 530281.3771341839,
+    "umbra:squint_angle_degrees_off_broadside": 15.81471483690737,
+    "umbra:squint_angle_engineering_degrees": -74.18528516309263,
+    "umbra:squint_angle_exploitation_degrees": 15.81471483690737,
+    "umbra:task_id": "ca99bec5-b644-48a4-a54b-582d7bf25e46",
+    "subfolder": "Puerto Maldonado, Peru",
+    "umbra:stac_id": "54b4cca9-213a-4ab2-97c1-ad8eea162aa0",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/ca99bec5-b644-48a4-a54b-582d7bf25e46/2025-03-24-03-03-06_UMBRA-08/2025-03-24-03-03-06_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/ca99bec5-b644-48a4-a54b-582d7bf25e46/2025-03-24-03-03-06_UMBRA-08/2025-03-24-03-03-06_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Puerto Maldonado, Peru"
+}

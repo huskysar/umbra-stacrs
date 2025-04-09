@@ -51,7 +51,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-30-16-49-57_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-15-15-13-07_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-23-03-48-28_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-04-02-16-44-51_UMBRA-09.json",
       "type": "application/geo+json"
     },
     {
@@ -80,7 +95,7 @@
       "interval": [
         [
           "2025-01-10T16:22:16Z",
-          "2025-03-20T16:23:59.999000Z"
+          "2025-04-02T16:45:05.200000Z"
         ]
       ]
     }
@@ -120,7 +135,9 @@
     ],
     "platform": [
       "Umbra-05",
-      "Umbra-08"
+      "Umbra-08",
+      "Umbra-10",
+      "Umbra-09"
     ],
     "processing:version": [
       "4.7.0",
@@ -128,7 +145,9 @@
       "4.8.0",
       "4.8.1",
       "4.6.2",
-      "4.9.5"
+      "4.10.0",
+      "4.9.5",
+      "4.12.0"
     ],
     "sar:frequency_band": [
       "X"
@@ -150,17 +169,20 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2025-01-11T01:29:41.840Z",
-      "maximum": "2025-03-21T00:37:04.348Z"
+      "maximum": "2025-04-04T17:07:26.774Z"
     },
     "updated": {
       "minimum": "2025-01-11T01:29:41.840Z",
-      "maximum": "2025-03-21T00:37:04.348Z"
+      "maximum": "2025-04-04T17:07:26.774Z"
     },
     "view:incidence_angle": {
       "minimum": 32.4375495236722,
-      "maximum": 40.75522847132504
+      "maximum": 43.9824528747773
     },
     "view:azimuth": {
       "minimum": 70.88350950003934,
@@ -180,10 +202,10 @@
     },
     "sar:resolution_azimuth": {
       "minimum": 0.12499999829599562,
-      "maximum": 0.12500000012035942
+      "maximum": 0.12500000013566448
     },
     "sar:resolution_range": {
-      "minimum": 0.2499999997695413,
+      "minimum": 0.2499999997407053,
       "maximum": 0.25000000329590844
     }
   }

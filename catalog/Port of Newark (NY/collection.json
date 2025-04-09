@@ -21,6 +21,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-28-03-07-07_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-15-15-41-31_UMBRA-10.json",
       "type": "application/geo+json"
     },
@@ -42,6 +47,16 @@
     {
       "rel": "item",
       "href": "./2025-01-23-01-31-39_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-19-14-16-12_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-04-02-03-32-17_UMBRA-09.json",
       "type": "application/geo+json"
     },
     {
@@ -80,7 +95,7 @@
       "interval": [
         [
           "2024-11-28T02:42:53Z",
-          "2025-03-04T01:31:04.800000Z"
+          "2025-04-02T03:32:27.400000Z"
         ]
       ]
     }
@@ -126,7 +141,10 @@
     ],
     "processing:version": [
       "4.7.0",
+      "4.10.0",
       "4.8.0",
+      "4.9.5",
+      "4.12.0",
       "4.9.1"
     ],
     "sar:frequency_band": [
@@ -150,16 +168,19 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2024-12-01T14:13:27.746Z",
-      "maximum": "2025-03-07T05:43:41.086Z"
+      "maximum": "2025-04-05T13:58:14.513Z"
     },
     "updated": {
       "minimum": "2024-12-01T14:13:27.746Z",
-      "maximum": "2025-03-07T05:43:41.086Z"
+      "maximum": "2025-04-05T13:58:14.514Z"
     },
     "view:incidence_angle": {
-      "minimum": 30.752427853379103,
+      "minimum": 24.745124430174545,
       "maximum": 44.844119536798765
     },
     "view:azimuth": {
@@ -167,7 +188,7 @@
       "maximum": 297.48754195104704
     },
     "sar:center_frequency": {
-      "minimum": 9.757397253250696,
+      "minimum": 9.751237842609507,
       "maximum": 9774505328.906555
     },
     "sar:looks_azimuth": {
@@ -180,7 +201,7 @@
     },
     "sar:resolution_azimuth": {
       "minimum": 0.1749999998246333,
-      "maximum": 0.17500000023978077
+      "maximum": 0.1750000003725118
     },
     "sar:resolution_range": {
       "minimum": 0.291666666939482,

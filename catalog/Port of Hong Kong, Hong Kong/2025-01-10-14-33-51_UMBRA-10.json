@@ -80,7 +80,7 @@
     "umbra:task_id": "a812c557-8dbc-458c-8639-5f46f32ab5aa",
     "subfolder": "Port of Hong Kong, Hong Kong",
     "umbra:stac_id": "7cbbe285-0591-42b0-a16a-d0661c128fe5",
-    "__index_level_0__": 375
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/a812c557-8dbc-458c-8639-5f46f32ab5aa/2025-01-10-14-33-51_UMBRA-10/2025-01-10-14-33-51_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/a812c557-8dbc-458c-8639-5f46f32ab5aa/2025-01-10-14-33-51_UMBRA-10/2025-01-10-14-33-51_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/a812c557-8dbc-458c-8639-5f46f32ab5aa/2025-01-10-14-33-51_UMBRA-10/2025-01-10-14-33-51_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

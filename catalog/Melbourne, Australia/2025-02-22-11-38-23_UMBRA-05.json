@@ -80,7 +80,7 @@
     "umbra:task_id": "29970432-f9e4-4299-a862-ea4bcca062a0",
     "subfolder": "Melbourne, Australia",
     "umbra:stac_id": "44b24007-7e6c-4cef-b278-c85903642a58",
-    "__index_level_0__": 171
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/29970432-f9e4-4299-a862-ea4bcca062a0/2025-02-22-11-38-23_UMBRA-05/2025-02-22-11-38-23_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/29970432-f9e4-4299-a862-ea4bcca062a0/2025-02-22-11-38-23_UMBRA-05/2025-02-22-11-38-23_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/29970432-f9e4-4299-a862-ea4bcca062a0/2025-02-22-11-38-23_UMBRA-05/2025-02-22-11-38-23_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -80,7 +80,7 @@
     "umbra:task_id": "cce3fa4d-c432-4da1-ab63-74377e8a983d",
     "subfolder": "Port of Newark (NY",
     "umbra:stac_id": "4c9a0ee1-66be-4656-950f-87d2bc8d898c",
-    "__index_level_0__": 566
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/cce3fa4d-c432-4da1-ab63-74377e8a983d/2025-01-28-14-17-32_UMBRA-05/2025-01-28-14-17-32_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/cce3fa4d-c432-4da1-ab63-74377e8a983d/2025-01-28-14-17-32_UMBRA-05/2025-01-28-14-17-32_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/cce3fa4d-c432-4da1-ab63-74377e8a983d/2025-01-28-14-17-32_UMBRA-05/2025-01-28-14-17-32_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

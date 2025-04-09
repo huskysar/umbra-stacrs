@@ -80,7 +80,7 @@
     "umbra:task_id": "65d520af-3cfb-4387-a250-a9a8ea8d6fe9",
     "subfolder": "Khavda Solar Park, India",
     "umbra:stac_id": "3ecaea40-5dcc-493c-b104-e81ae79ea8eb",
-    "__index_level_0__": 400
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,6 +100,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/65d520af-3cfb-4387-a250-a9a8ea8d6fe9/2025-02-20-17-23-35_UMBRA-08/2025-02-20-17-23-35_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/65d520af-3cfb-4387-a250-a9a8ea8d6fe9/2025-02-20-17-23-35_UMBRA-08/2025-02-20-17-23-35_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +117,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/65d520af-3cfb-4387-a250-a9a8ea8d6fe9/2025-02-20-17-23-35_UMBRA-08/2025-02-20-17-23-35_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

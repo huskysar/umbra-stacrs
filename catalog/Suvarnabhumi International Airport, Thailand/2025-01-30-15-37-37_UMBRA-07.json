@@ -80,7 +80,7 @@
     "umbra:task_id": "e56c7747-6014-4974-bf61-3db011d53a63",
     "subfolder": "Suvarnabhumi International Airport, Thailand",
     "umbra:stac_id": "da8f7829-4e63-4cb5-9ea8-e31d3fd972e7",
-    "__index_level_0__": 31
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

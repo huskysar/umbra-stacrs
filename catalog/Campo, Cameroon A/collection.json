@@ -16,6 +16,16 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-24-20-48-07_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-22-08-21-45_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-24-21-57-37_UMBRA-08.json",
       "type": "application/geo+json"
     },
@@ -36,7 +46,17 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-24-20-47-40_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-22-08-47-03_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-21-08-48-48_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -59,8 +79,8 @@
     "spatial": {
       "bbox": [
         [
-          9.911299643764456,
-          2.566370081820383,
+          9.908949568184168,
+          2.564008230169505,
           9.99915463433226,
           2.6570116084097104
         ]
@@ -70,7 +90,7 @@
       "interval": [
         [
           "2025-01-22T08:47:04Z",
-          "2025-03-09T10:01:27.200000Z"
+          "2025-03-24T20:48:19.199000Z"
         ]
       ]
     }
@@ -109,10 +129,12 @@
       "umbra"
     ],
     "platform": [
-      "Umbra-08",
-      "Umbra-05"
+      "Umbra-05",
+      "Umbra-08"
     ],
     "processing:version": [
+      "4.10.0",
+      "4.9.5",
       "4.7.0",
       "4.9.2",
       "4.9.0"
@@ -137,13 +159,16 @@
       "ascending",
       "descending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2025-01-25T16:39:25.034Z",
-      "maximum": "2025-03-11T01:42:34.588Z"
+      "maximum": "2025-03-26T18:06:59.040Z"
     },
     "updated": {
       "minimum": "2025-01-25T16:39:25.034Z",
-      "maximum": "2025-03-11T01:42:34.588Z"
+      "maximum": "2025-03-26T18:06:59.040Z"
     },
     "view:incidence_angle": {
       "minimum": 37.51390287278691,
@@ -166,12 +191,12 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.12499999988970718,
+      "minimum": 0.12499999986225643,
       "maximum": 0.12500000009971915
     },
     "sar:resolution_range": {
       "minimum": 0.2499999998082336,
-      "maximum": 0.2500000002104626
+      "maximum": 0.25000000026050695
     }
   }
 }

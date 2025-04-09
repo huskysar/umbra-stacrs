@@ -76,7 +76,7 @@
     "umbra:task_id": "2f1be44e-8471-4169-8230-25a5604c2a8f",
     "subfolder": "Puerto Maldonado, Peru",
     "umbra:stac_id": "0026a223-2f33-4106-8b18-970dbe19907c",
-    "__index_level_0__": 47
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/2f1be44e-8471-4169-8230-25a5604c2a8f/2024-11-12-14-59-01_UMBRA-07/2024-11-12-14-59-01_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/2f1be44e-8471-4169-8230-25a5604c2a8f/2024-11-12-14-59-01_UMBRA-07/2024-11-12-14-59-01_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/2f1be44e-8471-4169-8230-25a5604c2a8f/2024-11-12-14-59-01_UMBRA-07/2024-11-12-14-59-01_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

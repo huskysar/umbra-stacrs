@@ -80,7 +80,7 @@
     "umbra:task_id": "5d84371a-ae8d-473e-942e-815b67e719b6",
     "subfolder": "Silver Peak Mine, Nevada, United States",
     "umbra:stac_id": "78d282a8-4263-45a2-8971-74a1a3535c60",
-    "__index_level_0__": 474
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/5d84371a-ae8d-473e-942e-815b67e719b6/2025-02-16-04-57-11_UMBRA-05/2025-02-16-04-57-11_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/5d84371a-ae8d-473e-942e-815b67e719b6/2025-02-16-04-57-11_UMBRA-05/2025-02-16-04-57-11_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/5d84371a-ae8d-473e-942e-815b67e719b6/2025-02-16-04-57-11_UMBRA-05/2025-02-16-04-57-11_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

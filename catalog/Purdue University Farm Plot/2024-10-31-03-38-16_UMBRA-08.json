@@ -76,7 +76,7 @@
     "umbra:task_id": "930aef14-d7cf-49fc-a38e-8e1e6589ab7b",
     "subfolder": "Purdue University Farm Plot",
     "umbra:stac_id": "ec7e1509-3cea-4c44-a47e-ce77cfe9736e",
-    "__index_level_0__": 291
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -96,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/930aef14-d7cf-49fc-a38e-8e1e6589ab7b/2024-10-31-03-38-16_UMBRA-08/2024-10-31-03-38-16_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/930aef14-d7cf-49fc-a38e-8e1e6589ab7b/2024-10-31-03-38-16_UMBRA-08/2024-10-31-03-38-16_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/930aef14-d7cf-49fc-a38e-8e1e6589ab7b/2024-10-31-03-38-16_UMBRA-08/2024-10-31-03-38-16_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

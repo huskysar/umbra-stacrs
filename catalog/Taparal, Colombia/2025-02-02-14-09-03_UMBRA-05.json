@@ -80,7 +80,7 @@
     "umbra:task_id": "edc304b6-2b94-4b5e-9aa1-bd1f1f57cfd7",
     "subfolder": "Taparal, Colombia",
     "umbra:stac_id": "0ea9e9f6-e7c9-43a4-b492-07ba15bcae78",
-    "__index_level_0__": 460
+    "proj:code": "EPSG:4326"
   },
   "links": [
     {
@@ -100,15 +100,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/edc304b6-2b94-4b5e-9aa1-bd1f1f57cfd7/2025-02-02-14-09-03_UMBRA-05/2025-02-02-14-09-03_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/edc304b6-2b94-4b5e-9aa1-bd1f1f57cfd7/2025-02-02-14-09-03_UMBRA-05/2025-02-02-14-09-03_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +108,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/edc304b6-2b94-4b5e-9aa1-bd1f1f57cfd7/2025-02-02-14-09-03_UMBRA-05/2025-02-02-14-09-03_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

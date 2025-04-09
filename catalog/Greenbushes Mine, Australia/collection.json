@@ -26,6 +26,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-03-28-02-51-09_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-20-02-35-05_UMBRA-08.json",
       "type": "application/geo+json"
     },
@@ -37,6 +42,11 @@
     {
       "rel": "item",
       "href": "./2025-01-14-02-55-30_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-03-23-02-58-18_UMBRA-09.json",
       "type": "application/geo+json"
     },
     {
@@ -75,7 +85,7 @@
       "interval": [
         [
           "2025-01-09T02:49:59Z",
-          "2025-03-20T02:35:08.800000Z"
+          "2025-03-28T02:51:12.800000Z"
         ]
       ]
     }
@@ -121,7 +131,9 @@
     "processing:version": [
       "4.6.2",
       "4.7.0",
+      "4.10.0",
       "4.9.4",
+      "4.9.5",
       "4.8.0"
     ],
     "sar:frequency_band": [
@@ -144,24 +156,27 @@
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2025-01-09T07:42:23.931Z",
-      "maximum": "2025-03-20T14:56:43.602Z"
+      "maximum": "2025-03-28T14:03:17.830Z"
     },
     "updated": {
       "minimum": "2025-01-09T07:42:23.931Z",
-      "maximum": "2025-03-20T14:56:43.602Z"
+      "maximum": "2025-03-28T14:03:17.830Z"
     },
     "view:incidence_angle": {
       "minimum": 18.110586116078665,
-      "maximum": 44.70488254331214
+      "maximum": 44.8390448299756
     },
     "view:azimuth": {
       "minimum": 94.88333446722324,
       "maximum": 298.760661527356
     },
     "sar:center_frequency": {
-      "minimum": 9.551557497571602,
+      "minimum": 9.548314625249388,
       "maximum": 9.738799655379474
     },
     "sar:looks_azimuth": {
@@ -173,12 +188,12 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.5000000004751807,
+      "minimum": 0.5000000004710282,
       "maximum": 0.5000000026940684
     },
     "sar:resolution_range": {
       "minimum": 0.4999999973208324,
-      "maximum": 0.4999999995546736
+      "maximum": 0.49999999955868785
     }
   }
 }
