@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-23T03:23:18.400Z",
     "created": "2025-03-23T12:10:25.697Z",
     "updated": "2025-03-23T12:10:25.697Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/David%20Fuentes%20Airbase%2C%20Chile/4f812939-f3e8-47ff-adec-e38518a44a72/2025-03-23-03-23-16_UMBRA-08",
     "view:incidence_angle": 17.233079706289047,
-    "view:azimuth": 100.8366584879623,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -67.45903658875015,
     "umbra:squint_angle_exploitation_degrees": 22.540963411249848,
     "umbra:task_id": "4f812939-f3e8-47ff-adec-e38518a44a72",
+    "view:azimuth": 100.8366584879623,
     "subfolder": "David Fuentes Airbase, Chile",
     "umbra:stac_id": "9be1538b-d134-454d-854c-a22511419047",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/4f812939-f3e8-47ff-adec-e38518a44a72/2025-03-23-03-23-16_UMBRA-08/2025-03-23-03-23-16_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/4f812939-f3e8-47ff-adec-e38518a44a72/2025-03-23-03-23-16_UMBRA-08/2025-03-23-03-23-16_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/4f812939-f3e8-47ff-adec-e38518a44a72/2025-03-23-03-23-16_UMBRA-08/2025-03-23-03-23-16_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

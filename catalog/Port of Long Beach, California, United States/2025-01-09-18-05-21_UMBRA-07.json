@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-09T18:05:31.999Z",
     "created": "2025-01-11T02:47:29.055Z",
     "updated": "2025-01-11T02:47:29.055Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Long%20Beach%2C%20California%2C%20United%20States/19be299e-45be-4afb-ba08-56b44d39f210/2025-01-09-18-05-21_UMBRA-07",
     "view:incidence_angle": 42.33577823563261,
-    "view:azimuth": 84.44041766485671,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 74.91273263344976,
     "umbra:squint_angle_exploitation_degrees": -15.087267366550236,
     "umbra:task_id": "19be299e-45be-4afb-ba08-56b44d39f210",
+    "view:azimuth": 84.44041766485671,
     "subfolder": "Port of Long Beach, California, United States",
     "umbra:stac_id": "659a41da-5b42-4144-b70a-9191ca55fdfc",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/19be299e-45be-4afb-ba08-56b44d39f210/2025-01-09-18-05-21_UMBRA-07/2025-01-09-18-05-21_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/19be299e-45be-4afb-ba08-56b44d39f210/2025-01-09-18-05-21_UMBRA-07/2025-01-09-18-05-21_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/19be299e-45be-4afb-ba08-56b44d39f210/2025-01-09-18-05-21_UMBRA-07/2025-01-09-18-05-21_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

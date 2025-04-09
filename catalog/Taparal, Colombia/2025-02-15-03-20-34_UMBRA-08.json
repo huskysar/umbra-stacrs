@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-15T03:20:40.400Z",
     "created": "2025-02-15T05:24:02.376Z",
     "updated": "2025-02-15T05:24:02.376Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Taparal%2C%20Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08",
     "view:incidence_angle": 34.63464334540701,
-    "view:azimuth": 94.41218670909822,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -74.31828917184176,
     "umbra:squint_angle_exploitation_degrees": 15.681710828158243,
     "umbra:task_id": "d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977",
+    "view:azimuth": 94.41218670909822,
     "subfolder": "Taparal, Colombia",
     "umbra:stac_id": "3518f952-f9cd-4912-82e1-4ed3be9dd05e",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08/2025-02-15-03-20-34_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08/2025-02-15-03-20-34_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/d4906ca8-c4ba-4ec8-8237-e2b4c8ae7977/2025-02-15-03-20-34_UMBRA-08/2025-02-15-03-20-34_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

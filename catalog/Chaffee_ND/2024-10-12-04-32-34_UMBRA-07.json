@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-12T04:32:36.999Z",
     "created": "2024-10-16T13:53:47.031Z",
     "updated": "2024-10-16T13:53:47.031Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Chaffee_ND/9b48f572-f392-43a2-aa9a-76e2c443675d/2024-10-12-04-32-34_UMBRA-07",
     "view:incidence_angle": 37.44686491686888,
-    "view:azimuth": 214.9978358960565,
     "platform": "Umbra-07",
     "processing:software": {
       "Umbra SAR Processor": "3.51.1"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": 133.77457021086872,
     "umbra:squint_angle_exploitation_degrees": 43.77457021086872,
     "umbra:task_id": "9b48f572-f392-43a2-aa9a-76e2c443675d",
+    "view:azimuth": 214.9978358960565,
     "subfolder": "Chaffee_ND",
     "umbra:stac_id": "2338a53c-a8f4-49d1-894d-aca9a7b89cd3",
     "proj:code": "EPSG:4326"
@@ -95,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/9b48f572-f392-43a2-aa9a-76e2c443675d/2024-10-12-04-32-34_UMBRA-07/2024-10-12-04-32-34_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/9b48f572-f392-43a2-aa9a-76e2c443675d/2024-10-12-04-32-34_UMBRA-07/2024-10-12-04-32-34_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/9b48f572-f392-43a2-aa9a-76e2c443675d/2024-10-12-04-32-34_UMBRA-07/2024-10-12-04-32-34_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

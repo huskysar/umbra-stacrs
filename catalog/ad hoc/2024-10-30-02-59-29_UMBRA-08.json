@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-30T02:59:52.399Z",
     "created": "2024-10-31T15:45:09.320Z",
     "updated": "2024-10-31T15:45:09.320Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/081832e9-1945-4617-bdae-31245573f00e/2024-10-30-02-59-29_UMBRA-08.stac.v2",
     "view:incidence_angle": 41.36691962682136,
-    "view:azimuth": 262.89799233388806,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": -71.54271945993996,
     "umbra:squint_angle_exploitation_degrees": 18.45728054006004,
     "umbra:task_id": "081832e9-1945-4617-bdae-31245573f00e",
+    "view:azimuth": 262.89799233388806,
     "subfolder": "ad hoc",
     "umbra:stac_id": "5e6f1993-c884-410e-a012-dde307603f5f",
     "proj:code": "EPSG:4326"
@@ -96,15 +97,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/081832e9-1945-4617-bdae-31245573f00e/2024-10-30-02-59-29_UMBRA-08/2024-10-30-02-59-29_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/081832e9-1945-4617-bdae-31245573f00e/2024-10-30-02-59-29_UMBRA-08/2024-10-30-02-59-29_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +105,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/081832e9-1945-4617-bdae-31245573f00e/2024-10-30-02-59-29_UMBRA-08/2024-10-30-02-59-29_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

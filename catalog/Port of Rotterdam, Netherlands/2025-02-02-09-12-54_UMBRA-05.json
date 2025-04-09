@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-02T09:13:03.399Z",
     "created": "2025-02-03T15:34:19.158Z",
     "updated": "2025-02-03T15:34:19.158Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Rotterdam%2C%20Netherlands/d6fc7487-dd66-4b3f-a7e0-a662d3dac0ba/2025-02-02-09-12-54_UMBRA-05",
     "view:incidence_angle": 39.02422853037348,
-    "view:azimuth": 86.16644192341629,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 75.871360308639,
     "umbra:squint_angle_exploitation_degrees": -14.128639691361002,
     "umbra:task_id": "d6fc7487-dd66-4b3f-a7e0-a662d3dac0ba",
+    "view:azimuth": 86.16644192341629,
     "subfolder": "Port of Rotterdam, Netherlands",
     "umbra:stac_id": "2f31da82-3110-40f4-9a77-e7713529e57b",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/d6fc7487-dd66-4b3f-a7e0-a662d3dac0ba/2025-02-02-09-12-54_UMBRA-05/2025-02-02-09-12-54_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/d6fc7487-dd66-4b3f-a7e0-a662d3dac0ba/2025-02-02-09-12-54_UMBRA-05/2025-02-02-09-12-54_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/d6fc7487-dd66-4b3f-a7e0-a662d3dac0ba/2025-02-02-09-12-54_UMBRA-05/2025-02-02-09-12-54_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

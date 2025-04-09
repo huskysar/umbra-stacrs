@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-15T05:29:05.199Z",
     "created": "2024-10-15T09:27:49.634Z",
     "updated": "2024-10-15T09:27:49.634Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06",
     "view:incidence_angle": 38.02839630765063,
-    "view:azimuth": 310.74462821551344,
     "platform": "Umbra-06",
     "processing:software": {
       "Umbra SAR Processor": "3.51.0"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": -115.12312000854833,
     "umbra:squint_angle_exploitation_degrees": -25.123120008548327,
     "umbra:task_id": "687621d9-87e4-414e-bd53-4e25eab1c9b7",
+    "view:azimuth": 310.74462821551344,
     "subfolder": "Hillsboro_ND",
     "umbra:stac_id": "ed2323ef-a990-4f6d-bb04-668939766df5",
     "proj:code": "EPSG:4326"
@@ -95,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hillsboro_ND/687621d9-87e4-414e-bd53-4e25eab1c9b7/2024-10-15-05-29-03_UMBRA-06/2024-10-15-05-29-03_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

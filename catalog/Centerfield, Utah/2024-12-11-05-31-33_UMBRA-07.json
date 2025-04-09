@@ -47,8 +47,8 @@
     "end_datetime": "2024-12-11T05:31:35.400Z",
     "created": "2024-12-12T00:20:45.317Z",
     "updated": "2024-12-12T00:20:45.317Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Centerfield%2C%20Utah/ac0525db-14fe-43ca-921b-98539fbb2a2f/2024-12-11-05-31-33_UMBRA-07",
     "view:incidence_angle": 29.162196341757955,
-    "view:azimuth": 256.6186017286181,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": 92.62487582087915,
     "umbra:squint_angle_exploitation_degrees": 2.6248758208791685,
     "umbra:task_id": "ac0525db-14fe-43ca-921b-98539fbb2a2f",
+    "view:azimuth": 256.6186017286181,
     "subfolder": "Centerfield, Utah",
     "umbra:stac_id": "62df51b6-31f3-46e9-82bd-c1c5c1cf2ffd",
     "proj:code": "EPSG:4326"
@@ -96,15 +97,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/ac0525db-14fe-43ca-921b-98539fbb2a2f/2024-12-11-05-31-33_UMBRA-07/2024-12-11-05-31-33_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/ac0525db-14fe-43ca-921b-98539fbb2a2f/2024-12-11-05-31-33_UMBRA-07/2024-12-11-05-31-33_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +105,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/ac0525db-14fe-43ca-921b-98539fbb2a2f/2024-12-11-05-31-33_UMBRA-07/2024-12-11-05-31-33_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

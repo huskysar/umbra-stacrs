@@ -47,8 +47,8 @@
     "end_datetime": "2024-11-12T13:23:31.400Z",
     "created": "2024-11-12T16:01:09.615Z",
     "updated": "2024-11-12T16:01:09.615Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Papua%2C%20Indonesia/2d74046d-3bd3-45db-84f5-4ae228b67b82/2024-11-12-13-23-27_UMBRA-08.stac.v2",
     "view:incidence_angle": 29.281933004910087,
-    "view:azimuth": 219.37797744686523,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": 129.37168068827586,
     "umbra:squint_angle_exploitation_degrees": 39.37168068827586,
     "umbra:task_id": "2d74046d-3bd3-45db-84f5-4ae228b67b82",
+    "view:azimuth": 219.37797744686523,
     "subfolder": "Papua, Indonesia",
     "umbra:stac_id": "32a1b045-80dd-4ea6-93e7-cbb750944565",
     "proj:code": "EPSG:4326"
@@ -96,6 +97,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2d74046d-3bd3-45db-84f5-4ae228b67b82/2024-11-12-13-23-27_UMBRA-08/2024-11-12-13-23-27_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2d74046d-3bd3-45db-84f5-4ae228b67b82/2024-11-12-13-23-27_UMBRA-08/2024-11-12-13-23-27_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +114,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/2d74046d-3bd3-45db-84f5-4ae228b67b82/2024-11-12-13-23-27_UMBRA-08/2024-11-12-13-23-27_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

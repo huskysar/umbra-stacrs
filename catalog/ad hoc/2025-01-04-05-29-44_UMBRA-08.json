@@ -48,8 +48,8 @@
     "end_datetime": "2025-01-04T05:30:14.200Z",
     "created": "2025-01-05T15:15:40.552Z",
     "updated": "2025-01-05T15:15:40.552Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08",
     "view:incidence_angle": 36.33841139163041,
-    "view:azimuth": 102.94004443199644,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -63.11497162561788,
     "umbra:squint_angle_exploitation_degrees": 26.885028374382117,
     "umbra:task_id": "fcfee6c1-06b1-46a0-91a9-fe41560521e3",
+    "view:azimuth": 102.94004443199644,
     "subfolder": "ad hoc",
     "umbra:stac_id": "b82e96a8-4020-4b93-bc39-121d5a0bfdb1",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Harry_Reid_Airport_Las_Vegas_Nevada/fcfee6c1-06b1-46a0-91a9-fe41560521e3/2025-01-04-05-29-44_UMBRA-08/2025-01-04-05-29-44_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

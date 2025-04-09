@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-29T04:18:17.399Z",
     "created": "2024-10-30T03:19:48.472Z",
     "updated": "2024-10-30T03:19:48.472Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Johnston%2C%20Iowa%20Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08.stac.v2",
     "view:incidence_angle": 28.644828571443853,
-    "view:azimuth": 206.60221705272383,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": 141.60050276777304,
     "umbra:squint_angle_exploitation_degrees": 51.60050276777304,
     "umbra:task_id": "efe54d1a-dd21-437b-9270-0c1511cea82e",
+    "view:azimuth": 206.60221705272383,
     "subfolder": "Johnston, Iowa Farm",
     "umbra:stac_id": "76e08a09-c15d-49da-bb32-fde52b462e39",
     "proj:code": "EPSG:4326"
@@ -96,6 +97,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08/2024-10-29-04-18-12_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08/2024-10-29-04-18-12_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +114,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/efe54d1a-dd21-437b-9270-0c1511cea82e/2024-10-29-04-18-12_UMBRA-08/2024-10-29-04-18-12_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-18T13:20:24.400Z",
     "created": "2025-02-18T15:29:45.580Z",
     "updated": "2025-02-18T15:29:45.580Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Sydney%20International%20Airport%2C%20Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09",
     "view:incidence_angle": 44.09993911457633,
-    "view:azimuth": 244.98281725310585,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 80.1834400566135,
     "umbra:squint_angle_exploitation_degrees": -9.816559943386494,
     "umbra:task_id": "ac105316-8d9d-4536-911d-b6739c400520",
+    "view:azimuth": 244.98281725310585,
     "subfolder": "Sydney International Airport, Australia",
     "umbra:stac_id": "5ede36be-729c-49f0-8154-57cb0318092c",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09/2025-02-18-13-20-09_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09/2025-02-18-13-20-09_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/ac105316-8d9d-4536-911d-b6739c400520/2025-02-18-13-20-09_UMBRA-09/2025-02-18-13-20-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

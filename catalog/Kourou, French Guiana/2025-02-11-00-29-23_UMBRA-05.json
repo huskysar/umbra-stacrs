@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-11T00:29:27.800Z",
     "created": "2025-02-11T14:09:14.348Z",
     "updated": "2025-02-11T14:09:14.348Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Kourou%2C%20French%20Guiana/de98e353-a713-42ba-8d33-00a31913d532/2025-02-11-00-29-23_UMBRA-05",
     "view:incidence_angle": 38.54306975485066,
-    "view:azimuth": 95.30798412349723,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -73.35501409062074,
     "umbra:squint_angle_exploitation_degrees": 16.64498590937926,
     "umbra:task_id": "de98e353-a713-42ba-8d33-00a31913d532",
+    "view:azimuth": 95.30798412349723,
     "subfolder": "Kourou, French Guiana",
     "umbra:stac_id": "24a0e084-b1fe-45b0-b0b1-64d3564f78ac",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/de98e353-a713-42ba-8d33-00a31913d532/2025-02-11-00-29-23_UMBRA-05/2025-02-11-00-29-23_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/de98e353-a713-42ba-8d33-00a31913d532/2025-02-11-00-29-23_UMBRA-05/2025-02-11-00-29-23_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/de98e353-a713-42ba-8d33-00a31913d532/2025-02-11-00-29-23_UMBRA-05/2025-02-11-00-29-23_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

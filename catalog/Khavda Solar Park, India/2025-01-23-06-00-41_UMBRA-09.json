@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-23T06:00:46.800Z",
     "created": "2025-01-23T07:16:58.984Z",
     "updated": "2025-01-23T07:16:58.984Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Khavda%20Solar%20Park%2C%20India/9b6dc5a4-c51b-41b2-9b77-b15d7c50202c/2025-01-23-06-00-41_UMBRA-09",
     "view:incidence_angle": 38.84242152684878,
-    "view:azimuth": 83.75370836439853,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 73.32928168446563,
     "umbra:squint_angle_exploitation_degrees": -16.670718315534373,
     "umbra:task_id": "9b6dc5a4-c51b-41b2-9b77-b15d7c50202c",
+    "view:azimuth": 83.75370836439853,
     "subfolder": "Khavda Solar Park, India",
     "umbra:stac_id": "44bda9ce-bf37-4f3c-b164-4138eec5360a",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/9b6dc5a4-c51b-41b2-9b77-b15d7c50202c/2025-01-23-06-00-41_UMBRA-09/2025-01-23-06-00-41_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/9b6dc5a4-c51b-41b2-9b77-b15d7c50202c/2025-01-23-06-00-41_UMBRA-09/2025-01-23-06-00-41_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/9b6dc5a4-c51b-41b2-9b77-b15d7c50202c/2025-01-23-06-00-41_UMBRA-09/2025-01-23-06-00-41_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-28T02:51:12.800Z",
     "created": "2025-03-28T14:03:17.830Z",
     "updated": "2025-03-28T14:03:17.830Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Greenbushes%20Mine%2C%20Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09",
     "view:incidence_angle": 32.81330370838386,
-    "view:azimuth": 297.9829876299228,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -72.87606791866365,
     "umbra:squint_angle_exploitation_degrees": 17.12393208133635,
     "umbra:task_id": "b69c6787-a846-4b2f-8440-edd4eba3541b",
+    "view:azimuth": 297.9829876299228,
     "subfolder": "Greenbushes Mine, Australia",
     "umbra:stac_id": "9d95138d-9739-463b-8bf2-953b295a094a",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

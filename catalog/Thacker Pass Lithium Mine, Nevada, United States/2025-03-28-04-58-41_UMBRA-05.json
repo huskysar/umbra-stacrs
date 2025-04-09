@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-28T04:58:44.599Z",
     "created": "2025-03-28T21:09:57.904Z",
     "updated": "2025-03-28T21:09:57.905Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Thacker%20Pass%20Lithium%20Mine%2C%20Nevada%2C%20United%20States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05",
     "view:incidence_angle": 40.933343689350615,
-    "view:azimuth": 270.3375824053206,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 100.1796695492277,
     "umbra:squint_angle_exploitation_degrees": 10.179669549227697,
     "umbra:task_id": "b0ab2e77-aec8-4732-bb79-0e93de8b2867",
+    "view:azimuth": 270.3375824053206,
     "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
     "umbra:stac_id": "73e46809-377c-4daa-ac21-43ac293a6fb2",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05/2025-03-28-04-58-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05/2025-03-28-04-58-41_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/b0ab2e77-aec8-4732-bb79-0e93de8b2867/2025-03-28-04-58-41_UMBRA-05/2025-03-28-04-58-41_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

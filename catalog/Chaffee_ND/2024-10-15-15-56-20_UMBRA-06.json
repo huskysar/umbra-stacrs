@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-15T15:56:22Z",
     "created": "2024-10-15T19:25:44.355Z",
     "updated": "2024-10-15T19:25:44.355Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Chaffee_ND/46335f41-1d4e-46bb-9f23-6818087cc047/2024-10-15-15-56-20_UMBRA-06",
     "view:incidence_angle": 38.72788801246713,
-    "view:azimuth": 86.03504930731951,
     "platform": "Umbra-06",
     "processing:software": {
       "Umbra SAR Processor": "3.51.1"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": -101.85129464338274,
     "umbra:squint_angle_exploitation_degrees": -11.851294643382744,
     "umbra:task_id": "46335f41-1d4e-46bb-9f23-6818087cc047",
+    "view:azimuth": 86.03504930731951,
     "subfolder": "Chaffee_ND",
     "umbra:stac_id": "9c67c462-d9f8-4c36-8add-a60133673224",
     "proj:code": "EPSG:4326"
@@ -95,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/46335f41-1d4e-46bb-9f23-6818087cc047/2024-10-15-15-56-20_UMBRA-06/2024-10-15-15-56-20_UMBRA-06_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/46335f41-1d4e-46bb-9f23-6818087cc047/2024-10-15-15-56-20_UMBRA-06/2024-10-15-15-56-20_UMBRA-06_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Chaffee_ND/46335f41-1d4e-46bb-9f23-6818087cc047/2024-10-15-15-56-20_UMBRA-06/2024-10-15-15-56-20_UMBRA-06_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

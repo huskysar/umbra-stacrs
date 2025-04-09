@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-13T03:41:17.200Z",
     "created": "2025-01-13T06:04:42.076Z",
     "updated": "2025-01-13T06:04:42.076Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Magui%20Payan%2C%20Colombia/b21dad1c-9cfa-42d8-b0bb-da65df963c1c/2025-01-13-03-41-15_UMBRA-08",
     "view:incidence_angle": 15.261943912642266,
-    "view:azimuth": 243.66050907619191,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 74.80244519776181,
     "umbra:squint_angle_exploitation_degrees": -15.197554802238187,
     "umbra:task_id": "b21dad1c-9cfa-42d8-b0bb-da65df963c1c",
+    "view:azimuth": 243.66050907619191,
     "subfolder": "Magui Payan, Colombia",
     "umbra:stac_id": "a4153ccd-e645-4589-bfd2-bd8ca2d52f2a",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/b21dad1c-9cfa-42d8-b0bb-da65df963c1c/2025-01-13-03-41-15_UMBRA-08/2025-01-13-03-41-15_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/b21dad1c-9cfa-42d8-b0bb-da65df963c1c/2025-01-13-03-41-15_UMBRA-08/2025-01-13-03-41-15_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/b21dad1c-9cfa-42d8-b0bb-da65df963c1c/2025-01-13-03-41-15_UMBRA-08/2025-01-13-03-41-15_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

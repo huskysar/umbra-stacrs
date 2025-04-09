@@ -48,8 +48,8 @@
     "end_datetime": "2024-12-23T06:55:42Z",
     "created": "2024-12-23T23:31:45.486Z",
     "updated": "2024-12-23T23:31:45.486Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Jebel%20Ali%2C%20United%20Arab%20Emirates/82fd2e8e-f3f3-4387-85a9-0240bf05021b/2024-12-23-06-55-31_UMBRA-09",
     "view:incidence_angle": 41.92220643296437,
-    "view:azimuth": 85.64053580929404,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 75.45144775132081,
     "umbra:squint_angle_exploitation_degrees": -14.548552248679188,
     "umbra:task_id": "82fd2e8e-f3f3-4387-85a9-0240bf05021b",
+    "view:azimuth": 85.64053580929404,
     "subfolder": "Port of Jebel Ali, United Arab Emirates",
     "umbra:stac_id": "2b8e6d01-d9cc-44e1-bc2b-91364b9b146a",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/82fd2e8e-f3f3-4387-85a9-0240bf05021b/2024-12-23-06-55-31_UMBRA-09/2024-12-23-06-55-31_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/82fd2e8e-f3f3-4387-85a9-0240bf05021b/2024-12-23-06-55-31_UMBRA-09/2024-12-23-06-55-31_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/82fd2e8e-f3f3-4387-85a9-0240bf05021b/2024-12-23-06-55-31_UMBRA-09/2024-12-23-06-55-31_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

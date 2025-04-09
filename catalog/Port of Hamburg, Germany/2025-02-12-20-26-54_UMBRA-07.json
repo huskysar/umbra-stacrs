@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-12T20:27:07Z",
     "created": "2025-02-13T16:48:52.678Z",
     "updated": "2025-02-13T16:48:52.678Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Hamburg%2C%20Germany/87b4bb75-ee9e-4859-b63b-aa7a63e291c4/2025-02-12-20-26-54_UMBRA-07",
     "view:incidence_angle": 38.12742174440137,
-    "view:azimuth": 105.38754945532618,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -55.86238080428328,
     "umbra:squint_angle_exploitation_degrees": 34.137619195716724,
     "umbra:task_id": "87b4bb75-ee9e-4859-b63b-aa7a63e291c4",
+    "view:azimuth": 105.38754945532618,
     "subfolder": "Port of Hamburg, Germany",
     "umbra:stac_id": "9f4efff0-cc37-495e-aed4-1f6cc951ec7b",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/87b4bb75-ee9e-4859-b63b-aa7a63e291c4/2025-02-12-20-26-54_UMBRA-07/2025-02-12-20-26-54_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/87b4bb75-ee9e-4859-b63b-aa7a63e291c4/2025-02-12-20-26-54_UMBRA-07/2025-02-12-20-26-54_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/87b4bb75-ee9e-4859-b63b-aa7a63e291c4/2025-02-12-20-26-54_UMBRA-07/2025-02-12-20-26-54_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

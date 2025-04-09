@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-09T04:10:06.200Z",
     "created": "2024-10-09T15:21:18.738Z",
     "updated": "2024-10-09T15:21:18.738Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Mapleton_ND/5d47a5ff-196b-4ca4-9cf2-00c4afd8167e/2024-10-09-04-10-04_UMBRA-08",
     "view:incidence_angle": 22.189309553190952,
-    "view:azimuth": 92.83225135922696,
     "platform": "Umbra-08",
     "processing:software": {
       "Umbra SAR Processor": "3.50.1"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": -107.5619462041026,
     "umbra:squint_angle_exploitation_degrees": -17.56194620410261,
     "umbra:task_id": "5d47a5ff-196b-4ca4-9cf2-00c4afd8167e",
+    "view:azimuth": 92.83225135922696,
     "subfolder": "Mapleton_ND",
     "umbra:stac_id": "f71bb57c-0670-41b4-8759-acee293f6598",
     "proj:code": "EPSG:4326"
@@ -95,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/5d47a5ff-196b-4ca4-9cf2-00c4afd8167e/2024-10-09-04-10-04_UMBRA-08/2024-10-09-04-10-04_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/5d47a5ff-196b-4ca4-9cf2-00c4afd8167e/2024-10-09-04-10-04_UMBRA-08/2024-10-09-04-10-04_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/5d47a5ff-196b-4ca4-9cf2-00c4afd8167e/2024-10-09-04-10-04_UMBRA-08/2024-10-09-04-10-04_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

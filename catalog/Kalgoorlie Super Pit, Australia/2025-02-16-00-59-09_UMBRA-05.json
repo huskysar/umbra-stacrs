@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-16T00:59:12.599Z",
     "created": "2025-02-16T21:20:18.305Z",
     "updated": "2025-02-16T21:20:18.305Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Kalgoorlie%20Super%20Pit%2C%20Australia/787d788f-deb3-4ccc-b992-404b0558333a/2025-02-16-00-59-09_UMBRA-05",
     "view:incidence_angle": 26.97037705330129,
-    "view:azimuth": 297.28661127685183,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -73.65462201454763,
     "umbra:squint_angle_exploitation_degrees": 16.345377985452373,
     "umbra:task_id": "787d788f-deb3-4ccc-b992-404b0558333a",
+    "view:azimuth": 297.28661127685183,
     "subfolder": "Kalgoorlie Super Pit, Australia",
     "umbra:stac_id": "a7de4fdd-9ef6-45fb-803d-053d6c91c6d3",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/787d788f-deb3-4ccc-b992-404b0558333a/2025-02-16-00-59-09_UMBRA-05/2025-02-16-00-59-09_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/787d788f-deb3-4ccc-b992-404b0558333a/2025-02-16-00-59-09_UMBRA-05/2025-02-16-00-59-09_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/787d788f-deb3-4ccc-b992-404b0558333a/2025-02-16-00-59-09_UMBRA-05/2025-02-16-00-59-09_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

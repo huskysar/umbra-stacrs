@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-24T02:25:24Z",
     "created": "2024-10-25T12:40:57.338Z",
     "updated": "2024-10-25T12:40:57.338Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Buenos%20Aires%2C%20ARG/bada8565-3e6b-45cc-ab02-602fa5c71127/2024-10-24-02-25-18_UMBRA-08",
     "view:incidence_angle": 33.57974633094215,
-    "view:azimuth": 115.88167221807775,
     "platform": "Umbra-08",
     "processing:software": {
       "Umbra SAR Processor": "3.51.1"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": -126.51545779135276,
     "umbra:squint_angle_exploitation_degrees": -36.51545779135276,
     "umbra:task_id": "bada8565-3e6b-45cc-ab02-602fa5c71127",
+    "view:azimuth": 115.88167221807775,
     "subfolder": "Buenos Aires, ARG",
     "umbra:stac_id": "3f34ac71-9a6e-4ce4-b352-00910903293b",
     "proj:code": "EPSG:4326"
@@ -95,6 +96,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/bada8565-3e6b-45cc-ab02-602fa5c71127/2024-10-24-02-25-18_UMBRA-08/2024-10-24-02-25-18_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/bada8565-3e6b-45cc-ab02-602fa5c71127/2024-10-24-02-25-18_UMBRA-08/2024-10-24-02-25-18_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -103,15 +113,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/bada8565-3e6b-45cc-ab02-602fa5c71127/2024-10-24-02-25-18_UMBRA-08/2024-10-24-02-25-18_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

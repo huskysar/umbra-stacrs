@@ -47,8 +47,8 @@
     "end_datetime": "2024-10-08T04:27:15.199Z",
     "created": "2024-10-09T15:26:22.618Z",
     "updated": "2024-10-09T15:26:22.618Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Mapleton_ND/37b09d28-c65d-4c9d-b6cd-792a26dd1c25/2024-10-08-04-27-13_UMBRA-08",
     "view:incidence_angle": 15.9301380331719,
-    "view:azimuth": 256.9489954140243,
     "platform": "Umbra-08",
     "processing:software": {
       "Umbra SAR Processor": "3.50.1"
@@ -73,6 +73,7 @@
     "umbra:squint_angle_engineering_degrees": 90.2938401578073,
     "umbra:squint_angle_exploitation_degrees": 0.29384015780729555,
     "umbra:task_id": "37b09d28-c65d-4c9d-b6cd-792a26dd1c25",
+    "view:azimuth": 256.9489954140243,
     "subfolder": "Mapleton_ND",
     "umbra:stac_id": "8b12b9da-93b7-48e0-8793-12a023ee7098",
     "proj:code": "EPSG:4326"
@@ -95,15 +96,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/37b09d28-c65d-4c9d-b6cd-792a26dd1c25/2024-10-08-04-27-13_UMBRA-08/2024-10-08-04-27-13_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/37b09d28-c65d-4c9d-b6cd-792a26dd1c25/2024-10-08-04-27-13_UMBRA-08/2024-10-08-04-27-13_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -112,6 +104,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Mapleton_ND/37b09d28-c65d-4c9d-b6cd-792a26dd1c25/2024-10-08-04-27-13_UMBRA-08/2024-10-08-04-27-13_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

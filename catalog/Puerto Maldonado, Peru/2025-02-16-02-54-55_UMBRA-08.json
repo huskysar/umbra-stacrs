@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-16T02:55:00.400Z",
     "created": "2025-02-16T13:37:09.282Z",
     "updated": "2025-02-16T13:37:09.282Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Puerto%20Maldonado%2C%20Peru/8e911b83-f68a-4ab6-a43d-9fa6562e17ed/2025-02-16-02-54-55_UMBRA-08",
     "view:incidence_angle": 41.6253131017455,
-    "view:azimuth": 96.48240490631608,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -73.00718598978358,
     "umbra:squint_angle_exploitation_degrees": 16.99281401021642,
     "umbra:task_id": "8e911b83-f68a-4ab6-a43d-9fa6562e17ed",
+    "view:azimuth": 96.48240490631608,
     "subfolder": "Puerto Maldonado, Peru",
     "umbra:stac_id": "12f83c51-e82c-4f5a-a95b-632b33311024",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/8e911b83-f68a-4ab6-a43d-9fa6562e17ed/2025-02-16-02-54-55_UMBRA-08/2025-02-16-02-54-55_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/8e911b83-f68a-4ab6-a43d-9fa6562e17ed/2025-02-16-02-54-55_UMBRA-08/2025-02-16-02-54-55_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/8e911b83-f68a-4ab6-a43d-9fa6562e17ed/2025-02-16-02-54-55_UMBRA-08/2025-02-16-02-54-55_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

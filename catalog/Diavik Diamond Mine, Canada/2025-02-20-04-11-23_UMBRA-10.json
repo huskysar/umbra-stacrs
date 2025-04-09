@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-20T04:11:27.600Z",
     "created": "2025-02-20T09:47:31.892Z",
     "updated": "2025-02-20T09:47:31.892Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Diavik%20Diamond%20Mine%2C%20Canada/30a97072-9ab2-421b-9470-786b2ce75ef2/2025-02-20-04-11-23_UMBRA-10",
     "view:incidence_angle": 44.74464855716338,
-    "view:azimuth": 71.02474160343172,
     "constellation": "umbra",
     "platform": "Umbra-10",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -79.29733451069174,
     "umbra:squint_angle_exploitation_degrees": 10.70266548930826,
     "umbra:task_id": "30a97072-9ab2-421b-9470-786b2ce75ef2",
+    "view:azimuth": 71.02474160343172,
     "subfolder": "Diavik Diamond Mine, Canada",
     "umbra:stac_id": "c1cc578d-9613-46b6-94e2-24b01f796716",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/30a97072-9ab2-421b-9470-786b2ce75ef2/2025-02-20-04-11-23_UMBRA-10/2025-02-20-04-11-23_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/30a97072-9ab2-421b-9470-786b2ce75ef2/2025-02-20-04-11-23_UMBRA-10/2025-02-20-04-11-23_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/30a97072-9ab2-421b-9470-786b2ce75ef2/2025-02-20-04-11-23_UMBRA-10/2025-02-20-04-11-23_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-24T20:47:53.199Z",
     "created": "2025-03-25T10:26:58.349Z",
     "updated": "2025-03-25T10:26:58.349Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Campo%2C%20Cameroon%20A/6152f41d-7baf-488f-bb60-4cf4d95290e7/2025-03-24-20-47-40_UMBRA-05",
     "view:incidence_angle": 43.53382127814085,
-    "view:azimuth": 245.62231308623785,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 76.60451455920145,
     "umbra:squint_angle_exploitation_degrees": -13.395485440798552,
     "umbra:task_id": "6152f41d-7baf-488f-bb60-4cf4d95290e7",
+    "view:azimuth": 245.62231308623785,
     "subfolder": "Campo, Cameroon A",
     "umbra:stac_id": "9698ce25-7ec8-4a24-8edf-258db8107bf0",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/6152f41d-7baf-488f-bb60-4cf4d95290e7/2025-03-24-20-47-40_UMBRA-05/2025-03-24-20-47-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/6152f41d-7baf-488f-bb60-4cf4d95290e7/2025-03-24-20-47-40_UMBRA-05/2025-03-24-20-47-40_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/6152f41d-7baf-488f-bb60-4cf4d95290e7/2025-03-24-20-47-40_UMBRA-05/2025-03-24-20-47-40_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2024-11-15T17:35:53.200Z",
     "created": "2024-11-15T22:05:05.076Z",
     "updated": "2024-11-15T22:05:05.076Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/North%20Dakota%20State%20University%20Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08",
     "view:incidence_angle": 29.781072148733926,
-    "view:azimuth": 300.4351751180345,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": -104.90901117534742,
     "umbra:squint_angle_exploitation_degrees": -14.909011175347416,
     "umbra:task_id": "7036ed7e-79c1-4b66-819b-a2497028b68b",
+    "view:azimuth": 300.4351751180345,
     "subfolder": "North Dakota State University Plot",
     "umbra:stac_id": "c3086085-5783-470f-ab45-9b06568ee038",
     "proj:code": "EPSG:4326"
@@ -96,15 +97,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +105,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/7036ed7e-79c1-4b66-819b-a2497028b68b/2024-11-15-17-35-51_UMBRA-08/2024-11-15-17-35-51_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-30T15:37:51.400Z",
     "created": "2025-02-02T12:28:10.496Z",
     "updated": "2025-02-02T12:28:10.496Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Suvarnabhumi%20International%20Airport%2C%20Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07",
     "view:incidence_angle": 44.35685838467034,
-    "view:azimuth": 265.70023157402125,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 96.0286393047403,
     "umbra:squint_angle_exploitation_degrees": 6.028639304740295,
     "umbra:task_id": "e56c7747-6014-4974-bf61-3db011d53a63",
+    "view:azimuth": 265.70023157402125,
     "subfolder": "Suvarnabhumi International Airport, Thailand",
     "umbra:stac_id": "da8f7829-4e63-4cb5-9ea8-e31d3fd972e7",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/e56c7747-6014-4974-bf61-3db011d53a63/2025-01-30-15-37-37_UMBRA-07/2025-01-30-15-37-37_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

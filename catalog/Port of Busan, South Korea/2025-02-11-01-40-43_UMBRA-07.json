@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-11T01:40:52.399Z",
     "created": "2025-02-11T14:43:43.713Z",
     "updated": "2025-02-11T14:43:43.713Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Busan%2C%20South%20Korea/72c63696-6ea0-4e2e-85a4-a76bb271b09b/2025-02-11-01-40-43_UMBRA-07",
     "view:incidence_angle": 28.354170912467936,
-    "view:azimuth": 93.19177624347944,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 82.46442375053243,
     "umbra:squint_angle_exploitation_degrees": -7.535576249467567,
     "umbra:task_id": "72c63696-6ea0-4e2e-85a4-a76bb271b09b",
+    "view:azimuth": 93.19177624347944,
     "subfolder": "Port of Busan, South Korea",
     "umbra:stac_id": "e587cd17-9336-45c3-a5b9-ec1459932891",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/72c63696-6ea0-4e2e-85a4-a76bb271b09b/2025-02-11-01-40-43_UMBRA-07/2025-02-11-01-40-43_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/72c63696-6ea0-4e2e-85a4-a76bb271b09b/2025-02-11-01-40-43_UMBRA-07/2025-02-11-01-40-43_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/72c63696-6ea0-4e2e-85a4-a76bb271b09b/2025-02-11-01-40-43_UMBRA-07/2025-02-11-01-40-43_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

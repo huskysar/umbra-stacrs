@@ -47,8 +47,8 @@
     "end_datetime": "2025-04-02T15:38:30.800Z",
     "created": "2025-04-05T18:10:03.837Z",
     "updated": "2025-04-05T18:10:03.837Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Panama%20Canal%2C%20Panama/a0e23c8a-9205-45f0-a994-98915e693ccb/2025-04-02-15-38-19_UMBRA-08",
     "view:incidence_angle": 35.59658469002644,
-    "view:azimuth": 88.81866095140535,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 78.03848628682181,
     "umbra:squint_angle_exploitation_degrees": -11.961513713178192,
     "umbra:task_id": "a0e23c8a-9205-45f0-a994-98915e693ccb",
+    "view:azimuth": 88.81866095140535,
     "subfolder": "Panama Canal, Panama",
     "umbra:stac_id": "2b7c95cb-dd1f-4cc3-89d7-e1d2101d7073",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/a0e23c8a-9205-45f0-a994-98915e693ccb/2025-04-02-15-38-19_UMBRA-08/2025-04-02-15-38-19_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/a0e23c8a-9205-45f0-a994-98915e693ccb/2025-04-02-15-38-19_UMBRA-08/2025-04-02-15-38-19_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/a0e23c8a-9205-45f0-a994-98915e693ccb/2025-04-02-15-38-19_UMBRA-08/2025-04-02-15-38-19_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

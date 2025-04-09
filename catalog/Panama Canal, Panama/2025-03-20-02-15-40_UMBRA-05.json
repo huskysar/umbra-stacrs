@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-20T02:15:52.199Z",
     "created": "2025-03-22T13:48:14.003Z",
     "updated": "2025-03-22T13:48:14.003Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Panama%20Canal%2C%20Panama/e3be6aac-8f64-4d3c-9347-47834e2c894c/2025-03-20-02-15-40_UMBRA-05",
     "view:incidence_angle": 37.64378833134783,
-    "view:azimuth": 90.2637860843022,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -78.21989381390242,
     "umbra:squint_angle_exploitation_degrees": 11.780106186097584,
     "umbra:task_id": "e3be6aac-8f64-4d3c-9347-47834e2c894c",
+    "view:azimuth": 90.2637860843022,
     "subfolder": "Panama Canal, Panama",
     "umbra:stac_id": "ed01b921-efb2-4f85-a189-6688210ef118",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/e3be6aac-8f64-4d3c-9347-47834e2c894c/2025-03-20-02-15-40_UMBRA-05/2025-03-20-02-15-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/e3be6aac-8f64-4d3c-9347-47834e2c894c/2025-03-20-02-15-40_UMBRA-05/2025-03-20-02-15-40_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/e3be6aac-8f64-4d3c-9347-47834e2c894c/2025-03-20-02-15-40_UMBRA-05/2025-03-20-02-15-40_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -48,8 +48,8 @@
     "end_datetime": "2024-12-21T15:56:26.800Z",
     "created": "2024-12-26T14:02:05.293Z",
     "updated": "2024-12-26T14:02:05.293Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Savannah%2C%20Georgia%2C%20United%20States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08",
     "view:incidence_angle": 30.88711665864622,
-    "view:azimuth": 87.59466230836757,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 76.92802793016074,
     "umbra:squint_angle_exploitation_degrees": -13.071972069839262,
     "umbra:task_id": "7019cb54-9e03-45ea-84b9-266eccbc7aeb",
+    "view:azimuth": 87.59466230836757,
     "subfolder": "Port of Savannah, Georgia, United States",
     "umbra:stac_id": "56b8304c-55ba-424e-9f9f-b68787a62eb3",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08/2024-12-21-15-56-18_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08/2024-12-21-15-56-18_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/7019cb54-9e03-45ea-84b9-266eccbc7aeb/2024-12-21-15-56-18_UMBRA-08/2024-12-21-15-56-18_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

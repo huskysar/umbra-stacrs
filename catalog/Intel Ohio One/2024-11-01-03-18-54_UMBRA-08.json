@@ -47,8 +47,8 @@
     "end_datetime": "2024-11-01T03:18:59.200Z",
     "created": "2024-11-01T13:44:15.268Z",
     "updated": "2024-11-01T13:44:15.268Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Intel%20Ohio%20One/c3155f90-d937-435d-9dd2-87c79e23d4bc/2024-11-01-03-18-54_UMBRA-08.stac.v2",
     "view:incidence_angle": 28.657335320553926,
-    "view:azimuth": 41.50161304724253,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": -55.318497004879376,
     "umbra:squint_angle_exploitation_degrees": 34.681502995120624,
     "umbra:task_id": "c3155f90-d937-435d-9dd2-87c79e23d4bc",
+    "view:azimuth": 41.50161304724253,
     "subfolder": "Intel Ohio One",
     "umbra:stac_id": "e291a1f4-8c7c-4a02-af5c-cda65fa92568",
     "proj:code": "EPSG:4326"
@@ -96,15 +97,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/c3155f90-d937-435d-9dd2-87c79e23d4bc/2024-11-01-03-18-54_UMBRA-08/2024-11-01-03-18-54_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/c3155f90-d937-435d-9dd2-87c79e23d4bc/2024-11-01-03-18-54_UMBRA-08/2024-11-01-03-18-54_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +105,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/c3155f90-d937-435d-9dd2-87c79e23d4bc/2024-11-01-03-18-54_UMBRA-08/2024-11-01-03-18-54_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

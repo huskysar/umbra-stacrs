@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-09T05:35:58.200Z",
     "created": "2025-03-09T09:42:38.481Z",
     "updated": "2025-03-09T09:42:38.481Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Littleton_CO/5f62bb80-e746-46de-8ec8-761244afc295/2025-03-09-05-35-50_UMBRA-10",
     "view:incidence_angle": 42.10077570211459,
-    "view:azimuth": 236.96871768849184,
     "constellation": "umbra",
     "platform": "Umbra-10",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 67.15829015083574,
     "umbra:squint_angle_exploitation_degrees": -22.84170984916426,
     "umbra:task_id": "5f62bb80-e746-46de-8ec8-761244afc295",
+    "view:azimuth": 236.96871768849184,
     "subfolder": "ad hoc",
     "umbra:stac_id": "0f0f651b-1575-46d9-92ea-d00de4033331",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/5f62bb80-e746-46de-8ec8-761244afc295/2025-03-09-05-35-50_UMBRA-10/2025-03-09-05-35-50_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/5f62bb80-e746-46de-8ec8-761244afc295/2025-03-09-05-35-50_UMBRA-10/2025-03-09-05-35-50_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Littleton_CO/5f62bb80-e746-46de-8ec8-761244afc295/2025-03-09-05-35-50_UMBRA-10/2025-03-09-05-35-50_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

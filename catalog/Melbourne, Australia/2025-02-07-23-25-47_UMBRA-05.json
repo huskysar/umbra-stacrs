@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-07T23:25:54.599Z",
     "created": "2025-02-09T10:42:24.238Z",
     "updated": "2025-02-09T10:42:24.238Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Melbourne%2C%20Australia/beedb83a-e828-4679-8de3-bbcaf84d6d3a/2025-02-07-23-25-47_UMBRA-05",
     "view:incidence_angle": 39.302585615907304,
-    "view:azimuth": 306.5581732573723,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -63.75655503174107,
     "umbra:squint_angle_exploitation_degrees": 26.243444968258927,
     "umbra:task_id": "beedb83a-e828-4679-8de3-bbcaf84d6d3a",
+    "view:azimuth": 306.5581732573723,
     "subfolder": "Melbourne, Australia",
     "umbra:stac_id": "967dacf4-3a0f-4f6a-b0b5-b7c907bba909",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/beedb83a-e828-4679-8de3-bbcaf84d6d3a/2025-02-07-23-25-47_UMBRA-05/2025-02-07-23-25-47_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/beedb83a-e828-4679-8de3-bbcaf84d6d3a/2025-02-07-23-25-47_UMBRA-05/2025-02-07-23-25-47_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/beedb83a-e828-4679-8de3-bbcaf84d6d3a/2025-02-07-23-25-47_UMBRA-05/2025-02-07-23-25-47_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

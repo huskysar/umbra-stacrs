@@ -48,8 +48,8 @@
     "end_datetime": "2024-12-20T08:26:51.599Z",
     "created": "2024-12-23T16:22:12.816Z",
     "updated": "2024-12-23T16:22:12.816Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Jeddah%20Tower%2C%20Saudi%20Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09",
     "view:incidence_angle": 32.159034710790316,
-    "view:azimuth": 253.45303679194785,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -119.20979468035772,
     "umbra:squint_angle_exploitation_degrees": -29.20979468035773,
     "umbra:task_id": "6aa58017-08b2-46b9-b92d-b57454a1e929",
+    "view:azimuth": 253.45303679194785,
     "subfolder": "Jeddah Tower, Saudi Arabia",
     "umbra:stac_id": "5615ce92-b9bc-4ec4-b2b3-1c03e61fcf14",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/6aa58017-08b2-46b9-b92d-b57454a1e929/2024-12-20-08-26-38_UMBRA-09/2024-12-20-08-26-38_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

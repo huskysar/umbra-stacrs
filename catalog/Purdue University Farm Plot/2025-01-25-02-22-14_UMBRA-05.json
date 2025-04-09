@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-25T02:22:37.199Z",
     "created": "2025-01-26T12:42:42.941Z",
     "updated": "2025-01-26T12:42:42.941Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Purdue%20University%20Farm%20Plot/556ab1ab-ef1b-4f06-888e-0b7afdde566b/2025-01-25-02-22-14_UMBRA-05",
     "view:incidence_angle": 32.21563113829146,
-    "view:azimuth": 76.63576296385196,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -88.92763539493934,
     "umbra:squint_angle_exploitation_degrees": 1.072364605060656,
     "umbra:task_id": "556ab1ab-ef1b-4f06-888e-0b7afdde566b",
+    "view:azimuth": 76.63576296385196,
     "subfolder": "Purdue University Farm Plot",
     "umbra:stac_id": "d26f93ab-3b71-44f3-9ba6-f7786336d961",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/556ab1ab-ef1b-4f06-888e-0b7afdde566b/2025-01-25-02-22-14_UMBRA-05/2025-01-25-02-22-14_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/556ab1ab-ef1b-4f06-888e-0b7afdde566b/2025-01-25-02-22-14_UMBRA-05/2025-01-25-02-22-14_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/556ab1ab-ef1b-4f06-888e-0b7afdde566b/2025-01-25-02-22-14_UMBRA-05/2025-01-25-02-22-14_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

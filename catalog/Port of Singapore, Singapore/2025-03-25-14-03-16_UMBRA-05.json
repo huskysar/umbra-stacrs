@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-25T14:03:25.399Z",
     "created": "2025-03-27T09:34:54.196Z",
     "updated": "2025-03-27T09:34:54.196Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Singapore%2C%20Singapore/79de47b6-e42d-4af4-9c4d-83fbd3c97399/2025-03-25-14-03-16_UMBRA-05",
     "view:incidence_angle": 44.44541120434285,
-    "view:azimuth": 89.27500787293788,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -79.57940328140656,
     "umbra:squint_angle_exploitation_degrees": 10.420596718593444,
     "umbra:task_id": "79de47b6-e42d-4af4-9c4d-83fbd3c97399",
+    "view:azimuth": 89.27500787293788,
     "subfolder": "Port of Singapore, Singapore",
     "umbra:stac_id": "99ab7bc2-89f0-4065-a13b-d1b098881764",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/79de47b6-e42d-4af4-9c4d-83fbd3c97399/2025-03-25-14-03-16_UMBRA-05/2025-03-25-14-03-16_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/79de47b6-e42d-4af4-9c4d-83fbd3c97399/2025-03-25-14-03-16_UMBRA-05/2025-03-25-14-03-16_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/79de47b6-e42d-4af4-9c4d-83fbd3c97399/2025-03-25-14-03-16_UMBRA-05/2025-03-25-14-03-16_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

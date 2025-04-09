@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-05T15:49:41.999Z",
     "created": "2025-03-05T18:35:26.564Z",
     "updated": "2025-03-05T18:35:26.564Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Panama%20Canal%2C%20Panama/ebd710cb-bf5c-413c-9c99-5bd2be5e5159/2025-03-05-15-49-28_UMBRA-10",
     "view:incidence_angle": 40.47109874699848,
-    "view:azimuth": 111.8055724184619,
     "constellation": "umbra",
     "platform": "Umbra-10",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 100.74741487219842,
     "umbra:squint_angle_exploitation_degrees": 10.74741487219842,
     "umbra:task_id": "ebd710cb-bf5c-413c-9c99-5bd2be5e5159",
+    "view:azimuth": 111.8055724184619,
     "subfolder": "Panama Canal, Panama",
     "umbra:stac_id": "2fd6d86f-f103-492d-86b7-5f7e25823115",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/ebd710cb-bf5c-413c-9c99-5bd2be5e5159/2025-03-05-15-49-28_UMBRA-10/2025-03-05-15-49-28_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/ebd710cb-bf5c-413c-9c99-5bd2be5e5159/2025-03-05-15-49-28_UMBRA-10/2025-03-05-15-49-28_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/ebd710cb-bf5c-413c-9c99-5bd2be5e5159/2025-03-05-15-49-28_UMBRA-10/2025-03-05-15-49-28_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

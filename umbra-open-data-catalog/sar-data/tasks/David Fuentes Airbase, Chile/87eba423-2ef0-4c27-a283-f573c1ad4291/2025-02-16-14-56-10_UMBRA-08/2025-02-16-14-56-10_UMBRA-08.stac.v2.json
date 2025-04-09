@@ -1,0 +1,210 @@
+{
+    "assets": {
+        "2025-02-16-14-56-10_57abf833-35d5-4348-bb5f-a6440675d61d.parquet": {
+            "description": "MONOSTATIC RAW_COLLECT",
+            "href": "s3://prod-prod-assembled-collects/collect=57abf833-35d5-4348-bb5f-a6440675d61d/2025-02-16-14-56-10_57abf833-35d5-4348-bb5f-a6440675d61d.parquet",
+            "roles": [
+                "data"
+            ],
+            "title": "RAW_COLLECT",
+            "type": "application/octet-stream"
+        },
+        "2025-02-16-14-56-10_UMBRA-08.stac.v2.json": {
+            "description": "MONOSTATIC STAC_METADATA",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08.stac.v2.json",
+            "roles": [
+                "metadata"
+            ],
+            "title": "STAC_METADATA",
+            "type": "application/geo+json"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_ANALYSIS.zip": {
+            "description": "MONOSTATIC COLLECT_ANALYSIS",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/2025-02-16-14-56-10_UMBRA-08_ANALYSIS.zip",
+            "roles": [
+                "data"
+            ],
+            "title": "COLLECT_ANALYSIS",
+            "type": "application/octet-stream"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_CSI_MM.tif": {
+            "description": "MONOSTATIC CSI_TIFF",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_CSI_MM.tif",
+            "roles": [
+                "data"
+            ],
+            "title": "CSI_TIFF",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_CSI_SIDD_MM.nitf": {
+            "description": "MONOSTATIC CSI_SIDD",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_CSI_SIDD_MM.nitf",
+            "roles": [
+                "data"
+            ],
+            "title": "CSI_SIDD",
+            "type": "application/vnd.nitf"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_MM.cphd": {
+            "description": "https://nsgreg.nga.mil/doc/view?i=4638",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_MM.cphd",
+            "roles": [
+                "data"
+            ],
+            "title": "CPHD",
+            "type": "application/octet-stream"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_MM.json": {
+            "description": "MONOSTATIC METADATA",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_MM.json",
+            "roles": [
+                "metadata"
+            ],
+            "title": "METADATA",
+            "type": "application/json"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_MM.tif": {
+            "description": "MONOSTATIC TIFF",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_MM.tif",
+            "roles": [
+                "data",
+                "overview"
+            ],
+            "title": "TIFF",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_SICD_MM.nitf": {
+            "description": "Sensor Independent Complex Data",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_SICD_MM.nitf",
+            "roles": [
+                "data"
+            ],
+            "title": "SICD",
+            "type": "application/vnd.nitf"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_SICD_MM.xml": {
+            "description": "MONOSTATIC SICD_XML",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_SICD_MM.xml",
+            "roles": [
+                "metadata"
+            ],
+            "title": "SICD_XML",
+            "type": "application/xml"
+        },
+        "2025-02-16-14-56-10_UMBRA-08_SIDD_MM.nitf": {
+            "description": "Sensor Independent Derived Data",
+            "href": "s3://prod-prod-processed-sar-data/2025-02-16/57abf833-35d5-4348-bb5f-a6440675d61d/3a24f5d8-a793-4158-a0fc-7d24d0826040/2025-02-16-14-56-10_UMBRA-08_SIDD_MM.nitf",
+            "roles": [
+                "data"
+            ],
+            "title": "SIDD",
+            "type": "application/vnd.nitf"
+        }
+    },
+    "bbox": [
+        -70.82959854498019,
+        -33.42020047758398,
+        -70.7563979354136,
+        -33.358794583776714
+    ],
+    "collection": "umbra-sar",
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    -70.82959854498019,
+                    -33.398069920734685,
+                    508.36639939129395
+                ],
+                [
+                    -70.78276624322805,
+                    -33.42020047758398,
+                    508.3705764823277
+                ],
+                [
+                    -70.7563979354136,
+                    -33.380915329720644,
+                    508.36688994262397
+                ],
+                [
+                    -70.8032158591609,
+                    -33.358794583776714,
+                    508.3705803262923
+                ],
+                [
+                    -70.82959854498019,
+                    -33.398069920734685,
+                    508.36639939129395
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "id": "3a24f5d8-a793-4158-a0fc-7d24d0826040",
+    "links": [
+        {
+            "href": "umbra-sar",
+            "rel": "collection",
+            "type": "application/json"
+        }
+    ],
+    "properties": {
+        "constellation": "umbra",
+        "created": "2025-02-16T15:54:13.493155Z",
+        "datetime": "2025-02-16T14:56:11.600000Z",
+        "end_datetime": "2025-02-16T14:56:12.199999Z",
+        "platform": "Umbra-08",
+        "processing:software": {
+            "Umbra SAR Processor": "4.7.0"
+        },
+        "processing:version": "4.7.0",
+        "providers": [
+            {
+                "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+                "name": "Umbra Lab Inc",
+                "roles": [
+                    "producer",
+                    "processor",
+                    "licensor",
+                    "host"
+                ],
+                "url": "https://umbra.space"
+            }
+        ],
+        "sar:center_frequency": 9.56184006511886,
+        "sar:frequency_band": "X",
+        "sar:instrument_mode": "SPOTLIGHT",
+        "sar:looks_azimuth": 1,
+        "sar:looks_range": 1,
+        "sar:observation_direction": "left",
+        "sar:polarizations": [
+            "HH"
+        ],
+        "sar:product_type": "GEC",
+        "sar:resolution_azimuth": 1.0000000051837423,
+        "sar:resolution_range": 0.9999999948557573,
+        "sat:orbit_state": "descending",
+        "start_datetime": "2025-02-16T14:56:11Z",
+        "umbra:best_resolution_azimuth_meters": 0.8224883253925052,
+        "umbra:best_resolution_range_meters": 0.8299865901758462,
+        "umbra:collect_id": "57abf833-35d5-4348-bb5f-a6440675d61d",
+        "umbra:grazing_angle_degrees": 69.33858711587227,
+        "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+        "umbra:slant_range_meters": 538301.3022439565,
+        "umbra:squint_angle_degrees_off_broadside": 17.945891082042976,
+        "umbra:squint_angle_engineering_degrees": -72.05410891795702,
+        "umbra:squint_angle_exploitation_degrees": 17.945891082042976,
+        "umbra:task_id": "87eba423-2ef0-4c27-a283-f573c1ad4291",
+        "updated": "2025-02-16T15:54:13.493176Z",
+        "view:azimuth": 299.3915554882409,
+        "view:incidence_angle": 20.661412884127728
+    },
+    "stac_extensions": [
+        "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+    ],
+    "stac_version": "1.0.0",
+    "type": "Feature"
+}

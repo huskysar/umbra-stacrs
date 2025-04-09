@@ -47,8 +47,8 @@
     "end_datetime": "2025-04-02T00:08:14.600Z",
     "created": "2025-04-05T00:04:34.940Z",
     "updated": "2025-04-05T00:04:34.940Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Melbourne%2C%20Australia/3f699f4f-4f35-4818-adcb-70f61896fc7f/2025-04-02-00-08-08_UMBRA-08",
     "view:incidence_angle": 38.14226256820913,
-    "view:azimuth": 89.21147427166765,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 74.73032988377332,
     "umbra:squint_angle_exploitation_degrees": -15.269670116226678,
     "umbra:task_id": "3f699f4f-4f35-4818-adcb-70f61896fc7f",
+    "view:azimuth": 89.21147427166765,
     "subfolder": "Melbourne, Australia",
     "umbra:stac_id": "2fbe6c3d-162d-4521-983c-f98b04308c4e",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/3f699f4f-4f35-4818-adcb-70f61896fc7f/2025-04-02-00-08-08_UMBRA-08/2025-04-02-00-08-08_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/3f699f4f-4f35-4818-adcb-70f61896fc7f/2025-04-02-00-08-08_UMBRA-08/2025-04-02-00-08-08_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/3f699f4f-4f35-4818-adcb-70f61896fc7f/2025-04-02-00-08-08_UMBRA-08/2025-04-02-00-08-08_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

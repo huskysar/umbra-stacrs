@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-04T03:30:49.400Z",
     "created": "2025-03-04T09:59:56.343Z",
     "updated": "2025-03-04T09:59:56.343Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/New%20Highmark%20Stadium%2C%20New%20York%2C%20United%20States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08",
     "view:incidence_angle": 40.60063035122807,
-    "view:azimuth": 237.85475012972032,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 68.0620582748179,
     "umbra:squint_angle_exploitation_degrees": -21.9379417251821,
     "umbra:task_id": "d572e8c3-277c-4554-b9f1-c6629e406700",
+    "view:azimuth": 237.85475012972032,
     "subfolder": "New Highmark Stadium, New York, United States",
     "umbra:stac_id": "9566d255-5178-4647-8696-5047d8166e73",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/d572e8c3-277c-4554-b9f1-c6629e406700/2025-03-04-03-30-35_UMBRA-08/2025-03-04-03-30-35_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

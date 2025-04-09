@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-23T21:26:15.200Z",
     "created": "2025-03-24T10:02:41.185Z",
     "updated": "2025-03-24T10:02:41.185Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Antwerp%2C%20Belgium/96777294-5983-4b28-9ee7-8cc47a84dfc7/2025-03-23-21-26-01_UMBRA-09",
     "view:incidence_angle": 40.41544765588397,
-    "view:azimuth": 111.66902138596768,
     "constellation": "umbra",
     "platform": "Umbra-09",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -49.88975632087997,
     "umbra:squint_angle_exploitation_degrees": 40.11024367912003,
     "umbra:task_id": "96777294-5983-4b28-9ee7-8cc47a84dfc7",
+    "view:azimuth": 111.66902138596768,
     "subfolder": "Port of Antwerp, Belgium",
     "umbra:stac_id": "736e6371-ee6f-4339-9612-76a579ec1352",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/96777294-5983-4b28-9ee7-8cc47a84dfc7/2025-03-23-21-26-01_UMBRA-09/2025-03-23-21-26-01_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/96777294-5983-4b28-9ee7-8cc47a84dfc7/2025-03-23-21-26-01_UMBRA-09/2025-03-23-21-26-01_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/96777294-5983-4b28-9ee7-8cc47a84dfc7/2025-03-23-21-26-01_UMBRA-09/2025-03-23-21-26-01_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

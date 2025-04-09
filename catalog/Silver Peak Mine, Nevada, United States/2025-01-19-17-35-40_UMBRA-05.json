@@ -47,8 +47,8 @@
     "end_datetime": "2025-01-19T17:35:43.399Z",
     "created": "2025-01-24T04:50:32.291Z",
     "updated": "2025-01-24T04:50:32.291Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Silver%20Peak%20Mine%2C%20Nevada%2C%20United%20States/ba835ee3-a568-40c5-9b3c-4409fa919fae/2025-01-19-17-35-40_UMBRA-05",
     "view:incidence_angle": 24.02930239046084,
-    "view:azimuth": 299.6309503072701,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -73.61930939406909,
     "umbra:squint_angle_exploitation_degrees": 16.38069060593091,
     "umbra:task_id": "ba835ee3-a568-40c5-9b3c-4409fa919fae",
+    "view:azimuth": 299.6309503072701,
     "subfolder": "Silver Peak Mine, Nevada, United States",
     "umbra:stac_id": "828c9c67-c8cd-41d8-9877-e3d5ea57a212",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/ba835ee3-a568-40c5-9b3c-4409fa919fae/2025-01-19-17-35-40_UMBRA-05/2025-01-19-17-35-40_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/ba835ee3-a568-40c5-9b3c-4409fa919fae/2025-01-19-17-35-40_UMBRA-05/2025-01-19-17-35-40_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/ba835ee3-a568-40c5-9b3c-4409fa919fae/2025-01-19-17-35-40_UMBRA-05/2025-01-19-17-35-40_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

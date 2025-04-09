@@ -47,8 +47,8 @@
     "end_datetime": "2024-11-10T18:00:01Z",
     "created": "2024-11-14T00:30:03.616Z",
     "updated": "2024-11-14T00:30:03.616Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Bingham%20Copper%20Mine/13bb96bc-3cc0-45a6-8189-0d7a7b295a14/2024-11-10-17-59-57_UMBRA-07.stac.v2",
     "view:incidence_angle": 29.50906522002827,
-    "view:azimuth": 72.1372156066576,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": 118.7458649378216,
     "umbra:squint_angle_exploitation_degrees": 28.745864937821608,
     "umbra:task_id": "13bb96bc-3cc0-45a6-8189-0d7a7b295a14",
+    "view:azimuth": 72.1372156066576,
     "subfolder": "Bingham Copper Mine",
     "umbra:stac_id": "8cdac2ca-e290-4723-a479-6561a05485ed",
     "proj:code": "EPSG:4326"
@@ -96,15 +97,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/13bb96bc-3cc0-45a6-8189-0d7a7b295a14/2024-11-10-17-59-57_UMBRA-07/2024-11-10-17-59-57_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/13bb96bc-3cc0-45a6-8189-0d7a7b295a14/2024-11-10-17-59-57_UMBRA-07/2024-11-10-17-59-57_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -113,6 +105,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/13bb96bc-3cc0-45a6-8189-0d7a7b295a14/2024-11-10-17-59-57_UMBRA-07/2024-11-10-17-59-57_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

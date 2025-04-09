@@ -47,8 +47,8 @@
     "end_datetime": "2024-11-11T00:33:17.200Z",
     "created": "2024-11-12T14:16:02.831Z",
     "updated": "2024-11-12T14:16:02.831Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Melbourne%2C%20Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08.stac.v2",
     "view:incidence_angle": 34.18840684863316,
-    "view:azimuth": 302.81970229088205,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": -112.1429034164264,
     "umbra:squint_angle_exploitation_degrees": -22.142903416426392,
     "umbra:task_id": "db2bb750-b5ea-441e-a171-58ff0f8ace62",
+    "view:azimuth": 302.81970229088205,
     "subfolder": "Melbourne, Australia",
     "umbra:stac_id": "0b5a0d74-a810-4538-a535-0a29f2179328",
     "proj:code": "EPSG:4326"
@@ -96,6 +97,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08/2024-11-11-00-33-10_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08/2024-11-11-00-33-10_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +114,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/db2bb750-b5ea-441e-a171-58ff0f8ace62/2024-11-11-00-33-10_UMBRA-08/2024-11-11-00-33-10_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

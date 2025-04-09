@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-07T18:32:07.799Z",
     "created": "2025-03-08T01:06:19.829Z",
     "updated": "2025-03-08T01:06:19.829Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Hetch%20Hetchy%20Reservoir/9a4daef2-c729-4ec0-a094-3f58072287fb/2025-03-07-18-32-04_UMBRA-08",
     "view:incidence_angle": 39.55646314773913,
-    "view:azimuth": 117.60859436704968,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 107.42506194439756,
     "umbra:squint_angle_exploitation_degrees": 17.425061944397555,
     "umbra:task_id": "9a4daef2-c729-4ec0-a094-3f58072287fb",
+    "view:azimuth": 117.60859436704968,
     "subfolder": "Hetch Hetchy Reservoir",
     "umbra:stac_id": "01ae0fa1-09e1-483f-8eb7-f42d754894e9",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/9a4daef2-c729-4ec0-a094-3f58072287fb/2025-03-07-18-32-04_UMBRA-08/2025-03-07-18-32-04_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/9a4daef2-c729-4ec0-a094-3f58072287fb/2025-03-07-18-32-04_UMBRA-08/2025-03-07-18-32-04_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/9a4daef2-c729-4ec0-a094-3f58072287fb/2025-03-07-18-32-04_UMBRA-08/2025-03-07-18-32-04_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

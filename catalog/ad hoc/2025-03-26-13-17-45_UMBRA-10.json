@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-26T13:18:00.800Z",
     "created": "2025-03-27T00:12:05.362Z",
     "updated": "2025-03-27T00:12:05.362Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/f68a18d7-9a49-4240-942f-37b8123ae57f/2025-03-26-13-17-45_UMBRA-10",
     "view:incidence_angle": 38.33921350431315,
-    "view:azimuth": 241.85158289046143,
     "constellation": "umbra",
     "platform": "Umbra-10",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 72.30260348794519,
     "umbra:squint_angle_exploitation_degrees": -17.69739651205481,
     "umbra:task_id": "f68a18d7-9a49-4240-942f-37b8123ae57f",
+    "view:azimuth": 241.85158289046143,
     "subfolder": "ad hoc",
     "umbra:stac_id": "7d464725-0e03-4f02-8f9c-6d044740ffcb",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/f68a18d7-9a49-4240-942f-37b8123ae57f/2025-03-26-13-17-45_UMBRA-10/2025-03-26-13-17-45_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/f68a18d7-9a49-4240-942f-37b8123ae57f/2025-03-26-13-17-45_UMBRA-10/2025-03-26-13-17-45_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/f68a18d7-9a49-4240-942f-37b8123ae57f/2025-03-26-13-17-45_UMBRA-10/2025-03-26-13-17-45_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-19T11:25:09.200Z",
     "created": "2025-03-19T16:45:59.156Z",
     "updated": "2025-03-19T16:45:59.156Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Tanna%20Island%2C%20Vanuatu/457aa83c-7ff8-4dea-ac5b-b25aaed64d23/2025-03-19-11-25-07_UMBRA-08",
     "view:incidence_angle": 20.77998974422395,
-    "view:azimuth": 240.06658941224416,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 71.64668136167768,
     "umbra:squint_angle_exploitation_degrees": -18.35331863832232,
     "umbra:task_id": "457aa83c-7ff8-4dea-ac5b-b25aaed64d23",
+    "view:azimuth": 240.06658941224416,
     "subfolder": "Tanna Island, Vanuatu",
     "umbra:stac_id": "ac3504fa-db1d-45b7-8f9b-41bfb601e6d1",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/457aa83c-7ff8-4dea-ac5b-b25aaed64d23/2025-03-19-11-25-07_UMBRA-08/2025-03-19-11-25-07_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/457aa83c-7ff8-4dea-ac5b-b25aaed64d23/2025-03-19-11-25-07_UMBRA-08/2025-03-19-11-25-07_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/457aa83c-7ff8-4dea-ac5b-b25aaed64d23/2025-03-19-11-25-07_UMBRA-08/2025-03-19-11-25-07_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

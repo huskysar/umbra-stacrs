@@ -49,8 +49,8 @@
     "title": "2807665-4-20240929000000.000",
     "created": "2024-10-02T13:45:07.244Z",
     "updated": "2024-12-19T19:45:16.464Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Walrus/1ab68b0f-49cf-475f-aab9-a19f1ac19c35/2024-09-29-05-53-34_UMBRA-05",
     "view:incidence_angle": 43.29095637814546,
-    "view:azimuth": 50.01741645153858,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -79,6 +79,7 @@
     "umbra:squint_angle_engineering_degrees": -90.4719696044922,
     "umbra:squint_angle_exploitation_degrees": -0.4719696044921875,
     "umbra:task_id": "1ab68b0f-49cf-475f-aab9-a19f1ac19c35",
+    "view:azimuth": 50.01741645153858,
     "subfolder": "Walrus",
     "umbra:stac_id": "18395f10-4aaa-4799-a033-e8735bb84d9c",
     "proj:code": "EPSG:4326"
@@ -101,6 +102,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Walrus/1ab68b0f-49cf-475f-aab9-a19f1ac19c35/2024-09-29-05-53-34_UMBRA-05/2024-09-29-05-53-34_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Walrus/1ab68b0f-49cf-475f-aab9-a19f1ac19c35/2024-09-29-05-53-34_UMBRA-05/2024-09-29-05-53-34_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +119,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Walrus/1ab68b0f-49cf-475f-aab9-a19f1ac19c35/2024-09-29-05-53-34_UMBRA-05/2024-09-29-05-53-34_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

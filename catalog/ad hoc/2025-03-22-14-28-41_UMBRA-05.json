@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-22T14:28:53.399Z",
     "created": "2025-03-23T10:59:13.379Z",
     "updated": "2025-03-23T10:59:13.379Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/dd82f024-15b5-4030-aca7-022a649ca51a/2025-03-22-14-28-41_UMBRA-05",
     "view:incidence_angle": 37.98613988228308,
-    "view:azimuth": 81.71128279918197,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 71.54761105068127,
     "umbra:squint_angle_exploitation_degrees": -18.45238894931873,
     "umbra:task_id": "dd82f024-15b5-4030-aca7-022a649ca51a",
+    "view:azimuth": 81.71128279918197,
     "subfolder": "ad hoc",
     "umbra:stac_id": "cc755bf5-4748-48e6-97c5-0933d29d8199",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/dd82f024-15b5-4030-aca7-022a649ca51a/2025-03-22-14-28-41_UMBRA-05/2025-03-22-14-28-41_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/dd82f024-15b5-4030-aca7-022a649ca51a/2025-03-22-14-28-41_UMBRA-05/2025-03-22-14-28-41_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/dd82f024-15b5-4030-aca7-022a649ca51a/2025-03-22-14-28-41_UMBRA-05/2025-03-22-14-28-41_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-29T03:11:51.999Z",
     "created": "2025-03-30T18:56:45.468Z",
     "updated": "2025-03-30T18:56:45.468Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Hong%20Kong%2C%20Hong%20Kong/460e86ec-4ddc-429d-b807-95f77c62ed62/2025-03-29-03-11-44_UMBRA-08",
     "view:incidence_angle": 29.116335773592503,
-    "view:azimuth": 266.8822026535084,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -105.18830510906852,
     "umbra:squint_angle_exploitation_degrees": -15.188305109068509,
     "umbra:task_id": "460e86ec-4ddc-429d-b807-95f77c62ed62",
+    "view:azimuth": 266.8822026535084,
     "subfolder": "Port of Hong Kong, Hong Kong",
     "umbra:stac_id": "f848f6b7-a30c-4640-a8cf-6329cd76d362",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/460e86ec-4ddc-429d-b807-95f77c62ed62/2025-03-29-03-11-44_UMBRA-08/2025-03-29-03-11-44_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/460e86ec-4ddc-429d-b807-95f77c62ed62/2025-03-29-03-11-44_UMBRA-08/2025-03-29-03-11-44_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/460e86ec-4ddc-429d-b807-95f77c62ed62/2025-03-29-03-11-44_UMBRA-08/2025-03-29-03-11-44_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

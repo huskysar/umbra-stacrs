@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-07T05:28:36.800Z",
     "created": "2025-03-08T01:28:04.204Z",
     "updated": "2025-03-08T01:28:04.204Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/New%20Las%20Vegas%20Stadium%2C%20Nevada%2C%20United%20States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08",
     "view:incidence_angle": 39.33300686481242,
-    "view:azimuth": 87.91519240244462,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -77.75407085523969,
     "umbra:squint_angle_exploitation_degrees": 12.24592914476031,
     "umbra:task_id": "9a3570d4-187d-4514-b96b-1c089631a1b1",
+    "view:azimuth": 87.91519240244462,
     "subfolder": "New Las Vegas Stadium, Nevada, United States",
     "umbra:stac_id": "690c77e5-8497-46b9-9c76-809651d1ccbc",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/9a3570d4-187d-4514-b96b-1c089631a1b1/2025-03-07-05-28-24_UMBRA-08/2025-03-07-05-28-24_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

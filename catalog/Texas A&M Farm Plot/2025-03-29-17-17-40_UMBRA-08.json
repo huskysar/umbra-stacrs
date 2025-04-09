@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-29T17:17:44.400Z",
     "created": "2025-03-30T13:53:52.589Z",
     "updated": "2025-03-30T13:53:52.589Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Texas%20A%26M%20Farm%20Plot/fd01f090-1f9e-423b-b1c1-abbeb2685d87/2025-03-29-17-17-40_UMBRA-08",
     "view:incidence_angle": 23.537628250804232,
-    "view:azimuth": 296.8579775300976,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -75.54270833463035,
     "umbra:squint_angle_exploitation_degrees": 14.457291665369652,
     "umbra:task_id": "fd01f090-1f9e-423b-b1c1-abbeb2685d87",
+    "view:azimuth": 296.8579775300976,
     "subfolder": "Texas A&M Farm Plot",
     "umbra:stac_id": "bb8210fa-e50a-4ab8-b5ec-13b765ae64a1",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/fd01f090-1f9e-423b-b1c1-abbeb2685d87/2025-03-29-17-17-40_UMBRA-08/2025-03-29-17-17-40_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/fd01f090-1f9e-423b-b1c1-abbeb2685d87/2025-03-29-17-17-40_UMBRA-08/2025-03-29-17-17-40_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/fd01f090-1f9e-423b-b1c1-abbeb2685d87/2025-03-29-17-17-40_UMBRA-08/2025-03-29-17-17-40_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

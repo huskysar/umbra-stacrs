@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-03T07:29:32.800Z",
     "created": "2025-02-04T00:39:27.309Z",
     "updated": "2025-02-04T00:39:27.309Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Rumangabo%2C%20DRC/80d8a521-9a13-450f-a669-4f5446c726ed/2025-02-03-07-29-29_UMBRA-05",
     "view:incidence_angle": 41.444621312198,
-    "view:azimuth": 287.7354822490837,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -83.32117935777893,
     "umbra:squint_angle_exploitation_degrees": 6.678820642221069,
     "umbra:task_id": "80d8a521-9a13-450f-a669-4f5446c726ed",
+    "view:azimuth": 287.7354822490837,
     "subfolder": "Rumangabo, DRC",
     "umbra:stac_id": "b6699874-6704-49be-bdc0-5a63a28c20a2",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/80d8a521-9a13-450f-a669-4f5446c726ed/2025-02-03-07-29-29_UMBRA-05/2025-02-03-07-29-29_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/80d8a521-9a13-450f-a669-4f5446c726ed/2025-02-03-07-29-29_UMBRA-05/2025-02-03-07-29-29_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/80d8a521-9a13-450f-a669-4f5446c726ed/2025-02-03-07-29-29_UMBRA-05/2025-02-03-07-29-29_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

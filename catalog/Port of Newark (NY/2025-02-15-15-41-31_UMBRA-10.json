@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-15T15:41:41.800Z",
     "created": "2025-02-15T19:33:37.691Z",
     "updated": "2025-02-15T19:33:37.691Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Newark%20%28NY/NJ%29%2C%20United%20States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10",
     "view:incidence_angle": 43.00347867065293,
-    "view:azimuth": 90.91369092764764,
     "constellation": "umbra",
     "platform": "Umbra-10",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 81.33544995346955,
     "umbra:squint_angle_exploitation_degrees": -8.66455004653045,
     "umbra:task_id": "b411bf0d-a4c0-4e87-ab1c-516f703baf09",
+    "view:azimuth": 90.91369092764764,
     "subfolder": "Port of Newark (NY",
     "umbra:stac_id": "effca16d-048a-4cac-9fa2-d59503da03f7",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10/2025-02-15-15-41-31_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10/2025-02-15-15-41-31_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/b411bf0d-a4c0-4e87-ab1c-516f703baf09/2025-02-15-15-41-31_UMBRA-10/2025-02-15-15-41-31_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

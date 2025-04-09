@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-15T13:49:22Z",
     "created": "2025-02-16T13:50:24.120Z",
     "updated": "2025-02-16T13:50:24.120Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Yapacana%2C%20Venezuela/fb8f4fca-3355-4c24-b8ce-f595fab6b2bf/2025-02-15-13-49-16_UMBRA-05",
     "view:incidence_angle": 22.427068009882845,
-    "view:azimuth": 294.75498225155894,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": -76.39248896016957,
     "umbra:squint_angle_exploitation_degrees": 13.607511039830428,
     "umbra:task_id": "fb8f4fca-3355-4c24-b8ce-f595fab6b2bf",
+    "view:azimuth": 294.75498225155894,
     "subfolder": "Yapacana, Venezuela",
     "umbra:stac_id": "8033cd99-1539-439e-ba8b-1429bfd1db09",
     "proj:code": "EPSG:4326"
@@ -100,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/fb8f4fca-3355-4c24-b8ce-f595fab6b2bf/2025-02-15-13-49-16_UMBRA-05/2025-02-15-13-49-16_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/fb8f4fca-3355-4c24-b8ce-f595fab6b2bf/2025-02-15-13-49-16_UMBRA-05/2025-02-15-13-49-16_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -108,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/fb8f4fca-3355-4c24-b8ce-f595fab6b2bf/2025-02-15-13-49-16_UMBRA-05/2025-02-15-13-49-16_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

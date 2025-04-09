@@ -47,8 +47,8 @@
     "end_datetime": "2024-12-01T08:18:32Z",
     "created": "2024-12-01T14:07:21.362Z",
     "updated": "2024-12-01T14:07:21.362Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/The%20Red%20Sea%20Project%20-%20Shura%20Island%2C%20Saudi%20Arabia/28e4bdcc-bc14-4842-a6f5-02e95fadc4ea/2024-12-01-08-18-27_UMBRA-08",
     "view:incidence_angle": 28.674157599785943,
-    "view:azimuth": 247.0780418925065,
     "constellation": "umbra",
     "platform": "Umbra-08",
     "processing:software": {
@@ -74,6 +74,7 @@
     "umbra:squint_angle_engineering_degrees": -54.862262358740864,
     "umbra:squint_angle_exploitation_degrees": 35.137737641259136,
     "umbra:task_id": "28e4bdcc-bc14-4842-a6f5-02e95fadc4ea",
+    "view:azimuth": 247.0780418925065,
     "subfolder": "The Red Sea Project - Shura Island, Saudi Arabia",
     "umbra:stac_id": "49617ccd-07c3-49a8-b60f-5dbd1aac4b32",
     "proj:code": "EPSG:4326"
@@ -96,6 +97,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/28e4bdcc-bc14-4842-a6f5-02e95fadc4ea/2024-12-01-08-18-27_UMBRA-08/2024-12-01-08-18-27_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/28e4bdcc-bc14-4842-a6f5-02e95fadc4ea/2024-12-01-08-18-27_UMBRA-08/2024-12-01-08-18-27_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -104,15 +114,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/28e4bdcc-bc14-4842-a6f5-02e95fadc4ea/2024-12-01-08-18-27_UMBRA-08/2024-12-01-08-18-27_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

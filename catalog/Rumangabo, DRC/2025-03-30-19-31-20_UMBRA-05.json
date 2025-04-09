@@ -47,8 +47,8 @@
     "end_datetime": "2025-03-30T19:31:23.800Z",
     "created": "2025-03-31T11:49:26.936Z",
     "updated": "2025-03-31T11:49:26.936Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Rumangabo%2C%20DRC/30b15562-23f0-48b8-bb2c-353c598023d4/2025-03-30-19-31-20_UMBRA-05",
     "view:incidence_angle": 40.73152475291685,
-    "view:azimuth": 272.7424059075852,
     "constellation": "umbra",
     "platform": "Umbra-05",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 103.8715489411032,
     "umbra:squint_angle_exploitation_degrees": 13.871548941103184,
     "umbra:task_id": "30b15562-23f0-48b8-bb2c-353c598023d4",
+    "view:azimuth": 272.7424059075852,
     "subfolder": "Rumangabo, DRC",
     "umbra:stac_id": "43f79f3d-b7ab-45e6-a8d1-460e650bf0e8",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/30b15562-23f0-48b8-bb2c-353c598023d4/2025-03-30-19-31-20_UMBRA-05/2025-03-30-19-31-20_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/30b15562-23f0-48b8-bb2c-353c598023d4/2025-03-30-19-31-20_UMBRA-05/2025-03-30-19-31-20_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/30b15562-23f0-48b8-bb2c-353c598023d4/2025-03-30-19-31-20_UMBRA-05/2025-03-30-19-31-20_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

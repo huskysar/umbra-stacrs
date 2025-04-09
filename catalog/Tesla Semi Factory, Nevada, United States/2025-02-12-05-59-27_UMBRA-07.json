@@ -47,8 +47,8 @@
     "end_datetime": "2025-02-12T05:59:41.600Z",
     "created": "2025-02-12T23:36:35.265Z",
     "updated": "2025-02-12T23:36:35.265Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Tesla%20Semi%20Factory%2C%20Nevada%2C%20United%20States/26aa6fc6-83cb-4b21-ab6e-8ab74fc14fd0/2025-02-12-05-59-27_UMBRA-07",
     "view:incidence_angle": 38.18142981686544,
-    "view:azimuth": 247.9388660025032,
     "constellation": "umbra",
     "platform": "Umbra-07",
     "processing:software": {
@@ -78,6 +78,7 @@
     "umbra:squint_angle_engineering_degrees": 77.91181324189944,
     "umbra:squint_angle_exploitation_degrees": -12.088186758100562,
     "umbra:task_id": "26aa6fc6-83cb-4b21-ab6e-8ab74fc14fd0",
+    "view:azimuth": 247.9388660025032,
     "subfolder": "Tesla Semi Factory, Nevada, United States",
     "umbra:stac_id": "cd6175c6-d48f-4725-b623-12fd4d0d8fcc",
     "proj:code": "EPSG:4326"
@@ -100,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/26aa6fc6-83cb-4b21-ab6e-8ab74fc14fd0/2025-02-12-05-59-27_UMBRA-07/2025-02-12-05-59-27_UMBRA-07_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/26aa6fc6-83cb-4b21-ab6e-8ab74fc14fd0/2025-02-12-05-59-27_UMBRA-07/2025-02-12-05-59-27_UMBRA-07_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -117,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/26aa6fc6-83cb-4b21-ab6e-8ab74fc14fd0/2025-02-12-05-59-27_UMBRA-07/2025-02-12-05-59-27_UMBRA-07_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },
