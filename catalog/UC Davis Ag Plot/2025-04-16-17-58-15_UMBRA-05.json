@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-16-17-58-15_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.8246909228882,
+          38.52660785175781
+        ],
+        [
+          -121.7775626598268,
+          38.50095859016256
+        ],
+        [
+          -121.7448940025206,
+          38.53797548693776
+        ],
+        [
+          -121.79203482165902,
+          38.563637733829026
+        ],
+        [
+          -121.8246909228882,
+          38.52660785175781
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.8246909228882,
+    38.50095859016256,
+    -121.7448940025206,
+    38.563637733829026
+  ],
+  "properties": {
+    "datetime": "2025-04-16T17:58:21.699000Z",
+    "start_datetime": "2025-04-16T17:58:16Z",
+    "end_datetime": "2025-04-16T17:58:27.399Z",
+    "created": "2025-04-19T02:49:01.513Z",
+    "updated": "2025-04-19T02:49:01.513Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/UC%20Davis%20Ag%20Plot/5541fd31-c449-4878-9afb-bcf0f669b6b7/2025-04-16-17-58-15_UMBRA-05",
+    "view:incidence_angle": 33.22727101811914,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.14.0"
+    },
+    "processing:version": "4.14.0",
+    "sar:center_frequency": 9.75566422614255,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000002632822,
+    "sar:resolution_range": 0.24999999994897903,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.08712963664022864,
+    "umbra:best_resolution_range_meters": 0.22111026499969555,
+    "umbra:collect_id": "d518ab48-9aec-48c6-87e3-fa7aee39cca6",
+    "umbra:grazing_angle_degrees": 56.77272898188086,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 552178.3717495166,
+    "umbra:squint_angle_degrees_off_broadside": 20.821715102444173,
+    "umbra:squint_angle_engineering_degrees": -69.17828489755583,
+    "umbra:squint_angle_exploitation_degrees": 20.821715102444173,
+    "umbra:task_id": "5541fd31-c449-4878-9afb-bcf0f669b6b7",
+    "view:azimuth": 304.72043631389676,
+    "subfolder": "UC Davis Ag Plot",
+    "umbra:stac_id": "a8f44684-f782-45a3-a3db-4c1439da75fa",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC+Davis+Ag+Plot/5541fd31-c449-4878-9afb-bcf0f669b6b7/2025-04-16-17-58-15_UMBRA-05/2025-04-16-17-58-15_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/UC+Davis+Ag+Plot/5541fd31-c449-4878-9afb-bcf0f669b6b7/2025-04-16-17-58-15_UMBRA-05/2025-04-16-17-58-15_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "UC Davis Ag Plot"
+}

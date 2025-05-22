@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-13-01-01-18_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          116.0689043729272,
+          -33.835003448448475
+        ],
+        [
+          116.03067470835134,
+          -33.866857348519204
+        ],
+        [
+          116.06886699947954,
+          -33.89875410638933
+        ],
+        [
+          116.10709669183466,
+          -33.86688852516243
+        ],
+        [
+          116.0689043729272,
+          -33.835003448448475
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    116.03067470835134,
+    -33.89875410638933,
+    116.10709669183466,
+    -33.835003448448475
+  ],
+  "properties": {
+    "datetime": "2025-04-13T01:01:21.600000Z",
+    "start_datetime": "2025-04-13T01:01:19Z",
+    "end_datetime": "2025-04-13T01:01:24.200Z",
+    "created": "2025-04-14T03:17:57.325Z",
+    "updated": "2025-04-14T03:17:57.325Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Greenbushes%20Mine%2C%20Australia/f06cdc41-e56e-4eea-8634-f20248685982/2025-04-13-01-01-18_UMBRA-05",
+    "view:incidence_angle": 42.64170417140771,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.13.0"
+    },
+    "processing:version": "4.13.0",
+    "sar:center_frequency": 9.576426250249678,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000016009093,
+    "sar:resolution_range": 0.4166666654390116,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.3875121672630715,
+    "umbra:best_resolution_range_meters": 0.3743871149517901,
+    "umbra:collect_id": "c7eb0c24-1ec2-4ef5-a921-7d14df54073d",
+    "umbra:grazing_angle_degrees": 47.35829582859229,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 631957.4271081302,
+    "umbra:squint_angle_degrees_off_broadside": 58.194870500814034,
+    "umbra:squint_angle_engineering_degrees": 31.805129499185966,
+    "umbra:squint_angle_exploitation_degrees": -58.194870500814034,
+    "umbra:task_id": "f06cdc41-e56e-4eea-8634-f20248685982",
+    "view:azimuth": 45.028019947746365,
+    "subfolder": "Greenbushes Mine, Australia",
+    "umbra:stac_id": "a663e7c1-67ac-4364-835e-e835e26c1acd",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/f06cdc41-e56e-4eea-8634-f20248685982/2025-04-13-01-01-18_UMBRA-05/2025-04-13-01-01-18_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/f06cdc41-e56e-4eea-8634-f20248685982/2025-04-13-01-01-18_UMBRA-05/2025-04-13-01-01-18_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Greenbushes Mine, Australia"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-05-03-46-34_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -86.97562408261867,
+          40.512475274834
+        ],
+        [
+          -87.0333447279406,
+          40.50317866154517
+        ],
+        [
+          -87.02115483711282,
+          40.45912388183336
+        ],
+        [
+          -86.96347024294154,
+          40.46841448938215
+        ],
+        [
+          -86.97562408261867,
+          40.512475274834
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.0333447279406,
+    40.45912388183336,
+    -86.96347024294154,
+    40.512475274834
+  ],
+  "properties": {
+    "datetime": "2025-05-05T03:46:48.500000Z",
+    "start_datetime": "2025-05-05T03:46:35Z",
+    "end_datetime": "2025-05-05T03:47:02Z",
+    "created": "2025-05-05T17:37:47.205Z",
+    "updated": "2025-05-05T17:37:47.205Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Purdue%20University%20Farm%20Plot/dd406e35-078e-43c5-b3ec-f33a75d5cf3c/2025-05-05-03-46-34_UMBRA-09",
+    "view:incidence_angle": 38.454375129382925,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.724919475890102,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.06249999999819958,
+    "sar:resolution_range": 0.25000000000684874,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.04446601754790481,
+    "umbra:best_resolution_range_meters": 0.19286204279920796,
+    "umbra:collect_id": "289bda60-b2a2-43b3-8c60-d296f0c93600",
+    "umbra:grazing_angle_degrees": 51.545624870617075,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 698436.1523930847,
+    "umbra:squint_angle_degrees_off_broadside": 3.949254879676929,
+    "umbra:squint_angle_engineering_degrees": -86.05074512032307,
+    "umbra:squint_angle_exploitation_degrees": 3.949254879676929,
+    "umbra:task_id": "dd406e35-078e-43c5-b3ec-f33a75d5cf3c",
+    "view:azimuth": 78.08857270047811,
+    "subfolder": "Purdue University Farm Plot",
+    "umbra:stac_id": "8821071b-5410-4c5c-acda-4073e90c29e2",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/dd406e35-078e-43c5-b3ec-f33a75d5cf3c/2025-05-05-03-46-34_UMBRA-09/2025-05-05-03-46-34_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Purdue+University+Farm+Plot/dd406e35-078e-43c5-b3ec-f33a75d5cf3c/2025-05-05-03-46-34_UMBRA-09/2025-05-05-03-46-34_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Purdue University Farm Plot"
+}

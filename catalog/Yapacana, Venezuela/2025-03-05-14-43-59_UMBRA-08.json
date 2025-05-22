@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/c388603c-8fed-42df-97eb-e6f56445274b/2025-03-05-14-43-59_UMBRA-08/2025-03-05-14-43-59_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

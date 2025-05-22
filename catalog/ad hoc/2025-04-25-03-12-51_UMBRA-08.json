@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-03-12-51_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.14513944472301,
+          24.595678909465196
+        ],
+        [
+          -78.19448014290214,
+          24.5940708211696
+        ],
+        [
+          -78.19271321031606,
+          24.548956791151557
+        ],
+        [
+          -78.14339015254018,
+          24.55056431341239
+        ],
+        [
+          -78.14513944472301,
+          24.595678909465196
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.19448014290214,
+    24.548956791151557,
+    -78.14339015254018,
+    24.595678909465196
+  ],
+  "properties": {
+    "datetime": "2025-04-25T03:12:57.500000Z",
+    "start_datetime": "2025-04-25T03:12:52Z",
+    "end_datetime": "2025-04-25T03:13:03Z",
+    "created": "2025-04-26T04:24:57.645Z",
+    "updated": "2025-04-26T04:24:57.645Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Andros_Island_Bahamas/3c4e9ddd-f185-430e-a0d6-56bdd1296d80/2025-04-25-03-12-51_UMBRA-08",
+    "view:incidence_angle": 38.96815270490559,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.567961841395498,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1250000000813457,
+    "sar:resolution_range": 0.4999999996887104,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09846122645420392,
+    "umbra:best_resolution_range_meters": 0.4138188067913736,
+    "umbra:collect_id": "0d597300-3eb4-4fb3-8867-f2dcea8e781c",
+    "umbra:grazing_angle_degrees": 51.03184729509441,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 601573.7275839761,
+    "umbra:squint_angle_degrees_off_broadside": 10.71449999133253,
+    "umbra:squint_angle_engineering_degrees": -79.28550000866747,
+    "umbra:squint_angle_exploitation_degrees": 10.71449999133253,
+    "umbra:task_id": "3c4e9ddd-f185-430e-a0d6-56bdd1296d80",
+    "view:azimuth": 87.95893045750512,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "071e58bd-9c12-48a0-b99d-e86d5845c0bb",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Andros_Island_Bahamas/3c4e9ddd-f185-430e-a0d6-56bdd1296d80/2025-04-25-03-12-51_UMBRA-08/2025-04-25-03-12-51_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Andros_Island_Bahamas/3c4e9ddd-f185-430e-a0d6-56bdd1296d80/2025-04-25-03-12-51_UMBRA-08/2025-04-25-03-12-51_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

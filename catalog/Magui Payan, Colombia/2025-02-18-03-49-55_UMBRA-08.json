@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/3ba81a3b-5ae9-4e14-af62-79d6a0adc813/2025-02-18-03-49-55_UMBRA-08/2025-02-18-03-49-55_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/3ba81a3b-5ae9-4e14-af62-79d6a0adc813/2025-02-18-03-49-55_UMBRA-08/2025-02-18-03-49-55_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/3ba81a3b-5ae9-4e14-af62-79d6a0adc813/2025-02-18-03-49-55_UMBRA-08/2025-02-18-03-49-55_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

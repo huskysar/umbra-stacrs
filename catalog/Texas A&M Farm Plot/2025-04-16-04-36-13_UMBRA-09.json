@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-16-04-36-13_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.40148376511006,
+          30.553576311695306
+        ],
+        [
+          -96.45226350216574,
+          30.563735988349936
+        ],
+        [
+          -96.46398709132508,
+          30.519787646525888
+        ],
+        [
+          -96.41322898991312,
+          30.5096324742624
+        ],
+        [
+          -96.40148376511006,
+          30.553576311695306
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.46398709132508,
+    30.5096324742624,
+    -96.40148376511006,
+    30.563735988349936
+  ],
+  "properties": {
+    "datetime": "2025-04-16T04:36:16.500000Z",
+    "start_datetime": "2025-04-16T04:36:14Z",
+    "end_datetime": "2025-04-16T04:36:19Z",
+    "created": "2025-04-17T23:06:06.549Z",
+    "updated": "2025-04-17T23:06:06.549Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Texas%20A%26M%20Farm%20Plot/0fed0316-9ce4-4222-aa98-84170353bf75/2025-04-16-04-36-13_UMBRA-09",
+    "view:incidence_angle": 37.16936554550786,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.14.0"
+    },
+    "processing:version": "4.14.0",
+    "sar:center_frequency": 9.726159301009355,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.35000000075504456,
+    "sar:resolution_range": 0.34999999928054115,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.2658298246356122,
+    "umbra:best_resolution_range_meters": 0.2814515357835182,
+    "umbra:collect_id": "d24f5804-ea92-4992-ada0-dc14db622a75",
+    "umbra:grazing_angle_degrees": 52.83063445449214,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 687376.3791704136,
+    "umbra:squint_angle_degrees_off_broadside": 26.85177261422092,
+    "umbra:squint_angle_engineering_degrees": -63.14822738577908,
+    "umbra:squint_angle_exploitation_degrees": 26.85177261422092,
+    "umbra:task_id": "0fed0316-9ce4-4222-aa98-84170353bf75",
+    "view:azimuth": 103.01444410575728,
+    "subfolder": "Texas A&M Farm Plot",
+    "umbra:stac_id": "21d41c4b-b372-4ad0-affa-edc0b9b10a4d",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/0fed0316-9ce4-4222-aa98-84170353bf75/2025-04-16-04-36-13_UMBRA-09/2025-04-16-04-36-13_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/0fed0316-9ce4-4222-aa98-84170353bf75/2025-04-16-04-36-13_UMBRA-09/2025-04-16-04-36-13_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Texas A&M Farm Plot"
+}

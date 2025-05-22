@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-18-10-03-58_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.939738128301157,
+          2.6154251493472884
+        ],
+        [
+          9.980911896673271,
+          2.5972566757660167
+        ],
+        [
+          9.99897882377001,
+          2.6386640405388326
+        ],
+        [
+          9.95780396030459,
+          2.6568331004880505
+        ],
+        [
+          9.939738128301157,
+          2.6154251493472884
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.939738128301157,
+    2.5972566757660167,
+    9.99897882377001,
+    2.6568331004880505
+  ],
+  "properties": {
+    "datetime": "2025-05-18T10:04:04.800000Z",
+    "start_datetime": "2025-05-18T10:03:59Z",
+    "end_datetime": "2025-05-18T10:04:10.600Z",
+    "created": "2025-05-18T13:36:39.836Z",
+    "updated": "2025-05-18T13:36:39.836Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Campo%2C%20Cameroon%20A/9e8a760d-799b-4283-ab20-b62d3f73cead/2025-05-18-10-03-58_UMBRA-08",
+    "view:incidence_angle": 42.13107592689671,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.748482182179377,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.125000000069624,
+    "sar:resolution_range": 0.24999999986770885,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.0920080418307322,
+    "umbra:best_resolution_range_meters": 0.21483413996887007,
+    "umbra:collect_id": "1dc6a804-85e8-4c1d-97ae-da10adee7477",
+    "umbra:grazing_angle_degrees": 47.86892407310329,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 618156.8852803442,
+    "umbra:squint_angle_degrees_off_broadside": 12.428616286176762,
+    "umbra:squint_angle_engineering_degrees": -77.57138371382324,
+    "umbra:squint_angle_exploitation_degrees": 12.428616286176762,
+    "umbra:task_id": "9e8a760d-799b-4283-ab20-b62d3f73cead",
+    "view:azimuth": 293.69080527783683,
+    "subfolder": "Campo, Cameroon A",
+    "umbra:stac_id": "84a3340f-6942-4f7a-9a0f-c2ea55398cde",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/9e8a760d-799b-4283-ab20-b62d3f73cead/2025-05-18-10-03-58_UMBRA-08/2025-05-18-10-03-58_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Campo,+Cameroon+A/9e8a760d-799b-4283-ab20-b62d3f73cead/2025-05-18-10-03-58_UMBRA-08/2025-05-18-10-03-58_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Campo, Cameroon A"
+}

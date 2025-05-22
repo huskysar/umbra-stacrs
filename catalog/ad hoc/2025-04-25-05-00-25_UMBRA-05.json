@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-05-00-25_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.83884326114354,
+          37.37517871423406
+        ],
+        [
+          -118.78472184343988,
+          37.362456443482024
+        ],
+        [
+          -118.7687583458757,
+          37.405647332392505
+        ],
+        [
+          -118.82290812785853,
+          37.41837681147658
+        ],
+        [
+          -118.83884326114354,
+          37.37517871423406
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.83884326114354,
+    37.362456443482024,
+    -118.7687583458757,
+    37.41837681147658
+  ],
+  "properties": {
+    "datetime": "2025-04-25T05:00:31.400000Z",
+    "start_datetime": "2025-04-25T05:00:26Z",
+    "end_datetime": "2025-04-25T05:00:36.800Z",
+    "created": "2025-04-25T14:57:35.618Z",
+    "updated": "2025-04-25T14:57:35.618Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Upper_Mills_Creek_Lake_CA/a4928dfb-6121-4e64-b909-cb0bd5022145/2025-04-25-05-00-25_UMBRA-05",
+    "view:incidence_angle": 33.58015853843317,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.730410636289776,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 3.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.11599999930796805,
+    "sar:resolution_range": 0.34800000202616227,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09568063754292822,
+    "umbra:best_resolution_range_meters": 0.279427740886713,
+    "umbra:collect_id": "e61fe98d-001f-42f2-98d1-e036e69354df",
+    "umbra:grazing_angle_degrees": 56.41984146156683,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 546147.4592218553,
+    "umbra:squint_angle_degrees_off_broadside": 27.050409654847215,
+    "umbra:squint_angle_engineering_degrees": 117.0504096548472,
+    "umbra:squint_angle_exploitation_degrees": 27.050409654847215,
+    "umbra:task_id": "a4928dfb-6121-4e64-b909-cb0bd5022145",
+    "view:azimuth": 286.41592026867994,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "857d6d68-eeb5-4988-82b7-e14a821d00eb",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Upper_Mills_Creek_Lake_CA/a4928dfb-6121-4e64-b909-cb0bd5022145/2025-04-25-05-00-25_UMBRA-05/2025-04-25-05-00-25_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Upper_Mills_Creek_Lake_CA/a4928dfb-6121-4e64-b909-cb0bd5022145/2025-04-25-05-00-25_UMBRA-05/2025-04-25-05-00-25_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

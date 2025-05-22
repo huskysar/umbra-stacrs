@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/3bef30ff-c99f-47eb-945b-56d2848cbd6b/2025-02-11-03-17-57_UMBRA-08/2025-02-11-03-17-57_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

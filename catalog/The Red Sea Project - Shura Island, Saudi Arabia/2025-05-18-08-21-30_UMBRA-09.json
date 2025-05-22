@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-18-08-21-30_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.96856990006264,
+          25.534338869404746
+        ],
+        [
+          36.92253649645708,
+          25.51722626260563
+        ],
+        [
+          36.94139670812259,
+          25.475459717800337
+        ],
+        [
+          36.98741686241105,
+          25.492566503833157
+        ],
+        [
+          36.96856990006264,
+          25.534338869404746
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    36.92253649645708,
+    25.475459717800337,
+    36.98741686241105,
+    25.534338869404746
+  ],
+  "properties": {
+    "datetime": "2025-05-18T08:21:33.500000Z",
+    "start_datetime": "2025-05-18T08:21:31Z",
+    "end_datetime": "2025-05-18T08:21:36Z",
+    "created": "2025-05-18T16:44:01.188Z",
+    "updated": "2025-05-18T16:44:01.188Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/The%20Red%20Sea%20Project%20-%20Shura%20Island%2C%20Saudi%20Arabia/a1fbfc8d-ed73-4c90-bad6-79db2c7782ce/2025-05-18-08-21-30_UMBRA-09",
+    "view:incidence_angle": 31.19807274603852,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.704056803998084,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.34999997921696685,
+    "sar:resolution_range": 0.35000002027752836,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.2622257090940449,
+    "umbra:best_resolution_range_meters": 0.27505705658890567,
+    "umbra:collect_id": "c58c49ad-eea8-4c45-af12-b50a58c9092c",
+    "umbra:grazing_angle_degrees": 58.80192725396148,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 640641.6182234362,
+    "umbra:squint_angle_degrees_off_broadside": 33.234191665255764,
+    "umbra:squint_angle_engineering_degrees": 56.76580833474424,
+    "umbra:squint_angle_exploitation_degrees": -33.234191665255764,
+    "umbra:task_id": "a1fbfc8d-ed73-4c90-bad6-79db2c7782ce",
+    "view:azimuth": 67.72490566877534,
+    "subfolder": "The Red Sea Project - Shura Island, Saudi Arabia",
+    "umbra:stac_id": "44e3390f-61af-4815-b502-345e3eb065d6",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/a1fbfc8d-ed73-4c90-bad6-79db2c7782ce/2025-05-18-08-21-30_UMBRA-09/2025-05-18-08-21-30_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/The+Red+Sea+Project+-+Shura+Island,+Saudi+Arabia/a1fbfc8d-ed73-4c90-bad6-79db2c7782ce/2025-05-18-08-21-30_UMBRA-09/2025-05-18-08-21-30_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "The Red Sea Project - Shura Island, Saudi Arabia"
+}

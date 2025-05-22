@@ -47,7 +47,7 @@
     "end_datetime": "2025-03-18T15:41:15.200Z",
     "created": "2025-03-19T03:01:35.688Z",
     "updated": "2025-03-19T03:01:35.688Z",
-    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08",
     "view:incidence_angle": 32.305127598040606,
     "constellation": "umbra",
     "platform": "Umbra-08",
@@ -101,23 +101,23 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_GEC.tif",
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "TIFF",
       "description": "MONOSTATIC TIFF",
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

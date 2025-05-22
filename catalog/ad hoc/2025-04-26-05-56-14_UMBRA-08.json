@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-26-05-56-14_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.07243574854742,
+          34.54259110988691
+        ],
+        [
+          -119.11392268922636,
+          34.513408840333994
+        ],
+        [
+          -119.07867417399407,
+          34.479074278639025
+        ],
+        [
+          -119.03719196667002,
+          34.50824474386794
+        ],
+        [
+          -119.07243574854742,
+          34.54259110988691
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -119.11392268922636,
+    34.479074278639025,
+    -119.03719196667002,
+    34.54259110988691
+  ],
+  "properties": {
+    "datetime": "2025-04-26T05:56:19.700000Z",
+    "start_datetime": "2025-04-26T05:56:15Z",
+    "end_datetime": "2025-04-26T05:56:24.400Z",
+    "created": "2025-04-27T00:22:37.930Z",
+    "updated": "2025-04-27T00:22:37.930Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08",
+    "view:incidence_angle": 23.92789014079328,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.729421119520753,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999898701034,
+    "sar:resolution_range": 0.5000000039890183,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.1046100594125922,
+    "umbra:best_resolution_range_meters": 0.3972011479048023,
+    "umbra:collect_id": "dd638c41-5e08-400a-a757-9a47dd1afb7b",
+    "umbra:grazing_angle_degrees": 66.07210985920672,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 518277.61429763,
+    "umbra:squint_angle_degrees_off_broadside": 27.62027557661635,
+    "umbra:squint_angle_engineering_degrees": -117.62027557661636,
+    "umbra:squint_angle_exploitation_degrees": -27.62027557661635,
+    "umbra:task_id": "38d56eac-4285-45b0-a0d1-d601311c1f5b",
+    "view:azimuth": 49.64808467100844,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "c7a313c9-49bc-464b-9c40-f2c900839022",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08/2025-04-26-05-56-14_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08/2025-04-26-05-56-14_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

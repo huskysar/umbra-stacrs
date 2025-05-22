@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/260e22d3-e4ea-411a-b5fe-f210df04bdff/2025-01-29-03-39-59_UMBRA-08/2025-01-29-03-39-59_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/260e22d3-e4ea-411a-b5fe-f210df04bdff/2025-01-29-03-39-59_UMBRA-08/2025-01-29-03-39-59_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/260e22d3-e4ea-411a-b5fe-f210df04bdff/2025-01-29-03-39-59_UMBRA-08/2025-01-29-03-39-59_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

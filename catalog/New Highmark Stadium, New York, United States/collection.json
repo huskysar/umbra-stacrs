@@ -16,6 +16,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-11-03-14-38_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-11-15-13-26_UMBRA-05.json",
       "type": "application/geo+json"
     },
@@ -41,12 +46,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-04-01-45-06_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-28-16-26-26_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./2025-01-10-16-22-15_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-04-14-03-08-18_UMBRA-09.json",
       "type": "application/geo+json"
     },
     {
@@ -76,6 +91,21 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-08-16-48-27_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-11-03-29-30_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-17-03-08-15_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-20-16-23-48_UMBRA-08.json",
       "type": "application/geo+json"
     }
@@ -95,7 +125,7 @@
       "interval": [
         [
           "2025-01-10T16:22:16Z",
-          "2025-04-02T16:45:05.200000Z"
+          "2025-05-17T03:08:30.200000Z"
         ]
       ]
     }
@@ -134,20 +164,23 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-10",
       "Umbra-05",
       "Umbra-08",
-      "Umbra-10",
       "Umbra-09"
     ],
     "processing:version": [
+      "4.13.0",
       "4.7.0",
       "4.9.2",
       "4.8.0",
       "4.8.1",
+      "4.15.2",
       "4.6.2",
       "4.10.0",
       "4.9.5",
-      "4.12.0"
+      "4.12.0",
+      "4.17.0"
     ],
     "sar:frequency_band": [
       "X"
@@ -160,33 +193,34 @@
       "right"
     ],
     "sar:polarizations": [
+      "HH",
       "VV"
     ],
     "sar:product_type": [
       "GEC"
     ],
     "sat:orbit_state": [
-      "descending",
-      "ascending"
+      "ascending",
+      "descending"
     ],
     "proj:code": [
       "EPSG:4326"
     ],
     "created": {
       "minimum": "2025-01-11T01:29:41.840Z",
-      "maximum": "2025-04-04T17:07:26.774Z"
+      "maximum": "2025-05-17T17:24:43.403Z"
     },
     "updated": {
       "minimum": "2025-01-11T01:29:41.840Z",
-      "maximum": "2025-04-04T17:07:26.774Z"
+      "maximum": "2025-05-17T17:24:43.403Z"
     },
     "view:incidence_angle": {
-      "minimum": 32.4375495236722,
+      "minimum": 32.17014172301795,
       "maximum": 43.9824528747773
     },
     "sar:center_frequency": {
-      "minimum": 9.734688614177792,
-      "maximum": 9.754286406503168
+      "minimum": 9.688502099015976,
+      "maximum": 9.755329972273366
     },
     "sar:looks_azimuth": {
       "minimum": 2.0,
@@ -198,10 +232,10 @@
     },
     "sar:resolution_azimuth": {
       "minimum": 0.12499999829599562,
-      "maximum": 0.12500000013566448
+      "maximum": 0.12500000014006102
     },
     "sar:resolution_range": {
-      "minimum": 0.2499999997407053,
+      "minimum": 0.2499999997257863,
       "maximum": 0.25000000329590844
     },
     "view:azimuth": {

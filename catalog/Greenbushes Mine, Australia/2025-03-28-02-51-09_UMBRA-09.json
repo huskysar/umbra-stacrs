@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Greenbushes+Mine,+Australia/b69c6787-a846-4b2f-8440-edd4eba3541b/2025-03-28-02-51-09_UMBRA-09/2025-03-28-02-51-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

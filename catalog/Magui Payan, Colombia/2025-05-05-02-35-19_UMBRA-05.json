@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-05-02-35-19_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.21837901069587,
+          1.7519364880579926
+        ],
+        [
+          -78.17496552869386,
+          1.7636299679458398
+        ],
+        [
+          -78.18658606802624,
+          1.8073152776838
+        ],
+        [
+          -78.23000049840853,
+          1.7956215281919952
+        ],
+        [
+          -78.21837901069587,
+          1.7519364880579926
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.23000049840853,
+    1.7519364880579926,
+    -78.17496552869386,
+    1.8073152776838
+  ],
+  "properties": {
+    "datetime": "2025-05-05T02:35:20.500000Z",
+    "start_datetime": "2025-05-05T02:35:20Z",
+    "end_datetime": "2025-05-05T02:35:21Z",
+    "created": "2025-05-05T04:28:21.495Z",
+    "updated": "2025-05-05T04:28:21.495Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Magui%20Payan%2C%20Colombia/3e6797b1-c733-4c91-b74a-a2fe101c1051/2025-05-05-02-35-19_UMBRA-05",
+    "view:incidence_angle": 23.70555265612168,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.567732628551,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.000000001093612,
+    "sar:resolution_range": 0.9999999989193,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.8262861782204622,
+    "umbra:best_resolution_range_meters": 0.8357775255592695,
+    "umbra:collect_id": "017945bc-fbcb-44ea-8e8c-f675fcca6715",
+    "umbra:grazing_angle_degrees": 66.29444734387832,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 498839.157638479,
+    "umbra:squint_angle_degrees_off_broadside": 3.96072339397324,
+    "umbra:squint_angle_engineering_degrees": 86.03927660602676,
+    "umbra:squint_angle_exploitation_degrees": -3.96072339397324,
+    "umbra:task_id": "3e6797b1-c733-4c91-b74a-a2fe101c1051",
+    "view:azimuth": 255.01443224226293,
+    "subfolder": "Magui Payan, Colombia",
+    "umbra:stac_id": "d45208de-b477-48bf-b019-a4877c28419b",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/3e6797b1-c733-4c91-b74a-a2fe101c1051/2025-05-05-02-35-19_UMBRA-05/2025-05-05-02-35-19_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Magui+Payan,+Colombia/3e6797b1-c733-4c91-b74a-a2fe101c1051/2025-05-05-02-35-19_UMBRA-05/2025-05-05-02-35-19_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Magui Payan, Colombia"
+}

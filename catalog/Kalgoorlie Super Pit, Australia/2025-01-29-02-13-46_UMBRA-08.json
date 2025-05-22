@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/8ede0143-87a9-422c-a2ab-dbd93a941fb7/2025-01-29-02-13-46_UMBRA-08/2025-01-29-02-13-46_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/8ede0143-87a9-422c-a2ab-dbd93a941fb7/2025-01-29-02-13-46_UMBRA-08/2025-01-29-02-13-46_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/8ede0143-87a9-422c-a2ab-dbd93a941fb7/2025-01-29-02-13-46_UMBRA-08/2025-01-29-02-13-46_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-18-03-30-23_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          109.70053455069336,
+          18.278051793213393
+        ],
+        [
+          109.61545219297597,
+          18.229142636394627
+        ],
+        [
+          109.65688655042806,
+          18.16333814517135
+        ],
+        [
+          109.741948502687,
+          18.212229258831215
+        ],
+        [
+          109.70053455069336,
+          18.278051793213393
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    109.61545219297597,
+    18.16333814517135,
+    109.741948502687,
+    18.278051793213393
+  ],
+  "properties": {
+    "datetime": "2025-04-18T03:30:24.900000Z",
+    "start_datetime": "2025-04-18T03:30:24Z",
+    "end_datetime": "2025-04-18T03:30:25.800Z",
+    "created": "2025-04-18T06:14:50.475Z",
+    "updated": "2025-04-18T06:14:50.475Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Hainan_CHN/c12a4887-2356-4eaf-bc4f-e255f561d152/2025-04-18-03-30-23_UMBRA-09",
+    "view:incidence_angle": 17.22661733246821,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.14.0"
+    },
+    "processing:version": "4.14.0",
+    "sar:center_frequency": 9.548541270781572,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000125425337,
+    "sar:resolution_range": 0.9999999875303888,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.7894108495547737,
+    "umbra:best_resolution_range_meters": 0.8092783927228877,
+    "umbra:collect_id": "8e23561d-b6f3-4b81-b0de-7852bac634eb",
+    "umbra:grazing_angle_degrees": 72.77338266753179,
+    "umbra:organization_id": "org_OscPWjWa1LNL9FwV",
+    "umbra:slant_range_meters": 582606.9014254793,
+    "umbra:squint_angle_degrees_off_broadside": 42.63190284790329,
+    "umbra:squint_angle_engineering_degrees": 47.36809715209671,
+    "umbra:squint_angle_exploitation_degrees": -42.63190284790329,
+    "umbra:task_id": "c12a4887-2356-4eaf-bc4f-e255f561d152",
+    "view:azimuth": 58.97338087069135,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "6dd62e74-677e-4d79-b422-95ad0ce20e1f",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Hainan_CHN/c12a4887-2356-4eaf-bc4f-e255f561d152/2025-04-18-03-30-23_UMBRA-09/2025-04-18-03-30-23_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Hainan_CHN/c12a4887-2356-4eaf-bc4f-e255f561d152/2025-04-18-03-30-23_UMBRA-09/2025-04-18-03-30-23_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

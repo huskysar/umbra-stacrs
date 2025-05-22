@@ -47,7 +47,7 @@
     "end_datetime": "2025-03-21T03:00:41.599Z",
     "created": "2025-03-21T17:35:14.549Z",
     "updated": "2025-03-21T17:35:14.550Z",
-    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Burlington_VT/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08",
     "view:incidence_angle": 28.348498593403832,
     "constellation": "umbra",
     "platform": "Umbra-08",
@@ -101,23 +101,23 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08/2025-03-21-03-00-30_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08/2025-03-21-03-00-30_UMBRA-08_GEC.tif",
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Burlington_VT/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08/2025-03-21-03-00-30_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "TIFF",
       "description": "MONOSTATIC TIFF",
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Burlington_VT/7e4d91c5-fc25-4ec2-9a82-529c3b4a56f2/2025-03-21-03-00-30_UMBRA-08/2025-03-21-03-00-30_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

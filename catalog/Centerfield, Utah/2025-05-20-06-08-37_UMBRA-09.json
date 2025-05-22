@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-20-06-08-37_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.84983279857109,
+          39.05825507989628
+        ],
+        [
+          -111.79210635169088,
+          39.05673851959897
+        ],
+        [
+          -111.79014165914649,
+          39.101745361517544
+        ],
+        [
+          -111.84790475218736,
+          39.10326287391771
+        ],
+        [
+          -111.84983279857109,
+          39.05825507989628
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -111.84983279857109,
+    39.05673851959897,
+    -111.79014165914649,
+    39.10326287391771
+  ],
+  "properties": {
+    "datetime": "2025-05-20T06:08:38.800000Z",
+    "start_datetime": "2025-05-20T06:08:38Z",
+    "end_datetime": "2025-05-20T06:08:39.600Z",
+    "created": "2025-05-20T09:51:13.583Z",
+    "updated": "2025-05-20T09:51:13.583Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Centerfield%2C%20Utah/769e661b-783c-45ee-99fe-532ac1aaf870/2025-05-20-06-08-37_UMBRA-09",
+    "view:incidence_angle": 42.5775061863698,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.58074934457274,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.9999999989642272,
+    "sar:resolution_range": 1.000000000981855,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.8417409945842094,
+    "umbra:best_resolution_range_meters": 0.8346441911750047,
+    "umbra:collect_id": "6c5ca024-f6b7-423a-9e63-3910a1d438a8",
+    "umbra:grazing_angle_degrees": 47.4224938136302,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 733684.3475563622,
+    "umbra:squint_angle_degrees_off_broadside": 11.654254502342267,
+    "umbra:squint_angle_engineering_degrees": 101.65425450234228,
+    "umbra:squint_angle_exploitation_degrees": 11.654254502342267,
+    "umbra:task_id": "769e661b-783c-45ee-99fe-532ac1aaf870",
+    "view:azimuth": 271.93050309163385,
+    "subfolder": "Centerfield, Utah",
+    "umbra:stac_id": "f972a010-3d2a-4f57-8c3b-df4507499528",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/769e661b-783c-45ee-99fe-532ac1aaf870/2025-05-20-06-08-37_UMBRA-09/2025-05-20-06-08-37_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Centerfield,+Utah/769e661b-783c-45ee-99fe-532ac1aaf870/2025-05-20-06-08-37_UMBRA-09/2025-05-20-06-08-37_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Centerfield, Utah"
+}

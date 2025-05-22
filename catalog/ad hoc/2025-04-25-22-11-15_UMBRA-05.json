@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-22-11-15_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -16.683969262670807,
+          32.712843455116015
+        ],
+        [
+          -16.646308018422943,
+          32.74477377864492
+        ],
+        [
+          -16.68409763136687,
+          32.77660681001167
+        ],
+        [
+          -16.72175878417927,
+          32.744665294449995
+        ],
+        [
+          -16.683969262670807,
+          32.712843455116015
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -16.72175878417927,
+    32.712843455116015,
+    -16.646308018422943,
+    32.77660681001167
+  ],
+  "properties": {
+    "datetime": "2025-04-25T22:11:22.500000Z",
+    "start_datetime": "2025-04-25T22:11:16Z",
+    "end_datetime": "2025-04-25T22:11:29Z",
+    "created": "2025-04-26T01:50:02.331Z",
+    "updated": "2025-04-26T01:50:02.331Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Ponta_de_Sao_Lourenco_Portugal/b4d60921-9b09-498c-94e5-33b0811b98fd/2025-04-25-22-11-15_UMBRA-05",
+    "view:incidence_angle": 27.07532890091806,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.782960382590876,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999997322042,
+    "sar:resolution_range": 0.5000000001056021,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08576369536304654,
+    "umbra:best_resolution_range_meters": 0.4308787207225197,
+    "umbra:collect_id": "b606ebd3-701a-4f73-8f1c-60f3715aacd5",
+    "umbra:grazing_angle_degrees": 62.92467109908194,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 516454.8023492893,
+    "umbra:squint_angle_degrees_off_broadside": 33.94979092945721,
+    "umbra:squint_angle_engineering_degrees": 56.05020907054279,
+    "umbra:squint_angle_exploitation_degrees": -33.94979092945721,
+    "umbra:task_id": "b4d60921-9b09-498c-94e5-33b0811b98fd",
+    "view:azimuth": 224.90251954136735,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "b60363a7-2a2e-44da-92aa-16bd4659906e",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Ponta_de_Sao_Lourenco_Portugal/b4d60921-9b09-498c-94e5-33b0811b98fd/2025-04-25-22-11-15_UMBRA-05/2025-04-25-22-11-15_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Ponta_de_Sao_Lourenco_Portugal/b4d60921-9b09-498c-94e5-33b0811b98fd/2025-04-25-22-11-15_UMBRA-05/2025-04-25-22-11-15_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

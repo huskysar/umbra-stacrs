@@ -26,7 +26,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-16-06-15-04_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-15-06-25-44_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-28-04-58-41_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-10-18-30-10_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -47,6 +62,21 @@
     {
       "rel": "item",
       "href": "./2025-01-18-18-40-19_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-15-05-02-06_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-05-17-15-11_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-20-19-20-24_UMBRA-10.json",
       "type": "application/geo+json"
     },
     {
@@ -86,6 +116,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-01-04-56-22_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-15-18-53-17_UMBRA-10.json",
       "type": "application/geo+json"
     },
@@ -104,10 +139,10 @@
     "spatial": {
       "bbox": [
         [
-          -118.09545742033,
-          41.677909161456455,
-          -118.01406309344635,
-          41.73890151187091
+          -118.0968749938593,
+          41.676845500782235,
+          -118.0126402306823,
+          41.73996631748093
         ]
       ]
     },
@@ -115,7 +150,7 @@
       "interval": [
         [
           "2025-01-13T18:35:31Z",
-          "2025-04-02T05:39:13.599000Z"
+          "2025-05-20T19:20:28Z"
         ]
       ]
     }
@@ -156,13 +191,16 @@
     "platform": [
       "Umbra-05",
       "Umbra-08",
-      "Umbra-10",
-      "Umbra-09"
+      "Umbra-09",
+      "Umbra-10"
     ],
     "processing:version": [
       "4.8.0",
       "4.9.1",
+      "4.14.0",
+      "4.17.0",
       "4.10.0",
+      "4.15.2",
       "4.7.0",
       "4.9.0",
       "4.6.2",
@@ -194,18 +232,18 @@
     ],
     "created": {
       "minimum": "2025-01-14T07:55:10.810Z",
-      "maximum": "2025-04-03T09:06:27.804Z"
+      "maximum": "2025-05-21T10:18:01.384Z"
     },
     "updated": {
       "minimum": "2025-01-14T07:55:10.810Z",
-      "maximum": "2025-04-03T09:06:27.805Z"
+      "maximum": "2025-05-21T10:18:01.384Z"
     },
     "view:incidence_angle": {
       "minimum": 16.799695487890574,
       "maximum": 44.7957357423865
     },
     "sar:center_frequency": {
-      "minimum": 9.551842757426035,
+      "minimum": 9.546678111143915,
       "maximum": 9.746885292100089
     },
     "sar:looks_azimuth": {
@@ -218,15 +256,15 @@
     },
     "sar:resolution_azimuth": {
       "minimum": 0.4999999991886209,
-      "maximum": 0.5000000028701463
+      "maximum": 0.5000000039734455
     },
     "sar:resolution_range": {
-      "minimum": 0.4999999971520453,
+      "minimum": 0.4999999960460106,
       "maximum": 0.5000000007864616
     },
     "view:azimuth": {
       "minimum": 65.21245018865969,
-      "maximum": 297.74276663009573
+      "maximum": 302.5059674208003
     }
   }
 }

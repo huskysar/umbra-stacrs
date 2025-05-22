@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/2913b754-4bd5-4532-a9f4-7b123c645c10/2025-02-02-20-41-11_UMBRA-08/2025-02-02-20-41-11_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/2913b754-4bd5-4532-a9f4-7b123c645c10/2025-02-02-20-41-11_UMBRA-08/2025-02-02-20-41-11_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/2913b754-4bd5-4532-a9f4-7b123c645c10/2025-02-02-20-41-11_UMBRA-08/2025-02-02-20-41-11_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

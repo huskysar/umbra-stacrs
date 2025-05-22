@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-08-03-22-18_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.97706731877756,
+          39.95428866937293
+        ],
+        [
+          -82.03234419152817,
+          39.969075373244024
+        ],
+        [
+          -82.05153301775526,
+          39.926533066047554
+        ],
+        [
+          -81.99628623093372,
+          39.911755406523035
+        ],
+        [
+          -81.97706731877756,
+          39.95428866937293
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -82.05153301775526,
+    39.911755406523035,
+    -81.97706731877756,
+    39.969075373244024
+  ],
+  "properties": {
+    "datetime": "2025-05-08T03:22:25.600000Z",
+    "start_datetime": "2025-05-08T03:22:19Z",
+    "end_datetime": "2025-05-08T03:22:32.200Z",
+    "created": "2025-05-08T10:32:36.745Z",
+    "updated": "2025-05-08T10:32:36.746Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Zanesville_OH/8e0184e7-be6d-4449-a894-81d7ce853870/2025-05-08-03-22-18_UMBRA-08",
+    "view:incidence_angle": 27.200055860749295,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.785159695302696,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1249999998220804,
+    "sar:resolution_range": 0.5000000006966425,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08518690641746923,
+    "umbra:best_resolution_range_meters": 0.43400934987946505,
+    "umbra:collect_id": "13d302d6-dcdc-4224-a0ba-fc4ad6f1c166",
+    "umbra:grazing_angle_degrees": 62.799944139250705,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 529760.3526196013,
+    "umbra:squint_angle_degrees_off_broadside": 32.78394282510233,
+    "umbra:squint_angle_engineering_degrees": -57.21605717489767,
+    "umbra:squint_angle_exploitation_degrees": 32.78394282510233,
+    "umbra:task_id": "8e0184e7-be6d-4449-a894-81d7ce853870",
+    "view:azimuth": 109.1627008909754,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "5c131150-3004-4ef4-8885-d86bd70720be",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Zanesville_OH/8e0184e7-be6d-4449-a894-81d7ce853870/2025-05-08-03-22-18_UMBRA-08/2025-05-08-03-22-18_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Zanesville_OH/8e0184e7-be6d-4449-a894-81d7ce853870/2025-05-08-03-22-18_UMBRA-08/2025-05-08-03-22-18_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

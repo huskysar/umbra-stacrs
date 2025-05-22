@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-05-03-01-53_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.32524037949433,
+          -12.437765349732734
+        ],
+        [
+          -69.37095861119617,
+          -12.4328622789828
+        ],
+        [
+          -69.37595215756023,
+          -12.47779434032927
+        ],
+        [
+          -69.33022614876089,
+          -12.482698238918331
+        ],
+        [
+          -69.32524037949433,
+          -12.437765349732734
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.37595215756023,
+    -12.482698238918331,
+    -69.32524037949433,
+    -12.4328622789828
+  ],
+  "properties": {
+    "datetime": "2025-05-05T03:01:55.900000Z",
+    "start_datetime": "2025-05-05T03:01:54Z",
+    "end_datetime": "2025-05-05T03:01:57.800Z",
+    "created": "2025-05-05T05:31:01.079Z",
+    "updated": "2025-05-05T05:31:01.079Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Puerto%20Maldonado%2C%20Peru/b0e931da-6d4e-40c0-a284-0de8df6584f0/2025-05-05-03-01-53_UMBRA-08",
+    "view:incidence_angle": 33.29406920644923,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.722527054571785,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.35000000070344556,
+    "sar:resolution_range": 0.34999999931490483,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.2658992185346527,
+    "umbra:best_resolution_range_meters": 0.28442457368137125,
+    "umbra:collect_id": "3f484714-34ed-4b58-9b80-d7b0c86d0dcc",
+    "umbra:grazing_angle_degrees": 56.70593079355077,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 562219.0249080685,
+    "umbra:squint_angle_degrees_off_broadside": 16.967031926995304,
+    "umbra:squint_angle_engineering_degrees": -73.0329680730047,
+    "umbra:squint_angle_exploitation_degrees": 16.967031926995304,
+    "umbra:task_id": "b0e931da-6d4e-40c0-a284-0de8df6584f0",
+    "view:azimuth": 96.22804646462596,
+    "subfolder": "Puerto Maldonado, Peru",
+    "umbra:stac_id": "5d7dc269-89d1-4287-810f-d6325f7980f2",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/b0e931da-6d4e-40c0-a284-0de8df6584f0/2025-05-05-03-01-53_UMBRA-08/2025-05-05-03-01-53_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Puerto+Maldonado,+Peru/b0e931da-6d4e-40c0-a284-0de8df6584f0/2025-05-05-03-01-53_UMBRA-08/2025-05-05-03-01-53_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Puerto Maldonado, Peru"
+}

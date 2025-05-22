@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-05-14-07-36_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.35562746062921,
+          -34.58066543338302
+        ],
+        [
+          -58.41011529322666,
+          -34.58159366737434
+        ],
+        [
+          -58.409007106029385,
+          -34.62665978912347
+        ],
+        [
+          -58.354489843067824,
+          -34.62573106042768
+        ],
+        [
+          -58.35562746062921,
+          -34.58066543338302
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -58.41011529322666,
+    -34.62665978912347,
+    -58.354489843067824,
+    -34.58066543338302
+  ],
+  "properties": {
+    "datetime": "2025-05-05T14:07:39Z",
+    "start_datetime": "2025-05-05T14:07:37Z",
+    "end_datetime": "2025-05-05T14:07:41Z",
+    "created": "2025-05-06T01:26:51.676Z",
+    "updated": "2025-05-06T01:26:51.676Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Buenos%20Aires%2C%20ARG/7d270074-cec2-4598-8cca-b554729ea55d/2025-05-05-14-07-36_UMBRA-10",
+    "view:incidence_angle": 21.987780003897257,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.706683689518444,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000011293932,
+    "sar:resolution_range": 0.34999999888711686,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.2492138448880165,
+    "umbra:best_resolution_range_meters": 0.2938222157833021,
+    "umbra:collect_id": "e001b276-ace0-4c83-a7dc-385f39361166",
+    "umbra:grazing_angle_degrees": 68.01221999610274,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 607298.7791282994,
+    "umbra:squint_angle_degrees_off_broadside": 14.478002818509822,
+    "umbra:squint_angle_engineering_degrees": 75.52199718149018,
+    "umbra:squint_angle_exploitation_degrees": -14.478002818509822,
+    "umbra:task_id": "7d270074-cec2-4598-8cca-b554729ea55d",
+    "view:azimuth": 88.81971533260821,
+    "subfolder": "Buenos Aires, ARG",
+    "umbra:stac_id": "836052c0-7863-4233-8902-f2162b04127e",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/7d270074-cec2-4598-8cca-b554729ea55d/2025-05-05-14-07-36_UMBRA-10/2025-05-05-14-07-36_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Buenos+Aires,+ARG/7d270074-cec2-4598-8cca-b554729ea55d/2025-05-05-14-07-36_UMBRA-10/2025-05-05-14-07-36_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Buenos Aires, ARG"
+}

@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/48078d95-a2f9-4c00-89c0-6068dffb4ee0/2025-02-03-04-32-20_UMBRA-08/2025-02-03-04-32-20_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/48078d95-a2f9-4c00-89c0-6068dffb4ee0/2025-02-03-04-32-20_UMBRA-08/2025-02-03-04-32-20_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/48078d95-a2f9-4c00-89c0-6068dffb4ee0/2025-02-03-04-32-20_UMBRA-08/2025-02-03-04-32-20_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

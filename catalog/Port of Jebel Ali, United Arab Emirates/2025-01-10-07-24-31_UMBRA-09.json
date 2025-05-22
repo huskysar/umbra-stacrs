@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/4be1fae1-e6b6-42a4-9015-af138c277054/2025-01-10-07-24-31_UMBRA-09/2025-01-10-07-24-31_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/4be1fae1-e6b6-42a4-9015-af138c277054/2025-01-10-07-24-31_UMBRA-09/2025-01-10-07-24-31_UMBRA-09_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/4be1fae1-e6b6-42a4-9015-af138c277054/2025-01-10-07-24-31_UMBRA-09/2025-01-10-07-24-31_UMBRA-09_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

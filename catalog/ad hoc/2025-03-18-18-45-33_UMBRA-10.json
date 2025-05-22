@@ -47,7 +47,7 @@
     "end_datetime": "2025-03-18T18:45:45.800Z",
     "created": "2025-03-20T03:05:13.315Z",
     "updated": "2025-03-20T03:05:13.315Z",
-    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Catalina_Island_Los_Angeles_CA/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10",
     "view:incidence_angle": 25.503953993522785,
     "constellation": "umbra",
     "platform": "Umbra-10",
@@ -101,23 +101,23 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10/2025-03-18-18-45-33_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10/2025-03-18-18-45-33_UMBRA-10_GEC.tif",
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Catalina_Island_Los_Angeles_CA/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10/2025-03-18-18-45-33_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "TIFF",
       "description": "MONOSTATIC TIFF",
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Catalina_Island_Los_Angeles_CA/1f8f3df3-beb5-4942-9dff-957a67c8ae43/2025-03-18-18-45-33_UMBRA-10/2025-03-18-18-45-33_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-07-01-55-07_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.74431284107045,
+          5.253783888274626
+        ],
+        [
+          -52.78940764438032,
+          5.252699113206273
+        ],
+        [
+          -52.788323986632655,
+          5.207493620146049
+        ],
+        [
+          -52.74323241685992,
+          5.208578318945297
+        ],
+        [
+          -52.74431284107045,
+          5.253783888274626
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -52.78940764438032,
+    5.207493620146049,
+    -52.74323241685992,
+    5.253783888274626
+  ],
+  "properties": {
+    "datetime": "2025-05-07T01:55:10.500000Z",
+    "start_datetime": "2025-05-07T01:55:08Z",
+    "end_datetime": "2025-05-07T01:55:12.999Z",
+    "created": "2025-05-07T07:35:08.201Z",
+    "updated": "2025-05-07T07:35:08.201Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Kourou%2C%20French%20Guiana/fda5dc29-b0f8-4f4b-b469-8da8304ece5e/2025-05-07-01-55-07_UMBRA-10",
+    "view:incidence_angle": 44.693568836336226,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.740888724360632,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000002424167,
+    "sar:resolution_range": 0.3499999997738152,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.2732043183257711,
+    "umbra:best_resolution_range_meters": 0.2857141036354042,
+    "umbra:collect_id": "833a832c-7a7d-4b23-b0a0-88d8df4b34a8",
+    "umbra:grazing_angle_degrees": 45.306431163663774,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 754836.2632791211,
+    "umbra:squint_angle_degrees_off_broadside": 10.478990214829196,
+    "umbra:squint_angle_engineering_degrees": -79.5210097851708,
+    "umbra:squint_angle_exploitation_degrees": 10.478990214829196,
+    "umbra:task_id": "fda5dc29-b0f8-4f4b-b469-8da8304ece5e",
+    "view:azimuth": 88.62541342017875,
+    "subfolder": "Kourou, French Guiana",
+    "umbra:stac_id": "aa144faa-3510-496a-86e5-f406cc8b68b1",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/fda5dc29-b0f8-4f4b-b469-8da8304ece5e/2025-05-07-01-55-07_UMBRA-10/2025-05-07-01-55-07_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kourou,+French+Guiana/fda5dc29-b0f8-4f4b-b469-8da8304ece5e/2025-05-07-01-55-07_UMBRA-10/2025-05-07-01-55-07_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Kourou, French Guiana"
+}

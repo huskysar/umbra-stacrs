@@ -16,6 +16,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-13-03-54-01_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-07-15-31-45_UMBRA-07.json",
       "type": "application/geo+json"
     },
@@ -51,7 +56,17 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-08-15-47-53_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-01-30-15-37-37_UMBRA-07.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-01-14-12-00_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -67,6 +82,16 @@
     {
       "rel": "item",
       "href": "./2024-11-15-03-34-29_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-15-02-26-48_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-04-16-02-25-30_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -95,7 +120,7 @@
       "interval": [
         [
           "2024-11-15T03:34:30Z",
-          "2025-04-01T15:23:21.600000Z"
+          "2025-05-15T02:27:00.800000Z"
         ]
       ]
     }
@@ -134,18 +159,21 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-10",
       "Umbra-07",
       "Umbra-05",
       "Umbra-08",
-      "Umbra-10",
       "Umbra-09"
     ],
     "processing:version": [
+      "4.15.2",
       "4.7.0",
       "4.11.0",
       "4.6.2",
       "4.10.0",
       "4.9.5",
+      "4.17.0",
+      "4.14.0",
       "4.8.0"
     ],
     "sar:frequency_band": [
@@ -165,19 +193,19 @@
       "GEC"
     ],
     "sat:orbit_state": [
-      "ascending",
-      "descending"
+      "descending",
+      "ascending"
     ],
     "proj:code": [
       "EPSG:4326"
     ],
     "created": {
       "minimum": "2024-11-15T16:29:01.302Z",
-      "maximum": "2025-04-02T09:13:43.590Z"
+      "maximum": "2025-05-15T09:35:48.435Z"
     },
     "updated": {
       "minimum": "2024-11-15T16:29:01.302Z",
-      "maximum": "2025-04-02T09:13:43.590Z"
+      "maximum": "2025-05-15T09:35:48.435Z"
     },
     "view:incidence_angle": {
       "minimum": 30.72045504337016,
@@ -204,7 +232,7 @@
       "maximum": 0.2500000003023729
     },
     "view:azimuth": {
-      "minimum": 85.7820023990732,
+      "minimum": 79.82929288614379,
       "maximum": 294.12773060163926
     }
   }

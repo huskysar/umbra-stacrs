@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-11-02-06-43_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          129.1137805618385,
+          35.12355734348775
+        ],
+        [
+          129.0596736254897,
+          35.13100378029913
+        ],
+        [
+          129.050629075597,
+          35.08654903203292
+        ],
+        [
+          129.10470746719622,
+          35.0791065823224
+        ],
+        [
+          129.1137805618385,
+          35.12355734348775
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    129.050629075597,
+    35.0791065823224,
+    129.1137805618385,
+    35.13100378029913
+  ],
+  "properties": {
+    "datetime": "2025-04-11T02:06:48.700000Z",
+    "start_datetime": "2025-04-11T02:06:44Z",
+    "end_datetime": "2025-04-11T02:06:53.400Z",
+    "created": "2025-04-13T00:24:52.422Z",
+    "updated": "2025-04-13T00:24:52.422Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Busan%2C%20South%20Korea/e8774c95-7715-413d-a665-577386613c2a/2025-04-11-02-06-43_UMBRA-10",
+    "view:incidence_angle": 44.92151144355973,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.13.0"
+    },
+    "processing:version": "4.13.0",
+    "sar:center_frequency": 9.761079788829123,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17499999999779495,
+    "sar:resolution_range": 0.35000000000414433,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13775391218637242,
+    "umbra:best_resolution_range_meters": 0.3004581908194236,
+    "umbra:collect_id": "b14fd755-0aa2-4d3a-acf3-8a46f7d8de91",
+    "umbra:grazing_angle_degrees": 45.07848855644027,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 762272.7972947214,
+    "umbra:squint_angle_degrees_off_broadside": 0.0951414125540282,
+    "umbra:squint_angle_engineering_degrees": 89.90485858744597,
+    "umbra:squint_angle_exploitation_degrees": -0.0951414125540282,
+    "umbra:task_id": "e8774c95-7715-413d-a665-577386613c2a",
+    "view:azimuth": 99.50702498721247,
+    "subfolder": "Port of Busan, South Korea",
+    "umbra:stac_id": "09e22ca2-c521-456f-b0b9-cf04fd1591a0",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/e8774c95-7715-413d-a665-577386613c2a/2025-04-11-02-06-43_UMBRA-10/2025-04-11-02-06-43_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Busan,+South+Korea/e8774c95-7715-413d-a665-577386613c2a/2025-04-11-02-06-43_UMBRA-10/2025-04-11-02-06-43_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Busan, South Korea"
+}

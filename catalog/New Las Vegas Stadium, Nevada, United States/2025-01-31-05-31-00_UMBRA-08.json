@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/a457af3e-e895-49a3-9609-17d548ed16fb/2025-01-31-05-31-00_UMBRA-08/2025-01-31-05-31-00_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/a457af3e-e895-49a3-9609-17d548ed16fb/2025-01-31-05-31-00_UMBRA-08/2025-01-31-05-31-00_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/a457af3e-e895-49a3-9609-17d548ed16fb/2025-01-31-05-31-00_UMBRA-08/2025-01-31-05-31-00_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-13-03-57-27_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.81184685149944,
+          1.24601142014731
+        ],
+        [
+          103.8559964087695,
+          1.237620167615998
+        ],
+        [
+          103.8643339738144,
+          1.2820566005829273
+        ],
+        [
+          103.82018369282882,
+          1.2904479928712862
+        ],
+        [
+          103.81184685149944,
+          1.24601142014731
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    103.81184685149944,
+    1.237620167615998,
+    103.8643339738144,
+    1.2904479928712862
+  ],
+  "properties": {
+    "datetime": "2025-05-13T03:57:31.800000Z",
+    "start_datetime": "2025-05-13T03:57:28Z",
+    "end_datetime": "2025-05-13T03:57:35.600Z",
+    "created": "2025-05-13T17:15:22.438Z",
+    "updated": "2025-05-13T17:15:22.438Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Singapore%2C%20Singapore/04000751-a59b-411d-905d-320d6cea9f0e/2025-05-13-03-57-27_UMBRA-10",
+    "view:incidence_angle": 21.44510590844807,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.73118922732264,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17499999996402368,
+    "sar:resolution_range": 0.35000000007114324,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13060388476405435,
+    "umbra:best_resolution_range_meters": 0.30600497788384123,
+    "umbra:collect_id": "07023f02-da48-4918-a279-049fecfd9a43",
+    "umbra:grazing_angle_degrees": 68.55489409155193,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 593128.1972833439,
+    "umbra:squint_angle_degrees_off_broadside": 0.7951720972004779,
+    "umbra:squint_angle_engineering_degrees": -90.79517209720048,
+    "umbra:squint_angle_exploitation_degrees": -0.7951720972004779,
+    "umbra:task_id": "04000751-a59b-411d-905d-320d6cea9f0e",
+    "view:azimuth": 280.6937224226942,
+    "subfolder": "Port of Singapore, Singapore",
+    "umbra:stac_id": "1113e59c-798a-4acb-a185-de8d2c8cb66f",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/04000751-a59b-411d-905d-320d6cea9f0e/2025-05-13-03-57-27_UMBRA-10/2025-05-13-03-57-27_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/04000751-a59b-411d-905d-320d6cea9f0e/2025-05-13-03-57-27_UMBRA-10/2025-05-13-03-57-27_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Singapore, Singapore"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-04-19-42-17_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          39.11231346732957,
+          21.750467065378945
+        ],
+        [
+          39.065416545441146,
+          21.76141695424072
+        ],
+        [
+          39.0537052518628,
+          21.717605068303182
+        ],
+        [
+          39.10058885115554,
+          21.706658439410884
+        ],
+        [
+          39.11231346732957,
+          21.750467065378945
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    39.0537052518628,
+    21.706658439410884,
+    39.11231346732957,
+    21.76141695424072
+  ],
+  "properties": {
+    "datetime": "2025-05-04T19:42:25.600000Z",
+    "start_datetime": "2025-05-04T19:42:18Z",
+    "end_datetime": "2025-05-04T19:42:33.200Z",
+    "created": "2025-05-05T16:30:00.702Z",
+    "updated": "2025-05-05T16:30:00.702Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Jeddah%20Tower%2C%20Saudi%20Arabia/2659e810-c806-4d5e-ba61-40d5e3149565/2025-05-04-19-42-17_UMBRA-09",
+    "view:incidence_angle": 36.6981008438979,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.75941297064,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1250000001192506,
+    "sar:resolution_range": 0.24999999977205345,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08649983518421123,
+    "umbra:best_resolution_range_meters": 0.21948839798404657,
+    "umbra:collect_id": "5381c317-892e-45f1-a82d-853b902fb437",
+    "umbra:grazing_angle_degrees": 53.3018991561021,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 680213.0621248686,
+    "umbra:squint_angle_degrees_off_broadside": 26.87732074345712,
+    "umbra:squint_angle_engineering_degrees": -63.12267925654288,
+    "umbra:squint_angle_exploitation_degrees": 26.87732074345712,
+    "umbra:task_id": "2659e810-c806-4d5e-ba61-40d5e3149565",
+    "view:azimuth": 104.03094370156008,
+    "subfolder": "Jeddah Tower, Saudi Arabia",
+    "umbra:stac_id": "25ba55b4-8579-40ad-8496-bb146ed1e774",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/2659e810-c806-4d5e-ba61-40d5e3149565/2025-05-04-19-42-17_UMBRA-09/2025-05-04-19-42-17_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Jeddah+Tower,+Saudi+Arabia/2659e810-c806-4d5e-ba61-40d5e3149565/2025-05-04-19-42-17_UMBRA-09/2025-05-04-19-42-17_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Jeddah Tower, Saudi Arabia"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-06-07-30-21_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.33110337882761,
+          -1.3539934194550802
+        ],
+        [
+          29.37262780050071,
+          -1.3712370793266273
+        ],
+        [
+          29.389760377660693,
+          -1.3294446412206842
+        ],
+        [
+          29.348236540685537,
+          -1.31220126805639
+        ],
+        [
+          29.33110337882761,
+          -1.3539934194550802
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.33110337882761,
+    -1.3712370793266273,
+    29.389760377660693,
+    -1.31220126805639
+  ],
+  "properties": {
+    "datetime": "2025-05-06T07:30:23.299000Z",
+    "start_datetime": "2025-05-06T07:30:22Z",
+    "end_datetime": "2025-05-06T07:30:24.599Z",
+    "created": "2025-05-06T10:19:11.181Z",
+    "updated": "2025-05-06T10:19:11.181Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Rumangabo%2C%20DRC/7a1a41dc-dc12-4638-8463-fc033cfe3be0/2025-05-06-07-30-21_UMBRA-05",
+    "view:incidence_angle": 38.510173989344025,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.554516569174517,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000005981443,
+    "sar:resolution_range": 0.4999999994245746,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.4038207934261984,
+    "umbra:best_resolution_range_meters": 0.41082484676203335,
+    "umbra:collect_id": "a560e169-05bb-410a-8907-260309110c6a",
+    "umbra:grazing_angle_degrees": 51.489826010655975,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 576325.7137566318,
+    "umbra:squint_angle_degrees_off_broadside": 11.400917554078958,
+    "umbra:squint_angle_engineering_degrees": -78.59908244592104,
+    "umbra:squint_angle_exploitation_degrees": 11.400917554078958,
+    "umbra:task_id": "7a1a41dc-dc12-4638-8463-fc033cfe3be0",
+    "view:azimuth": 292.4210614529762,
+    "subfolder": "Rumangabo, DRC",
+    "umbra:stac_id": "088b6128-b117-451a-b44e-5a5a9aa35f97",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/7a1a41dc-dc12-4638-8463-fc033cfe3be0/2025-05-06-07-30-21_UMBRA-05/2025-05-06-07-30-21_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Rumangabo,+DRC/7a1a41dc-dc12-4638-8463-fc033cfe3be0/2025-05-06-07-30-21_UMBRA-05/2025-05-06-07-30-21_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Rumangabo, DRC"
+}

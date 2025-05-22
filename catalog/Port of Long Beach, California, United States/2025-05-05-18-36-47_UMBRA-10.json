@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-05-18-36-47_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.20672069274828,
+          33.766377548073685
+        ],
+        [
+          -118.26052955315238,
+          33.76996420204636
+        ],
+        [
+          -118.26480791851684,
+          33.72502376680892
+        ],
+        [
+          -118.21102693705777,
+          33.721438956885315
+        ],
+        [
+          -118.20672069274828,
+          33.766377548073685
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.26480791851684,
+    33.721438956885315,
+    -118.20672069274828,
+    33.76996420204636
+  ],
+  "properties": {
+    "datetime": "2025-05-05T18:36:52.800000Z",
+    "start_datetime": "2025-05-05T18:36:48Z",
+    "end_datetime": "2025-05-05T18:36:57.600Z",
+    "created": "2025-05-06T04:36:05.090Z",
+    "updated": "2025-05-06T04:36:05.090Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Long%20Beach%2C%20California%2C%20United%20States/8438881e-134f-4dff-bdc7-6f08c79c4b6b/2025-05-05-18-36-47_UMBRA-10",
+    "view:incidence_angle": 44.634927722529106,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.762227753194525,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000006136898,
+    "sar:resolution_range": 0.349999999884625,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.1363628227052461,
+    "umbra:best_resolution_range_meters": 0.30145612210848693,
+    "umbra:collect_id": "2d6c50fb-6167-4ce6-b791-c5fbaa5ef11d",
+    "umbra:grazing_angle_degrees": 45.365072277470894,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 755547.9913438743,
+    "umbra:squint_angle_degrees_off_broadside": 5.096438427165197,
+    "umbra:squint_angle_engineering_degrees": 84.9035615728348,
+    "umbra:squint_angle_exploitation_degrees": -5.096438427165197,
+    "umbra:task_id": "8438881e-134f-4dff-bdc7-6f08c79c4b6b",
+    "view:azimuth": 94.56197601370243,
+    "subfolder": "Port of Long Beach, California, United States",
+    "umbra:stac_id": "615b067c-a620-4ec2-b3c5-478789bf2283",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/8438881e-134f-4dff-bdc7-6f08c79c4b6b/2025-05-05-18-36-47_UMBRA-10/2025-05-05-18-36-47_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/8438881e-134f-4dff-bdc7-6f08c79c4b6b/2025-05-05-18-36-47_UMBRA-10/2025-05-05-18-36-47_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Long Beach, California, United States"
+}

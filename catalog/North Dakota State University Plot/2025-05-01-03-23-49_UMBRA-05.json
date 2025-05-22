@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-01-03-23-49_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.84118803175215,
+          46.8737057277938
+        ],
+        [
+          -96.7840653859519,
+          46.89582821103327
+        ],
+        [
+          -96.81634113723752,
+          46.93499590265933
+        ],
+        [
+          -96.8734921013184,
+          46.91285745636889
+        ],
+        [
+          -96.84118803175215,
+          46.8737057277938
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.8734921013184,
+    46.8737057277938,
+    -96.7840653859519,
+    46.93499590265933
+  ],
+  "properties": {
+    "datetime": "2025-05-01T03:23:50.600000Z",
+    "start_datetime": "2025-05-01T03:23:50Z",
+    "end_datetime": "2025-05-01T03:23:51.199Z",
+    "created": "2025-05-01T07:07:30.555Z",
+    "updated": "2025-05-01T07:07:30.555Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/North%20Dakota%20State%20University%20Plot/a52b034e-8f94-4774-ad77-cbe74da0328d/2025-05-01-03-23-49_UMBRA-05",
+    "view:incidence_angle": 28.61769815324421,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.572449055949754,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000036080532,
+    "sar:resolution_range": 0.999999996446436,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.8295691544382975,
+    "umbra:best_resolution_range_meters": 0.8328549806855731,
+    "umbra:collect_id": "e0e88f4b-a579-4d9a-b404-352a28b68652",
+    "umbra:grazing_angle_degrees": 61.382301846755794,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 524796.9378972469,
+    "umbra:squint_angle_degrees_off_broadside": 17.936057767071247,
+    "umbra:squint_angle_engineering_degrees": 72.06394223292875,
+    "umbra:squint_angle_exploitation_degrees": -17.936057767071247,
+    "umbra:task_id": "a52b034e-8f94-4774-ad77-cbe74da0328d",
+    "view:azimuth": 240.52775485294904,
+    "subfolder": "North Dakota State University Plot",
+    "umbra:stac_id": "3ebc0c5c-1054-41a4-9940-5831cf4f9cb7",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/a52b034e-8f94-4774-ad77-cbe74da0328d/2025-05-01-03-23-49_UMBRA-05/2025-05-01-03-23-49_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/North+Dakota+State+University+Plot/a52b034e-8f94-4774-ad77-cbe74da0328d/2025-05-01-03-23-49_UMBRA-05/2025-05-01-03-23-49_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "North Dakota State University Plot"
+}

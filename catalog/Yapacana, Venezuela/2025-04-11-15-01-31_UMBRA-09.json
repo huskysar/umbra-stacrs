@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-11-15-01-31_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.788303138707,
+          3.740543470804915
+        ],
+        [
+          -66.83145555200244,
+          3.727678216000352
+        ],
+        [
+          -66.81864853616685,
+          3.6843286350207687
+        ],
+        [
+          -66.77549804181024,
+          3.6971932751002097
+        ],
+        [
+          -66.788303138707,
+          3.740543470804915
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.83145555200244,
+    3.6843286350207687,
+    -66.77549804181024,
+    3.740543470804915
+  ],
+  "properties": {
+    "datetime": "2025-04-11T15:01:35.300000Z",
+    "start_datetime": "2025-04-11T15:01:32Z",
+    "end_datetime": "2025-04-11T15:01:38.599Z",
+    "created": "2025-04-14T00:39:08.139Z",
+    "updated": "2025-04-14T00:39:08.139Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Yapacana%2C%20Venezuela/b7446b72-23ba-43d1-a87f-f71b378f83cc/2025-04-11-15-01-31_UMBRA-09",
+    "view:incidence_angle": 33.211684465509414,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.13.0"
+    },
+    "processing:version": "4.13.0",
+    "sar:center_frequency": 9.574156431128907,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.2500000006223547,
+    "sar:resolution_range": 0.49999999879435103,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.1936954764164663,
+    "umbra:best_resolution_range_meters": 0.44414389309345087,
+    "umbra:collect_id": "7254d99a-e805-4039-8dfb-3e344c947362",
+    "umbra:grazing_angle_degrees": 56.788315534490586,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 657222.5613739908,
+    "umbra:squint_angle_degrees_off_broadside": 27.841778718707076,
+    "umbra:squint_angle_engineering_degrees": 62.15822128129293,
+    "umbra:squint_angle_exploitation_degrees": -27.841778718707076,
+    "umbra:task_id": "b7446b72-23ba-43d1-a87f-f71b378f83cc",
+    "view:azimuth": 73.47069049227753,
+    "subfolder": "Yapacana, Venezuela",
+    "umbra:stac_id": "74e42e6e-d80e-45ca-a61d-6c73133c18a3",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/b7446b72-23ba-43d1-a87f-f71b378f83cc/2025-04-11-15-01-31_UMBRA-09/2025-04-11-15-01-31_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Yapacana,+Venezuela/b7446b72-23ba-43d1-a87f-f71b378f83cc/2025-04-11-15-01-31_UMBRA-09/2025-04-11-15-01-31_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Yapacana, Venezuela"
+}

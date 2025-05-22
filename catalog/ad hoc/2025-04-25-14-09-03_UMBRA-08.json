@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-14-09-03_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.38195942927584,
+          15.15123708267821
+        ],
+        [
+          120.339517893572,
+          15.16973877584676
+        ],
+        [
+          120.32047561788202,
+          15.128514537486057
+        ],
+        [
+          120.36291059738004,
+          15.110016355718727
+        ],
+        [
+          120.38195942927584,
+          15.15123708267821
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.32047561788202,
+    15.110016355718727,
+    120.38195942927584,
+    15.16973877584676
+  ],
+  "properties": {
+    "datetime": "2025-04-25T14:09:11.200000Z",
+    "start_datetime": "2025-04-25T14:09:04Z",
+    "end_datetime": "2025-04-25T14:09:18.400Z",
+    "created": "2025-04-26T12:35:47.819Z",
+    "updated": "2025-04-26T12:35:47.819Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08",
+    "view:incidence_angle": 33.567255963251064,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.577098398227204,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999977810884,
+    "sar:resolution_range": 0.5000000008592944,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08910639446728076,
+    "umbra:best_resolution_range_meters": 0.4171912455872677,
+    "umbra:collect_id": "31815891-d73b-4eda-9311-da2b78e3169c",
+    "umbra:grazing_angle_degrees": 56.432744036748936,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 563194.8802158972,
+    "umbra:squint_angle_degrees_off_broadside": 35.860236577983855,
+    "umbra:squint_angle_engineering_degrees": -54.139763422016145,
+    "umbra:squint_angle_exploitation_degrees": 35.860236577983855,
+    "umbra:task_id": "eb92a360-8270-456a-8c25-a0a6815e960b",
+    "view:azimuth": 114.1697180415715,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "9d55ef1f-db39-47fc-8ad8-6ee8ba4a7090",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08/2025-04-25-14-09-03_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08/2025-04-25-14-09-03_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

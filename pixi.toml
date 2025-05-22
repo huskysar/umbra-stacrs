@@ -26,4 +26,5 @@ libgdal-arrow-parquet = ">=3.10.2,<4"
 libgfortran5 = ">=14"
 
 [pypi-dependencies]
+# NOTE: new version: python -m pip install -U git+https://github.com/stac-utils/rustac-py
 stacrs = {version=">=0.5.9, <0.6", extras=["arrow"]}

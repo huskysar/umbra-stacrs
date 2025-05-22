@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-15-06-13-52_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.73421054806862,
+          37.916232811090765
+        ],
+        [
+          -119.68348389183885,
+          37.93658350646048
+        ],
+        [
+          -119.70917943343264,
+          37.97676701931445
+        ],
+        [
+          -119.75992662567496,
+          37.95640537868945
+        ],
+        [
+          -119.73421054806862,
+          37.916232811090765
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -119.75992662567496,
+    37.916232811090765,
+    -119.68348389183885,
+    37.97676701931445
+  ],
+  "properties": {
+    "datetime": "2025-05-15T06:13:54.200000Z",
+    "start_datetime": "2025-05-15T06:13:53Z",
+    "end_datetime": "2025-05-15T06:13:55.399Z",
+    "created": "2025-05-15T08:23:54.189Z",
+    "updated": "2025-05-15T08:23:54.189Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Hetch%20Hetchy%20Reservoir/590b1e5f-2438-4e50-be45-7056ba2663cd/2025-05-15-06-13-52_UMBRA-08",
+    "view:incidence_angle": 25.77945364638458,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.73562052910292,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000017847649,
+    "sar:resolution_range": 0.49999999823695934,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.3864023963489338,
+    "umbra:best_resolution_range_meters": 0.4115151294606133,
+    "umbra:collect_id": "ae2e6cf7-c331-4dc2-a5c2-b02ed180ca40",
+    "umbra:grazing_angle_degrees": 64.22054635361542,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 521714.5876917515,
+    "umbra:squint_angle_degrees_off_broadside": 15.602915379844262,
+    "umbra:squint_angle_engineering_degrees": 74.39708462015574,
+    "umbra:squint_angle_exploitation_degrees": -15.602915379844262,
+    "umbra:task_id": "590b1e5f-2438-4e50-be45-7056ba2663cd",
+    "view:azimuth": 243.1309891948752,
+    "subfolder": "Hetch Hetchy Reservoir",
+    "umbra:stac_id": "d0762e0b-5190-4fa9-96f1-44a15f9a65ec",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/590b1e5f-2438-4e50-be45-7056ba2663cd/2025-05-15-06-13-52_UMBRA-08/2025-05-15-06-13-52_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Hetch+Hetchy+Reservoir/590b1e5f-2438-4e50-be45-7056ba2663cd/2025-05-15-06-13-52_UMBRA-08/2025-05-15-06-13-52_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Hetch Hetchy Reservoir"
+}

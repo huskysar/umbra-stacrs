@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/04945f65-3bd1-4694-bc6c-351f19b2c979/2025-03-28-03-31-16_UMBRA-10/2025-03-28-03-31-16_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/04945f65-3bd1-4694-bc6c-351f19b2c979/2025-03-28-03-31-16_UMBRA-10/2025-03-28-03-31-16_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/04945f65-3bd1-4694-bc6c-351f19b2c979/2025-03-28-03-31-16_UMBRA-10/2025-03-28-03-31-16_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

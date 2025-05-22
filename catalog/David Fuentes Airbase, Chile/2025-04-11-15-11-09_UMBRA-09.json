@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-11-15-11-09_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.82727351074722,
+          -33.37574425186894
+        ],
+        [
+          -70.80939357525872,
+          -33.41825951031791
+        ],
+        [
+          -70.75870556311722,
+          -33.403247884473835
+        ],
+        [
+          -70.7766070916888,
+          -33.360739828314344
+        ],
+        [
+          -70.82727351074722,
+          -33.37574425186894
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.82727351074722,
+    -33.41825951031791,
+    -70.75870556311722,
+    -33.360739828314344
+  ],
+  "properties": {
+    "datetime": "2025-04-11T15:11:11.400000Z",
+    "start_datetime": "2025-04-11T15:11:10Z",
+    "end_datetime": "2025-04-11T15:11:12.799Z",
+    "created": "2025-04-12T16:41:24.768Z",
+    "updated": "2025-04-12T16:41:24.768Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/David%20Fuentes%20Airbase%2C%20Chile/28ff59e2-0d9e-4419-adb4-37a755223cf1/2025-04-11-15-11-09_UMBRA-09",
+    "view:incidence_angle": 25.595704909380203,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.13.0"
+    },
+    "processing:version": "4.13.0",
+    "sar:center_frequency": 9.581641002610558,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000079230305,
+    "sar:resolution_range": 0.833333326818174,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.8007326016657281,
+    "umbra:best_resolution_range_meters": 0.7524626939575509,
+    "umbra:collect_id": "f1a50971-396a-47b9-8c04-f05568b1faf1",
+    "umbra:grazing_angle_degrees": 64.4042950906198,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 624327.639623848,
+    "umbra:squint_angle_degrees_off_broadside": 58.65698568645348,
+    "umbra:squint_angle_engineering_degrees": -31.34301431354652,
+    "umbra:squint_angle_exploitation_degrees": 58.65698568645348,
+    "umbra:task_id": "28ff59e2-0d9e-4419-adb4-37a755223cf1",
+    "view:azimuth": 340.55528282541155,
+    "subfolder": "David Fuentes Airbase, Chile",
+    "umbra:stac_id": "ab70eda7-4051-4a2b-99a7-7f606159e8e3",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/28ff59e2-0d9e-4419-adb4-37a755223cf1/2025-04-11-15-11-09_UMBRA-09/2025-04-11-15-11-09_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/28ff59e2-0d9e-4419-adb4-37a755223cf1/2025-04-11-15-11-09_UMBRA-09/2025-04-11-15-11-09_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "David Fuentes Airbase, Chile"
+}

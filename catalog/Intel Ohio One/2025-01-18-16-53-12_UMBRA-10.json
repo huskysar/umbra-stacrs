@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/87c0a1a2-1668-4b33-a30d-af073103e679/2025-01-18-16-53-12_UMBRA-10/2025-01-18-16-53-12_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

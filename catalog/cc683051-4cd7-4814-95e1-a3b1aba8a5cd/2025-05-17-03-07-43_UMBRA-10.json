@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-17-03-07-43_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.43657973393967,
+          42.46152201213661
+        ],
+        [
+          -76.49456301418483,
+          42.47506418832343
+        ],
+        [
+          -76.51282413813743,
+          42.43212972776561
+        ],
+        [
+          -76.45487650065341,
+          42.41859669321665
+        ],
+        [
+          -76.43657973393967,
+          42.46152201213661
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -76.51282413813743,
+    42.41859669321665,
+    -76.43657973393967,
+    42.47506418832343
+  ],
+  "properties": {
+    "datetime": "2025-05-17T03:07:49.600000Z",
+    "start_datetime": "2025-05-17T03:07:44Z",
+    "end_datetime": "2025-05-17T03:07:55.200Z",
+    "created": "2025-05-17T06:08:42.759Z",
+    "updated": "2025-05-17T06:08:42.759Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/cc683051-4cd7-4814-95e1-a3b1aba8a5cd/2025-05-17-03-07-43_UMBRA-10",
+    "view:incidence_angle": 34.540756171344086,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.769741919958197,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000002021089,
+    "sar:resolution_range": 0.3499999996128039,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.12602685319801293,
+    "umbra:best_resolution_range_meters": 0.31055396070734353,
+    "umbra:collect_id": "0c084090-2430-4f44-b1ad-02e1c819c84f",
+    "umbra:grazing_angle_degrees": 55.459243828655914,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 666813.7615419356,
+    "umbra:squint_angle_degrees_off_broadside": 32.974289868990965,
+    "umbra:squint_angle_engineering_degrees": -57.025710131009035,
+    "umbra:squint_angle_exploitation_degrees": 32.974289868990965,
+    "umbra:task_id": "cc683051-4cd7-4814-95e1-a3b1aba8a5cd",
+    "view:azimuth": 107.50226045581864,
+    "subfolder": "cc683051-4cd7-4814-95e1-a3b1aba8a5cd",
+    "umbra:stac_id": "3810dedd-f927-440f-88c6-34cc59db1d7e",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/cc683051-4cd7-4814-95e1-a3b1aba8a5cd/2025-05-17-03-07-43_UMBRA-10/2025-05-17-03-07-43_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/cc683051-4cd7-4814-95e1-a3b1aba8a5cd/2025-05-17-03-07-43_UMBRA-10/2025-05-17-03-07-43_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "cc683051-4cd7-4814-95e1-a3b1aba8a5cd"
+}

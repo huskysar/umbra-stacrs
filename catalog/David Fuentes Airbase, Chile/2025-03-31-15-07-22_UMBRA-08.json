@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/5908eef8-86bb-4db7-99d8-bc6a832c722d/2025-03-31-15-07-22_UMBRA-08/2025-03-31-15-07-22_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/5908eef8-86bb-4db7-99d8-bc6a832c722d/2025-03-31-15-07-22_UMBRA-08/2025-03-31-15-07-22_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/David+Fuentes+Airbase,+Chile/5908eef8-86bb-4db7-99d8-bc6a832c722d/2025-03-31-15-07-22_UMBRA-08/2025-03-31-15-07-22_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-19-05-56_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.95424329611842,
+          33.609177757165114
+        ],
+        [
+          -117.91038628002596,
+          33.582997446769596
+        ],
+        [
+          -117.87908425676298,
+          33.619689826025706
+        ],
+        [
+          -117.92295039690508,
+          33.64588107829044
+        ],
+        [
+          -117.95424329611842,
+          33.609177757165114
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -117.95424329611842,
+    33.582997446769596,
+    -117.87908425676298,
+    33.64588107829044
+  ],
+  "properties": {
+    "datetime": "2025-04-25T19:06:03.600000Z",
+    "start_datetime": "2025-04-25T19:05:57Z",
+    "end_datetime": "2025-04-25T19:06:10.200Z",
+    "created": "2025-04-27T10:11:27.237Z",
+    "updated": "2025-04-27T10:11:27.237Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Lido_Isle_CA/69bba731-065a-4255-86ac-b1b2c34551de/2025-04-25-19-05-56_UMBRA-09",
+    "view:incidence_angle": 25.768806840299817,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.778084824521574,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.125000000201429,
+    "sar:resolution_range": 0.49999999921070915,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.0885243208647244,
+    "umbra:best_resolution_range_meters": 0.43905258329863095,
+    "umbra:collect_id": "7968a62e-3f65-4545-a445-cd99ad4d84ef",
+    "umbra:grazing_angle_degrees": 64.23119315970018,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 616422.4992670328,
+    "umbra:squint_angle_degrees_off_broadside": 22.10369342510141,
+    "umbra:squint_angle_engineering_degrees": -67.89630657489859,
+    "umbra:squint_angle_exploitation_degrees": 22.10369342510141,
+    "umbra:task_id": "69bba731-065a-4255-86ac-b1b2c34551de",
+    "view:azimuth": 305.50978478272833,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "4789a122-053a-4f7f-8efa-4c6c6e46f4e1",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Lido_Isle_CA/69bba731-065a-4255-86ac-b1b2c34551de/2025-04-25-19-05-56_UMBRA-09/2025-04-25-19-05-56_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Lido_Isle_CA/69bba731-065a-4255-86ac-b1b2c34551de/2025-04-25-19-05-56_UMBRA-09/2025-04-25-19-05-56_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

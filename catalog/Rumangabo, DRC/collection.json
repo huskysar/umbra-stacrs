@@ -16,12 +16,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-10-08-55-10_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2024-11-15-08-27-48_UMBRA-07.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./2025-02-16-07-09-14_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-15-07-12-09_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -61,6 +71,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-06-07-30-21_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2024-11-30-20-37-02_UMBRA-08.json",
       "type": "application/geo+json"
     },
@@ -77,6 +92,11 @@
     {
       "rel": "item",
       "href": "./2025-02-03-07-29-29_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-20-07-29-59_UMBRA-05.json",
       "type": "application/geo+json"
     }
   ],
@@ -95,7 +115,7 @@
       "interval": [
         [
           "2024-11-11T08:16:31Z",
-          "2025-04-03T20:44:25.999000Z"
+          "2025-05-20T07:30:02.599000Z"
         ]
       ]
     }
@@ -134,9 +154,21 @@
       "umbra"
     ],
     "platform": [
+      "Umbra-09",
       "Umbra-07",
       "Umbra-05",
       "Umbra-08"
+    ],
+    "processing:version": [
+      "4.15.2",
+      "4.7.0",
+      "4.17.0",
+      "4.12.0",
+      "4.9.5",
+      "4.8.0",
+      "4.10.0",
+      "4.9.0",
+      "4.9.2"
     ],
     "sar:frequency_band": [
       "X"
@@ -149,35 +181,26 @@
       "right"
     ],
     "sar:polarizations": [
-      "HH",
-      "VV"
+      "VV",
+      "HH"
     ],
     "sar:product_type": [
       "GEC"
-    ],
-    "proj:code": [
-      "EPSG:4326"
-    ],
-    "processing:version": [
-      "4.7.0",
-      "4.12.0",
-      "4.9.5",
-      "4.8.0",
-      "4.10.0",
-      "4.9.0",
-      "4.9.2"
     ],
     "sat:orbit_state": [
       "descending",
       "ascending"
     ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
     "created": {
       "minimum": "2024-11-12T14:08:35.604Z",
-      "maximum": "2025-04-05T05:06:09.274Z"
+      "maximum": "2025-05-20T13:34:19.012Z"
     },
     "updated": {
       "minimum": "2024-11-12T14:08:35.604Z",
-      "maximum": "2025-04-05T05:06:09.274Z"
+      "maximum": "2025-05-20T13:34:19.012Z"
     },
     "view:incidence_angle": {
       "minimum": 19.417974760799353,

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-03-02-39-24_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.10835896051876,
+          40.70073418147511
+        ],
+        [
+          -74.16752088387967,
+          40.700189246205824
+        ],
+        [
+          -74.1667854569829,
+          40.65516313711312
+        ],
+        [
+          -74.10766331913351,
+          40.65570771012802
+        ],
+        [
+          -74.10835896051876,
+          40.70073418147511
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.16752088387967,
+    40.65516313711312,
+    -74.10766331913351,
+    40.70073418147511
+  ],
+  "properties": {
+    "datetime": "2025-05-03T02:39:29.300000Z",
+    "start_datetime": "2025-05-03T02:39:25Z",
+    "end_datetime": "2025-05-03T02:39:33.599Z",
+    "created": "2025-05-03T06:12:25.412Z",
+    "updated": "2025-05-03T06:12:25.412Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Newark%20%28NY/NJ%29%2C%20United%20States/d81309a6-6ef9-47de-b29d-41dfabcacc83/2025-05-03-02-39-24_UMBRA-08",
+    "view:incidence_angle": 44.20452568878491,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.764311557281918,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000001267073,
+    "sar:resolution_range": 0.349999999762594,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.13414905938447472,
+    "umbra:best_resolution_range_meters": 0.30294170403326054,
+    "umbra:collect_id": "3c06bf0f-bdae-4165-9f5b-e2effd3cda22",
+    "umbra:grazing_angle_degrees": 45.79547431121509,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 645448.9524077581,
+    "umbra:squint_angle_degrees_off_broadside": 14.868634428589914,
+    "umbra:squint_angle_engineering_degrees": -75.13136557141009,
+    "umbra:squint_angle_exploitation_degrees": 14.868634428589914,
+    "umbra:task_id": "d81309a6-6ef9-47de-b29d-41dfabcacc83",
+    "view:azimuth": 89.30683723400122,
+    "subfolder": "Port of Newark (NY",
+    "umbra:stac_id": "0c7937c0-56ae-4baa-8047-b5df63576d65",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/d81309a6-6ef9-47de-b29d-41dfabcacc83/2025-05-03-02-39-24_UMBRA-08/2025-05-03-02-39-24_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Newark+(NY/NJ%29,+United+States/d81309a6-6ef9-47de-b29d-41dfabcacc83/2025-05-03-02-39-24_UMBRA-08/2025-05-03-02-39-24_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Newark (NY"
+}

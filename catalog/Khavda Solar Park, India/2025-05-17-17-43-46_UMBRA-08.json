@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-17-17-43-46_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          69.36690870480754,
+          24.087367312178973
+        ],
+        [
+          69.39825838040048,
+          24.12215424704555
+        ],
+        [
+          69.36035096794741,
+          24.150929997636386
+        ],
+        [
+          69.3290045313573,
+          24.116135415418235
+        ],
+        [
+          69.36690870480754,
+          24.087367312178973
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    69.3290045313573,
+    24.087367312178973,
+    69.39825838040048,
+    24.150929997636386
+  ],
+  "properties": {
+    "datetime": "2025-05-17T17:43:49.300000Z",
+    "start_datetime": "2025-05-17T17:43:47Z",
+    "end_datetime": "2025-05-17T17:43:51.599Z",
+    "created": "2025-05-18T05:17:17.722Z",
+    "updated": "2025-05-18T05:17:17.722Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Khavda%20Solar%20Park%2C%20India/36d6397f-eac4-476b-b307-d0b7d12d72d0/2025-05-17-17-43-46_UMBRA-08",
+    "view:incidence_angle": 23.20518439347931,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.683629537838677,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.3500000030998889,
+    "sar:resolution_range": 0.34999999693191475,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.24501459957063695,
+    "umbra:best_resolution_range_meters": 0.27784060505883446,
+    "umbra:collect_id": "04e92ad7-8d39-4cf0-840b-e923616bdaff",
+    "umbra:grazing_angle_degrees": 66.79481560652069,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 510789.7828973352,
+    "umbra:squint_angle_degrees_off_broadside": 39.236243078668224,
+    "umbra:squint_angle_engineering_degrees": 50.763756921331776,
+    "umbra:squint_angle_exploitation_degrees": -39.236243078668224,
+    "umbra:task_id": "36d6397f-eac4-476b-b307-d0b7d12d72d0",
+    "view:azimuth": 219.5907181619497,
+    "subfolder": "Khavda Solar Park, India",
+    "umbra:stac_id": "ffe70d38-0ee2-41db-bd3c-50fcb60c94b0",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/36d6397f-eac4-476b-b307-d0b7d12d72d0/2025-05-17-17-43-46_UMBRA-08/2025-05-17-17-43-46_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Khavda+Solar+Park,+India/36d6397f-eac4-476b-b307-d0b7d12d72d0/2025-05-17-17-43-46_UMBRA-08/2025-05-17-17-43-46_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Khavda Solar Park, India"
+}

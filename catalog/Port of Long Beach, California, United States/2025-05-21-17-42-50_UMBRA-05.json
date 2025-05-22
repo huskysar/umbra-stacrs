@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-21-17-42-50_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.2715074685327,
+          33.73453769421407
+        ],
+        [
+          -118.2224108329346,
+          33.715844957186235
+        ],
+        [
+          -118.2000201524,
+          33.75686293976321
+        ],
+        [
+          -118.24913531076032,
+          33.77556445411378
+        ],
+        [
+          -118.2715074685327,
+          33.73453769421407
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.2715074685327,
+    33.715844957186235,
+    -118.2000201524,
+    33.77556445411378
+  ],
+  "properties": {
+    "datetime": "2025-05-21T17:42:54.699000Z",
+    "start_datetime": "2025-05-21T17:42:51Z",
+    "end_datetime": "2025-05-21T17:42:58.399Z",
+    "created": "2025-05-21T22:18:58.688Z",
+    "updated": "2025-05-21T22:18:58.688Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Long%20Beach%2C%20California%2C%20United%20States/3181d07d-9f16-450b-af99-87b8cf4b467d/2025-05-21-17-42-50_UMBRA-05",
+    "view:incidence_angle": 34.63015323006268,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.75960178505591,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000001823612,
+    "sar:resolution_range": 0.3499999996470407,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13226391710635896,
+    "umbra:best_resolution_range_meters": 0.30668461419957455,
+    "umbra:collect_id": "184f3bba-6396-4247-a548-1c50cb77b623",
+    "umbra:grazing_angle_degrees": 55.36984676993732,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 549567.2952143571,
+    "umbra:squint_angle_degrees_off_broadside": 11.133484818003808,
+    "umbra:squint_angle_engineering_degrees": -78.86651518199619,
+    "umbra:squint_angle_exploitation_degrees": 11.133484818003808,
+    "umbra:task_id": "3181d07d-9f16-450b-af99-87b8cf4b467d",
+    "view:azimuth": 294.50248858129726,
+    "subfolder": "Port of Long Beach, California, United States",
+    "umbra:stac_id": "aac80ce6-3e77-4715-b981-b5feb6f56750",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/3181d07d-9f16-450b-af99-87b8cf4b467d/2025-05-21-17-42-50_UMBRA-05/2025-05-21-17-42-50_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Long+Beach,+California,+United+States/3181d07d-9f16-450b-af99-87b8cf4b467d/2025-05-21-17-42-50_UMBRA-05/2025-05-21-17-42-50_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Long Beach, California, United States"
+}

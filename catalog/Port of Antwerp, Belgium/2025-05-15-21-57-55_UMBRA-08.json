@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-15-21-57-55_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.321255470454787,
+          51.23531975889046
+        ],
+        [
+          4.392167984310704,
+          51.24153457145607
+        ],
+        [
+          4.382291638620752,
+          51.28605121449887
+        ],
+        [
+          4.311311939775598,
+          51.27983044414685
+        ],
+        [
+          4.321255470454787,
+          51.23531975889046
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.311311939775598,
+    51.23531975889046,
+    4.392167984310704,
+    51.28605121449887
+  ],
+  "properties": {
+    "datetime": "2025-05-15T21:57:59.800000Z",
+    "start_datetime": "2025-05-15T21:57:56Z",
+    "end_datetime": "2025-05-15T21:58:03.600Z",
+    "created": "2025-05-16T03:13:26.538Z",
+    "updated": "2025-05-16T03:13:26.538Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Antwerp%2C%20Belgium/05a3cf53-5995-475a-aa31-c801030d7ade/2025-05-15-21-57-55_UMBRA-08",
+    "view:incidence_angle": 43.12366631856455,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.759491722828171,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17499999997420015,
+    "sar:resolution_range": 0.3500000000492119,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.1382392264244268,
+    "umbra:best_resolution_range_meters": 0.3003282306535846,
+    "umbra:collect_id": "05a36f91-520f-498d-a491-7194a3673723",
+    "umbra:grazing_angle_degrees": 46.87633368143545,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 635649.973430483,
+    "umbra:squint_angle_degrees_off_broadside": 1.8587068770104904,
+    "umbra:squint_angle_engineering_degrees": 91.85870687701048,
+    "umbra:squint_angle_exploitation_degrees": 1.8587068770104904,
+    "umbra:task_id": "05a3cf53-5995-475a-aa31-c801030d7ade",
+    "view:azimuth": 262.0482186180654,
+    "subfolder": "Port of Antwerp, Belgium",
+    "umbra:stac_id": "a7f60865-6640-456a-bf5b-828d2772bad8",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/05a3cf53-5995-475a-aa31-c801030d7ade/2025-05-15-21-57-55_UMBRA-08/2025-05-15-21-57-55_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Antwerp,+Belgium/05a3cf53-5995-475a-aa31-c801030d7ade/2025-05-15-21-57-55_UMBRA-08/2025-05-15-21-57-55_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Antwerp, Belgium"
+}

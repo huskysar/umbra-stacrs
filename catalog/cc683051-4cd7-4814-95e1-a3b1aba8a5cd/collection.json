@@ -1,0 +1,140 @@
+{
+  "type": "Collection",
+  "id": "cc683051-4cd7-4814-95e1-a3b1aba8a5cd",
+  "stac_version": "1.1.0",
+  "description": "Umbra Public Data for cc683051-4cd7-4814-95e1-a3b1aba8a5cd",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://umbra.space/terms-of-use/#3.-CONTENT-LICENSE",
+      "title": "Umbra License"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-17-03-07-43_UMBRA-10.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -76.51282413813743,
+          42.41859669321665,
+          -76.43657973393967,
+          42.47506418832343
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-05-17T03:07:44Z",
+          "2025-05-17T03:07:55.200000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Umbra Lab Inc",
+      "description": "Next-generation space systems for observing the Earth in unprecedented fidelity.",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://umbra.space"
+    },
+    {
+      "name": "Amazon Web Services",
+      "description": "Open Data on AWS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://registry.opendata.aws/umbra-open-data/"
+    },
+    {
+      "name": "UW-CRYO",
+      "description": "UW Terrain Analysis and Cryosphere Observation Lab",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://uw-cryo.github.io"
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "umbra"
+    ],
+    "platform": [
+      "Umbra-10"
+    ],
+    "processing:version": [
+      "4.17.0"
+    ],
+    "sar:frequency_band": [
+      "X"
+    ],
+    "sar:instrument_mode": [
+      "SPOTLIGHT"
+    ],
+    "sar:observation_direction": [
+      "left"
+    ],
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": [
+      "GEC"
+    ],
+    "sat:orbit_state": [
+      "ascending"
+    ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "created": {
+      "minimum": "2025-05-17T06:08:42.759Z",
+      "maximum": "2025-05-17T06:08:42.759Z"
+    },
+    "updated": {
+      "minimum": "2025-05-17T06:08:42.759Z",
+      "maximum": "2025-05-17T06:08:42.759Z"
+    },
+    "view:incidence_angle": {
+      "minimum": 34.540756171344086,
+      "maximum": 34.540756171344086
+    },
+    "sar:center_frequency": {
+      "minimum": 9.769741919958197,
+      "maximum": 9.769741919958197
+    },
+    "sar:looks_azimuth": {
+      "minimum": 2.0,
+      "maximum": 2.0
+    },
+    "sar:looks_range": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "sar:resolution_azimuth": {
+      "minimum": 0.1750000002021089,
+      "maximum": 0.1750000002021089
+    },
+    "sar:resolution_range": {
+      "minimum": 0.3499999996128039,
+      "maximum": 0.3499999996128039
+    },
+    "view:azimuth": {
+      "minimum": 107.50226045581864,
+      "maximum": 107.50226045581864
+    }
+  }
+}

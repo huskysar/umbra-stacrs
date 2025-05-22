@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-15-06-25-18_UMBRA-09",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.6040500959148,
+          37.748345223973935
+        ],
+        [
+          -117.54756875739685,
+          37.74418448600289
+        ],
+        [
+          -117.5423088569698,
+          37.789032575114554
+        ],
+        [
+          -117.59882402374532,
+          37.79319579496163
+        ],
+        [
+          -117.6040500959148,
+          37.748345223973935
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -117.6040500959148,
+    37.74418448600289,
+    -117.5423088569698,
+    37.79319579496163
+  ],
+  "properties": {
+    "datetime": "2025-05-15T06:25:20.300000Z",
+    "start_datetime": "2025-05-15T06:25:19Z",
+    "end_datetime": "2025-05-15T06:25:21.599Z",
+    "created": "2025-05-15T23:17:57.156Z",
+    "updated": "2025-05-15T23:17:57.156Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Silver%20Peak%20Mine%2C%20Nevada%2C%20United%20States/aae72602-f718-4fb9-8bf8-34fc61cc0d47/2025-05-15-06-25-18_UMBRA-09",
+    "view:incidence_angle": 31.56047578457958,
+    "constellation": "umbra",
+    "platform": "Umbra-09",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.751773291558392,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.49999999858176813,
+    "sar:resolution_range": 0.5000000013853632,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.39915097765126906,
+    "umbra:best_resolution_range_meters": 0.41877895334228,
+    "umbra:collect_id": "5b44766c-6b8d-4be4-bd37-7a5a36131b41",
+    "umbra:grazing_angle_degrees": 58.43952421542042,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 645357.422614604,
+    "umbra:squint_angle_degrees_off_broadside": 16.1814319299325,
+    "umbra:squint_angle_engineering_degrees": 106.1814319299325,
+    "umbra:squint_angle_exploitation_degrees": 16.1814319299325,
+    "umbra:task_id": "aae72602-f718-4fb9-8bf8-34fc61cc0d47",
+    "view:azimuth": 275.30181232331137,
+    "subfolder": "Silver Peak Mine, Nevada, United States",
+    "umbra:stac_id": "67749ee0-38c6-43b5-bb6f-7011eea36a40",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/aae72602-f718-4fb9-8bf8-34fc61cc0d47/2025-05-15-06-25-18_UMBRA-09/2025-05-15-06-25-18_UMBRA-09_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Silver+Peak+Mine,+Nevada,+United+States/aae72602-f718-4fb9-8bf8-34fc61cc0d47/2025-05-15-06-25-18_UMBRA-09/2025-05-15-06-25-18_UMBRA-09_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Silver Peak Mine, Nevada, United States"
+}

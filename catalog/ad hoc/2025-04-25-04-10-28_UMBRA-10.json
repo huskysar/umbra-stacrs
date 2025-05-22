@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-04-25-04-10-28_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -86.77158135329148,
+          21.249965221306347
+        ],
+        [
+          -86.8166731565185,
+          21.2658666363017
+        ],
+        [
+          -86.83362588523448,
+          21.223593806727493
+        ],
+        [
+          -86.78854511507903,
+          21.207696843948476
+        ],
+        [
+          -86.77158135329148,
+          21.249965221306347
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -86.83362588523448,
+    21.207696843948476,
+    -86.77158135329148,
+    21.2658666363017
+  ],
+  "properties": {
+    "datetime": "2025-04-25T04:10:36.800000Z",
+    "start_datetime": "2025-04-25T04:10:29Z",
+    "end_datetime": "2025-04-25T04:10:44.600Z",
+    "created": "2025-04-27T23:58:44.492Z",
+    "updated": "2025-04-27T23:58:44.492Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Playa_Isla_Mujeres_MEX/b64cda11-8198-4580-b7f2-515b355fe289/2025-04-25-04-10-28_UMBRA-10",
+    "view:incidence_angle": 26.34597014608421,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.787198212945569,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000006956288,
+    "sar:resolution_range": 0.49999999972753606,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08468848728881442,
+    "umbra:best_resolution_range_meters": 0.43668959315598754,
+    "umbra:collect_id": "43738326-ff99-4b30-a364-6b9c640eea3c",
+    "umbra:grazing_angle_degrees": 63.654029853915794,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 616607.2572465313,
+    "umbra:squint_angle_degrees_off_broadside": 32.90918719786626,
+    "umbra:squint_angle_engineering_degrees": -57.09081280213374,
+    "umbra:squint_angle_exploitation_degrees": 32.90918719786626,
+    "umbra:task_id": "b64cda11-8198-4580-b7f2-515b355fe289",
+    "view:azimuth": 110.61272268785908,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "aa03241c-c9ce-4fb2-8b52-ad37284c99fb",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Playa_Isla_Mujeres_MEX/b64cda11-8198-4580-b7f2-515b355fe289/2025-04-25-04-10-28_UMBRA-10/2025-04-25-04-10-28_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Playa_Isla_Mujeres_MEX/b64cda11-8198-4580-b7f2-515b355fe289/2025-04-25-04-10-28_UMBRA-10/2025-04-25-04-10-28_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

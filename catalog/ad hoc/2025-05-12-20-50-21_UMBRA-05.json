@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-12-20-50-21_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.492344395190417,
+          55.27058991197438
+        ],
+        [
+          -6.563762663792416,
+          55.25177927746742
+        ],
+        [
+          -6.530829097561963,
+          55.21099848253621
+        ],
+        [
+          -6.4594683812533065,
+          55.22978999794197
+        ],
+        [
+          -6.492344395190417,
+          55.27058991197438
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.563762663792416,
+    55.21099848253621,
+    -6.4594683812533065,
+    55.27058991197438
+  ],
+  "properties": {
+    "datetime": "2025-05-12T20:50:26.400000Z",
+    "start_datetime": "2025-05-12T20:50:22Z",
+    "end_datetime": "2025-05-12T20:50:30.800Z",
+    "created": "2025-05-13T17:49:20.312Z",
+    "updated": "2025-05-13T17:49:20.312Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Giants_Causeway_Northern_Ireland/67efd7b6-7260-4685-82be-91ec65f994bf/2025-05-12-20-50-21_UMBRA-05",
+    "view:incidence_angle": 20.068553879987277,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.739089590712853,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999972050074,
+    "sar:resolution_range": 0.5000000011056581,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.0974332162101626,
+    "umbra:best_resolution_range_meters": 0.42040129540597193,
+    "umbra:collect_id": "0b0452c9-b0bd-4fbe-8c4a-80cb153e9cd3",
+    "umbra:grazing_angle_degrees": 69.93144612001272,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 494356.7384756291,
+    "umbra:squint_angle_degrees_off_broadside": 8.120549261216354,
+    "umbra:squint_angle_engineering_degrees": -98.12054926121635,
+    "umbra:squint_angle_exploitation_degrees": -8.120549261216354,
+    "umbra:task_id": "67efd7b6-7260-4685-82be-91ec65f994bf",
+    "view:azimuth": 65.254102590171,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "ed57c38c-6be5-4726-8ca5-83b37ed1d062",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Giants_Causeway_Northern_Ireland/67efd7b6-7260-4685-82be-91ec65f994bf/2025-05-12-20-50-21_UMBRA-05/2025-05-12-20-50-21_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Giants_Causeway_Northern_Ireland/67efd7b6-7260-4685-82be-91ec65f994bf/2025-05-12-20-50-21_UMBRA-05/2025-05-12-20-50-21_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

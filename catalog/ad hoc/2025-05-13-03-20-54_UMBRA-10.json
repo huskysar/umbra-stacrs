@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-13-03-20-54_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.79052427203798,
+          42.251245643721
+        ],
+        [
+          -79.8472482898132,
+          42.26708284591391
+        ],
+        [
+          -79.86853762603592,
+          42.224938481095954
+        ],
+        [
+          -79.81184601119867,
+          42.20911169543057
+        ],
+        [
+          -79.79052427203798,
+          42.251245643721
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.86853762603592,
+    42.20911169543057,
+    -79.79052427203798,
+    42.26708284591391
+  ],
+  "properties": {
+    "datetime": "2025-05-13T03:21:03.600000Z",
+    "start_datetime": "2025-05-13T03:20:55Z",
+    "end_datetime": "2025-05-13T03:21:12.200Z",
+    "created": "2025-05-13T05:42:24.963Z",
+    "updated": "2025-05-13T05:42:24.963Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Freeport_Beach_PA/a10a6ab9-c93f-44e8-97f3-5c895666e175/2025-05-13-03-20-54_UMBRA-10",
+    "view:incidence_angle": 35.84365504309372,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.576758317165618,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999999494092,
+    "sar:resolution_range": 0.5000000000192849,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.08907824134135228,
+    "umbra:best_resolution_range_meters": 0.41365861153435746,
+    "umbra:collect_id": "45a34ce2-9cfb-482c-b62a-ae32e32a0581",
+    "umbra:grazing_angle_degrees": 54.15634495690628,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 676348.6064613633,
+    "umbra:squint_angle_degrees_off_broadside": 36.07563737944152,
+    "umbra:squint_angle_engineering_degrees": -53.92436262055848,
+    "umbra:squint_angle_exploitation_degrees": 36.07563737944152,
+    "umbra:task_id": "a10a6ab9-c93f-44e8-97f3-5c895666e175",
+    "view:azimuth": 110.59157132525736,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "9b0a166f-513c-4645-a67f-fbee387ab40d",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Freeport_Beach_PA/a10a6ab9-c93f-44e8-97f3-5c895666e175/2025-05-13-03-20-54_UMBRA-10/2025-05-13-03-20-54_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Freeport_Beach_PA/a10a6ab9-c93f-44e8-97f3-5c895666e175/2025-05-13-03-20-54_UMBRA-10/2025-05-13-03-20-54_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

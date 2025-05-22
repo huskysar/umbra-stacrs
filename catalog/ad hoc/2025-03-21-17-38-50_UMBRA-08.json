@@ -47,7 +47,7 @@
     "end_datetime": "2025-03-21T17:39:02.400Z",
     "created": "2025-03-23T01:11:36.753Z",
     "updated": "2025-03-23T01:11:36.753Z",
-    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Jocotepec_MEX/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08",
     "view:incidence_angle": 27.111974848977,
     "constellation": "umbra",
     "platform": "Umbra-08",
@@ -101,23 +101,23 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08/2025-03-21-17-38-50_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08/2025-03-21-17-38-50_UMBRA-08_GEC.tif",
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Jocotepec_MEX/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08/2025-03-21-17-38-50_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "TIFF",
       "description": "MONOSTATIC TIFF",
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Jocotepec_MEX/9a4af5a7-dd52-42b9-8286-1234c6f46c32/2025-03-21-17-38-50_UMBRA-08/2025-03-21-17-38-50_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

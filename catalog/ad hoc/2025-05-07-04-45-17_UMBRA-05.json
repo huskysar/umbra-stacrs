@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-07-04-45-17_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.3281270000868,
+          33.76633176944914
+        ],
+        [
+          -118.37863345297666,
+          33.782242449265446
+        ],
+        [
+          -118.39766583469584,
+          33.740058822644535
+        ],
+        [
+          -118.34718059178157,
+          33.72415582315072
+        ],
+        [
+          -118.3281270000868,
+          33.76633176944914
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.39766583469584,
+    33.72415582315072,
+    -118.3281270000868,
+    33.782242449265446
+  ],
+  "properties": {
+    "datetime": "2025-05-07T04:45:23.900000Z",
+    "start_datetime": "2025-05-07T04:45:18Z",
+    "end_datetime": "2025-05-07T04:45:29.800Z",
+    "created": "2025-05-07T14:59:18.879Z",
+    "updated": "2025-05-07T14:59:18.879Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05",
+    "view:incidence_angle": 17.828648138170607,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.7903478543269,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 4.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1250000004961846,
+    "sar:resolution_range": 0.49999999803205186,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.07944099661200084,
+    "umbra:best_resolution_range_meters": 0.47864613547266527,
+    "umbra:collect_id": "eff694c1-3de4-4106-be3f-4e561adccab4",
+    "umbra:grazing_angle_degrees": 72.1713518618294,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 482628.6625439339,
+    "umbra:squint_angle_degrees_off_broadside": 32.78161751609497,
+    "umbra:squint_angle_engineering_degrees": -57.21838248390503,
+    "umbra:squint_angle_exploitation_degrees": 32.78161751609497,
+    "umbra:task_id": "72143450-8114-4255-9d53-8ddc95dda79d",
+    "view:azimuth": 110.66246043700916,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "253848c5-6954-4363-9bdb-83757c7f982a",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05/2025-05-07-04-45-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05/2025-05-07-04-45-17_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

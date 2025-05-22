@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/77ed1a3f-e5dd-4005-86bf-c31a7d84c41c/2025-03-06-04-15-53_UMBRA-08/2025-03-06-04-15-53_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/77ed1a3f-e5dd-4005-86bf-c31a7d84c41c/2025-03-06-04-15-53_UMBRA-08/2025-03-06-04-15-53_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Texas+A&M+Farm+Plot/77ed1a3f-e5dd-4005-86bf-c31a7d84c41c/2025-03-06-04-15-53_UMBRA-08/2025-03-06-04-15-53_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

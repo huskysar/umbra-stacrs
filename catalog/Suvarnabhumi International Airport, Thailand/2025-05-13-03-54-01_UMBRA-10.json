@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-13-03-54-01_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.77014308429574,
+          13.715857909151117
+        ],
+        [
+          100.72426038219584,
+          13.71035522435924
+        ],
+        [
+          100.72989193761002,
+          13.66549724828874
+        ],
+        [
+          100.77576607579068,
+          13.670998910228397
+        ],
+        [
+          100.77014308429574,
+          13.715857909151117
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.72426038219584,
+    13.66549724828874,
+    100.77576607579068,
+    13.715857909151117
+  ],
+  "properties": {
+    "datetime": "2025-05-13T03:54:09.100000Z",
+    "start_datetime": "2025-05-13T03:54:02Z",
+    "end_datetime": "2025-05-13T03:54:16.200Z",
+    "created": "2025-05-13T23:52:12.475Z",
+    "updated": "2025-05-13T23:52:12.475Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Suvarnabhumi%20International%20Airport%2C%20Thailand/63c8a263-105a-436d-81ba-41c0e1ce15f6/2025-05-13-03-54-01_UMBRA-10",
+    "view:incidence_angle": 40.43355629860004,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.15.2"
+    },
+    "processing:version": "4.15.2",
+    "sar:center_frequency": 9.75145725391754,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000013776055,
+    "sar:resolution_range": 0.2499999997379368,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.09011778649966298,
+    "umbra:best_resolution_range_meters": 0.21631982836871,
+    "umbra:collect_id": "82cf6c96-0843-4e1f-9902-9e95cf82e97d",
+    "umbra:grazing_angle_degrees": 49.56644370139996,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 708944.7715392624,
+    "umbra:squint_angle_degrees_off_broadside": 17.75517465353653,
+    "umbra:squint_angle_engineering_degrees": 72.24482534646347,
+    "umbra:squint_angle_exploitation_degrees": -17.75517465353653,
+    "umbra:task_id": "63c8a263-105a-436d-81ba-41c0e1ce15f6",
+    "view:azimuth": 83.00724376009747,
+    "subfolder": "Suvarnabhumi International Airport, Thailand",
+    "umbra:stac_id": "5c4ffa19-8f17-46f0-8cc6-957f9fa4cd6b",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/63c8a263-105a-436d-81ba-41c0e1ce15f6/2025-05-13-03-54-01_UMBRA-10/2025-05-13-03-54-01_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Suvarnabhumi+International+Airport,+Thailand/63c8a263-105a-436d-81ba-41c0e1ce15f6/2025-05-13-03-54-01_UMBRA-10/2025-05-13-03-54-01_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Suvarnabhumi International Airport, Thailand"
+}

@@ -16,6 +16,26 @@
     },
     {
       "rel": "item",
+      "href": "./2025-04-16-14-54-08_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-07-14-31-33_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-15-02-16-54_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-10-02-39-35_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-04-00-56-33_UMBRA-05.json",
       "type": "application/geo+json"
     },
@@ -41,12 +61,27 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-15-02-16-41_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-28-02-17-07_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
+      "href": "./2025-04-10-00-57-08_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-16-00-59-09_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-02-02-18-00_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -66,6 +101,11 @@
     },
     {
       "rel": "item",
+      "href": "./2025-05-20-02-06-40_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-11-01-57-58_UMBRA-07.json",
       "type": "application/geo+json"
     },
@@ -79,10 +119,10 @@
     "spatial": {
       "bbox": [
         [
-          121.49438448202558,
-          -30.81085924505136,
-          121.5669739022688,
-          -30.748184340490965
+          121.49382564268508,
+          -30.811341076928027,
+          121.56753455648632,
+          -30.747699581383547
         ]
       ]
     },
@@ -90,7 +130,7 @@
       "interval": [
         [
           "2025-01-09T14:33:38Z",
-          "2025-03-28T02:17:10.800000Z"
+          "2025-05-20T02:06:43.999000Z"
         ]
       ]
     }
@@ -129,16 +169,21 @@
       "umbra"
     ],
     "platform": [
-      "Umbra-05",
       "Umbra-08",
+      "Umbra-10",
+      "Umbra-05",
       "Umbra-07",
       "Umbra-09"
     ],
     "processing:version": [
+      "4.14.0",
+      "4.15.2",
+      "4.17.0",
       "4.7.0",
       "4.8.0",
       "4.9.0",
       "4.10.0",
+      "4.13.0",
       "4.9.2",
       "4.6.2"
     ],
@@ -149,30 +194,30 @@
       "SPOTLIGHT"
     ],
     "sar:observation_direction": [
-      "left",
-      "right"
+      "right",
+      "left"
     ],
     "sar:polarizations": [
-      "HH",
-      "VV"
+      "VV",
+      "HH"
     ],
     "sar:product_type": [
       "GEC"
     ],
     "sat:orbit_state": [
-      "descending",
-      "ascending"
+      "ascending",
+      "descending"
     ],
     "proj:code": [
       "EPSG:4326"
     ],
     "created": {
       "minimum": "2025-01-10T02:05:57.180Z",
-      "maximum": "2025-03-29T04:42:24.417Z"
+      "maximum": "2025-05-20T08:40:34.203Z"
     },
     "updated": {
       "minimum": "2025-01-10T02:05:57.180Z",
-      "maximum": "2025-03-29T04:42:24.417Z"
+      "maximum": "2025-05-20T08:40:34.203Z"
     },
     "view:incidence_angle": {
       "minimum": 20.218445830195535,
@@ -180,7 +225,7 @@
     },
     "sar:center_frequency": {
       "minimum": 9.548878770478352,
-      "maximum": 9.743165100666213
+      "maximum": 9.775690512450762
     },
     "sar:looks_azimuth": {
       "minimum": 1.0,
@@ -191,16 +236,16 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.5000000007136051,
-      "maximum": 0.5000000023466785
+      "minimum": 0.5000000000026175,
+      "maximum": 0.5000000024281193
     },
     "sar:resolution_range": {
-      "minimum": 0.49999999767052133,
-      "maximum": 0.4999999993229308
+      "minimum": 0.4166666646903175,
+      "maximum": 0.4999999999974471
     },
     "view:azimuth": {
       "minimum": 86.24849522738418,
-      "maximum": 304.3146782186682
+      "maximum": 338.70760014675164
     }
   }
 }
