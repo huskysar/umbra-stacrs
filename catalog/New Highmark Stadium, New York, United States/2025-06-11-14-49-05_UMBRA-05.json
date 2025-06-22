@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-11-14-49-05_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.76138098300345,
+          42.795302480138155
+        ],
+        [
+          -78.82249592573604,
+          42.79563030011825
+        ],
+        [
+          -78.82291862354302,
+          42.75062213497263
+        ],
+        [
+          -78.76184791572858,
+          42.75029454969626
+        ],
+        [
+          -78.76138098300345,
+          42.795302480138155
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -78.82291862354302,
+    42.75029454969626,
+    -78.76138098300345,
+    42.79563030011825
+  ],
+  "properties": {
+    "datetime": "2025-06-11T14:49:11.100000Z",
+    "start_datetime": "2025-06-11T14:49:06Z",
+    "end_datetime": "2025-06-11T14:49:16.199Z",
+    "created": "2025-06-12T00:19:16.073Z",
+    "updated": "2025-06-12T00:19:16.073Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/New%20Highmark%20Stadium%2C%20New%20York%2C%20United%20States/f7f36325-543f-464d-9c90-b1298cad1673/2025-06-11-14-49-05_UMBRA-05",
+    "view:incidence_angle": 31.925508872806645,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.743486375927995,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000012362694,
+    "sar:resolution_range": 0.24999999975764395,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.08942302650687625,
+    "umbra:best_resolution_range_meters": 0.21904112294515332,
+    "umbra:collect_id": "db6b5ff9-b0ab-4800-baea-7f8afb16c0e1",
+    "umbra:grazing_angle_degrees": 58.074491127193355,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 527070.2086251013,
+    "umbra:squint_angle_degrees_off_broadside": 10.443499474886607,
+    "umbra:squint_angle_engineering_degrees": 79.55650052511339,
+    "umbra:squint_angle_exploitation_degrees": -10.443499474886607,
+    "umbra:task_id": "f7f36325-543f-464d-9c90-b1298cad1673",
+    "view:azimuth": 90.41716254483292,
+    "subfolder": "New Highmark Stadium, New York, United States",
+    "umbra:stac_id": "23b39d9b-f57a-4e5a-bb4d-d4f6d63703a5",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/f7f36325-543f-464d-9c90-b1298cad1673/2025-06-11-14-49-05_UMBRA-05/2025-06-11-14-49-05_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Highmark+Stadium,+New+York,+United+States/f7f36325-543f-464d-9c90-b1298cad1673/2025-06-11-14-49-05_UMBRA-05/2025-06-11-14-49-05_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "New Highmark Stadium, New York, United States"
+}

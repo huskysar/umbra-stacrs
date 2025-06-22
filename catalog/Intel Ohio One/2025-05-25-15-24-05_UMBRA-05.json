@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-25-15-24-05_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -82.75107925280065,
+          40.10921096955577
+        ],
+        [
+          -82.69995494385464,
+          40.08715664699485
+        ],
+        [
+          -82.67121024277232,
+          40.12640801421978
+        ],
+        [
+          -82.72235467171276,
+          40.1484748731444
+        ],
+        [
+          -82.75107925280065,
+          40.10921096955577
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -82.75107925280065,
+    40.08715664699485,
+    -82.67121024277232,
+    40.1484748731444
+  ],
+  "properties": {
+    "datetime": "2025-05-25T15:24:07.600000Z",
+    "start_datetime": "2025-05-25T15:24:06Z",
+    "end_datetime": "2025-05-25T15:24:09.199Z",
+    "created": "2025-05-25T20:32:50.754Z",
+    "updated": "2025-05-25T20:32:50.754Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Intel%20Ohio%20One/68f7aa5f-0e4e-45d5-84ca-7800484346d9/2025-05-25-15-24-05_UMBRA-05",
+    "view:incidence_angle": 28.01927228159977,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.709967710843843,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.35000000067847425,
+    "sar:resolution_range": 0.34999999933551357,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.26165383121405106,
+    "umbra:best_resolution_range_meters": 0.28475799967242893,
+    "umbra:collect_id": "7c37c0d3-9419-408e-b4d7-7cb1c3c387b8",
+    "umbra:grazing_angle_degrees": 61.98072771840023,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 515390.87779155554,
+    "umbra:squint_angle_degrees_off_broadside": 15.59520760265707,
+    "umbra:squint_angle_engineering_degrees": -74.40479239734293,
+    "umbra:squint_angle_exploitation_degrees": 15.59520760265707,
+    "umbra:task_id": "68f7aa5f-0e4e-45d5-84ca-7800484346d9",
+    "view:azimuth": 299.33354295498015,
+    "subfolder": "Intel Ohio One",
+    "umbra:stac_id": "ff4d00a1-53e6-4606-b012-acfd40917f50",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/68f7aa5f-0e4e-45d5-84ca-7800484346d9/2025-05-25-15-24-05_UMBRA-05/2025-05-25-15-24-05_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Intel+Ohio+One/68f7aa5f-0e4e-45d5-84ca-7800484346d9/2025-05-25-15-24-05_UMBRA-05/2025-05-25-15-24-05_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Intel Ohio One"
+}

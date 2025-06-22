@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-26-04-09-13_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.15575428781351,
+          32.0977137049086
+        ],
+        [
+          -81.10779446135726,
+          32.11687421446713
+        ],
+        [
+          -81.130307469082,
+          32.15769730425495
+        ],
+        [
+          -81.17828394461357,
+          32.13852838570227
+        ],
+        [
+          -81.15575428781351,
+          32.0977137049086
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -81.17828394461357,
+    32.0977137049086,
+    -81.10779446135726,
+    32.15769730425495
+  ],
+  "properties": {
+    "datetime": "2025-05-26T04:09:18.900000Z",
+    "start_datetime": "2025-05-26T04:09:14Z",
+    "end_datetime": "2025-05-26T04:09:23.799Z",
+    "created": "2025-05-27T09:54:45.062Z",
+    "updated": "2025-05-27T09:54:45.062Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Savannah%2C%20Georgia%2C%20United%20States/8e980e14-91bc-4c16-85c3-d0e6be358126/2025-05-26-04-09-13_UMBRA-10",
+    "view:incidence_angle": 42.53281893115093,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.76329606785973,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000017894385,
+    "sar:resolution_range": 0.34999999966126843,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.13384406807442378,
+    "umbra:best_resolution_range_meters": 0.30313789957108,
+    "umbra:collect_id": "c34d09a2-2f2d-46d3-93ac-641cac56bf17",
+    "umbra:grazing_angle_degrees": 47.46718106884907,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 732445.4238080599,
+    "umbra:squint_angle_degrees_off_broadside": 15.025932208862798,
+    "umbra:squint_angle_engineering_degrees": 74.9740677911372,
+    "umbra:squint_angle_exploitation_degrees": -15.025932208862798,
+    "umbra:task_id": "8e980e14-91bc-4c16-85c3-d0e6be358126",
+    "view:azimuth": 244.8496612557508,
+    "subfolder": "Port of Savannah, Georgia, United States",
+    "umbra:stac_id": "eebb4670-9d81-4011-bacc-c7b4370672bc",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/8e980e14-91bc-4c16-85c3-d0e6be358126/2025-05-26-04-09-13_UMBRA-10/2025-05-26-04-09-13_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Savannah,+Georgia,+United+States/8e980e14-91bc-4c16-85c3-d0e6be358126/2025-05-26-04-09-13_UMBRA-10/2025-05-26-04-09-13_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Savannah, Georgia, United States"
+}

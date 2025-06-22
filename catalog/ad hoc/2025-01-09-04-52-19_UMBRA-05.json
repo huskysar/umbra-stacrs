@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Los_Angeles_CA_Wildfires/99a7b83f-62a3-4fe6-83fb-f140f16c3a5b/2025-01-09-04-52-19_UMBRA-05/2025-01-09-04-52-19_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Los_Angeles_CA_Wildfires/99a7b83f-62a3-4fe6-83fb-f140f16c3a5b/2025-01-09-04-52-19_UMBRA-05/2025-01-09-04-52-19_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Los_Angeles_CA_Wildfires/99a7b83f-62a3-4fe6-83fb-f140f16c3a5b/2025-01-09-04-52-19_UMBRA-05/2025-01-09-04-52-19_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

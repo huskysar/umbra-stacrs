@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-06-09-55-31_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          4.236290537521876,
+          51.89110141067256
+        ],
+        [
+          4.276654321631713,
+          51.85374576380432
+        ],
+        [
+          4.337022229482701,
+          51.87870516418347
+        ],
+        [
+          4.2966861538855134,
+          51.91608135513613
+        ],
+        [
+          4.236290537521876,
+          51.89110141067256
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.236290537521876,
+    51.85374576380432,
+    4.337022229482701,
+    51.91608135513613
+  ],
+  "properties": {
+    "datetime": "2025-06-06T09:55:37.400000Z",
+    "start_datetime": "2025-06-06T09:55:32Z",
+    "end_datetime": "2025-06-06T09:55:42.800Z",
+    "created": "2025-06-06T22:50:57.589Z",
+    "updated": "2025-06-06T22:50:57.589Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Rotterdam%2C%20Netherlands/7e9934f6-026b-4362-a81f-3340bd680d07/2025-06-06-09-55-31_UMBRA-05",
+    "view:incidence_angle": 40.311581773616545,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.772456371871789,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1750000000181617,
+    "sar:resolution_range": 0.34999999996575604,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.12454100889847187,
+    "umbra:best_resolution_range_meters": 0.30762506852182964,
+    "umbra:collect_id": "d7d4ee4c-4e06-4620-a9a2-7e7c1ff4468a",
+    "umbra:grazing_angle_degrees": 49.688418226383455,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 587327.9468600184,
+    "umbra:squint_angle_degrees_off_broadside": 39.11967966894002,
+    "umbra:squint_angle_engineering_degrees": -50.88032033105998,
+    "umbra:squint_angle_exploitation_degrees": 39.11967966894002,
+    "umbra:task_id": "7e9934f6-026b-4362-a81f-3340bd680d07",
+    "view:azimuth": 326.24728372047406,
+    "subfolder": "Port of Rotterdam, Netherlands",
+    "umbra:stac_id": "b4e551bf-a2ff-4b7c-9905-5a5d05ce9d4b",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/7e9934f6-026b-4362-a81f-3340bd680d07/2025-06-06-09-55-31_UMBRA-05/2025-06-06-09-55-31_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Rotterdam,+Netherlands/7e9934f6-026b-4362-a81f-3340bd680d07/2025-06-06-09-55-31_UMBRA-05/2025-06-06-09-55-31_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Rotterdam, Netherlands"
+}

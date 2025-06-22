@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Shanghai_CHN/ba3c7e48-b1f4-4102-9cad-cf6e25945735/2025-04-18-14-06-23_UMBRA-10/2025-04-18-14-06-23_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Shanghai_CHN/ba3c7e48-b1f4-4102-9cad-cf6e25945735/2025-04-18-14-06-23_UMBRA-10/2025-04-18-14-06-23_UMBRA-10_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Shanghai_CHN/ba3c7e48-b1f4-4102-9cad-cf6e25945735/2025-04-18-14-06-23_UMBRA-10/2025-04-18-14-06-23_UMBRA-10_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

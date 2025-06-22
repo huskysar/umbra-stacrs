@@ -16,7 +16,22 @@
     },
     {
       "rel": "item",
+      "href": "./2025-06-16-00-22-46_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-06-05-12-49-48_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-03-21-23-06-00_UMBRA-05.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-06-20-13-25-34_UMBRA-10.json",
       "type": "application/geo+json"
     },
     {
@@ -42,6 +57,16 @@
     {
       "rel": "item",
       "href": "./2024-11-12-23-47-55_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-27-00-07-17_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-06-10-00-19-35_UMBRA-08.json",
       "type": "application/geo+json"
     },
     {
@@ -95,7 +120,7 @@
       "interval": [
         [
           "2024-11-12T23:47:56Z",
-          "2025-05-22T00:25:20.599000Z"
+          "2025-06-20T13:25:49.400000Z"
         ]
       ]
     }
@@ -134,17 +159,19 @@
       "umbra"
     ],
     "platform": [
-      "Umbra-05",
-      "Umbra-10",
+      "Umbra-08",
       "Umbra-09",
-      "Umbra-08"
+      "Umbra-05",
+      "Umbra-10"
     ],
     "processing:version": [
+      "4.19.0",
       "4.9.5",
       "4.9.1",
       "4.8.0",
       "4.17.0",
       "4.7.0",
+      "4.18.0",
       "4.15.2",
       "4.11.1",
       "4.9.0"
@@ -174,18 +201,18 @@
     ],
     "created": {
       "minimum": "2024-11-13T15:49:45.759Z",
-      "maximum": "2025-05-22T02:28:45.529Z"
+      "maximum": "2025-06-20T18:21:28.353Z"
     },
     "updated": {
       "minimum": "2024-11-13T15:49:45.759Z",
-      "maximum": "2025-05-22T02:28:45.529Z"
+      "maximum": "2025-06-20T18:21:28.353Z"
     },
     "view:incidence_angle": {
-      "minimum": 33.805503168259506,
+      "minimum": 32.74549949385918,
       "maximum": 44.8009694400216
     },
     "sar:center_frequency": {
-      "minimum": 9.743742914989957,
+      "minimum": 9.73498490893456,
       "maximum": 9763931716.414385
     },
     "sar:looks_azimuth": {
@@ -197,12 +224,12 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.12500000000369652,
-      "maximum": 0.12500000011456758
+      "minimum": 0.12499999995818636,
+      "maximum": 0.12500000013893484
     },
     "sar:resolution_range": {
-      "minimum": 0.24999999977861423,
-      "maximum": 0.249999999993009
+      "minimum": 0.24999999972847653,
+      "maximum": 0.25000000008086737
     },
     "view:azimuth": {
       "minimum": 74.77920885679961,

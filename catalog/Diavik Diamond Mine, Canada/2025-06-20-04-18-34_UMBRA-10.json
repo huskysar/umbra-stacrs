@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-20-04-18-34_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -110.25429463100652,
+          64.51737879688697
+        ],
+        [
+          -110.35270881468595,
+          64.50277742026994
+        ],
+        [
+          -110.31880755378108,
+          64.4603790478812
+        ],
+        [
+          -110.22052769025078,
+          64.47495790735262
+        ],
+        [
+          -110.25429463100652,
+          64.51737879688697
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -110.35270881468595,
+    64.4603790478812,
+    -110.22052769025078,
+    64.51737879688697
+  ],
+  "properties": {
+    "datetime": "2025-06-20T04:18:36.600000Z",
+    "start_datetime": "2025-06-20T04:18:35Z",
+    "end_datetime": "2025-06-20T04:18:38.200Z",
+    "created": "2025-06-20T13:38:21.775Z",
+    "updated": "2025-06-20T13:38:21.775Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Diavik%20Diamond%20Mine%2C%20Canada/34677286-8224-4ab3-8428-daa742fc452f/2025-06-20-04-18-34_UMBRA-10",
+    "view:incidence_angle": 44.71382296025275,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.560237636322642,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000003360905,
+    "sar:resolution_range": 0.4999999996892333,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.40780290341846487,
+    "umbra:best_resolution_range_meters": 0.4116786879222682,
+    "umbra:collect_id": "c02bd343-d8b8-4f48-9924-eadd5204a023",
+    "umbra:grazing_angle_degrees": 45.28617703974725,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 760403.378687403,
+    "umbra:squint_angle_degrees_off_broadside": 10.42380235205772,
+    "umbra:squint_angle_engineering_degrees": -79.57619764794228,
+    "umbra:squint_angle_exploitation_degrees": 10.42380235205772,
+    "umbra:task_id": "34677286-8224-4ab3-8428-daa742fc452f",
+    "view:azimuth": 71.01533908104601,
+    "subfolder": "Diavik Diamond Mine, Canada",
+    "umbra:stac_id": "12c686ea-e481-44cc-8c63-07d2f539937a",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/34677286-8224-4ab3-8428-daa742fc452f/2025-06-20-04-18-34_UMBRA-10/2025-06-20-04-18-34_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Diavik+Diamond+Mine,+Canada/34677286-8224-4ab3-8428-daa742fc452f/2025-06-20-04-18-34_UMBRA-10/2025-06-20-04-18-34_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Diavik Diamond Mine, Canada"
+}

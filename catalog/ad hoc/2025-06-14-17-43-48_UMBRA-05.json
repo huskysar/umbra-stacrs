@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-14-17-43-48_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.3288064646368,
+          36.56634554120145
+        ],
+        [
+          -118.27722932818844,
+          36.54913065380666
+        ],
+        [
+          -118.2558677818529,
+          36.59073376610181
+        ],
+        [
+          -118.30746785795708,
+          36.607957772461546
+        ],
+        [
+          -118.3288064646368,
+          36.56634554120145
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.3288064646368,
+    36.54913065380666,
+    -118.2558677818529,
+    36.607957772461546
+  ],
+  "properties": {
+    "datetime": "2025-06-14T17:43:54Z",
+    "start_datetime": "2025-06-14T17:43:49Z",
+    "end_datetime": "2025-06-14T17:43:59Z",
+    "created": "2025-06-14T21:21:20.444Z",
+    "updated": "2025-06-14T21:21:20.444Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/2d5d472a-c3e1-4aa5-92db-b7fe8fa361ed/2025-06-14-17-43-48_UMBRA-05",
+    "view:incidence_angle": 26.418317889527273,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.754997484311843,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 3.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.11666666676060938,
+    "sar:resolution_range": 0.3499999997230518,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.08354450759902259,
+    "umbra:best_resolution_range_meters": 0.3055252350366186,
+    "umbra:collect_id": "e249f578-de9c-4006-9af4-82f02248eaf2",
+    "umbra:grazing_angle_degrees": 63.58168211047273,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 494166.9897335049,
+    "umbra:squint_angle_degrees_off_broadside": 9.384561615518647,
+    "umbra:squint_angle_engineering_degrees": -80.61543838448135,
+    "umbra:squint_angle_exploitation_degrees": 9.384561615518647,
+    "umbra:task_id": "2d5d472a-c3e1-4aa5-92db-b7fe8fa361ed",
+    "view:azimuth": 292.48234640183074,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "c29e1385-a171-4cfd-b9f7-2c1623975b47",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/2d5d472a-c3e1-4aa5-92db-b7fe8fa361ed/2025-06-14-17-43-48_UMBRA-05/2025-06-14-17-43-48_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/2d5d472a-c3e1-4aa5-92db-b7fe8fa361ed/2025-06-14-17-43-48_UMBRA-05/2025-06-14-17-43-48_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

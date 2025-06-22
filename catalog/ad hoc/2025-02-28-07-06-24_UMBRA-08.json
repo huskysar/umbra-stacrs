@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Sakhir_Grand_Prix/fdf809e2-c449-476a-84f8-647e9c62b7be/2025-02-28-07-06-24_UMBRA-08/2025-02-28-07-06-24_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Sakhir_Grand_Prix/fdf809e2-c449-476a-84f8-647e9c62b7be/2025-02-28-07-06-24_UMBRA-08/2025-02-28-07-06-24_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Sakhir_Grand_Prix/fdf809e2-c449-476a-84f8-647e9c62b7be/2025-02-28-07-06-24_UMBRA-08/2025-02-28-07-06-24_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

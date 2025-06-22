@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fernandina_Beach_FL/b11abe99-67b8-4e91-a05f-e7cb4ccf8958/2025-04-25-14-52-21_UMBRA-05/2025-04-25-14-52-21_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fernandina_Beach_FL/b11abe99-67b8-4e91-a05f-e7cb4ccf8958/2025-04-25-14-52-21_UMBRA-05/2025-04-25-14-52-21_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fernandina_Beach_FL/b11abe99-67b8-4e91-a05f-e7cb4ccf8958/2025-04-25-14-52-21_UMBRA-05/2025-04-25-14-52-21_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

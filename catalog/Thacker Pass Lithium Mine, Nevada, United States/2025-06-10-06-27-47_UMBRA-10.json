@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-10-06-27-47_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.08769196262148,
+          41.68831738889592
+        ],
+        [
+          -118.0279623357658,
+          41.68371209789348
+        ],
+        [
+          -118.0217939565446,
+          41.72848391304671
+        ],
+        [
+          -118.08156460156638,
+          41.73309236447451
+        ],
+        [
+          -118.08769196262148,
+          41.68831738889592
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.08769196262148,
+    41.68371209789348,
+    -118.0217939565446,
+    41.73309236447451
+  ],
+  "properties": {
+    "datetime": "2025-06-10T06:27:49.500000Z",
+    "start_datetime": "2025-06-10T06:27:48Z",
+    "end_datetime": "2025-06-10T06:27:51Z",
+    "created": "2025-06-10T16:59:15.262Z",
+    "updated": "2025-06-10T16:59:15.262Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Thacker%20Pass%20Lithium%20Mine%2C%20Nevada%2C%20United%20States/dcd25b26-011a-4473-a0c6-3b57050fe1a4/2025-06-10-06-27-47_UMBRA-10",
+    "view:incidence_angle": 35.00729867589611,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.555544047438062,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.4999999988928095,
+    "sar:resolution_range": 0.5000000010739362,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.4091242113289657,
+    "umbra:best_resolution_range_meters": 0.4181326277349199,
+    "umbra:collect_id": "3bd39dc3-4d16-4754-a511-01551b15600a",
+    "umbra:grazing_angle_degrees": 54.99270132410389,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 666019.4364243649,
+    "umbra:squint_angle_degrees_off_broadside": 16.492537048862147,
+    "umbra:squint_angle_engineering_degrees": 106.49253704886216,
+    "umbra:squint_angle_exploitation_degrees": 16.492537048862147,
+    "umbra:task_id": "dcd25b26-011a-4473-a0c6-3b57050fe1a4",
+    "view:azimuth": 275.87466172581225,
+    "subfolder": "Thacker Pass Lithium Mine, Nevada, United States",
+    "umbra:stac_id": "2e9594ee-34d5-4cbe-b4f2-cfbdaaca8924",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/dcd25b26-011a-4473-a0c6-3b57050fe1a4/2025-06-10-06-27-47_UMBRA-10/2025-06-10-06-27-47_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Thacker+Pass+Lithium+Mine,+Nevada,+United+States/dcd25b26-011a-4473-a0c6-3b57050fe1a4/2025-06-10-06-27-47_UMBRA-10/2025-06-10-06-27-47_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Thacker Pass Lithium Mine, Nevada, United States"
+}

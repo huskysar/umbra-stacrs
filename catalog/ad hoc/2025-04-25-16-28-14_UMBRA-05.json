@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Plaza_de_Toros_Monumental_de_Aguascalientes_MEX/324c1256-04a3-496f-b4b8-2b978b6538bf/2025-04-25-16-28-14_UMBRA-05/2025-04-25-16-28-14_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Plaza_de_Toros_Monumental_de_Aguascalientes_MEX/324c1256-04a3-496f-b4b8-2b978b6538bf/2025-04-25-16-28-14_UMBRA-05/2025-04-25-16-28-14_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Plaza_de_Toros_Monumental_de_Aguascalientes_MEX/324c1256-04a3-496f-b4b8-2b978b6538bf/2025-04-25-16-28-14_UMBRA-05/2025-04-25-16-28-14_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

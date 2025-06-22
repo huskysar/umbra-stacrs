@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-22-22-03-35_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          169.4219381889374,
+          -19.52851022768057
+        ],
+        [
+          169.463617531196,
+          -19.550399664868067
+        ],
+        [
+          169.48669726010752,
+          -19.51088130276447
+        ],
+        [
+          169.44502493942662,
+          -19.488997089416763
+        ],
+        [
+          169.4219381889374,
+          -19.52851022768057
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    169.4219381889374,
+    -19.550399664868067,
+    169.48669726010752,
+    -19.488997089416763
+  ],
+  "properties": {
+    "datetime": "2025-05-22T22:03:36.699000Z",
+    "start_datetime": "2025-05-22T22:03:36Z",
+    "end_datetime": "2025-05-22T22:03:37.399Z",
+    "created": "2025-05-22T22:58:59.044Z",
+    "updated": "2025-05-22T22:58:59.044Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Tanna%20Island%2C%20Vanuatu/7e1df92b-5375-48db-9461-e0713eea3a12/2025-05-22-22-03-35_UMBRA-05",
+    "view:incidence_angle": 43.31682399215519,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.17.0"
+    },
+    "processing:version": "4.17.0",
+    "sar:center_frequency": 9.5804855919008,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 1.0000000015854615,
+    "sar:resolution_range": 0.9999999984952974,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.8378396887539573,
+    "umbra:best_resolution_range_meters": 0.830647373796967,
+    "umbra:collect_id": "9d93d3a2-8b18-445d-ac9b-a65018ded953",
+    "umbra:grazing_angle_degrees": 46.68317600784481,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 612344.7681084371,
+    "umbra:squint_angle_degrees_off_broadside": 18.662704569897187,
+    "umbra:squint_angle_engineering_degrees": -71.33729543010281,
+    "umbra:squint_angle_exploitation_degrees": 18.662704569897187,
+    "umbra:task_id": "7e1df92b-5375-48db-9461-e0713eea3a12",
+    "view:azimuth": 298.9810163608807,
+    "subfolder": "Tanna Island, Vanuatu",
+    "umbra:stac_id": "c45b6564-0b71-4e08-82da-ea45fc6fba15",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/7e1df92b-5375-48db-9461-e0713eea3a12/2025-05-22-22-03-35_UMBRA-05/2025-05-22-22-03-35_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tanna+Island,+Vanuatu/7e1df92b-5375-48db-9461-e0713eea3a12/2025-05-22-22-03-35_UMBRA-05/2025-05-22-22-03-35_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Tanna Island, Vanuatu"
+}

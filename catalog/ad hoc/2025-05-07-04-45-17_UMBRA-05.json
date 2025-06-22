@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05/2025-05-07-04-45-17_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05/2025-05-07-04-45-17_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Portuguese_Bend_Reserve_Rancho_Palos_Verdes/72143450-8114-4255-9d53-8ddc95dda79d/2025-05-07-04-45-17_UMBRA-05/2025-05-07-04-45-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

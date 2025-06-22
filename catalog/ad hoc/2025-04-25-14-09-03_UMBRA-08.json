@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08/2025-04-25-14-09-03_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08/2025-04-25-14-09-03_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Mount_Pinatubo_Phillippines/eb92a360-8270-456a-8c25-a0a6815e960b/2025-04-25-14-09-03_UMBRA-08/2025-04-25-14-09-03_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

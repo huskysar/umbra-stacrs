@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-25-04-05-44_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.08702571929454,
+          3.736267431257372
+        ],
+        [
+          -77.04201336897617,
+          3.7359778170638864
+        ],
+        [
+          -77.04172389876508,
+          3.7811959017839305
+        ],
+        [
+          -77.08673856729084,
+          3.781485530594198
+        ],
+        [
+          -77.08702571929454,
+          3.736267431257372
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -77.08702571929454,
+    3.7359778170638864,
+    -77.04172389876508,
+    3.781485530594198
+  ],
+  "properties": {
+    "datetime": "2025-05-25T04:05:47.900000Z",
+    "start_datetime": "2025-05-25T04:05:45Z",
+    "end_datetime": "2025-05-25T04:05:50.800Z",
+    "created": "2025-05-25T09:51:42.754Z",
+    "updated": "2025-05-25T09:51:42.754Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Taparal%2C%20Colombia/8ada1e52-239b-4ed2-bebc-e01030a250f5/2025-05-25-04-05-44_UMBRA-10",
+    "view:incidence_angle": 37.73423998798274,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.568404564868333,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.2499999996607462,
+    "sar:resolution_range": 0.5000000006504137,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.20660402773745304,
+    "umbra:best_resolution_range_meters": 0.43157716781096894,
+    "umbra:collect_id": "26895a18-92ab-4a87-9e44-437cc3ec2086",
+    "umbra:grazing_angle_degrees": 52.26576001201726,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 687405.4811721047,
+    "umbra:squint_angle_degrees_off_broadside": 11.645494562894442,
+    "umbra:squint_angle_engineering_degrees": 101.64549456289444,
+    "umbra:squint_angle_exploitation_degrees": 11.645494562894442,
+    "umbra:task_id": "8ada1e52-239b-4ed2-bebc-e01030a250f5",
+    "view:azimuth": 270.36697385986275,
+    "subfolder": "Taparal, Colombia",
+    "umbra:stac_id": "310f2b75-70b0-480a-b342-d864be73c81c",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/8ada1e52-239b-4ed2-bebc-e01030a250f5/2025-05-25-04-05-44_UMBRA-10/2025-05-25-04-05-44_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Taparal,+Colombia/8ada1e52-239b-4ed2-bebc-e01030a250f5/2025-05-25-04-05-44_UMBRA-10/2025-05-25-04-05-44_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Taparal, Colombia"
+}

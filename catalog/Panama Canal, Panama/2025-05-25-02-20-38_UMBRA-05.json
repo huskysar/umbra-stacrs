@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-25-02-20-38_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.55873432879265,
+          8.996357251974533
+        ],
+        [
+          -79.6042067696926,
+          8.996184150029183
+        ],
+        [
+          -79.60402986394095,
+          8.950975753272743
+        ],
+        [
+          -79.55856305143037,
+          8.951148834214143
+        ],
+        [
+          -79.55873432879265,
+          8.996357251974533
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.6042067696926,
+    8.950975753272743,
+    -79.55856305143037,
+    8.996357251974533
+  ],
+  "properties": {
+    "datetime": "2025-05-25T02:20:44.199000Z",
+    "start_datetime": "2025-05-25T02:20:39Z",
+    "end_datetime": "2025-05-25T02:20:49.399Z",
+    "created": "2025-05-25T11:30:19.498Z",
+    "updated": "2025-05-25T11:30:19.499Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Panama%20Canal%2C%20Panama/fa0de057-0139-4d71-b8e8-0e2a15560464/2025-05-25-02-20-38_UMBRA-05",
+    "view:incidence_angle": 35.83208658187834,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.745263944115392,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000010889248,
+    "sar:resolution_range": 0.2499999997892608,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09079907372802472,
+    "umbra:best_resolution_range_meters": 0.21714530235796345,
+    "umbra:collect_id": "5a654266-0d1e-4c78-b36c-5b175a41d9ce",
+    "umbra:grazing_angle_degrees": 54.16791341812166,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 554595.5193651794,
+    "umbra:squint_angle_degrees_off_broadside": 11.21081735270343,
+    "umbra:squint_angle_engineering_degrees": -78.78918264729657,
+    "umbra:squint_angle_exploitation_degrees": 11.21081735270343,
+    "umbra:task_id": "fa0de057-0139-4d71-b8e8-0e2a15560464",
+    "view:azimuth": 89.78063028993985,
+    "subfolder": "Panama Canal, Panama",
+    "umbra:stac_id": "dc107a06-d308-4213-af7f-a07f97dbbe07",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/fa0de057-0139-4d71-b8e8-0e2a15560464/2025-05-25-02-20-38_UMBRA-05/2025-05-25-02-20-38_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/fa0de057-0139-4d71-b8e8-0e2a15560464/2025-05-25-02-20-38_UMBRA-05/2025-05-25-02-20-38_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Panama Canal, Panama"
+}

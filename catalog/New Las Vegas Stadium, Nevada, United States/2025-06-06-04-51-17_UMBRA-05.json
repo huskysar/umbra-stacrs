@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-06-04-51-17_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -115.18666216943066,
+          36.06989110970334
+        ],
+        [
+          -115.13487920628606,
+          36.086114640971296
+        ],
+        [
+          -115.1548633988908,
+          36.12815313653384
+        ],
+        [
+          -115.2066698370186,
+          36.11192107619408
+        ],
+        [
+          -115.18666216943066,
+          36.06989110970334
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -115.2066698370186,
+    36.06989110970334,
+    -115.13487920628606,
+    36.12815313653384
+  ],
+  "properties": {
+    "datetime": "2025-06-06T04:51:23.199000Z",
+    "start_datetime": "2025-06-06T04:51:18Z",
+    "end_datetime": "2025-06-06T04:51:28.399Z",
+    "created": "2025-06-06T22:45:14.367Z",
+    "updated": "2025-06-06T22:45:14.367Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/New%20Las%20Vegas%20Stadium%2C%20Nevada%2C%20United%20States/b9f9bae1-ed74-4851-90d1-76a292dec9de/2025-06-06-04-51-17_UMBRA-05",
+    "view:incidence_angle": 35.825497405593666,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.74399301059604,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12500000011326878,
+    "sar:resolution_range": 0.24999999977976936,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.09098653473726263,
+    "umbra:best_resolution_range_meters": 0.2166865859825476,
+    "umbra:collect_id": "1807c399-ede7-466d-963d-e0b3aa20e86a",
+    "umbra:grazing_angle_degrees": 54.174502594406334,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 554743.4373681464,
+    "umbra:squint_angle_degrees_off_broadside": 10.676033662405814,
+    "umbra:squint_angle_engineering_degrees": 79.32396633759419,
+    "umbra:squint_angle_exploitation_degrees": -10.676033662405814,
+    "umbra:task_id": "b9f9bae1-ed74-4851-90d1-76a292dec9de",
+    "view:azimuth": 248.89034953270655,
+    "subfolder": "New Las Vegas Stadium, Nevada, United States",
+    "umbra:stac_id": "a86e5f7e-930a-42ed-a6be-efb5071675a7",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/b9f9bae1-ed74-4851-90d1-76a292dec9de/2025-06-06-04-51-17_UMBRA-05/2025-06-06-04-51-17_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/New+Las+Vegas+Stadium,+Nevada,+United+States/b9f9bae1-ed74-4851-90d1-76a292dec9de/2025-06-06-04-51-17_UMBRA-05/2025-06-06-04-51-17_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "New Las Vegas Stadium, Nevada, United States"
+}

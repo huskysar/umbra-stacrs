@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-13-07-26-55_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.90534830013589,
+          28.10990232471023
+        ],
+        [
+          34.95621748211024,
+          28.108675051904616
+        ],
+        [
+          34.95761283391087,
+          28.153779095966534
+        ],
+        [
+          34.90672236415761,
+          28.15500687466056
+        ],
+        [
+          34.90534830013589,
+          28.10990232471023
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    34.90534830013589,
+    28.108675051904616,
+    34.95761283391087,
+    28.15500687466056
+  ],
+  "properties": {
+    "datetime": "2025-06-13T07:27:01Z",
+    "start_datetime": "2025-06-13T07:26:56Z",
+    "end_datetime": "2025-06-13T07:27:06Z",
+    "created": "2025-06-13T14:11:53.589Z",
+    "updated": "2025-06-13T14:11:53.589Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/ad%20hoc/1eccb67e-c6b5-4305-bb1a-68bd658936e6/2025-06-13-07-26-55_UMBRA-05",
+    "view:incidence_angle": 33.87767671371365,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.74175634342051,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 3.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.11666666645286752,
+    "sar:resolution_range": 0.35000000062248,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.0929398634335403,
+    "umbra:best_resolution_range_meters": 0.2894013455388034,
+    "umbra:collect_id": "348746fd-5d85-49a5-8804-d927cdebf778",
+    "umbra:grazing_angle_degrees": 56.12232328628635,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 533249.347747961,
+    "umbra:squint_angle_degrees_off_broadside": 11.10924404307859,
+    "umbra:squint_angle_engineering_degrees": -101.1092440430786,
+    "umbra:squint_angle_exploitation_degrees": -11.10924404307859,
+    "umbra:task_id": "1eccb67e-c6b5-4305-bb1a-68bd658936e6",
+    "view:azimuth": 271.55893477813373,
+    "subfolder": "ad hoc",
+    "umbra:stac_id": "6761eb9d-078e-45fa-a21c-701486eef2f5",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/1eccb67e-c6b5-4305-bb1a-68bd658936e6/2025-06-13-07-26-55_UMBRA-05/2025-06-13-07-26-55_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/1eccb67e-c6b5-4305-bb1a-68bd658936e6/2025-06-13-07-26-55_UMBRA-05/2025-06-13-07-26-55_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "ad hoc"
+}

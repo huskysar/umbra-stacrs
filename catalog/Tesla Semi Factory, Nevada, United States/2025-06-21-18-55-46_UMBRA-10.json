@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-21-18-55-46_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.40761552869888,
+          39.56013045624889
+        ],
+        [
+          -119.4621198295295,
+          39.57587383685235
+        ],
+        [
+          -119.48243475882784,
+          39.533683287046614
+        ],
+        [
+          -119.42795886086834,
+          39.51794932215085
+        ],
+        [
+          -119.40761552869888,
+          39.56013045624889
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -119.48243475882784,
+    39.51794932215085,
+    -119.40761552869888,
+    39.57587383685235
+  ],
+  "properties": {
+    "datetime": "2025-06-21T18:55:52.900000Z",
+    "start_datetime": "2025-06-21T18:55:47Z",
+    "end_datetime": "2025-06-21T18:55:58.799Z",
+    "created": "2025-06-22T13:10:44.637Z",
+    "updated": "2025-06-22T13:10:44.637Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Tesla%20Semi%20Factory%2C%20Nevada%2C%20United%20States/fc4bde49-7384-4e4c-9a00-6320af81ed44/2025-06-21-18-55-46_UMBRA-10",
+    "view:incidence_angle": 32.64405945986065,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.721840594987576,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.1249999998027998,
+    "sar:resolution_range": 0.2500000003845785,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.09543372152862982,
+    "umbra:best_resolution_range_meters": 0.2112741706746178,
+    "umbra:collect_id": "5d381856-90a1-4bdc-b6b3-6e84269d5189",
+    "umbra:grazing_angle_degrees": 57.35594054013935,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 646666.8164273585,
+    "umbra:squint_angle_degrees_off_broadside": 9.565586054498738,
+    "umbra:squint_angle_engineering_degrees": 99.56558605449874,
+    "umbra:squint_angle_exploitation_degrees": 9.565586054498738,
+    "umbra:task_id": "fc4bde49-7384-4e4c-9a00-6320af81ed44",
+    "view:azimuth": 110.45951244238664,
+    "subfolder": "Tesla Semi Factory, Nevada, United States",
+    "umbra:stac_id": "95f1f34c-0547-4729-8264-9a20ce45b8b3",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/fc4bde49-7384-4e4c-9a00-6320af81ed44/2025-06-21-18-55-46_UMBRA-10/2025-06-21-18-55-46_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Tesla+Semi+Factory,+Nevada,+United+States/fc4bde49-7384-4e4c-9a00-6320af81ed44/2025-06-21-18-55-46_UMBRA-10/2025-06-21-18-55-46_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Tesla Semi Factory, Nevada, United States"
+}

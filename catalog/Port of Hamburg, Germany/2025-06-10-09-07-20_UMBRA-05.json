@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-10-09-07-20_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.967892414827356,
+          53.53525438904835
+        ],
+        [
+          9.894100651858166,
+          53.52600318016155
+        ],
+        [
+          9.909648215081546,
+          53.48204102601877
+        ],
+        [
+          9.983367024741286,
+          53.49128273418901
+        ],
+        [
+          9.967892414827356,
+          53.53525438904835
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    9.894100651858166,
+    53.48204102601877,
+    9.983367024741286,
+    53.53525438904835
+  ],
+  "properties": {
+    "datetime": "2025-06-10T09:07:24.799000Z",
+    "start_datetime": "2025-06-10T09:07:21Z",
+    "end_datetime": "2025-06-10T09:07:28.599Z",
+    "created": "2025-06-11T04:15:50.161Z",
+    "updated": "2025-06-11T04:15:50.161Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Hamburg%2C%20Germany/8c5ff110-9213-428e-b4a3-0ec02e8a9372/2025-06-10-09-07-20_UMBRA-05",
+    "view:incidence_angle": 26.931428494752204,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.76589035995178,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000051746262,
+    "sar:resolution_range": 0.3499999989778099,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.12510742131431823,
+    "umbra:best_resolution_range_meters": 0.3154587837806171,
+    "umbra:collect_id": "9e80a031-73f9-4c79-bfc9-4ebbb92ae60c",
+    "umbra:grazing_angle_degrees": 63.06857150524779,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 508261.7752367768,
+    "umbra:squint_angle_degrees_off_broadside": 24.314984272978737,
+    "umbra:squint_angle_engineering_degrees": 65.68501572702127,
+    "umbra:squint_angle_exploitation_degrees": -24.314984272978737,
+    "umbra:task_id": "8c5ff110-9213-428e-b4a3-0ec02e8a9372",
+    "view:azimuth": 78.12349094708574,
+    "subfolder": "Port of Hamburg, Germany",
+    "umbra:stac_id": "4c357ae2-8c69-4d8b-a2e7-ee7781970d7b",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/8c5ff110-9213-428e-b4a3-0ec02e8a9372/2025-06-10-09-07-20_UMBRA-05/2025-06-10-09-07-20_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hamburg,+Germany/8c5ff110-9213-428e-b4a3-0ec02e8a9372/2025-06-10-09-07-20_UMBRA-05/2025-06-10-09-07-20_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Hamburg, Germany"
+}

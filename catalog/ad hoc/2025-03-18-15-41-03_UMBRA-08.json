@@ -101,15 +101,6 @@
     }
   ],
   "assets": {
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
-      ]
-    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -118,6 +109,15 @@
       "roles": [
         "data",
         "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Citizens_Bank_Park_PA/a0decf22-996e-45b1-8d8c-670d847c8305/2025-03-18-15-41-03_UMBRA-08/2025-03-18-15-41-03_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
       ]
     }
   },

@@ -16,6 +16,16 @@
     },
     {
       "rel": "item",
+      "href": "./2025-06-06-20-46-45_UMBRA-09.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-22-08-21-34_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2025-02-13-06-52-42_UMBRA-05.json",
       "type": "application/geo+json"
     },
@@ -31,7 +41,17 @@
     },
     {
       "rel": "item",
+      "href": "./2025-06-11-08-42-52_UMBRA-10.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./2024-11-05-20-33-24_UMBRA-08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./2025-05-26-07-18-20_UMBRA-05.json",
       "type": "application/geo+json"
     },
     {
@@ -55,7 +75,7 @@
       "interval": [
         [
           "2024-11-05T20:33:25Z",
-          "2025-05-16T08:42:06.600000Z"
+          "2025-06-11T08:42:55.799000Z"
         ]
       ]
     }
@@ -94,14 +114,17 @@
       "umbra"
     ],
     "platform": [
-      "Umbra-05",
       "Umbra-09",
+      "Umbra-10",
+      "Umbra-05",
       "Umbra-08"
     ],
     "processing:version": [
-      "4.7.0",
+      "4.19.0",
       "4.17.0",
+      "4.7.0",
       "4.9.4",
+      "4.18.0",
       "4.9.5"
     ],
     "sar:frequency_band": [
@@ -111,8 +134,8 @@
       "SPOTLIGHT"
     ],
     "sar:observation_direction": [
-      "right",
-      "left"
+      "left",
+      "right"
     ],
     "sar:polarizations": [
       "VV",
@@ -122,26 +145,26 @@
       "GEC"
     ],
     "sat:orbit_state": [
-      "descending",
-      "ascending"
+      "ascending",
+      "descending"
     ],
     "proj:code": [
       "EPSG:4326"
     ],
     "created": {
       "minimum": "2024-11-06T03:05:23.699Z",
-      "maximum": "2025-05-16T16:52:07.503Z"
+      "maximum": "2025-06-12T11:46:18.060Z"
     },
     "updated": {
       "minimum": "2024-11-06T03:05:23.699Z",
-      "maximum": "2025-05-16T16:52:07.503Z"
+      "maximum": "2025-06-12T11:46:18.060Z"
     },
     "view:incidence_angle": {
       "minimum": 17.040218322018973,
-      "maximum": 31.25370824758028
+      "maximum": 40.68250723877163
     },
     "sar:center_frequency": {
-      "minimum": 9.689710109634436,
+      "minimum": 9.553832662918584,
       "maximum": 9703922770.91149
     },
     "sar:looks_azimuth": {
@@ -153,16 +176,16 @@
       "maximum": 1
     },
     "sar:resolution_azimuth": {
-      "minimum": 0.5000000010325968,
+      "minimum": 0.5000000007478892,
       "maximum": 0.5000000027843409
     },
     "sar:resolution_range": {
       "minimum": 0.4999999972397755,
-      "maximum": 0.49999999897962705
+      "maximum": 0.4999999992882828
     },
     "view:azimuth": {
       "minimum": 84.9323894157708,
-      "maximum": 298.0631889284431
+      "maximum": 298.34401595003396
     }
   }
 }

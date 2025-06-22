@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-25-04-27-28_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -93.72671368426414,
+          41.654132460717406
+        ],
+        [
+          -93.6734875412152,
+          41.67495914958325
+        ],
+        [
+          -93.7012668614444,
+          41.71487413653178
+        ],
+        [
+          -93.75451693729964,
+          41.694034719437205
+        ],
+        [
+          -93.72671368426414,
+          41.654132460717406
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -93.75451693729964,
+    41.654132460717406,
+    -93.6734875412152,
+    41.71487413653178
+  ],
+  "properties": {
+    "datetime": "2025-05-25T04:27:30.200000Z",
+    "start_datetime": "2025-05-25T04:27:29Z",
+    "end_datetime": "2025-05-25T04:27:31.400Z",
+    "created": "2025-05-25T10:01:26.238Z",
+    "updated": "2025-05-25T10:01:26.238Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Johnston%2C%20Iowa%20Farm/0a581cdf-9af6-45da-813f-95a78cbff97f/2025-05-25-04-27-28_UMBRA-08",
+    "view:incidence_angle": 25.310892129729,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.735275057439337,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.500000001739351,
+    "sar:resolution_range": 0.499999998280522,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.3867430163649036,
+    "umbra:best_resolution_range_meters": 0.4123355781699497,
+    "umbra:collect_id": "f5e13ad9-de36-4ea4-bdb0-49387d29b0f3",
+    "umbra:grazing_angle_degrees": 64.689107870271,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 521031.6321259203,
+    "umbra:squint_angle_degrees_off_broadside": 16.081542096558678,
+    "umbra:squint_angle_engineering_degrees": 73.91845790344132,
+    "umbra:squint_angle_exploitation_degrees": -16.081542096558678,
+    "umbra:task_id": "0a581cdf-9af6-45da-813f-95a78cbff97f",
+    "view:azimuth": 242.4345945559609,
+    "subfolder": "Johnston, Iowa Farm",
+    "umbra:stac_id": "13dabe2b-dc21-4aa8-89d8-428b0694f6c4",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/0a581cdf-9af6-45da-813f-95a78cbff97f/2025-05-25-04-27-28_UMBRA-08/2025-05-25-04-27-28_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Johnston,+Iowa+Farm/0a581cdf-9af6-45da-813f-95a78cbff97f/2025-05-25-04-27-28_UMBRA-08/2025-05-25-04-27-28_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Johnston, Iowa Farm"
+}

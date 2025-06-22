@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-10-14-55-13_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.52198158451694,
+          -30.810514209025374
+        ],
+        [
+          121.566579509513,
+          -30.787023185292625
+        ],
+        [
+          121.53937221437836,
+          -30.748526023484917
+        ],
+        [
+          121.4947854407212,
+          -30.772007832744567
+        ],
+        [
+          121.52198158451694,
+          -30.810514209025374
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    121.4947854407212,
+    -30.810514209025374,
+    121.566579509513,
+    -30.748526023484917
+  ],
+  "properties": {
+    "datetime": "2025-06-10T14:55:15.200000Z",
+    "start_datetime": "2025-06-10T14:55:14Z",
+    "end_datetime": "2025-06-10T14:55:16.400Z",
+    "created": "2025-06-10T15:49:18.469Z",
+    "updated": "2025-06-10T15:49:18.469Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Kalgoorlie%20Super%20Pit%2C%20Australia/2e045c6a-c55a-404e-9c89-9edc2eb60342/2025-06-10-14-55-13_UMBRA-08",
+    "view:incidence_angle": 37.19908541383721,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.551955524686884,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000008490683,
+    "sar:resolution_range": 0.49999999918508337,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.4026997497071078,
+    "umbra:best_resolution_range_meters": 0.40883678523853306,
+    "umbra:collect_id": "23625e33-e94a-447a-b151-e2833274888e",
+    "umbra:grazing_angle_degrees": 52.80091458616279,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 588372.4005104358,
+    "umbra:squint_angle_degrees_off_broadside": 18.14136804006489,
+    "umbra:squint_angle_engineering_degrees": 71.85863195993511,
+    "umbra:squint_angle_exploitation_degrees": -18.14136804006489,
+    "umbra:task_id": "2e045c6a-c55a-404e-9c89-9edc2eb60342",
+    "view:azimuth": 238.61644452496873,
+    "subfolder": "Kalgoorlie Super Pit, Australia",
+    "umbra:stac_id": "ee96417c-b235-4488-a34d-945ea42447db",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/2e045c6a-c55a-404e-9c89-9edc2eb60342/2025-06-10-14-55-13_UMBRA-08/2025-06-10-14-55-13_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Kalgoorlie+Super+Pit,+Australia/2e045c6a-c55a-404e-9c89-9edc2eb60342/2025-06-10-14-55-13_UMBRA-08/2025-06-10-14-55-13_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Kalgoorlie Super Pit, Australia"
+}

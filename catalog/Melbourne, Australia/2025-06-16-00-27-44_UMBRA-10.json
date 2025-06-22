@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-16-00-27-44_UMBRA-10",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.94090868652472,
+          -37.823098866960976
+        ],
+        [
+          144.88412432197927,
+          -37.82385557459506
+        ],
+        [
+          144.88506159508657,
+          -37.868898423952515
+        ],
+        [
+          144.94188049945134,
+          -37.86814126171806
+        ],
+        [
+          144.94090868652472,
+          -37.823098866960976
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.88412432197927,
+    -37.868898423952515,
+    144.94188049945134,
+    -37.823098866960976
+  ],
+  "properties": {
+    "datetime": "2025-06-16T00:27:48.100000Z",
+    "start_datetime": "2025-06-16T00:27:45Z",
+    "end_datetime": "2025-06-16T00:27:51.200Z",
+    "created": "2025-06-16T23:42:04.372Z",
+    "updated": "2025-06-16T23:42:04.372Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Melbourne%2C%20Australia/8285b21b-996d-4549-9e21-87678f514fb2/2025-06-16-00-27-44_UMBRA-10",
+    "view:incidence_angle": 33.74868157943037,
+    "constellation": "umbra",
+    "platform": "Umbra-10",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.689036199857942,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.25000000041081144,
+    "sar:resolution_range": 0.24999999960431704,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.18323249655015475,
+    "umbra:best_resolution_range_meters": 0.2014116820299072,
+    "umbra:collect_id": "57c4eb33-19c0-424f-8ab9-fc561bee7360",
+    "umbra:grazing_angle_degrees": 56.25131842056963,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 667943.3400176121,
+    "umbra:squint_angle_degrees_off_broadside": 15.765382080457355,
+    "umbra:squint_angle_engineering_degrees": 74.23461791954264,
+    "umbra:squint_angle_exploitation_degrees": -15.765382080457355,
+    "umbra:task_id": "8285b21b-996d-4549-9e21-87678f514fb2",
+    "view:azimuth": 89.0372426994676,
+    "subfolder": "Melbourne, Australia",
+    "umbra:stac_id": "59b2375a-deb4-4e68-aef8-a813d944b0bd",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/8285b21b-996d-4549-9e21-87678f514fb2/2025-06-16-00-27-44_UMBRA-10/2025-06-16-00-27-44_UMBRA-10_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Melbourne,+Australia/8285b21b-996d-4549-9e21-87678f514fb2/2025-06-16-00-27-44_UMBRA-10/2025-06-16-00-27-44_UMBRA-10_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Melbourne, Australia"
+}

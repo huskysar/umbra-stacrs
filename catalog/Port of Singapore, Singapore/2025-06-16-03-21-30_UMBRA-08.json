@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-16-03-21-30_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.85995977153438,
+          1.2872253025849922
+        ],
+        [
+          103.81504445613533,
+          1.2860456585551958
+        ],
+        [
+          103.81621687029164,
+          1.2408391919419923
+        ],
+        [
+          103.86113140950866,
+          1.2420188159840853
+        ],
+        [
+          103.85995977153438,
+          1.2872253025849922
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    103.81504445613533,
+    1.2408391919419923,
+    103.86113140950866,
+    1.2872253025849922
+  ],
+  "properties": {
+    "datetime": "2025-06-16T03:21:35.200000Z",
+    "start_datetime": "2025-06-16T03:21:31Z",
+    "end_datetime": "2025-06-16T03:21:39.400Z",
+    "created": "2025-06-16T06:38:12.234Z",
+    "updated": "2025-06-16T06:38:12.234Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Singapore%2C%20Singapore/ccc28831-b2e3-47fc-bdf7-cdc3ff7eb67d/2025-06-16-03-21-30_UMBRA-08",
+    "view:incidence_angle": 44.31030400861228,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.763873462071832,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000013528896,
+    "sar:resolution_range": 0.34999999974462853,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13447333837505523,
+    "umbra:best_resolution_range_meters": 0.302668797512876,
+    "umbra:collect_id": "3592c011-416f-4dc0-a4b3-01da7c738517",
+    "umbra:grazing_angle_degrees": 45.68969599138772,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 630422.6119836259,
+    "umbra:squint_angle_degrees_off_broadside": 12.499562015426877,
+    "umbra:squint_angle_engineering_degrees": 77.50043798457313,
+    "umbra:squint_angle_exploitation_degrees": -12.499562015426877,
+    "umbra:task_id": "ccc28831-b2e3-47fc-bdf7-cdc3ff7eb67d",
+    "view:azimuth": 88.50524265415595,
+    "subfolder": "Port of Singapore, Singapore",
+    "umbra:stac_id": "7ebd8554-837b-45d2-bf5e-ee552cdda663",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/ccc28831-b2e3-47fc-bdf7-cdc3ff7eb67d/2025-06-16-03-21-30_UMBRA-08/2025-06-16-03-21-30_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Singapore,+Singapore/ccc28831-b2e3-47fc-bdf7-cdc3ff7eb67d/2025-06-16-03-21-30_UMBRA-08/2025-06-16-03-21-30_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Singapore, Singapore"
+}

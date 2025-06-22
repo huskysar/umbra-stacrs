@@ -1,0 +1,27 @@
+{
+  "type": "Catalog",
+  "id": "umbra-sar-open-data",
+  "stac_version": "1.1.0",
+  "description": "Umbra Open SAR Data available as part of the AWS Open Data program",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Umbra Open SAR Data"
+    },
+    {
+      "rel": "child",
+      "href": "./2024/catalog.json",
+      "type": "application/json",
+      "title": "2024"
+    },
+    {
+      "rel": "child",
+      "href": "./2025/catalog.json",
+      "type": "application/json",
+      "title": "2025"
+    }
+  ],
+  "title": "Umbra Open SAR Data"
+}

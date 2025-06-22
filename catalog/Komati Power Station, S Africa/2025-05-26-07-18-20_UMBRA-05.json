@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-26-07-18-20_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.438198635169684,
+          -26.099756477461067
+        ],
+        [
+          29.482182934165536,
+          -26.121182222592655
+        ],
+        [
+          29.50590153762916,
+          -26.081466461187695
+        ],
+        [
+          29.46192776474428,
+          -26.06004782975239
+        ],
+        [
+          29.438198635169684,
+          -26.099756477461067
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.438198635169684,
+    -26.121182222592655,
+    29.50590153762916,
+    -26.06004782975239
+  ],
+  "properties": {
+    "datetime": "2025-05-26T07:18:22.300000Z",
+    "start_datetime": "2025-05-26T07:18:21Z",
+    "end_datetime": "2025-05-26T07:18:23.600Z",
+    "created": "2025-05-26T10:12:26.713Z",
+    "updated": "2025-05-26T10:12:26.713Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Komati%20Power%20Station%2C%20S%20Africa/52d4057d-6cbb-4913-9636-e6afeea2a6a8/2025-05-26-07-18-20_UMBRA-05",
+    "view:incidence_angle": 38.51496754186226,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.553832662918584,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000009790555,
+    "sar:resolution_range": 0.4999999990558374,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.402698749490238,
+    "umbra:best_resolution_range_meters": 0.4095720549549281,
+    "umbra:collect_id": "3d989dd8-278c-4656-8f98-8b04542eb57c",
+    "umbra:grazing_angle_degrees": 51.48503245813774,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 573557.5619864962,
+    "umbra:squint_angle_degrees_off_broadside": 17.97090608363186,
+    "umbra:squint_angle_engineering_degrees": -72.02909391636814,
+    "umbra:squint_angle_exploitation_degrees": 17.97090608363186,
+    "umbra:task_id": "52d4057d-6cbb-4913-9636-e6afeea2a6a8",
+    "view:azimuth": 298.34401595003396,
+    "subfolder": "Komati Power Station, S Africa",
+    "umbra:stac_id": "29f0d11e-8237-48c7-8336-63f1aff16d17",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/52d4057d-6cbb-4913-9636-e6afeea2a6a8/2025-05-26-07-18-20_UMBRA-05/2025-05-26-07-18-20_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Komati+Power+Station,+S+Africa/52d4057d-6cbb-4913-9636-e6afeea2a6a8/2025-05-26-07-18-20_UMBRA-05/2025-05-26-07-18-20_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Komati Power Station, S Africa"
+}

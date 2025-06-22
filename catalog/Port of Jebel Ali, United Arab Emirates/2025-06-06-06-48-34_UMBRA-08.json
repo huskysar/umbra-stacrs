@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-06-06-48-34_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          55.08651075986985,
+          25.01757375231376
+        ],
+        [
+          55.03903607191764,
+          25.030481623236888
+        ],
+        [
+          55.024881951413505,
+          24.987222292645654
+        ],
+        [
+          55.07234149805733,
+          24.974318865624607
+        ],
+        [
+          55.08651075986985,
+          25.01757375231376
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    55.024881951413505,
+    24.974318865624607,
+    55.08651075986985,
+    25.030481623236888
+  ],
+  "properties": {
+    "datetime": "2025-06-06T06:48:38.900000Z",
+    "start_datetime": "2025-06-06T06:48:35Z",
+    "end_datetime": "2025-06-06T06:48:42.800Z",
+    "created": "2025-06-06T13:32:42.455Z",
+    "updated": "2025-06-06T13:32:42.455Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Jebel%20Ali%2C%20United%20Arab%20Emirates/36417afa-0b65-486e-8e4d-5bd62152270a/2025-06-06-06-48-34_UMBRA-08",
+    "view:incidence_angle": 42.48280259925058,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.758119742050871,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17499999987615997,
+    "sar:resolution_range": 0.3500000002361378,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.13923896839617356,
+    "umbra:best_resolution_range_meters": 0.2994371284019679,
+    "umbra:collect_id": "47c801b2-a09d-4232-83a4-352d956e07e0",
+    "umbra:grazing_angle_degrees": 47.51719740074942,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 617890.046717271,
+    "umbra:squint_angle_degrees_off_broadside": 6.510599168911881,
+    "umbra:squint_angle_engineering_degrees": 96.51059916891188,
+    "umbra:squint_angle_exploitation_degrees": 6.510599168911881,
+    "umbra:task_id": "36417afa-0b65-486e-8e4d-5bd62152270a",
+    "view:azimuth": 106.6123391816303,
+    "subfolder": "Port of Jebel Ali, United Arab Emirates",
+    "umbra:stac_id": "cb11adb5-92e5-43a3-b987-87d2ae0a52ea",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/36417afa-0b65-486e-8e4d-5bd62152270a/2025-06-06-06-48-34_UMBRA-08/2025-06-06-06-48-34_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Jebel+Ali,+United+Arab+Emirates/36417afa-0b65-486e-8e4d-5bd62152270a/2025-06-06-06-48-34_UMBRA-08/2025-06-06-06-48-34_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "collection": "Port of Jebel Ali, United Arab Emirates"
+}

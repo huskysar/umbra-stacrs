@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08/2025-04-26-05-56-14_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08/2025-04-26-05-56-14_UMBRA-08_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Topatopa_Mountains_CA/38d56eac-4285-45b0-a0d1-d601311c1f5b/2025-04-26-05-56-14_UMBRA-08/2025-04-26-05-56-14_UMBRA-08_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

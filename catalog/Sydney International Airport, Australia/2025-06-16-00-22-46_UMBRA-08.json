@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-16-00-22-46_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          150.68813798847182,
+          -33.90623332399518
+        ],
+        [
+          150.7417825016711,
+          -33.91184242023114
+        ],
+        [
+          150.74849255114813,
+          -33.86711308620791
+        ],
+        [
+          150.69487558719604,
+          -33.86150687575721
+        ],
+        [
+          150.68813798847182,
+          -33.90623332399518
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    150.68813798847182,
+    -33.91184242023114,
+    150.74849255114813,
+    -33.86150687575721
+  ],
+  "properties": {
+    "datetime": "2025-06-16T00:22:52.100000Z",
+    "start_datetime": "2025-06-16T00:22:47Z",
+    "end_datetime": "2025-06-16T00:22:57.200Z",
+    "created": "2025-06-16T05:18:17.615Z",
+    "updated": "2025-06-16T05:18:17.615Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Sydney%20International%20Airport%2C%20Australia/c210ab08-53f2-4ba4-9d9b-6b9fc89236b8/2025-06-16-00-22-46_UMBRA-08",
+    "view:incidence_angle": 37.769127761434824,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.73498490893456,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.12499999995818636,
+    "sar:resolution_range": 0.25000000008086737,
+    "sat:orbit_state": "descending",
+    "umbra:best_resolution_azimuth_meters": 0.09536876080102656,
+    "umbra:best_resolution_range_meters": 0.21272606954819004,
+    "umbra:collect_id": "3ee56763-27fd-4c8b-850f-6d5e977f5a13",
+    "umbra:grazing_angle_degrees": 52.230872238565176,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 589026.3257253662,
+    "umbra:squint_angle_degrees_off_broadside": 3.043468682982762,
+    "umbra:squint_angle_engineering_degrees": -93.04346868298276,
+    "umbra:squint_angle_exploitation_degrees": -3.043468682982762,
+    "umbra:task_id": "c210ab08-53f2-4ba4-9d9b-6b9fc89236b8",
+    "view:azimuth": 277.14603675655974,
+    "subfolder": "Sydney International Airport, Australia",
+    "umbra:stac_id": "63ea7fb2-d3db-466c-8771-eecf94426813",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/c210ab08-53f2-4ba4-9d9b-6b9fc89236b8/2025-06-16-00-22-46_UMBRA-08/2025-06-16-00-22-46_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Sydney+International+Airport,+Australia/c210ab08-53f2-4ba4-9d9b-6b9fc89236b8/2025-06-16-00-22-46_UMBRA-08/2025-06-16-00-22-46_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Sydney International Airport, Australia"
+}

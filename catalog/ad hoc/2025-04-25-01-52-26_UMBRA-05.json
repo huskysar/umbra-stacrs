@@ -101,6 +101,15 @@
     }
   ],
   "assets": {
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fredericksburg_VA/1c1ec68c-cc43-4c89-83b9-92e3466836fc/2025-04-25-01-52-26_UMBRA-05/2025-04-25-01-52-26_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    },
     "GEC": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fredericksburg_VA/1c1ec68c-cc43-4c89-83b9-92e3466836fc/2025-04-25-01-52-26_UMBRA-05/2025-04-25-01-52-26_UMBRA-05_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -109,15 +118,6 @@
       "roles": [
         "data",
         "overview"
-      ]
-    },
-    "SICD": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad+hoc/Fredericksburg_VA/1c1ec68c-cc43-4c89-83b9-92e3466836fc/2025-04-25-01-52-26_UMBRA-05/2025-04-25-01-52-26_UMBRA-05_SICD.nitf",
-      "type": "application/vnd.nitf",
-      "title": "SICD",
-      "description": "Sensor Independent Complex Data",
-      "roles": [
-        "data"
       ]
     }
   },

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-10-13-28-33_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          137.10227175186296,
+          -4.085690253802266
+        ],
+        [
+          137.14298549017337,
+          -4.066429167974478
+        ],
+        [
+          137.12380427695527,
+          -4.0255464809588215
+        ],
+        [
+          137.08309213057075,
+          -4.044806618299554
+        ],
+        [
+          137.10227175186296,
+          -4.085690253802266
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    137.08309213057075,
+    -4.085690253802266,
+    137.14298549017337,
+    -4.0255464809588215
+  ],
+  "properties": {
+    "datetime": "2025-06-10T13:28:35.100000Z",
+    "start_datetime": "2025-06-10T13:28:34Z",
+    "end_datetime": "2025-06-10T13:28:36.200Z",
+    "created": "2025-06-10T14:12:40.966Z",
+    "updated": "2025-06-10T14:12:40.966Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Papua%2C%20Indonesia/6e8a6fae-1a9f-4a3b-b634-73d8f284d843/2025-06-10-13-28-33_UMBRA-08",
+    "view:incidence_angle": 16.075286144958014,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.692884274597294,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "right",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.5000000027934762,
+    "sar:resolution_range": 0.4999999972217713,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.3670305211796858,
+    "umbra:best_resolution_range_meters": 0.40717192379447253,
+    "umbra:collect_id": "47e15bac-8413-457c-8edf-84c2e3cdc6ff",
+    "umbra:grazing_angle_degrees": 73.92471385504199,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 484028.2742030597,
+    "umbra:squint_angle_degrees_off_broadside": 14.136210572316031,
+    "umbra:squint_angle_engineering_degrees": 75.86378942768397,
+    "umbra:squint_angle_exploitation_degrees": -14.136210572316031,
+    "umbra:task_id": "6e8a6fae-1a9f-4a3b-b634-73d8f284d843",
+    "view:azimuth": 244.77424030400968,
+    "subfolder": "Papua, Indonesia",
+    "umbra:stac_id": "277b1a58-57dd-496b-b6b0-a0c71facb938",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/6e8a6fae-1a9f-4a3b-b634-73d8f284d843/2025-06-10-13-28-33_UMBRA-08/2025-06-10-13-28-33_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Papua,+Indonesia/6e8a6fae-1a9f-4a3b-b634-73d8f284d843/2025-06-10-13-28-33_UMBRA-08/2025-06-10-13-28-33_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Papua, Indonesia"
+}

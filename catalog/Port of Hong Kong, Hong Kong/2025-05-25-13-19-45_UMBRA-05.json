@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-05-25-13-19-45_UMBRA-05",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          114.15376033069025,
+          22.34640213979901
+        ],
+        [
+          114.11024616433684,
+          22.366423292268685
+        ],
+        [
+          114.0887328609289,
+          22.325943490153666
+        ],
+        [
+          114.13223754186896,
+          22.305928014952364
+        ],
+        [
+          114.15376033069025,
+          22.34640213979901
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    114.0887328609289,
+    22.305928014952364,
+    114.15376033069025,
+    22.366423292268685
+  ],
+  "properties": {
+    "datetime": "2025-05-25T13:19:51Z",
+    "start_datetime": "2025-05-25T13:19:46Z",
+    "end_datetime": "2025-05-25T13:19:56Z",
+    "created": "2025-05-25T15:19:01.695Z",
+    "updated": "2025-05-25T15:19:01.695Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Port%20of%20Hong%20Kong%2C%20Hong%20Kong/ca128272-d175-42bb-936a-7b98d82e6235/2025-05-25-13-19-45_UMBRA-05",
+    "view:incidence_angle": 35.62716141315402,
+    "constellation": "umbra",
+    "platform": "Umbra-05",
+    "processing:software": {
+      "Umbra SAR Processor": "4.18.0"
+    },
+    "processing:version": "4.18.0",
+    "sar:center_frequency": 9.772549347193197,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 2.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "HH"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.17500000007355063,
+    "sar:resolution_range": 0.34999999985841573,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.12416486445032252,
+    "umbra:best_resolution_range_meters": 0.31024602420512154,
+    "umbra:collect_id": "f7641e76-b54b-4e33-ac89-d335cdb8cb77",
+    "umbra:grazing_angle_degrees": 54.37283858684598,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 554222.7259888361,
+    "umbra:squint_angle_degrees_off_broadside": 38.42257358389898,
+    "umbra:squint_angle_engineering_degrees": -51.57742641610102,
+    "umbra:squint_angle_exploitation_degrees": 38.42257358389898,
+    "umbra:task_id": "ca128272-d175-42bb-936a-7b98d82e6235",
+    "view:azimuth": 116.31518770720471,
+    "subfolder": "Port of Hong Kong, Hong Kong",
+    "umbra:stac_id": "e84efe9d-07db-4f95-b3e5-6eaf506c103e",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/ca128272-d175-42bb-936a-7b98d82e6235/2025-05-25-13-19-45_UMBRA-05/2025-05-25-13-19-45_UMBRA-05_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Port+of+Hong+Kong,+Hong+Kong/ca128272-d175-42bb-936a-7b98d82e6235/2025-05-25-13-19-45_UMBRA-05/2025-05-25-13-19-45_UMBRA-05_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Port of Hong Kong, Hong Kong"
+}

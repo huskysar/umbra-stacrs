@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+  ],
+  "id": "2025-06-05-05-15-10_UMBRA-08",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.1263206431533,
+          40.55041885417234
+        ],
+        [
+          -112.18283019795597,
+          40.53745165132337
+        ],
+        [
+          -112.16582658384706,
+          40.494345224423874
+        ],
+        [
+          -112.10934994855052,
+          40.50730421955804
+        ],
+        [
+          -112.1263206431533,
+          40.55041885417234
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.18283019795597,
+    40.494345224423874,
+    -112.10934994855052,
+    40.55041885417234
+  ],
+  "properties": {
+    "datetime": "2025-06-05T05:15:12.300000Z",
+    "start_datetime": "2025-06-05T05:15:11Z",
+    "end_datetime": "2025-06-05T05:15:13.599Z",
+    "created": "2025-06-05T07:24:08.359Z",
+    "updated": "2025-06-05T07:24:08.359Z",
+    "huskysar:metadata_link": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/Bingham%20Copper%20Mine/e5829ac5-3c91-44ec-a060-b802d77b40a3/2025-06-05-05-15-10_UMBRA-08",
+    "view:incidence_angle": 41.661919720014446,
+    "constellation": "umbra",
+    "platform": "Umbra-08",
+    "processing:software": {
+      "Umbra SAR Processor": "4.19.0"
+    },
+    "processing:version": "4.19.0",
+    "sar:center_frequency": 9.559001102927905,
+    "sar:frequency_band": "X",
+    "sar:instrument_mode": "SPOTLIGHT",
+    "sar:looks_azimuth": 1.0,
+    "sar:looks_range": 1,
+    "sar:observation_direction": "left",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "GEC",
+    "sar:resolution_azimuth": 0.4999999999429671,
+    "sar:resolution_range": 0.500000000054074,
+    "sat:orbit_state": "ascending",
+    "umbra:best_resolution_azimuth_meters": 0.40838909735902706,
+    "umbra:best_resolution_range_meters": 0.4137544380882056,
+    "umbra:collect_id": "4aa0e4fe-d1a2-43f3-a5e6-afc461d655e8",
+    "umbra:grazing_angle_degrees": 48.338080279985554,
+    "umbra:organization_id": "org_HgEDPd6K5ZgziQ2u",
+    "umbra:slant_range_meters": 614654.889366872,
+    "umbra:squint_angle_degrees_off_broadside": 1.4689851731869652,
+    "umbra:squint_angle_engineering_degrees": -91.46898517318697,
+    "umbra:squint_angle_exploitation_degrees": -1.4689851731869652,
+    "umbra:task_id": "e5829ac5-3c91-44ec-a060-b802d77b40a3",
+    "view:azimuth": 73.26425993598941,
+    "subfolder": "Bingham Copper Mine",
+    "umbra:stac_id": "50d2b9b7-74d6-44d4-8da4-b6d1231da7b5",
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "GEC": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/e5829ac5-3c91-44ec-a060-b802d77b40a3/2025-06-05-05-15-10_UMBRA-08/2025-06-05-05-15-10_UMBRA-08_GEC.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "TIFF",
+      "description": "MONOSTATIC TIFF",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "SICD": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Bingham+Copper+Mine/e5829ac5-3c91-44ec-a060-b802d77b40a3/2025-06-05-05-15-10_UMBRA-08/2025-06-05-05-15-10_UMBRA-08_SICD.nitf",
+      "type": "application/vnd.nitf",
+      "title": "SICD",
+      "description": "Sensor Independent Complex Data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Bingham Copper Mine"
+}
